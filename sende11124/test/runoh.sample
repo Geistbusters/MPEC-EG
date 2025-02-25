@@ -1,0 +1,112 @@
+. ~/.prempec
+obasis="cc-pvtz &dwscv &aug +sp"  # shorthand for O basis
+hbasis="cc-pvtz &aug"             # shorthand for H basis
+for shellrel in ss
+do
+/bin/rm summary.oh$shellrel
+shellpass=0                       # when shellpass=0, we will be carrying out extra calculations for initial guess
+for shellr in 100. 50. 25. 10. 8. # loop over geometries
+do
+echo "for bond length" $shellr
+output=ohout`date -Idate`$shellrel$shellr
+/bin/rm $output
+if [ $shellpass -eq 0 ]               # for initial geometry
+then
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)=a to b
+rs $shellr
+H is an
+$hbasis
+O is b
+$obasis
+&CAS
+doub 2                            # doubly occupy O 2s
+act 1 1 1 0
+guess                             # generate starting orbitals from one-electron Hamiltonian
+states
++ 3P 1S                           # we are going for O, i.e. OH+ to get initial orbitals
+@
+/bin/rm forbs                     # delete any orbitals lying about
+runmpec < input >> $output
+mv forbs orbs                     # rename to orbs to act as initial guess
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)=a to b
+rs $shellr
+H is a
+$hbasis
+O is b
+$obasis
+&CAS
+doub 2                            # O 2s doubly occupied
+act 2 1 1 0                       # add H 1s to active space
+states                            # note no guess line because default is to read in a guess
+3P 2S                             # state average over all states correlating to O 3P + H 2S
+@
+runmpec < input >> $output
+mv forbs orbs                     # rename so guess for next calculation
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+fi                                # ok, we are now done with preliminary guess. This will only happen once.
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)=a to b
+rs $shellr
+H is a
+$hbasis
+O is b
+$obasis
+&CAS
+dynw 0.1 -75.32                   # use absolute energy dynamic weight: -75.32 is roughly the energy of O-
+doub 2                            # doubly occupy O 2s
+act 3 2 2 0                       # augment active space with p shell to better describe O-
+states                            # again no guess line required
+3P 2S                             # states correlating to O 3P + H 2S
+2Po 1S                            # states correlating to O-
+@
+runmpec < input >> $output
+mv forbs orbs                     # rename so guess for next calculation
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+cp orbs orbsv                     # make copy for initial guess for next geometry
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)=a to b
+rs $shellr
+H is a
+$hbasis +2sp                      # now augment H basis to go for Rydberg orbitals
+O is b
+$obasis
+&CAS
+dynw 0.1 -75.32                   # use absolute energy dynamic weight
+doub 2
+act 3 2 2 0
+ryd 2 1 1 0                       # specify number of rydberg orbitals of each symmetry
+states
++ 3P 1S                           # cation core: states correlating to 3P O
+@
+runmpec < input >> $output
+cp forbs orbs                     # make copy for diabatic orbital calculation
+if [ $? -ne 0 ] ; then exit ; fi  # bail of calculation failed
+if [ $shellpass -eq 1 ]           # this is not first geometry, so make diabatic
+then
+cat > input <<@
+&DIAB
+orbs
+$shellref                         # orbital file for last geometry
+@
+/bin/rm forbs                     # delete from last calculation
+runmpec < input >> $output
+cp forbs orbs                     # this is a dummy copy so we can examine return code
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+fi                                # end of diabatic block
+mv forbs forbs$shellrel$shellr    # save final orbs
+mv orbsv orbs                     # copy saved smaller basis orbitals for initial guess at next geometry
+shellref=forbs$shellrel$shellr    # assign file for diabatic transformation at next geometry
+shellpass=1                       # reset shellpass
+done                              # end of loop over geometries.
+done                              # end of loop over relativity

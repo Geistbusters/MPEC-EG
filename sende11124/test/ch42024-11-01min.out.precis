@@ -1,0 +1,159 @@
+ >rs:    1.5000000000000000        3.2400000000000002        2.0000000000000000        2.0000000000000000     
+ >thetas:    1.5707963267948966       0.94247779607693793       0.94247779607693793     
+ >phis:    1.5707963267948966        4.7123889803846897     
+ >energy from densities   -40.277387719203688       -79.537300285354291        25.904324434327883     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.4251823130761796E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.8614769733686494E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.4778970493108636E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.2856374062739651E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.9225964303242193E-003
+ >rs    1.4747660231106947        3.2885036462615238        2.0403492889256296        2.0403492889256296     
+ >theta    1.5707963267948966       0.94747421224836670       0.94747421224836692     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279129743443093       -79.282191511036331        25.784279345220053     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.8992447351671604E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.3328476578712056E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    2.4775857711071513E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    9.9412332402413206E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.2418819011402515E-002
+ >rs    1.4499341582322587        3.3598132822067091        2.0650619662425429        2.0650619662425425     
+ >theta    1.5707963267948966       0.96110826533485028       0.96110826533485039     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280148542462832       -79.062679495631386        25.680838399800660     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    6.5141105032608948E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.6424531434576792E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    6.2413985814809315E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.0343729849111138E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.6585128430642193E-002
+ >rs    1.4255793360761320        3.4064930929890220        2.0722195245780042        2.0722195245780033     
+ >theta    1.5707963267948966       0.97352647560278327       0.97352647560278338     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280594141069706       -78.997084306387450        25.649886651576697     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -2.4475031169135519E-004
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -8.5884275953884703E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    6.2389326620151103E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    8.1922594539916016E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4431192116056479E-002
+ >rs    1.4027539359424728        3.4378499056875129        2.0703499779255439        2.0703499779255434     
+ >theta    1.5707963267948966       0.98467871316717093       0.98467871316717093     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280851004705774       -79.011428814778156        25.656608118722378     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -3.7186058257336896E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.4800748316878902E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    4.6373000372987557E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    4.8876848241736770E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.5249848615344135E-003
+ >rs    1.3889183068697757        3.4487269356717318        2.0634070154399033        2.0634070154399029     
+ >theta    1.5707963267948966       0.99123425135097587       0.99123425135097587     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280971653032850       -79.071920188995364        25.685072216761277     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -3.9576544292239113E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -6.8270693994643139E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    2.5321140591418939E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.0370371014983846E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -4.5691511606995583E-003
+ >rs    1.3834783604422309        3.4463556539314855        2.0559200150471439        2.0559200150471435     
+ >theta    1.5707963267948966       0.99365792933219177       0.99365792933219155     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.281022537309667       -79.139008153989593        25.716637931341548     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -2.5075154942877376E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.1237048046048876E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    7.5342918420676259E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.0259825955060151E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.5602744380318683E-004
+ >rs    1.3842880237989952        3.4392988087375089        2.0518005100475767        2.0518005100475762     
+ >theta    1.5707963267948966       0.99311298849508833       0.99311298849508856     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.281037138665859       -79.177036841031992        25.734527271219783     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -9.9650299496811812E-004
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -7.6698096589300491E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -8.5638815657455934E-006
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -3.2504596527971330E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    3.3360984677988093E-004
+ >rs    1.3865202348659753        3.4341474268931593        2.0505612669614846        2.0505612669614846     
+ >theta    1.5707963267948966       0.99198042573188294       0.99198042573188305     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.281040457377379       -79.189031272046520        25.740169128159980     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -1.6791549189898447E-004
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    8.8448462078449808E-005
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.1897869817445569E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -2.3199713526844690E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    3.5097583337995175E-004
+ >rs    1.3876800632321289        3.4325427560607773        2.0506677407656553        2.0506677407656548     
+ >theta    1.5707963267948966       0.99144109720030504       0.99144109720030515     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.281040860993862       -79.188334337367905        25.739841223866073     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.6155444633261311E-006
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.0839755162583842E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -3.4566644962397922E-005
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -6.6768907999836813E-005
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.0133555291313989E-004
+ >rs    1.3879260591530826        3.4323985794932588        2.0508285409980069        2.0508285409980065     
+ >theta    1.5707963267948966       0.99135256234345404       0.99135256234345415     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.281040885035928       -79.186914531837530        25.739173329267633     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -3.7673782804503730E-007
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.2206867981887655E-005
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    4.8631261592563518E-006
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -1.0373411043040903E-005
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    5.5102848275367933E-006
+ >rms gradient norm    1.5485768745419960E-005
+ >coordinates at minimum: 
+ >rs    1.3879260591530826        3.4323985794932588        2.0508285409980069        2.0508285409980065     
+ >theta    1.5707963267948966       0.99135256234345404       0.99135256234345415     
+ >phi    1.5707963267948966       -1.5707963267948968     

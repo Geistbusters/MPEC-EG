@@ -1,0 +1,881 @@
+ Hi, this is preinit for MPI-4 code
+
+
+Welcome to MPEC
+
+Massively
+Parallel
+Electron
+Correlation
+
+version 2.1 eta
+
+Linked on:  Fri Nov 1 14:28:08 PDT 2024 
+smallest number one can add to 1 and not get 1 is  2.220E-16
+
+ This is going to be a relativistic calculation 
+
+ we have itype in input 
+ 2 electron integral type = ss   
+ vector            1  is a to b
+ vector length: 2.
+  
+ in getm to get atom masses from file atwgts
+ return nuclear masses 
+ mass of electron in u    5.4857991100000004E-004
+ symbol          atomic mass in u     atomic mass in au    nuclear mass in au
+  O             15.99491462210000  29156.94559967216628  29148.94559967216628
+ xmass from getma    29148.945599672166                0           8
+ set atom            1 to O   O   
+ is atoms            1 a           1
+ xm of natom =            1  is    29148.945599672166     
+ we are getting basis set info from file cc-pvdz
+
+  l  Z      x              y              z               exponential parameters
+  0  8      tbd            tbd            tbd            1.17E+04 1.76E+03 4.01E+02 1.14E+02 3.70E+01 1.33E+01 5.03E+00 1.01E+00 3.02E-01
+  contraction no.   1                                k1   0.00074  0.00557  0.02808  0.10519  0.28333  0.44831  0.27029  0.01540  0.00000
+                                                     k2   0.00071  0.00550  0.02793  0.10501  0.28323  0.44843  0.27042  0.01541  0.00000
+  contraction no.   2                                k1  -0.00017 -0.00129 -0.00633 -0.02587 -0.07109 -0.16561 -0.11607  0.55860  0.00000
+                                                     k2  -0.00016 -0.00127 -0.00630 -0.02581 -0.07102 -0.16557 -0.11606  0.55862  0.00000
+  contraction no.   3                                k1   0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  1.00000
+  1  8      tbd            tbd            tbd            1.77E+01 3.85E+00 1.05E+00 2.75E-01
+  contraction no.   1                                k1   0.04312  0.22896  0.50860  0.00000
+                                                     k2   0.04306  0.22891  0.50855  0.00000
+  contraction no.   2                                k1   0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  1.00000
+  2  8      tbd            tbd            tbd            1.19E+00
+  contraction no.   1                                k1   1.00000
+                                                     k2   1.00000
+  
+ symbol          atomic mass in u     atomic mass in au    nuclear mass in au
+  O16           15.99491462210000  29156.94559967216628  29148.94559967216628
+ xmass from getma    29148.945599672166                1           8
+ set atom            2 to O16 O16 
+ is atoms            1 b           2
+ xm of natom =            2  is    29148.945599672166     
+ we are getting basis set info from file cc-pvdz
+
+  l  Z      x              y              z               exponential parameters
+  0  8      tbd            tbd            tbd            1.17E+04 1.76E+03 4.01E+02 1.14E+02 3.70E+01 1.33E+01 5.03E+00 1.01E+00 3.02E-01
+  contraction no.   1                                k1   0.00074  0.00557  0.02808  0.10519  0.28333  0.44831  0.27029  0.01540  0.00000
+                                                     k2   0.00071  0.00550  0.02793  0.10501  0.28323  0.44843  0.27042  0.01541  0.00000
+  contraction no.   2                                k1  -0.00017 -0.00129 -0.00633 -0.02587 -0.07109 -0.16561 -0.11607  0.55860  0.00000
+                                                     k2  -0.00016 -0.00127 -0.00630 -0.02581 -0.07102 -0.16557 -0.11606  0.55862  0.00000
+  contraction no.   3                                k1   0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  1.00000
+  1  8      tbd            tbd            tbd            1.77E+01 3.85E+00 1.05E+00 2.75E-01
+  contraction no.   1                                k1   0.04312  0.22896  0.50860  0.00000
+                                                     k2   0.04306  0.22891  0.50855  0.00000
+  contraction no.   2                                k1   0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  1.00000
+  2  8      tbd            tbd            tbd            1.19E+00
+  contraction no.   1                                k1   1.00000
+                                                     k2   1.00000
+  
+ vector            1  is a jacobi 
+ we have coord matrix: 
+tiny =  1.E-11
+      2    -2@
+  m-n        1             2
+    1  -5.000000E-01  5.000000E-01
+    2   1.000000E+00  1.000000E+00
+ $
+ atomic positions computed from internal coordinates:
+ >rs:    2.0000000000000000     
+  
+tiny =  1.E-11
+      2    -2@
+  m-n        1             2
+    1  -5.000000E-01  5.000000E-01
+    2   1.000000E+00  1.000000E+00
+ $
+ vector 1 is a jacobi vector
+ we have target-projectile situation 
+ for group            1
+ mass of group =    29148.945599672166     
+ for group            2
+ mass of group =    29148.945599672166     
+ centers of mass of groups: 
+tiny =  1.E-11
+      3    -2@
+  m-n        1             2
+    1        tiny          tiny   
+    2        tiny          tiny   
+    3  -1.000000E+00  1.000000E+00
+ $
+ Nuclei will have finite radii 
+ atoms: 
+   #   Z             x              y              z       nuc weight(amu) nuc rad   nuc gaus (a.u.)
+   1   8. O         0.00000000     0.00000000    -1.00000000     16.9947  5.139E-05  2.840E+08
+   2   8. O         0.00000000     0.00000000     1.00000000     16.9947  5.139E-05  2.840E+08
+  
+ atom-atom distances in a.u. 
+ 1- 2     2.00000000
+
+  
+ atom-atom distances in Angstroms 
+ 1- 2     1.05835450
+
+  
+ nuclear repulsion energy =    32.000000000000000     
+  
+ order of group:            8
+IRR   gen.  multiplication table: 
+Ag   1 1 1       1  2  3  4  5  6  7  8      
+B3u -1 1 1       2  1  4  3  6  5  8  7       X
+B2u  1-1 1       3  4  1  2  7  8  5  6       Y
+B1g -1-1 1       4  3  2  1  8  7  6  5       XY
+B1u  1 1-1       5  6  7  8  1  2  3  4       Z
+B2g -1 1-1       6  5  8  7  2  1  4  3       XZ
+B3g  1-1-1       7  8  5  6  3  4  1  2       YZ
+Au  -1-1-1       8  7  6  5  4  3  2  1      
+ D2h symmetry 
+
+ total number of gaussians:           14
+ number of words for contraction coefficients =          144
+ gaussians: 
+    #  l      exp.     atom(s) no. in symmetry blocks
+    1  0  1.1720000E+04  1 &  2    1  0  0  0  1  0  0  0
+    2  0  1.7590000E+03  1 &  2    1  0  0  0  1  0  0  0
+    3  0  4.0080000E+02  1 &  2    1  0  0  0  1  0  0  0
+    4  0  1.1370000E+02  1 &  2    1  0  0  0  1  0  0  0
+    5  0  3.7030000E+01  1 &  2    1  0  0  0  1  0  0  0
+    6  0  1.3270000E+01  1 &  2    1  0  0  0  1  0  0  0
+    7  0  5.0250000E+00  1 &  2    1  0  0  0  1  0  0  0
+    8  0  1.0130000E+00  1 &  2    1  0  0  0  1  0  0  0
+    9  0  3.0230000E-01  1 &  2    1  0  0  0  1  0  0  0
+   10  1  1.7700000E+01  1 &  2    1  1  1  0  1  1  1  0
+   11  1  3.8540000E+00  1 &  2    1  1  1  0  1  1  1  0
+   12  1  1.0460000E+00  1 &  2    1  1  1  0  1  1  1  0
+   13  1  2.7530000E-01  1 &  2    1  1  1  0  1  1  1  0
+   14  2  1.1850000E+00  1 &  2    2  1  1  1  2  1  1  1
+default closed orbs:    1    0    0    0    1    0    0    0
+default active orbs:    2    1    1    0    2    1    1    0
+ total number of primitive basis functions =          104
+ by symmetry block:   30  10  10   2  30  10  10   2
+ total number of contracted basis functions =           28
+ by symmetry block:    7   3   3   1   7   3   3   1
+ numeminus =           16
+ we will be performing a cas calculation
+ noelec for state           16           1
+ nstasub =            1
+ isinfo            4           3          16
+ for state symmetry/spin group            1
+ symmetry            4
+ spin multiplicity            3
+ no. active electrons           16
+ no. roots            1
+ weights    1.0000000000000000     
+number of doubly occupied orbitals:  1  0  0  0  1  0  0  0
+number of active orbitals:           2  1  1  0  2  1  1  0
+number of occupied orbitals:         3  1  1  0  3  1  1  0
+ in grad block 
+ what we have for idogrado          256    0    1    0    0
+ we are going to do a mrci calculation
+ wavefunction convergence in mrci is    1.0000000000000000E-008
+ end of mrci input ...
+ what we have for dynwci and irxinfos:   1000.0000000000000        0.0000000000000000        2.5000000000000000     
+ hi, my name is parseterm "Sig-g"           1           0          16
+    #  isb nroot nlzz lam
+    1    4    1    2    0
+ end of file 1008
+ going after "/Users/dschwenk/mpec2.1/eta/data//rystabc.ufort"
+ maximum order of rys quadrature           31
+ going after "/Users/dschwenk/mpec2.1/eta/data//ghtab.ufort"
+ maximum order of gauss hermite quadrature:           31
+ number of words of storage:          992
+ number of compute processors =        6
+ scratch memory space: 2147483647 words or  16.0 Gbytes.
+ entering parahf 
+ output of processor no.            0
+ idorel =            2
+ idogrado =          256
+ icasguess, myguess            1 T
+ cut off energy for positron states:   -37557.724836488218     
+ total no. of roots            1
+ performing CAS calculation
+ icasguess =            1
+ nsymb:            8
+idoub:    1    0    0    0    1    0    0    0
+iacto:    2    1    1    0    2    1    1    0
+nocc :    3    1    1    0    3    1    1    0
+ dynw =    0.0000000000000000        0.0000000000000000        2.5000000000000000     
+ nusecsf =           -1
+ nstate:            1
+ number of basis fcns =           52
+ using werner method of order            2
+c0 =  3.0 c1 = -2.0 cjk =   1.0 c3 =   0.0
+ number of unique extra symmetries:            6
+     #    qn  nall nhere nleft   deg nhereao
+     1    0g     6     6     0     1    28
+     2    2g     2     1     0     2     2
+     3    1u     6     3     0     2    10
+     4    0u     6     6     0     1    28
+     5    2u     2     1     0     2     2
+     6    1g     6     3     0     2    10
+ linear molecule
+ this symmetry block has lambda =            0
+ linear molecule
+ this symmetry block has lambda =            2
+range of S eigenvalues:  6.93E-02 2.30E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ linear molecule
+ this symmetry block has lambda =            1
+range of S eigenvalues:  3.18E-01 1.86E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ linear molecule
+ this symmetry block has lambda =            1
+range of S eigenvalues:  3.18E-01 1.86E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ linear molecule
+ this symmetry block has lambda =            2
+range of S eigenvalues:  1.09E+00 1.09E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ linear molecule
+ this symmetry block has lambda =            0
+ linear molecule
+ this symmetry block has lambda =            2
+range of S eigenvalues:  1.06E-02 1.56E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ linear molecule
+ this symmetry block has lambda =            1
+range of S eigenvalues:  2.20E-01 8.60E-01
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ linear molecule
+ this symmetry block has lambda =            1
+range of S eigenvalues:  2.20E-01 8.60E-01
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ linear molecule
+ this symmetry block has lambda =            2
+range of S eigenvalues:  9.07E-01 9.07E-01
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ total no. orbital rotation parameters =           36
+ in cas0            1
+ number of symmetry/spin blocks =            1
+number of doubly occupied orbitals:  1  0  0  0  1  0  0  0
+number of active orbitals:           2  1  1  0  2  1  1  0
+energy convergence criterion:  1.00E-08
+vector convergence criterion:  1.00E-05
+gradient convergence criterion:  1.00E-05
+max. no. iters for fci diagonalization:   100
+spin multiplicity:  3, space symmetry: 4, p-space threshold =       2.50, max no. of p-space fcns     1000
+root  1 wgt   1.00E+00
+ total number of dets across procs: 60                                                
+for i =     1, desired spin   1.0, so desired S^2 eigenvalue is   2.00
+ no. fcns kept =           20
+ looking for lambda =            0
+ number of keepers =           12
+ spin:            3  space symmetry:            4 ( 3Sig-g)
+ diagonalization converged at iteration            8
+  1  -144.570732075   
+  0.8588 22 2 2  _2 a a  
+ -0.3319 22 2 2  ab a a  
+ -0.2943 22 2 2  ba a a  
+ -0.1637 22 a a  _2 2 2  
+energy from starting orbitals:      -144.570732
+iter.         energy      change  approx-vari micro diag  xlam      grad orb
+   2   -149              -4.8E+00  6.0E-01     51    1   93.63  1.9E+00 to  1.5E-02
+   3   -149.             -3.9E-01  2.1E-02     51    5   69.28  8.4E-01 to  3.1E-04
+   4   -149.77           -3.6E-03  2.3E-05     12    6    1.00  8.7E-02 to  8.1E-06
+   5   -149.772614       -3.7E-07  3.9E-11      4    3    1.00  9.1E-04 to  7.6E-06
+ switch to 3rd order 
+   6   -149.7726141733   -1.6E-10  3.4E-12      3    2    1.00  7.7E-06 to  9.7E-07
+ calculations converged
+last change in orbitals:  1.48E-06
+ for symmetry            1
+ fock matrix eigenvalues for doubly occupied orbs
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1  -2.060499E+01
+ $
+ n.o. occupation numbers
+tiny =  1.E-11
+      1    -2@
+  m-n        1             2
+    1   1.999396E+00  1.978609E+00
+ $
+ for symmetry            2
+ n.o. occupation numbers
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1   1.978175E+00
+ $
+ for symmetry            3
+ n.o. occupation numbers
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1   1.978175E+00
+ $
+ for symmetry            5
+ fock matrix eigenvalues for doubly occupied orbs
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1  -2.066699E+01
+ $
+ n.o. occupation numbers
+tiny =  1.E-11
+      1    -2@
+  m-n        1             2
+    1   1.998002E+00  2.470680E-02
+ $
+ for symmetry            6
+ n.o. occupation numbers
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1   1.021468E+00
+ $
+ for symmetry            7
+ n.o. occupation numbers
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1   1.021468E+00
+ $
+ in cas0            1
+ number of symmetry/spin blocks =            1
+number of doubly occupied orbitals:  1  0  0  0  1  0  0  0
+number of active orbitals:           2  1  1  0  2  1  1  0
+energy convergence criterion:  1.00E-08
+vector convergence criterion:  1.00E-05
+gradient convergence criterion:  1.00E-05
+max. no. iters for fci diagonalization:   100
+for i =     1, desired spin   1.0, so desired S^2 eigenvalue is   2.00
+ looking for lambda =            0
+ number of keepers =           14
+ spin:            3  space symmetry:            4 ( 3Sig-g)
+ diagonalization converged at iteration            4
+  1  -149.772614173351
+  0.9828 22 2 2  2_ a a  
+ -0.1190 22 a a  2_ 2 2  
+ >energy from densities   -149.77261417335052       -269.40388501785861        87.631270844508109     
+ total telapo =    1.5211000000001793E-002   5.2935000000000329E-002   2.6659000000000363E-002   1.8610000000000421E-003   510.00000000000000        2.1500999999999930E-002   6.5130000000010293E-003  -4.4999999999809746E-005   0.0000000000000000        4.9490000000001312E-003   1.6890000000027571E-003   7.5799999999885594E-004   9.0600000000055870E-004   0.0000000000000000       -1.1399999999968448E-004
+timer    1 1e ints  ave time  7.772E-04 dev  1.147E-05 total  4.663E-03 no. calls         6.
+timer    2 diag s,. ave time  2.262E-04 dev  2.115E-06 total  1.357E-03 no. calls         6.
+timer    3 2e ints  ave time  5.371E-01 dev  3.888E-03 total  2.256E+01 no. calls        42.
+timer    4 ao to mo ave time  6.907E-03 dev  4.250E-04 total  2.901E-01 no. calls        42.
+timer    5 energy   ave time  1.966E-03 dev  1.417E-03 total  2.241E-01 no. calls       114.
+timer    6 amat     ave time  8.589E-03 dev  2.232E-03 total  7.008E+00 no. calls       816.
+timer    7 gmat     ave time  7.764E-04 dev  1.526E-05 total  2.329E-02 no. calls        30.
+timer    8 aughess  ave time  4.545E-03 dev  3.045E-01 total  1.364E-01 no. calls        30.
+timer   12 total    ave time  5.049E+00 dev  4.610E-06 total  3.029E+01 no. calls         6.
+timer   13 cannon   ave time  8.633E-05 dev  6.085E-06 total  2.590E-03 no. calls        30.
+timer   14 preden   ave time  2.717E-05 dev  8.975E-07 total  1.630E-04 no. calls         6.
+timer   15 preeri   ave time  1.417E-05 dev  2.034E-06 total  5.950E-04 no. calls        42.
+ opening file forbs 
+ final converged orbitals:
+ for symmetry block            1
+ ao basis 
+ lz qns g
+0000020
+tiny =  1.E-11
+     15   -14@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   7.531851E-04  7.237048E-04  1.164370E-04  1.116854E-04 -3.476620E-05
+    2   5.639237E-03  5.567052E-03  9.031789E-04  8.912057E-04 -2.693872E-04
+    3   2.842274E-02  2.827632E-02  4.403237E-03  4.375115E-03 -1.314650E-03
+    4   1.066150E-01  1.064332E-01  1.848915E-02  1.844665E-02 -5.502189E-03
+    5   2.872519E-01  2.871551E-01  5.112193E-02  5.106078E-02 -1.520272E-02
+    6   4.576686E-01  4.577817E-01  1.304260E-01  1.303849E-01 -3.839692E-02
+    7   2.768939E-01  2.770218E-01  9.376649E-02  9.374130E-02 -2.753073E-02
+    8  -1.772511E-02 -1.771799E-02 -5.216536E-01 -5.216719E-01  1.510079E-01
+    9  -3.710531E-02 -3.710531E-02 -4.980929E-01 -4.980929E-01 -2.122936E-01
+   10   7.912517E-04  7.901097E-04  6.375168E-03  6.365967E-03  4.487417E-02
+   11   4.201630E-03  4.200714E-03  3.385281E-02  3.384544E-02  2.382866E-01
+   12   9.333109E-03  9.332265E-03  7.519749E-02  7.519069E-02  5.293076E-01
+   13   8.288544E-03  8.288544E-03  1.161504E-01  1.161504E-01  2.837898E-01
+   14  -7.335828E-04 -7.335828E-04 -1.224627E-02 -1.224627E-02  5.417555E-02
+   15        tiny          tiny          tiny          tiny          tiny   
+  m-n      3k2           4k1           4k2           5k1           5k2      
+    1  -3.334923E-05 -2.526611E-05 -2.437832E-05 -3.359619E-05 -3.165825E-05
+    2  -2.658196E-04 -1.728183E-04 -1.708208E-04 -3.522696E-04 -3.464380E-04
+    3  -1.306303E-03 -9.486234E-04 -9.465699E-04 -1.297602E-03 -1.273466E-03
+    4  -5.489629E-03 -2.530836E-03 -2.532235E-03 -1.119606E-02 -1.114176E-02
+    5  -1.518488E-02 -6.138072E-03 -6.158896E-03 -3.435833E-02 -3.420578E-02
+    6  -3.838517E-02  1.573325E-02  1.569891E-02 -2.118843E-01 -2.117012E-01
+    7  -2.752362E-02  1.725854E-02  1.723083E-02 -1.758640E-01 -1.757254E-01
+    8   1.510132E-01 -2.697250E-01 -2.697354E-01  1.665782E+00  1.665844E+00
+    9  -2.122936E-01 -1.473276E-01 -1.473276E-01 -1.332718E+00 -1.332718E+00
+   10   4.480940E-02 -4.474412E-02 -4.467954E-02 -1.568763E-02 -1.566499E-02
+   11   2.382346E-01 -2.375960E-01 -2.375442E-01 -8.330298E-02 -8.328483E-02
+   12   5.292597E-01 -5.277736E-01 -5.277258E-01 -1.850415E-01 -1.850248E-01
+   13   2.837898E-01  1.267088E+00  1.267088E+00  1.373325E-01  1.373325E-01
+   14   5.417555E-02 -1.239577E-01 -1.239577E-01  1.136965E-01  1.136965E-01
+   15        tiny          tiny          tiny          tiny          tiny   
+  m-n      6k1           6k2           7k1           7k2      
+    1        tiny          tiny     1.387696E-05  1.365179E-05
+    2        tiny          tiny     5.248306E-05  5.248629E-05
+    3        tiny          tiny     5.084639E-04  5.147525E-04
+    4        tiny          tiny    -1.323167E-03 -1.302941E-03
+    5        tiny          tiny    -5.705234E-03 -5.631346E-03
+    6        tiny          tiny    -8.930221E-02 -8.920409E-02
+    7        tiny          tiny    -7.836252E-02 -7.828653E-02
+    8        tiny          tiny     8.495574E-01  8.495894E-01
+    9        tiny          tiny    -3.444187E-01 -3.444187E-01
+   10        tiny          tiny     3.127026E-02  3.122513E-02
+   11        tiny          tiny     1.660484E-01  1.660122E-01
+   12        tiny          tiny     3.688444E-01  3.688110E-01
+   13        tiny          tiny    -5.611734E-01 -5.611734E-01
+   14        tiny          tiny    -1.005252E+00 -1.005252E+00
+   15   9.562509E-01  9.562509E-01       tiny          tiny   
+ $
+ ob basis 
+tiny =  1.E-11
+      7    -7@
+  m-n        1             2             3             4             5
+    1   9.857842E-01 -9.768411E-03 -2.510907E-02 -3.932425E-02  1.377681E-01
+    2  -1.417292E-01 -5.156463E-01  9.964027E-02 -1.002677E-01  7.593811E-01
+    3   6.788934E-02 -8.394655E-01 -4.352919E-02 -4.654295E-02 -5.324135E-01
+    4   1.218966E-02  1.009983E-01  8.263640E-01 -4.348114E-01 -2.154503E-01
+    5   5.160545E-02 -9.867323E-02  5.220454E-01  8.216330E-01  6.753657E-02
+    6   2.686306E-02 -9.681958E-02  1.792700E-01 -3.494166E-01  2.644166E-01
+    7        tiny          tiny          tiny          tiny          tiny   
+  m-n        6             7
+    1        tiny     8.352915E-02
+    2        tiny     3.426080E-01
+    3        tiny    -5.624557E-02
+    4        tiny     2.670084E-01
+    5        tiny    -1.882208E-01
+    6        tiny    -8.750763E-01
+    7   1.000000E+00       tiny   
+ $
+ for symmetry block            2
+ ao basis 
+ lz qns u
+111
+tiny =  1.E-11
+      5    -6@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   4.037688E-02  4.031861E-02 -5.762389E-02 -5.754073E-02 -1.678102E-02
+    2   2.144055E-01  2.143588E-01 -3.059889E-01 -3.059222E-01 -8.910896E-02
+    3   4.762604E-01  4.762173E-01 -6.796953E-01 -6.796339E-01 -1.979384E-01
+    4   3.591441E-01  3.591441E-01  8.777903E-01  8.777903E-01  3.197815E-02
+    5   5.543033E-02  5.543033E-02 -1.021956E-01 -1.021956E-01  8.641837E-01
+  m-n      3k2      
+    1  -1.675680E-02
+    2  -8.908954E-02
+    3  -1.979205E-01
+    4   3.197815E-02
+    5   8.641837E-01
+ $
+ ob basis 
+tiny =  1.E-11
+      3    -3@
+  m-n        1             2             3
+    1   7.158969E-01 -6.692989E-01 -1.988233E-01
+    2   6.830249E-01  7.303948E-01  6.187370E-04
+    3   1.448054E-01 -1.362442E-01  9.800352E-01
+ $
+ for symmetry block            3
+ ao basis 
+ lz qns u
+111
+tiny =  1.E-11
+      5    -6@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   4.037688E-02  4.031861E-02 -5.762389E-02 -5.754073E-02 -1.678102E-02
+    2   2.144055E-01  2.143588E-01 -3.059889E-01 -3.059222E-01 -8.910896E-02
+    3   4.762604E-01  4.762173E-01 -6.796953E-01 -6.796339E-01 -1.979384E-01
+    4   3.591441E-01  3.591441E-01  8.777903E-01  8.777903E-01  3.197815E-02
+    5   5.543033E-02  5.543033E-02 -1.021956E-01 -1.021956E-01  8.641837E-01
+  m-n      3k2      
+    1  -1.675680E-02
+    2  -8.908954E-02
+    3  -1.979205E-01
+    4   3.197815E-02
+    5   8.641837E-01
+ $
+ ob basis 
+tiny =  1.E-11
+      3    -3@
+  m-n        1             2             3
+    1   7.158969E-01 -6.692989E-01 -1.988233E-01
+    2   6.830249E-01  7.303948E-01  6.187370E-04
+    3   1.448054E-01 -1.362442E-01  9.800352E-01
+ $
+ for symmetry block            4
+ ao basis 
+ lz qns g
+2
+tiny =  1.E-11
+      1    -2@
+  m-n      1k1           1k2      
+    1   9.562509E-01  9.562509E-01
+ $
+ ob basis 
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1   1.000000E+00
+ $
+ for symmetry block            5
+ ao basis 
+ lz qns u
+0000020
+tiny =  1.E-11
+     15   -14@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   7.490168E-04  7.197058E-04  1.322055E-04  1.268304E-04 -8.783729E-05
+    2   5.607029E-03  5.535270E-03  1.022267E-03  1.008756E-03 -6.907092E-04
+    3   2.826514E-02  2.811971E-02  4.998591E-03  4.967223E-03 -3.324468E-03
+    4   1.059612E-01  1.057808E-01  2.078688E-02  2.074010E-02 -1.454705E-02
+    5   2.854487E-01  2.853540E-01  5.735544E-02  5.729075E-02 -4.056993E-02
+    6   4.532387E-01  4.533531E-01  1.419600E-01  1.419193E-01 -1.162064E-01
+    7   2.737415E-01  2.738701E-01  1.012307E-01  1.012068E-01 -8.595001E-02
+    8  -1.130624E-03 -1.122922E-03 -5.390020E-01 -5.390209E-01  5.484498E-01
+    9  -2.908318E-02 -2.908318E-02 -6.664547E-01 -6.664547E-01  7.022870E-01
+   10   7.176958E-04  7.166600E-04  1.535997E-02  1.533781E-02  7.162224E-02
+   11   3.811040E-03  3.810210E-03  8.156308E-02  8.154530E-02  3.803216E-01
+   12   8.465490E-03  8.464725E-03  1.811766E-01  1.811603E-01  8.448111E-01
+   13   1.172693E-03  1.172693E-03  9.233356E-02  9.233356E-02  3.960210E-01
+   14   1.979887E-03  1.979887E-03  2.116555E-02  2.116555E-02 -1.532097E-02
+   15        tiny          tiny          tiny          tiny          tiny   
+  m-n      3k2           4k1           4k2           5k1           5k2      
+    1  -8.419484E-05 -7.884884E-05 -7.573139E-05  3.431889E-05  3.380303E-05
+    2  -6.814338E-04 -5.954071E-04 -5.877193E-04  1.231644E-04  1.233443E-04
+    3  -3.301615E-03 -2.976991E-03 -2.960779E-03  1.255513E-03  1.272224E-03
+    4  -1.451069E-02 -1.148420E-02 -1.146285E-02 -3.696253E-03 -3.643191E-03
+    5  -4.051001E-02 -3.115203E-02 -3.113448E-02 -1.552777E-02 -1.533528E-02
+    6  -1.161579E-01 -5.751376E-02 -5.751617E-02 -2.334556E-01 -2.332005E-01
+    7  -8.591758E-02 -3.718701E-02 -3.719316E-02 -2.045605E-01 -2.043631E-01
+    8   5.484694E-01  8.535065E-02  8.535304E-02  2.210627E+00  2.210710E+00
+    9   7.022870E-01  3.513240E+00  3.513240E+00 -6.313384E+00 -6.313384E+00
+   10   7.151887E-02 -2.960637E-02 -2.956364E-02 -9.477937E-03 -9.464258E-03
+   11   3.802388E-01 -1.572129E-01 -1.571787E-01 -5.032884E-02 -5.031787E-02
+   12   8.447347E-01 -3.492182E-01 -3.491866E-01 -1.117958E-01 -1.117857E-01
+   13   3.960210E-01  3.001171E+00  3.001171E+00 -2.767984E+00 -2.767984E+00
+   14  -1.532097E-02  1.348482E-01  1.348482E-01 -3.186248E-02 -3.186248E-02
+   15        tiny          tiny          tiny          tiny          tiny   
+  m-n      6k1           6k2           7k1           7k2      
+    1        tiny          tiny    -6.921713E-05 -6.653755E-05
+    2        tiny          tiny    -5.134488E-04 -5.069393E-04
+    3        tiny          tiny    -2.610610E-03 -2.597992E-03
+    4        tiny          tiny    -9.491400E-03 -9.476888E-03
+    5        tiny          tiny    -2.537310E-02 -2.537126E-02
+    6        tiny          tiny    -3.294928E-02 -3.296863E-02
+    7        tiny          tiny    -1.766641E-02 -1.768503E-02
+    8        tiny          tiny    -7.759118E-02 -7.759481E-02
+    9        tiny          tiny     3.524253E+00  3.524253E+00
+   10        tiny          tiny     5.461107E-02  5.453225E-02
+   11        tiny          tiny     2.899905E-01  2.899273E-01
+   12        tiny          tiny     6.441580E-01  6.440997E-01
+   13        tiny          tiny     1.852076E+00  1.852076E+00
+   14        tiny          tiny     1.587411E+00  1.587411E+00
+   15   1.050233E+00  1.050233E+00       tiny          tiny   
+ $
+ ob basis 
+tiny =  1.E-11
+      7    -7@
+  m-n        1             2             3             4             5
+    1   9.893802E-01 -5.961453E-03  2.150604E-02  4.978706E-02  1.330931E-01
+    2  -1.212869E-01 -5.252857E-01  3.526778E-01  3.333933E-01  6.760695E-01
+    3   6.500440E-02 -5.476101E-01  1.410566E-01  2.522222E-01 -6.844314E-01
+    4   2.986308E-03  3.226338E-01  8.105269E-01 -3.683914E-01 -5.069746E-02
+    5  -3.530369E-02  5.529689E-01  9.605500E-02  8.148238E-01 -5.354884E-02
+    6  -3.058397E-02  1.195636E-01 -4.348315E-01 -1.520004E-01  2.265662E-01
+    7        tiny          tiny          tiny          tiny          tiny   
+  m-n        6             7
+    1        tiny     2.088472E-02
+    2        tiny     1.294675E-01
+    3        tiny     3.793920E-01
+    4        tiny     3.172730E-01
+    5        tiny     1.301816E-01
+    6        tiny     8.492669E-01
+    7   1.000000E+00       tiny   
+ $
+ for symmetry block            6
+ ao basis 
+ lz qns g
+111
+tiny =  1.E-11
+      5    -6@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   4.831759E-02  4.824786E-02 -5.630611E-02 -5.622485E-02  7.782655E-03
+    2   2.565715E-01  2.565156E-01 -2.989914E-01 -2.989262E-01  4.132672E-02
+    3   5.699240E-01  5.698725E-01 -6.641517E-01 -6.640916E-01  9.179932E-02
+    4   6.262687E-01  6.262687E-01  1.633879E+00  1.633879E+00  4.765770E-01
+    5  -9.545225E-03 -9.545225E-03  2.000789E-02  2.000789E-02  1.326737E+00
+  m-n      3k2      
+    1   7.771422E-03
+    2   4.131771E-02
+    3   9.179102E-02
+    4   4.765770E-01
+    5   1.326737E+00
+ $
+ ob basis 
+tiny =  1.E-11
+      3    -3@
+  m-n        1             2             3
+    1   8.097489E-01 -5.800300E-01  8.872353E-02
+    2   5.625167E-01  8.103734E-01  1.639207E-01
+    3  -1.669781E-01 -8.282612E-02  9.824755E-01
+ $
+ for symmetry block            7
+ ao basis 
+ lz qns g
+111
+tiny =  1.E-11
+      5    -6@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   4.831759E-02  4.824786E-02 -5.630611E-02 -5.622485E-02  7.782655E-03
+    2   2.565715E-01  2.565156E-01 -2.989914E-01 -2.989262E-01  4.132672E-02
+    3   5.699240E-01  5.698725E-01 -6.641517E-01 -6.640916E-01  9.179932E-02
+    4   6.262687E-01  6.262687E-01  1.633879E+00  1.633879E+00  4.765770E-01
+    5  -9.545225E-03 -9.545225E-03  2.000789E-02  2.000789E-02  1.326737E+00
+  m-n      3k2      
+    1   7.771422E-03
+    2   4.131771E-02
+    3   9.179102E-02
+    4   4.765770E-01
+    5   1.326737E+00
+ $
+ ob basis 
+tiny =  1.E-11
+      3    -3@
+  m-n        1             2             3
+    1   8.097489E-01 -5.800300E-01  8.872353E-02
+    2   5.625167E-01  8.103734E-01  1.639207E-01
+    3  -1.669781E-01 -8.282612E-02  9.824755E-01
+ $
+ for symmetry block            8
+ ao basis 
+ lz qns u
+2
+tiny =  1.E-11
+      1    -2@
+  m-n      1k1           1k2      
+    1   1.050233E+00  1.050233E+00
+ $
+ ob basis 
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1   1.000000E+00
+ $
+   1.00000E+00
+ Hi, my name is gradcas   5.0502409999999998     
+ what we have for idogrado:     0    1    0    0
+ total number of roots =            1
+ diis calculations converged after iteration            8
+ >Q0   field gradients: 
+ 1 3Sig-g    > -6.656527591428E-01
+ diis calculations converged after iteration            6
+ >ReQ2 field gradients: 
+ 1 3Sig-g    > -1.387158813048E-15
+ for nucleus no.            1
+ symmetrically related to nucleus            2
+>for operator d/dz 1- 2 with symmetry 1
+ diis calculations converged after iteration           10
+ >energy gradients: 
+ 1 3Sig-g    >  8.418906501983E-01
+ total cpu time on this proc for gradcas is    2.5283519999999999     
+ orbitals from ao basis are used
+ reading isymg           24          10           8
+           1      0      1           1
+           2      0      0           0
+           3      0      0           0
+           4      0      0           0
+           5      0      1           1
+           6      0      0           0
+           7      0      0           0
+           8      0      0           0
+ writing           24          10           8
+ check for derivative information               1729746     1728520
+ for derivative            4           0          -1           0              1729746
+ for Q0
+ for derivative            5           0          -1           0              1729886
+ for ReQ2
+ for derivative            3           1           2           2              1730026
+ for d/dz           1 -           2
+  
+ MRCI
+   doubly occupied orbitals:     1    0    0    0    1    0    0    0
+orbitals in reference space:     2    1    1    0    2    1    1    0
+           virtual orbitals:     4    2    2    1    4    2    2    1
+ total number of electrons:           16
+ number of electrons to correlate           12
+ spin multiplicity:            3
+ symmetry of state:            4 ( 3Sig-g)
+ number of roots to extract:            1
+  
+energy convergence criterion for external iterations:  1.0E-09
+ in gencsf for spin    1.0000000000000000     
+ number of electrons to correlate           12
+ number of orbitals            8
+ nalpha,nbeta:            7           5
+   #cs  #os      nae nbe      ncs       noc ndet ncsf
+    1   10        6   4         8         0  210   90
+    2    8        5   3        28         1   56   28
+    3    6        4   2        56        28   15    9
+    4    4        3   1        70        70    4    3
+    5    2        2   0        56        28    1    1
+ isorbx =          512
+ idorbx =         6336
+ final isto =          723
+ isorbx:          512
+ idorbx:         6336
+ last isto =          723
+ ibcoff b4 stepwisecsf 1,762,880                                         
+ high water mark: 4,759,764                                         
+ ihighwtr after stepwisecsf: 4,759,764                                         
+ time for stepwisecsf =    1.0918999999999456E-003
+ ihighwtr after gencsf3 4,759,764                                         
+ spin =    1.0000000000000000     
+ desired S2 eigenvalue    2.0000000000000000     
+ in intcsf           24           4          12           1 T
+ no. of ps fcns           10 csfs          18
+ total number of csfs:           48
+ looking for lambda            0
+ number of keepers =           11
+ calculations converged after iteration            8
+ state  3Sig-g
+           1  -149.77261417335004     
+22 1 1  2_ 2 2  a        -0.118997
+22 2 2  2_ 1 1  a         0.982764
+ dynwci =    1000.0000000000000        0.0000000000000000        2.5000000000000000     
+    #         sym roots  nlzz Lambda
+    1          4     1     2     0
+ in intcsf           24           4          12           1 T
+ no. of ps fcns           10 csfs          18
+ total number of csfs:           48
+ looking for lambda            0
+ number of keepers =           11
+ calculations converged after iteration            8
+ state  3Sig-g
+           1  -149.77261417335004     
+22 1 1  2_ 2 2  a        -0.118997
+22 2 2  2_ 1 1  a         0.982764
+ generate derivatives of internal vectors used in contraction
+ i.e. genivder
+ toldv =    9.9999999999999998E-013
+ maxdiis =           10 maxrest =           10
+ for Q0
+ restarting ...   8.6762431060951924E-007
+ restarting ...   3.4900645568734444E-012
+ intcsfder diis iterations converged after            4 iterations and            2 restarts
+ for ReQ2
+ restarting ...   4.3160608020558018E-008
+ intcsfder diis iterations converged after            8 iterations and            1 restarts
+ for d/dz           1 -           2
+ restarting ...   4.0941663772819931E-007
+ restarting ...   2.0487587704566507E-012
+ intcsfder diis iterations converged after            4 iterations and            2 restarts
+ total cpu time on this proc for genivder is    1.7394820000000006     
+ renormalized weights 
+           1
+           2
+           3
+           4   1.0000000000000000     
+           5
+           6
+           7
+           8
+  
+ for single excitations 
+sym       total           *nvirt
+  1         174              174                                      
+  2         189              378                                      
+  3         189              378                                      
+  4         192              768                                      
+  5         174              174                                      
+  6         189              378                                      
+  7         189              378                                      
+  8         192              768                                      
+  
+ total no. of single excitations: 3,396                                             
+
+ ihighwtr after stepwisecsf: 4,759,764                                         
+ time for stepwisecsf =    8.6689999999958192E-004
+ thrs,ethred:    9.9999999999999995E-008  -7.0000000000000000     
+3j for sp:     1.000000
+3j for tp, same ms:    -0.707107   -0.547723
+3j for tp, ms-1:     1.000000    0.707107    0.316228
+ memory mapping so far:
+ space we need for coupling coefficients:      1763159 to      1854032
+ space we have for contraction coefficients:      1790343 to      1806354
+ now reload coupling coefficients
+  
+ for double excitations 
+      singlet     triplet coupled
+ sym  coupled lows mids highs   total    *virt pairs
+  1       2      2    2    2       6          128                                          
+  2       4      4    4    4      12          320                                          
+  3       4      4    4    4      12          320                                          
+  4      10      2    2    2       6          436                                          
+  5       2      2    2    2       6          128                                          
+  6       4      4    4    4      12          320                                          
+  7       4      4    4    4      12          320                                          
+  8       6      6    6    6      18          600                                          
+  
+total number of double excitations: 2,572                                             
+space required for non-orthogonal doubles: 2,572                                             
+  
+total number of uncontracted double excitations: 68,166                                            
+total number of uncontracted csfs: 71,610                                            
+
+total number of single and double excitations: 5,968                                             
+with reference part: 6,016                                             
+  
+iteration  best energies(rounded!)
+    2  -150.03           
+    3  -150.031          
+    4  -150.0307         
+ saving restart data 
+    5  -150.030693       
+    6  -150.0306933      
+ contract Davidson vectors down to best set. diffr vs. wconvci:   2.7E-06  1.0E-08
+    8  -150.03069332     
+    9  -150.030693325    
+ saving restart data 
+   10  -150.0306933251   
+   11  -150.03069332510  
+   12  -150.03069332509  
+  
+ calculations converged 
+ internal part 
+22 2 2  2_ 1 1  a     0.959703
+
+               i2cmrci         i2cmrci+q(f)    i2cmrci+q(r)    i2cmrci+q(sx)       ref             ecorr        Vref*Vi2cmrci   Frac Vi2cmrci in ref
+ 3Sig-g >  1 -150.0306933251 -150.0459223438 -150.0456966160 -150.0353185026 -149.7726141734   -0.2580791517    0.9717401650    0.9450594818 -149.7710811491
+ cpu times: 
+ intci:    1.5566899999997831E-002   7.1093834682806413E-006
+ hcsi:    8.0423999999984144E-003   3.5223386170693191E-004
+ hcis:   0.17629123333333721       0.12799230962066577     
+ hss:   0.30257256666666460       0.12798492306218090     
+ hcdi:    4.8280666666678691E-003   3.7435613465979894E-004
+ hcid:    6.9820666666681550E-003   9.2692586301112775E-005
+ hcds:   0.41173339999999981        7.4851586900022781E-005
+ hcddjk:   0.15305156666666550        8.9031261682085650E-005
+ hcdd4v:    12.600215900000002        1.5280817567004957E-004
+ Hi, my name is denmx12           1              1927002
+ computing densities
+ time for hccsfd12    6.1899999999859284E-005
+ time for hcsid12    6.3089999999856874E-004
+ time for hcssd12   3.7041899999999649E-002
+ time for hcdi12:    6.2590000000053438E-004
+ time for hcds12   3.9030899999997891E-002
+ time for hcddjkd12    9.2927899999997093E-002
+ time for uu/vv and ints   0.56010599999999755        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        9.0239999999361942E-003   0.0000000000000000        7.7960000000487639E-003   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ time for dorbs    3.2040000000002067E-003
+ time for paraeridd    2.7075910000000007     
+ >gsummed fder ...
+               dcont          dcorth         dorb           doorth         1e             2e                  total
+Q0 field    -1.4802545E-02  1.5776728E-02  1.6381184E-03  0.0000000E+00 -6.9463835E-01  0.0000000E+00    > -6.92026052703193E-01
+ReQ2 field   1.0037020E-11 -1.0189719E-11  2.7094434E-11  0.0000000E+00 -1.6232149E-15  0.0000000E+00    >  2.69401110532734E-11
+d/dz 1- 2   -5.7026684E-02  5.7405726E-02 -2.1616495E-03  1.6532784E+00 -1.5750913E+01  1.4954076E+01    >  8.54658951593011E-01
+ now go on and dumpbas for equivalent symmetries
+ high water mark 4,759,764                                         
+ double precision words on this core

@@ -1,0 +1,11 @@
+      parameter (idbk=512)                                              7d10s19
+      common/dws4cm/nbasdws(8),nlorcont(8),nsymb,nsymt,nbasall,nsy1(8), 3d29s21
+     $  nsy2(8),                                                        3d29s21
+     $     isblk(4,idbk),nsdlk,nsy3(8),isblkk(4,idbk),nsdlkk,
+     $     isblkh(4,idbk),nsdlkh,isblp(4,idbk),nsdlp,                   8d8s14
+     $     isblk4x(5,idbk),n4x,ioff4x(idbk),nrow4x(idbk),isblkd(4,idbk),
+     $     nsdlkd,                                                                        3d15s16
+     $     isblkkx(5,idbk),nsdlkkx,ideprod(16,idbk),ioff4xt(idbk),
+     $     isblka(4,idbk),nsdlka,nvirt(8),isblk1(4,idbk),nsdlk1,        12d5s16
+     $     ihcol(idbk),nhcol(idbk)                                      3d29s21
+

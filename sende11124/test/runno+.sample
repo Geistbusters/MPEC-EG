@@ -1,0 +1,88 @@
+. ~/.prempec                      # set up mpec environment
+echo "NO+ sample"
+nbasis="cc-pvtz &aug"             # shorthand for N basis
+obasis="cc-pvtz &aug"             # shorthand for O basis
+shellguess=h0
+/bin/rm summary.no+.uc summary.no+.1r summary.no+.s # start with clean slate
+for shellr in 1000. 100. 50. 25. 10. 8. 6. 4. 3. 2.  # loop over geometries
+do
+echo "for bond length" $shellr
+output=no+out`date -Idate`$shellr
+/bin/rm $output
+cat > input <<@
+&BG
+ends(1)=a to b
+r $shellr
+N is a
+$nbasis
+O is b
+$obasis
+&CAS
+doub 3                            # doubly occupy O 2s
+act 3 2 2 0
+guess $shellguess                 # generate starting orbitals from one-electron Hamiltonian
+states
++ 4So 4So                         # 4So N and 4So O+ 
++ 3P 3P                           # 3P N+ and 3P O
+@
+/bin/rm forbs                     # delete any orbitals lying about
+runmpec < input >> $output
+cp forbs orbs                     # copy to orbs to act as initial guess
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+cat > input <<@
+&MRCI
+doubo 2                           # correlate Oxygen 2s
+refo 4 2 2 0                      # thus 2s is in reference space
+0hole 1s1                         # but kept doubly occupied in reference wavefunction
+state                             # oops, forgot and didn't put term symbol on same line ... (mpec didn't care)
++ 1Sig+ 3 0.001                   # only worry about convergence of lowest root
+doubx u                           # uncontract doubles
+&PROP
+@
+/bin/rm summary
+runmpec < input >> $output
+mv wavef wavefuc$shellr
+cat summary >> summary.no+.uc
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+cat > input <<@
+&MRCI
+doubo 2
+refo 4 2 2 0
+0hole 1s1
+state + 1Sig+                     # naively go after just one root ... and get wrong answer
+doubx
+&PROP                             # since converged to N+ and O, dipole has wrong sign
+@
+/bin/rm summary                   # delete left overs
+runmpec < input >> $output
+cat summary >> summary.no+.1r
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+cat > input <<@
+&MRCI
+doubo 2
+refo 4 2 2 0
+0hole 1s1
+state + 1Sig+ 3                   # need 3 roots to ensure convergence to correct ground state
+doubx off                         # just allow single excitations
+@
+/bin/rm summary                   # delete left overs
+runmpec < input >> $output
+cp summary /dev/null              # dummy copy so we can check return code
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+mv wavef wavefmrcis$shellr
+cat > input <<@
+&MRCI
+doubo 2
+refo 4 2 2 0
+0hole 1s1
+state + 1Sig+
+readc wavefmrcis$shellr           # read vectors for contraction coefficients from mrcis calculation
+&PROP                             # dipole will now have correct sign
+@
+/bin/rm summary
+runmpec < input >> $output
+cat summary >> summary.no+.s
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+shellguess=readin                 # reset guess to readin orbitals
+grep '>' $output > $output.precis
+done                              # end of loop over geometries.

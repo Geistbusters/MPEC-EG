@@ -1,0 +1,10 @@
+      integer*8 ibcoff,intmul,ihighwtr,ienough,maxbct,ioffsx,
+     $     ibc(*)                                                       11d9s22
+      character*20 memneed
+c$$$      parameter (maxbc= 20 000 000)
+      parameter (maxbc= 2 147 483 647)
+      real*8 bc                                                         11d9s22
+      dimension bc(*)                                                   11d10s22
+      common/storecm/ibcoff,intmul,ihighwtr,ienough,maxbct,             11d10s22
+     $     ioffsx                                                       10d31s22
+      common/storccm/memneed

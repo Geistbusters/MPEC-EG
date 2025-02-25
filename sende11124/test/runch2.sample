@@ -1,0 +1,45 @@
+. ~/.prempec                      # set up mpec environment
+for shellrel in off on            # loop over relativity
+#for shellrel in off            # loop over relativity
+do
+shellguess=h0                     # for first pass, guess orbitals from h0
+for shellsym in \# sym=off        # loop over symmetry on and off
+#for shellsym in \#        # loop over symmetry on and off
+do
+echo "for sym " $shellsym
+output=3ch2`date -Idate`$shellrel$shellsym
+/bin/rm $output
+for shellgrad in e \# bodc        # loop over grad types
+#for shellgrad in bodc        # loop over grad types
+do
+echo "for grad type" $shellgrad
+cat > input <<@
+&BG
+$shellsym
+rel $shellrel
+ends(1)= a to bc, ends(2)= b to c # C+H2 Jacobi coordinates
+rs 1.3,3.3
+thetad 90
+C is a
+cc-pvdz
+H is b,c
+cc-pvdz
+&CAS
+guess $shellguess
+gconv 1d-7                        # note tighter gradient convergence criterion
+states
+3B1                               # sym will default to 1 for no symmetry case
+grad $shellgrad
+@
+/bin/rm forbs                     # delete left over orbitals
+runmpec < input >> $output
+mv forbs orbs                     # rename orbs for next guess
+if [ $? -ne 0 ]                   # bail if no final orbitals
+then
+exit
+fi
+shellguess=readin
+done                              # end grad type loop
+grep '>' $output > $output.precis # short summary
+done                              # end symmetry loop
+done                              # norel/rel loop

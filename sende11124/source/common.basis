@@ -1,0 +1,13 @@
+c                                                                       12d6s04
+c     ida is maximum number of atoms
+c                                                                       12d6s04
+      parameter (ida=20)                                                12d6s04
+      character*80 abasis(ida)                                          10d21s08
+      character*4 atom(ida)                                             5d26s21
+      character*1 rla(ida)                                              5d9s14
+      dimension xcart(3,ida),irla(ida)
+c$$$      common/basiscm/xcart,atnum(3,ida),cmx(3,2),coord(ida,ida),        3d21s23
+c$$$     $     xmaxs(ida),iagrp(ida)                                        3d22s23
+      common/basiscm/xcart,atnum(3,ida),cmx(3,2),iagrp(ida),            4d19s23
+     $     coord(ida,ida),xmaxs(ida)                                    4d19s23
+      common/basiccm/atom,abasis,rla                                    5d9s14

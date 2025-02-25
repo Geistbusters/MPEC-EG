@@ -1,0 +1,14 @@
+### Executable
+mpec
+
+
+### Compiled Objects
+*.o
+
+
+### Tarballs
+*.tgz
+*.tar
+
+### Documentation
+*.pdf

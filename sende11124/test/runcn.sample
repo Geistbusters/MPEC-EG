@@ -1,0 +1,39 @@
+. ~/.prempec                      # set up mpec environment
+echo "CN sample"
+output=CNtest4`date -Idate`.out
+/bin/rm $output
+cat > input <<@
+&BG                               # generate orbitals
+ends(1) a to b
+r 2.
+C is a
+cc-pvtz
+N is b
+cc-pvtz
+&CAS
+guess
+states
+2Pi
+@
+runmpec < input >> $output
+for shellsing in on off           # test all possibilities
+do
+for shelldoub in \# off uc        # test all possibilities
+do
+shellrestart=off                  # for ipass=1, no restart, but abort on
+shellabort=6                      # iteration 6
+for ipass in 1 2
+do
+cat > input <<@
+&MRCI
+restart $shellrestart
+itabort $shellabort
+singx $shellsing
+doubx $shelldoub
+@
+runmpec < input >> $output
+shellrestart=yes                  # next time through restart
+shellabort=0                      # don't abort next time
+done                              # end loop over restart off/on
+done                              # loop over doubles on,off, uc
+done                              # loop over singles on,off

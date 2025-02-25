@@ -1,0 +1,137 @@
+Thank you for installing MPEC!
+The copyright notice and disclaimers are given in the top of the file start.f in the source directory.
+
+The distribution package consists of the follow files:
+
+README       - this file
+data.tar     - basis set and other data for MPEC 
+lib.tar      - math library directory
+mpeclogo.pdf - MPEC logo
+mpecman.pdf  - user manual for MPEC
+mfileh2.x    - script to make MPEC
+source.tar   - MPEC source code directory
+test.tar     - MPEC test run directory
+
+To install MPEC, edit mfileh2.x to set the compilers, etc to create MPEC.
+Then run using the Borne shell, i.e. sh mfileh2.x.
+
+I include as examples creating MPEC on my laptop computer which has open-mpi installed on it and
+creating MPEC on the NAS facility parallel computers. Hopefully your situation will be similar to
+one of these two examples.
+
+A script named .prempec is created in the installers home directory. It must be executed in every
+MPEC job script, as shown as the sample inputs. The sample inputs must be run using the Borne shell,
+i.e. sh runccontract.sample.
+
+Some of the MPEC routines are sufficiently complex that compiliers I have access to do not compile
+them properly with optimization turned on. Those routines use $optno as their optimazation flag while
+then other routines use $opt as their optimzation flag. Make sure to set both variables!
+
+One has multiple options in the creation of MPEC:
+
+One can use basic MPI commands (DDI-1) or MPI-4 commands (DDI-4) by setting the shell variable ddi to
+1 (for DDI-1) and something else otherwise. For fewer than ~25 processors, use MPI-4.
+
+One can use a system math library or a library created from the files in lib.tar: set the shell
+variable lib to 0 for the former choice and non-zero otherwise.
+These library files are available under the modified BSD license, which is given at the end of this
+document.
+
+One can use the matrix multiply routine dgemm from the library or one can use a special version that
+stops in case of an error and writes out where it is called: on the NAS systems the library dgemm
+writes out an error message but continues when an error is encountered. Set the shell variable dgemm
+to 0 to get the library matrix multiply routine and non-zero to get the special version.
+
+Default values of parameters are set in a series of include files. If you don't like values I use, feel free
+to change them. This must be done before compilation.
+The include files are in the source directory, and are
+cas.par
+mrci.par
+
+Most dimensions in the program are allocated by reserving space in one massive array, but there
+are some dimensions set by parameter statements. These are mainly used to make input easier, and do not
+involve large amounts of memory, so large values are not detrimental.
+
+The size of the massive array is specified by the parameter maxbc in the file common.store.
+The current value is 2**31-1, the maximum memory that can be addressed with a signed 4 byte integer.
+If this exceeds your harware limitations, that should not be an issue on modern computers unless MPEC
+tries to use more memory than you hardware allows. In the latter case, the program will crash with
+some sort of system error.
+
+The maximum number of atoms is specified by the parameter ida in the file common.basis
+
+The maximum number of spin/symmetry blocks in the state averaged cas is specified by the
+parameter maxst1 in the file common.cas
+
+The maximum number of roots per spin/symmetry block in the state averaged cas is specified
+by the parameter maxst2 in the file common.cas.
+
+The maximum number of reference orbitals in the MRCI calculations is specified by the parameter ido
+in the file common.mrci.
+
+The maximum number of extra symmetries to generate contraction coefficients in the i^2cMRCI calculations
+is specified by the parameter maxxref in the file common.mrci.
+
+The maximum number of distributed arrays is specified by the parameter id in common.mympi.template.
+
+For DDI-1 calculations, the maximum number of processors is specified in by parameter mxcproc in common.mympi.template
+
+Modified BSD license:
+Like all software, it is copyrighted. It is not trademarked, but we do ask the following:
+
+    If you modify the source for these routines we ask that you change the name of the routine and comment the changes made to the original.
+
+    We will gladly answer any questions regarding the software. If a modification is done, however, it is the responsibility of the person who
+    modified the routine to provide support.
+
+
+LICENSE
+
+Copyright (c) 1992-2013 The University of Tennessee and The University
+                        of Tennessee Research Foundation.  All rights
+                        reserved.
+Copyright (c) 2000-2013 The University of California Berkeley. All
+                        rights reserved.
+Copyright (c) 2006-2013 The University of Colorado Denver.  All rights
+                        reserved.
+
+$COPYRIGHT$
+
+Additional copyrights may follow
+
+$HEADER$
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+- Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer listed
+  in this license in the documentation and/or other materials
+  provided with the distribution.
+
+- Neither the name of the copyright holders nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+The copyright holders provide no reassurances that the source code
+provided does not infringe any patent, copyright, or any other
+intellectual property rights of third parties.  The copyright holders
+disclaim any liability to any recipient for claims brought against
+recipient by any third party for infringement of that parties
+intellectual property rights.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

@@ -1,0 +1,14 @@
+      parameter (ido=40,maxxref=16)
+c
+cido is the maximum no. of orbitals in reference space
+c
+      common/mrcicm/nhole(3),ihole(ido,3),nfill(4),ifill(ido,4),        4d19s23
+     $     idoubo(8),irefo(8),irel(ido),ism(ido),norb,ne,ismult,        5d24s18
+     $     isymmrci,idomrci,impspin,maxpsci,maxtcspin,ndecomp,nreadc,   8d10s22
+     $     irxinfo(8),irxinfos(5,maxxref),itestmrci,maxopens,interacts, 8d23s21
+     $     nroot,nwavef,nkeeph,iunc(2),nxref,lambdaci,nlzzci,nameci(6), 3d23s21
+     $     lcrenorm,nrxinfos,iuse2den,novguess,maxds,norbci,maxmit,     3d21s22
+     $     nrestart,ntmso,npdiagci,maxmiti,maxdsi,itabort,npadmrci(2),  2d8s23
+     $     iskip4v,n4vso,ibodc,maxdiisci,maxrestci,econvci,wconvci,     10d16s24
+     $     econvcii,dynwci(3),dynwconv(3),ethres,epssymci,              9d19s23
+     $     ethred,pthrsci,erefc,ecic,genwfeps,smsz,toldv,xmrci(2)       7d22s24

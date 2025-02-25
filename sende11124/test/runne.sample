@@ -1,0 +1,50 @@
+. ~/.prempec
+echo "Ne atom relativity sample"
+output=ne.sample`date -Idate`
+/bin/rm $output
+cat > input <<@
+&BG
+rel dhf ssssb                # Dirac Hartree Fock using all integrals and computing Breit interaction
+Ne
+0. 0. 0.                     # normaly one does not need the geometry for the atom, but since we are reading in the basis, we need it.
+@
+cat Ne.inp >> input          # copy the basis input to the middle of the mpec input
+cat >> input <<@
+&SOHF
+@
+/bin/rm forbs                # delete any left over orbitals
+runmpec < input >> $output
+if [ $? -ne 0 ] ; then exit ; fi
+cat > input <<@
+&BG
+rel ssss
+Ne
+0. 0. 0.
+@
+cat Ne.inp >> input
+cat >> input <<@
+&CAS
+doub 2
+act 0 1 1 0 1
+guess
+grad bodc
+states
+1S
+&MRCI                        # state defaults to first CAS state
+singx off                    # turn off single excitations
+doubx off                    # turn off double excitations
+&PROP
+itype ssg                    # turn on Gaunt
+@
+/bin/rm forbs                # delete any left over orbitals
+runmpec < input >> $output
+cat summary > /dev/null
+if [ $? -ne 0 ] ; then exit ; fi
+cat > input <<@
+&PROP
+itype ssb                    # turn on Breit
+wavef                        # since this not part of the MRCI run, we need to specify wavefunction file
+@
+runmpec < input >> $output
+grep '>' $output > $output.precis # make summary file
+

@@ -1,0 +1,15 @@
+      thirdthres=1d-5                                                   8d12s22
+      epssym=1d-9                                                       9d19s23
+      maxps=1000                                                        4d15s19
+      npdiag(1)=500                                                     10d5s22
+      pthrs=2.5d0                                                       3d29s19
+      econv=1d-8
+      vconv=1d-5                                                        12d8s22
+      gconv=1d-5
+      oconv=1d-5
+      maxit=100
+      dynw(1)=0d0                                                       9d20s21
+      dynw(2)=0d0                                                       9d20s21
+      dynw(3)=2.5d0                                                     9d20s21
+      sneglect=1d-60                                                    4d17s23
+      drangcut=0d0                                                      9d1s23

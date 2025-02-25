@@ -1,0 +1,1799 @@
+ >rs:    1.5000000000000000        3.2400000000000002        2.0000000000000000        2.0000000000000000     
+ >thetas:    1.5707963267948966       0.94247779607693793       0.94247779607693793     
+ >phis:    1.5707963267948966        4.7123889803846897     
+ >energy from densities   -40.277387719203688       -79.537300285354291        25.904324434327883     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.4251823130761796E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.8614769733686494E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.4778970493108636E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.2856374062739651E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.9225964303242193E-003
+ >rs    1.5000000000000000        3.0400000000000000        2.0000000000000000        1.9999999999999996     
+ >theta    1.5707963267948966       0.94247779607693793       0.94247779607693816     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.272236291597636       -80.008711251260578        26.126196133645447     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    8.0388013207749243E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.8544179119128774E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.6788978351704786E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -1.6987534196582832E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.9855584483563504E-004
+ >new gradient norm:    4.1275590723948104E-002
+ >rs    1.5000000000000000        3.4400000000000004        2.0000000000000000        1.9999999999999996     
+ >theta    1.5707963267948966       0.94247779607693793       0.94247779607693816     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277399951538563       -79.079077778843924        25.688144734643398     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -2.2497285909631515E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.8682124968537845E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -3.7387977170230902E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.4188480848344582E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    3.1994963218291428E-003
+ >new gradient norm:    3.0263458168867656E-002
+ >rs    1.5000000000000000        3.2806097551295821        2.0000000000000000        1.9999999999999996     
+ >theta    1.5707963267948966       0.94247779607693793       0.94247779607693816     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277775622780368       -79.443151104145969        25.859946394314079     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.4020357873328670E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.8628359469595530E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.0031640354057627E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7814929762326015E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.2167105916801599E-003
+ >new gradient norm:    2.1964847979290391E-002  < best so far
+ >rs    1.5000000000000000        3.2707345081285881        2.0000000000000000        1.9999999999999996     
+ >theta    1.5707963267948966       0.94247779607693793       0.94247779607693816     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277700349873427       -79.465995019384863        25.870715995443806     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.6472950949787624E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.8625063846280394E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.8787358720878874E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.6640492402383744E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.1468663184429637E-003
+ >new gradient norm:    2.1898554930466919E-002  < best so far
+ >rs    1.5000000000000000        3.2675972101640864        2.0000000000000000        1.9999999999999996     
+ >theta    1.5707963267948966       0.94247779607693793       0.94247779607693816     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277673895046220       -79.473259228231484        25.874140398507439     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7256873499833958E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.8624016052303922E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.8387661808869610E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.6263208875478385E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.1244529333523943E-003
+ >new gradient norm:    2.1893951991309078E-002  < best so far
+ >rs    1.5000000000000000        3.2674257867593401        2.0000000000000000        1.9999999999999996     
+ >theta    1.5707963267948966       0.94247779607693793       0.94247779607693816     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277672414091867       -79.473656240318178        25.874327548025015     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7299773757879500E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.8623958704966377E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.8365760515120313E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.6242535488310228E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.1232250267653185E-003
+ >new gradient norm:    2.1893933228265845E-002  < best so far
+ >rs    1.5000000000000000        3.2674257867593401        1.9199982297517932        1.9199982297517930     
+ >theta    1.5707963267948966       0.91185916868924943       0.91185916868924966     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.270836776738115       -79.959548820403100        26.102345371823411     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7224134657726431E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.9875239128441873E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.3709855783850957E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7993725310523123E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    3.5716130473277818E-002
+ >new gradient norm:    5.4324762200174924E-002
+ >rs    1.5000000000000000        3.2674257867593401        2.0817316824581353        2.0817316824581349     
+ >theta    1.5707963267948966       0.97071694841564427       0.97071694841564427     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.278907845093407       -79.002292005045661        25.652622391496315     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7361558237088293E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.2251507694537977E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    7.0939995606685846E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4944130114724841E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -2.2038129675443274E-002
+ >new gradient norm:    1.5561838962368022E-002  < best so far
+ >rs    1.5000000000000000        3.2674257867593401        2.1649973661646702        2.1649973661646698     
+ >theta    1.5707963267948966       0.99680344843382751       0.99680344843382762     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.275538535731748       -78.546423765414914        25.437755929597515     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7423858088609911E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.3640573869277564E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    2.4714004013710711E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4056650631507628E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.8770654645276625E-002
+ >new gradient norm:    3.3143436993488540E-002
+ >rs    1.5000000000000000        3.2674257867593401        2.0623627483376330        2.0623627483376326     
+ >theta    1.5707963267948966       0.96427646288549029       0.96427646288549040     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279066799475018       -79.111796734068406        25.704169873068544     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7347600675777564E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.1756998246701400E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.8810532383853884E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.5211051746747861E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.7092104985187762E-002
+ >new gradient norm:    1.2879254859164246E-002  < best so far
+ >rs    1.5000000000000000        3.2674257867593401        2.0518361600217911        2.0518361600217907     
+ >theta    1.5707963267948966       0.96071288017501888       0.96071288017501899     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279041860670574       -79.171875255513029        25.732440041031442     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7339917479836764E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    5.0908864495946560E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.1529587295504296E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.5366389564670513E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4213430835176455E-002
+ >new gradient norm:    1.2377937802734518E-002  < best so far
+ >rs    1.5000000000000000        3.2674257867593401        2.0505980926649952        2.0505980926649947     
+ >theta    1.5707963267948966       0.96029076423060133       0.96029076423060145     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279033604084482       -79.178967690731994        25.735776918936352     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7339004589786988E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    5.8395904884092076E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.5194396565998969E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.5385145272445833E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.3865705615890400E-002
+ >new gradient norm:    1.2377488286302829E-002  < best so far
+ >rs    1.5000000000000000        3.2674257867593401        2.0511665086896520        2.0511665086896516     
+ >theta    1.5707963267948966       0.96048464298544067       0.96048464298544078     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279037535569245       -79.175710754121155        25.734244596607848     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7339423208976079E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    5.4955415400854690E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.3509272077002477E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.5376521778510233E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4025594570865607E-002
+ >new gradient norm:    1.2376076142546816E-002  < best so far
+ >rs    1.5000000000000000        3.2674257867593401        2.0511743867509820        2.0511743867509815     
+ >theta    1.5707963267948966       0.96048732914233015       0.96048732914233026     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279037588378209       -79.175665622225154        25.734223362779474     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7339428098595455E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    5.4907771121679438E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.3485950978144590E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.5376403048926068E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4027807951171312E-002
+ >new gradient norm:    1.2376075916522861E-002  < best so far
+ >rs    1.4431844682314356        3.2674257867593401        2.0578167756941395        2.0578167756941390     
+ >theta    1.5707963267948966       0.95588708760055607       0.95588708760055607     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279202722579313       -79.348290330607995        25.815139158404882     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.2739915158167321E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.9418482639279588E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.9328741454666037E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -3.5580091241376177E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.5770732330574022E-002
+ >new gradient norm:    1.8496748323072892E-002
+ >rs    1.5568155317685641        3.2674257867593401        2.0445756867210121        2.0445756867210116     
+ >theta    1.5707963267948966       0.96511736299837991       0.96511736299838002     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277770997349769       -79.002285108327186        25.652696723732490     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    4.0400870158201485E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.1445638011813379E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.1057789602473578E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.3243629705843603E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.2185840103417167E-002
+ >new gradient norm:    1.8957897922484004E-002
+ >rs    1.4989686883983355        3.2674257867593401        2.0512945708934014        2.0512945708934009     
+ >theta    1.5707963267948966       0.96040356066824251       0.96040356066824273     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279050586753669       -79.178807559690469        25.735698400785267     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7599827374329191E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    5.4254182042097199E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -9.8149762583357725E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.5041850693760850E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4060353067984810E-002
+ >new gradient norm:    1.2362064751295051E-002  < best so far
+ >rs    1.4963607648910200        3.2674257867593401        2.0515985500874732        2.0515985500874727     
+ >theta    1.5707963267948966       0.96019177539665757       0.96019177539665768     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279081833743604       -79.186751589433499        25.739427489537100     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.8261404494229083E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    5.2602970569397556E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.1781114222063107E-005
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4194287254917448E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4142506140752076E-002
+ >new gradient norm:    1.2350227294501194E-002  < best so far
+ >rs    1.4966108116578174        3.2674257867593401        2.0515694006838676        2.0515694006838672     
+ >theta    1.5707963267948966       0.96021207857189195       0.96021207857189206     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279078938700614       -79.185989997135493        25.739070009935308     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.8197779544326664E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    5.2761187271075372E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.4101008759695444E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4275649108500321E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4134639020963791E-002
+ >new gradient norm:    1.2349888021623769E-002  < best so far
+ >rs    1.4921558757663973        3.2674257867593401        2.0215899425083776        2.0215899425083772     
+ >theta    1.5707963267948966       0.98173634894085759       0.98173634894085771     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279328677191131       -79.375605536075966        25.828115145514140     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.6477004392168038E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.9453432839821261E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.7185185877369780E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3457270101810082E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    3.7279157755132353E-003
+ >new gradient norm:    1.5101349683091923E-002
+ >rs    1.5010657475492371        3.2674257867593401        2.0824717203407714        2.0824717203407710     
+ >theta    1.5707963267948966       0.93931717063395093       0.93931717063395093     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277830961217560       -78.995233304217606        25.649319944766699     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.9944870567131456E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -7.0498451970788523E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.6141642311078910E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4998854211196067E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.1140496522319427E-002
+ >new gradient norm:    1.9507675141064440E-002
+ >rs    1.4956203280265141        3.2674257867593401        2.0448227169775914        2.0448227169775910     
+ >theta    1.5707963267948966       0.96494293507104800       0.96494293507104834     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279222469697231       -79.228266379403792        25.758937954091216     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7812794573948576E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    8.2647002855718021E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -3.8693226353738591E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4102143575906556E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.0232820940599741E-002
+ >new gradient norm:    1.1867212451443667E-002  < best so far
+ >rs    1.4953515998826501        3.2674257867593401        2.0430001997679770        2.0430001997679765     
+ >theta    1.5707963267948966       0.96623184309841403       0.96623184309841403     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279252826688889       -79.239725882824729        25.764321954599410     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7708573331831179E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.0914671157511506E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -4.8871751298517063E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4054250150888237E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.1670750210917085E-003
+ >new gradient norm:    1.1846434368716467E-002  < best so far
+ >rs    1.4953637420830075        3.2674257867593401        2.0430824750285335        2.0430824750285330     
+ >theta    1.5707963267948966       0.96617355554671402       0.96617355554671402     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279251534424581       -79.239208197568175        25.764078744348051     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7713280085559724E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.0539630889319156E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -4.8411267470578334E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4056422142233460E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.2152953952233663E-003
+ >new gradient norm:    1.1846313518122025E-002  < best so far
+ >rs    1.4953637420830075        3.0674257867593400        2.0430824750285335        2.0430824750285330     
+ >theta    1.5707963267948966       0.96617355554671402       0.96617355554671402     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.274811730819870       -79.709081208205575        25.985187345015948     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    7.2691775222669008E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    8.9775336455319987E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    2.5546104856367824E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -1.4699158074788610E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.0846946781625455E-002
+ >new gradient norm:    3.5639908168521625E-002
+ >rs    1.4953637420830075        3.4674257867593399        2.0430824750285335        2.0430824750285330     
+ >theta    1.5707963267948966       0.96617355554671402       0.96617355554671402     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.278666342317074       -78.782783119928666        25.548803237854418     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -2.7917718937095160E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.1129854682137079E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.6485668571776422E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.4514666806674699E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.0289982349539546E-003
+ >new gradient norm:    2.3747265998094041E-002
+ >rs    1.4953637420830075        3.3007435989366192        2.0430824750285335        2.0430824750285330     
+ >theta    1.5707963267948966       0.96617355554671402       0.96617355554671402     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279477688523784       -79.162207411781012        25.727793828915601     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.4809550827781308E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.0646699990468704E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -9.0019976607974422E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7989862405454637E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.9878647447061422E-003
+ >new gradient norm:    1.1467428442284707E-002  < best so far
+ >rs    1.4953637420830075        3.2974564131503712        2.0430824750285335        2.0430824750285330     
+ >theta    1.5707963267948966       0.96617355554671402       0.96617355554671402     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279461447995779       -79.169787632191145        25.731366443061855     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.0281689355181367E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.0636340609657751E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -8.6019909978717682E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7611750392350967E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.0097593945388521E-003
+ >new gradient norm:    1.1429841326501180E-002  < best so far
+ >rs    1.4953637420830075        3.2915717457218960        2.0430824750285335        2.0430824750285330     
+ >theta    1.5707963267948966       0.96617355554671402       0.96617355554671402     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279429079738115       -79.183366835364865        25.737766094525643     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.1721408521352394E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.0617686544778309E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -7.8802096050129000E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.6929460851726974E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.0492512467725827E-003
+ >new gradient norm:    1.1402634477593486E-002  < best so far
+ >rs    1.4953637420830075        3.2914955428829904        2.0430824750285335        2.0430824750285330     
+ >theta    1.5707963267948966       0.96617355554671402       0.96617355554671402     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279428632779712       -79.183542755866000        25.737849000519663     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.1740104329078793E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    9.0617442561500283E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -7.8708150556030948E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.6920580446129652E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.0497653905823316E-003
+ >new gradient norm:    1.1402625000582612E-002  < best so far
+ >rs    1.4949001162913083        3.2942381215589247        2.0474523525445849        2.0474523525445849     
+ >theta    1.5707963267948966       0.96848799897401128       0.96848799897401139     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279511137570275       -79.153755630209901        25.723833965258137     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.1107970737550321E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    6.2451748950036468E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -6.9948706739210442E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7032220241817830E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.0037349567949105E-002
+ >new gradient norm:    1.0974172878493721E-002  < best so far
+ >rs    1.4944364904996090        3.2969807002348586        2.0518331507929348        2.0518331507929344     
+ >theta    1.5707963267948966       0.97079257172545408       0.97079257172545430     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279576679863524       -79.123971728698379        25.709820225272878     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.0477274425777505E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.4542335352587550E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -6.1417130182356561E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7144448262736756E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.1002735244558526E-002
+ >new gradient norm:    1.0718376151292980E-002  < best so far
+ >rs    1.4939728647079098        3.2997232789107924        2.0562247999735428        2.0562247999735423     
+ >theta    1.5707963267948966       0.97308731248825919       0.97308731248825919     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279625389138388       -79.094191763600548        25.695808128871438     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.8480121028168277E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    6.8896239652183056E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.3111024318132916E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7257264148659912E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.1946161716877235E-002
+ >new gradient norm:    1.0641332306291980E-002  < best so far
+ >rs    1.4933237885995310        3.3035628890571003        2.0623912063788516        2.0623912063788516     
+ >theta    1.5707963267948966       0.97628350565233202       0.97628350565233224     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279665550444037       -79.052507743791551        25.676194587145766     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    8.9694514338778397E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.1392256733915325E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -4.1856704293314756E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7416193089174969E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.3230522659885668E-002
+ >new gradient norm:    1.0827706547273323E-002
+ >rs    1.4940007295498390        3.2995584444200214        2.0559605478168339        2.0559605478168330     
+ >theta    1.5707963267948966       0.97294967095177276       0.97294967095177265     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279622934686515       -79.095981477989412        25.696650234023956     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.8857919434620634E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    8.5443429823062189E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.3603903843430500E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7250466818000909E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.1890076433713759E-002
+ >new gradient norm:    1.0640913949755212E-002  < best so far
+ >rs    1.4371851977812751        3.2995584444200214        2.0624847795824723        2.0624847795824715     
+ >theta    1.5707963267948966       0.96832019384951429       0.96832019384951429     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279939898649630       -79.266236282336848        25.776523829640073     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.4582286329967395E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.5933698688600515E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.4707657554973941E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -1.1768018863196339E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.3530855668705044E-002
+ >new gradient norm:    1.4225318815735329E-002
+ >rs    1.5508162613184031        3.2995584444200214        2.0494806595041632        2.0494806595041624     
+ >theta    1.5707963267948966       0.97760852267147413       0.97760852267147391     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.278234305840044       -78.924848089616631        25.616114810168920     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -2.7932417648814933E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.4058672562403700E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.4498543725835722E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.4652958216083718E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.0154414490313624E-002
+ >new gradient norm:    1.9653662036832269E-002
+ >rs    1.4817593045279234        3.2995584444200214        2.0573625196853036        2.0573625196853027     
+ >theta    1.5707963267948966       0.97194972784461153       0.97194972784461153     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279783808063705       -79.132758204792765        25.713924865978974     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.2877267275936966E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.0275465829501229E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.1107258331868874E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3362627329608134E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.2251901496489470E-002
+ >new gradient norm:    9.9572805757586064E-003  < best so far
+ >rs    1.4774150812041451        3.2995584444200214        2.0578605440013020        2.0578605440013016     
+ >theta    1.5707963267948966       0.97159519683281104       0.97159519683281093     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279828821678819       -79.145798638250085        25.720047381992291     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.3961656295772951E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.6284084602880000E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    4.0755570220425696E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.1971675091311695E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.2379230793576390E-002
+ >new gradient norm:    9.9165198012749808E-003  < best so far
+ >rs    1.4777920262285082        3.2995584444200214        2.0578173205563122        2.0578173205563113     
+ >theta    1.5707963267948966       0.97162595242534922       0.97162595242534922     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279825167809115       -79.144667363466212        25.719516301505479     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.3867089819112444E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.3981970423504464E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    2.7560827410692823E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.2092597231328162E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.2368205505483232E-002
+ >new gradient norm:    9.9155948358812234E-003  < best so far
+ >rs    1.4733370903370888        3.2995584444200214        2.0283423168410866        2.0283423168410857     
+ >theta    1.5707963267948966       0.99324853096934962       0.99324853096934962     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279991695065206       -79.330617352660042        25.806888156156045     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.2210275857446273E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.3691060050533554E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.6344946304897578E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.1201395609484077E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    5.1435506953598775E-003
+ >new gradient norm:    1.2293255133512381E-002
+ >rs    1.4822469621199283        3.2995584444200214        2.0882270100015958        2.0882270100015949     
+ >theta    1.5707963267948966       0.95062354338859323       0.95062354338859323     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.278678882517326       -78.957335849947000        25.631333194081623     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.5553062355814440E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.2184805319847669E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.6201806655134807E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.2888015349602933E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -2.9089822004792154E-002
+ >new gradient norm:    1.8249298354396540E-002
+ >rs    1.4765534448876543        3.2995584444200214        2.0495269912893419        2.0495269912893415     
+ >theta    1.5707963267948966       0.97757499239378332       0.97757499239378354     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279971701988863       -79.196528787870363        25.743900496157252     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.3403367701663171E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.5225685666109285E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -4.2814272161295214E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.1854692999769156E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -7.5732657836995454E-003
+ >new gradient norm:    9.0363430081953789E-003  < best so far
+ >rs    1.4762547370332608        3.2995584444200214        2.0475385284987846        2.0475385284987837     
+ >theta    1.5707963267948966       0.97901691290764403       0.97901691290764403     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279995593489474       -79.209018870633230        25.749771213659230     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.3291878265023538E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.4267075438719772E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.3881771773671150E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.1796195617417515E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.4080184400747697E-003
+ >new gradient norm:    9.0057220938534015E-003  < best so far
+ >rs    1.4762699837259377        3.2995584444200214        2.0476399207297722        2.0476399207297717     
+ >theta    1.5707963267948966       0.97894324637503105       0.97894324637503094     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279994482298051       -79.208381510989369        25.749471648197702     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.3297566040639808E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.3803611267470011E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.3316153970338065E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.1799192290205651E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.4675768932169753E-003
+ >new gradient norm:    9.0054365637508536E-003  < best so far
+ >rs    1.4762699837259377        3.0995584444200213        2.0476399207297722        2.0476399207297717     
+ >theta    1.5707963267948966       0.97894324637503105       0.97894324637503094     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.276006585975203       -79.681774356200009        25.972229702574761     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    6.8108873885629695E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.2953340722275968E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    2.4610888850228108E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -1.6599970222351157E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.0109186279044842E-003
+ >new gradient norm:    3.3474462730280777E-002
+ >rs    1.4762699837259377        3.4995584444200212        2.0476399207297722        2.0476399207297717     
+ >theta    1.5707963267948966       0.97894324637503105       0.97894324637503094     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.278984306540295       -78.749087214639218        25.532852138076688     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -3.1978005491807515E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.4419524181411596E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.6565682236759841E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.1940269311915737E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -5.3745870751893410E-003
+ >new gradient norm:    2.3652172158895250E-002
+ >rs    1.4762699837259377        3.3246692696449807        2.0476399207297722        2.0476399207297717     
+ >theta    1.5707963267948966       0.97894324637503105       0.97894324637503094     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280122408749975       -79.149918938686085        25.721925023306795     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    7.1053256902322559E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.3890898479199691E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -8.4354603734761030E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4741947199646610E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.3064868262161511E-003
+ >new gradient norm:    8.9219228633325518E-003  < best so far
+ >rs    1.4762699837259377        3.3159125193158214        2.0476399207297722        2.0476399207297717     
+ >theta    1.5707963267948966       0.97894324637503105       0.97894324637503094     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280086615567129       -79.170280809706028        25.731520094073939     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.2476883618464178E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.3860870414365039E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -7.3683787865308631E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3730240809647576E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.3618620231575829E-003
+ >new gradient norm:    8.8095778174358784E-003  < best so far
+ >rs    1.4762699837259377        3.3137972154712343        2.0476399207297722        2.0476399207297717     
+ >theta    1.5707963267948966       0.97894324637503105       0.97894324637503094     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280076559707773       -79.175203572737843        25.733839694720139     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.7679303595032962E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.3853552520705108E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -7.1081676425640006E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3483534646203665E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.3753670036781340E-003
+ >new gradient norm:    8.8047812285908054E-003  < best so far
+ >rs    1.4762699837259377        3.3137214779249238        2.0476399207297722        2.0476399207297717     
+ >theta    1.5707963267948966       0.97894324637503105       0.97894324637503094     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280076189455343       -79.175379857049620        25.733922757301912     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.7865771826035619E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.3853285760455663E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -7.0988325029859300E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3474684489727551E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.3758519867791463E-003
+ >new gradient norm:    8.8047740826373028E-003  < best so far
+ >rs    1.4758063579342382        3.3164640566008581        2.0520698114483973        2.0520698114483968     
+ >theta    1.5707963267948966       0.98122513544576428       0.98122513544576428     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280121715276401       -79.145197885358925        25.719726142148499     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.1536756077466030E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.5800770983904755E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -6.2440171014921386E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3592059679002677E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -7.3480425775518388E-003
+ >new gradient norm:    8.5324320843652140E-003  < best so far
+ >rs    1.4753427321425390        3.3192066352767919        2.0565103412651156        2.0565103412651151     
+ >theta    1.5707963267948966       0.98349718194475300       0.98349718194475300     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280150329319873       -79.115022814869519        25.705532555793457     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    8.5222196821841401E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.1986348608497011E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.4120784098204144E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3710047739401432E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.2979693296292290E-003
+ >new gradient norm:    8.4873700351431464E-003  < best so far
+ >rs    1.4748791063508397        3.3219492139527258        2.0609614414111990        2.0609614414111990     
+ >theta    1.5707963267948966       0.98575942611029688       0.98575942611029688     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280162166657789       -79.084855284197459        25.691342280521198     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    7.8922102622964729E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.9507821117834574E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -4.6027666228513342E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3828646385164900E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.2258797623738786E-003
+ >new gradient norm:    8.6652113758319167E-003
+ >rs    1.4754808186565038        3.3183897844125503        2.0551866634736533        2.0551866634736529     
+ >theta    1.5707963267948966       0.98282150140513402       0.98282150140513425     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280143567289244       -79.124009403360063        25.709759638001604     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    8.7101420783417538E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.7379782698421238E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.6574861021875533E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3674841626783563E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.0173555246392247E-003
+ >new gradient norm:    8.4769420425396171E-003  < best so far
+ >rs    1.4754829456664622        3.3183772020837412        2.0551662815995591        2.0551662815995591     
+ >theta    1.5707963267948966       0.98281108678181106       0.98281108678181117     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280143451473116       -79.124147832213822        25.709824751110919     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    8.7130376666264553E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.6107443248578619E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.6612823179062743E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.3674300206276024E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.0130178884219028E-003
+ >new gradient norm:    8.4769388274354620E-003  < best so far
+ >rs    1.4186674138978983        3.3183772020837412        2.0615963453700124        2.0615963453700119     
+ >theta    1.5707963267948966       0.97814873777062628       0.97814873777062628     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280300936572090       -79.292849184965235        25.788985542852419     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.3495596921065065E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.7891069108582087E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.4282325553765435E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -4.7004430484991477E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.5818825053073375E-003
+ >new gradient norm:    1.3298810971515578E-002
+ >rs    1.5322984774350266        3.3183772020837412        2.0487811718524056        2.0487811718524052     
+ >theta    1.5707963267948966       0.98750259910697147       0.98750259910697147     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.278916739727009       -78.954355343554198        25.629906038699005     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -4.0693563011258149E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    3.1710744197712692E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.4724865984217997E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.1075949214555587E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.3510832304003451E-003
+ >new gradient norm:    1.8132761783048332E-002
+ >rs    1.4659978900685535        3.3183772020837412        2.0562366324824470        2.0562366324824466     
+ >theta    1.5707963267948966       0.98203070593828334       0.98203070593828334     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280245598322274       -79.152403143092286        25.723100280803042     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.1038489185399847E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.4066290020267118E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.3893271671014404E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.0670956360258721E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.2816291932017450E-003
+ >new gradient norm:    7.8853873238502823E-003  < best so far
+ >rs    1.4607161943788007        3.3183772020837412        2.0568331932346249        2.0568331932346244     
+ >theta    1.5707963267948966       0.98159650779944052       0.98159650779944074     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280289458308815       -79.168122792444208        25.730483056174645     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.2357794430889690E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.2621401121899467E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.5692717758448751E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    8.9869911967388472E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.4300640192060960E-003
+ >new gradient norm:    7.8287960616972799E-003  < best so far
+ >rs    1.4615561895934870        3.3183772020837412        2.0567382909277940        2.0567382909277936     
+ >theta    1.5707963267948966       0.98166554536034711       0.98166554536034711     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280283108286113       -79.165623476039713        25.729309396112953     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.2146800594331708E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.2110753656742190E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -8.4884220354231044E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    9.2553554961489759E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.4065132926465225E-003
+ >new gradient norm:    7.8238490834863662E-003  < best so far
+ >rs    1.4619239131188424        3.3183772020837412        2.0566967487634162        2.0566967487634162     
+ >theta    1.5707963267948966       0.98169576984140849       0.98169576984140861     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280280253911549       -79.164529269490146        25.728795548304298     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.2054573031014204E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.1887128655665435E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -9.7657515184720878E-004
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    9.3727720315244234E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.3961968797225950E-003
+ >new gradient norm:    7.8233553653405483E-003  < best so far
+ >rs    1.4600145372831359        3.3215904678498092        2.0571779826929575        2.0571779826929570     
+ >theta    1.5707963267948966       0.98296331829421524       0.98296331829421535     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280328557963983       -79.161108500183786        25.727179160084056     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.1611230895071323E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.6518038149850867E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.0334030320784116E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    9.1514939493559933E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.1180909173172999E-003
+ >new gradient norm:    7.5930270935312214E-003  < best so far
+ >rs    1.4581051614474283        3.3248037336158776        2.0576625202982166        2.0576625202982166     
+ >theta    1.5707963267948966       0.98423027181813638       0.98423027181813649     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280374365918135       -79.157653148502845        25.725546870065010     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.1168002304744906E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.1149246947178568E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.0900432553899581E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    8.9303018104771592E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -7.8402585551518023E-003
+ >new gradient norm:    7.3702825031280684E-003  < best so far
+ >rs    1.4561957856117218        3.3280169993819455        2.0581503592459041        2.0581503592459041     
+ >theta    1.5707963267948966       0.98549662676744243       0.98549662676744265     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280417678597857       -79.154163224888919        25.723898675762886     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.0724893995872620E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.5780745353709555E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.1465038790282600E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    8.7091954656095538E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -7.5626915866260358E-003
+ >new gradient norm:    7.1558183371278755E-003  < best so far
+ >rs    1.4535226594417319        3.3325155714544410        2.0588388755567184        2.0588388755567180     
+ >theta    1.5707963267948966       0.98726851117295367       0.98726851117295367     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280474125878882       -79.149219310795758        25.721564519257186     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.0104749859939144E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.2265224944159066E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.2252437793692228E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    8.3997896260437077E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -7.1745458467287193E-003
+ >new gradient norm:    6.8709273511862829E-003  < best so far
+ >rs    1.4497802828037460        3.3388135723559347        2.0598136489633183        2.0598136489633179     
+ >theta    1.5707963267948966       0.98974714747815296       0.98974714747815307     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280544942817741       -79.142184220634476        25.718244444771578     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    9.2369715829128118E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -4.1343999913494578E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.3348898808354936E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    7.9669002789686250E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.6320103981811762E-003
+ >new gradient norm:    6.5061801432573290E-003  < best so far
+ >rs    1.4445409555105662        3.3476307736180257        2.0611995674607968        2.0611995674607964     
+ >theta    1.5707963267948966       0.99321326740156390       0.99321326740156390     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280628007816880       -79.132112856209091        25.713494175542458     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    8.0229542676812926E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.4054709589981265E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.4872470085869616E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    7.3613997286652300E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -5.8741527201202626E-003
+ >new gradient norm:    6.0744496257507516E-003  < best so far
+ >rs    1.4372058973001138        3.3599748553849529        2.0631813880450913        2.0631813880450909     
+ >theta    1.5707963267948966       0.99805792367934887       0.99805792367934887     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280712816897591       -79.117578355029380        25.706644029277143     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    6.3251728365996129E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -7.1848750789715865E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.6983371779476786E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    6.5147541100620820E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -4.8164169321565087E-003
+ >new gradient norm:    5.6595845017495513E-003  < best so far
+ >rs    1.4269368158054812        3.3772565698586514        2.0660371006385438        2.0660371006385434     
+ >theta    1.5707963267948966        1.0048245866734555        1.0048245866734555     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280769937888770       -79.096381375161826        25.696663885516411     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.9522380596181961E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.6753741884723077E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.9896326705204082E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.3314988257642248E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.3418661552913065E-003
+ >new gradient norm:    5.5278321005518922E-003  < best so far
+ >rs    1.4125601017129950        3.4014509701218287        2.0701934919762315        2.0701934919762310     
+ >theta    1.5707963267948966        1.0142658952761920        1.0142658952761923     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280729419111346       -79.065051193598507        25.681931956728530     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    6.3886837919824302E-004
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.3159395409275909E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.3894416852193456E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.6789134474746188E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.2894717622877749E-003
+ >new gradient norm:    6.2367365423019478E-003
+ >rs    1.4295270233473321        3.3728975405541046        2.0653078819098658        2.0653078819098654     
+ >theta    1.5707963267948966        1.0031195763387306        1.0031195763387306     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280762301855418       -79.101821112370118        25.699224001090229     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    4.5503101425778958E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.0472948694286792E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.9166159654321197E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.6297313401441063E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.7131153747755885E-003
+ >new gradient norm:    5.5084187269230480E-003  < best so far
+ >rs    1.4296477302209203        3.3726944043996725        2.0652740458853365        2.0652740458853365     
+ >theta    1.5707963267948966        1.0030400914313669        1.0030400914313669     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280761834656857       -79.102073078729319        25.699342601046940     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    4.5781887244737973E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.0180237251211715E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.9132061003016981E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.6436337190439723E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.7304276187881680E-003
+ >new gradient norm:    5.5083865743015279E-003  < best so far
+ >rs    1.4296477302209203        3.1726944043996723        2.0652740458853365        2.0652740458853365     
+ >theta    1.5707963267948966        1.0030400914313669        1.0030400914313669     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277652057524399       -79.584098781057264        25.926031627425814     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    5.9368282820342788E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.1096623860451587E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    2.7247790499007829E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -2.2179994124396973E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -5.0677963746563748E-003
+ >new gradient norm:    3.1201460672074379E-002
+ >rs    1.4296477302209203        3.5726944043996722        2.0652740458853365        2.0652740458853365     
+ >theta    1.5707963267948966        1.0030400914313669        1.0030400914313669     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.278902292638342       -78.635727749470988        25.479527840659820     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -4.0182479869042442E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -8.9644387481926380E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.2403139805214092E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.5255383630897077E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -2.8522438257301275E-003
+ >new gradient norm:    2.3844761356798128E-002
+ >rs    1.4296477302209203        3.3894029926340643        2.0652740458853365        2.0652740458853365     
+ >theta    1.5707963267948966        1.0030400914313669        1.0030400914313669     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280782867045090       -79.062501242753569        25.680709161554638     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    4.6856170861264701E-004
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.0123468135190343E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -3.9287365120048712E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    7.5688201523860243E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.6400836404248960E-003
+ >new gradient norm:    5.7864352264781925E-003
+ >rs    1.4296477302209203        3.3686224366882001        2.0652740458853365        2.0652740458853365     
+ >theta    1.5707963267948966        1.0030400914313669        1.0030400914313669     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280751483889290       -79.111733577955562        25.703890968217642     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    5.5903347637982215E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.0194478771263853E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.4129156434720402E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.1658444912558998E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.7529288478357348E-003
+ >new gradient norm:    5.5743885339982384E-003
+ >rs    1.4296477302209203        3.3757852079937689        2.0652740458853365        2.0652740458853365     
+ >theta    1.5707963267948966        1.0030400914313669        1.0030400914313669     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280768318001499       -79.094744682363796        25.695892098184139     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.8127070663369622E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.0169539013369437E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.2905559480112248E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    6.0040305792352644E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.7134746312743605E-003
+ >new gradient norm:    5.4941262529543556E-003  < best so far
+ >rs    1.4296477302209203        3.3757178124368288        2.0652740458853365        2.0652740458853365     
+ >theta    1.5707963267948966        1.0030400914313669        1.0030400914313669     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280768189241002       -79.094904437110245        25.695967317206453     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.8293736951136026E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -9.0169779893707336E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.2823496888433881E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.9961930778680284E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -3.7138433890837597E-003
+ >new gradient norm:    5.4941073743694051E-003  < best so far
+ >rs    1.4291841044292211        3.3784603911127626        2.0698151896119383        2.0698151896119383     
+ >theta    1.5707963267948966        1.0052502542513737        1.0052502542513739     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280715647539495       -79.064101912334593        25.681482935200204     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.1960719783779012E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.1732530900158800E-002
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.5139614927532075E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    6.1253058203314392E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -4.6113443276158961E-003
+ >new gradient norm:    6.4644118791443743E-003
+ >rs    1.4301113560126195        3.3729752337608949        2.0607430350841267        2.0607430350841263     
+ >theta    1.5707963267948966        1.0008201986396177        1.0008201986396177     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280804131652964       -79.125720366873139        25.710457755177892     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    4.4641528860656088E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -6.2736103703922019E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -3.0733069533604995E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.8677362885271034E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -2.7944293352288874E-003
+ >new gradient norm:    4.7110769078952648E-003  < best so far
+ >rs    1.4305749818043187        3.3702326550849606        2.0562222241938626        2.0562222241938621     
+ >theta    1.5707963267948966       0.99859053350579663       0.99859053350579674     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280823331529767       -79.156549052016402        25.724953941486795     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    5.1004123334679186E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.5024167243475901E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -3.8871026066307213E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.7399368736330558E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.8528342670416365E-003
+ >new gradient norm:    4.2372294177038103E-003  < best so far
+ >rs    1.4312240579126976        3.3663930449386532        2.0499103532579261        2.0499103532579257     
+ >theta    1.5707963267948966       0.99545250414254294       0.99545250414254294     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280821811883882       -79.199729399198532        25.745257677259808     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    5.9936647730465253E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    4.2401681456816220E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -5.0653023855862650E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.5621241102374874E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -4.9682172467679919E-004
+ >new gradient norm:    4.3114997940836616E-003
+ >rs    1.4308435041192793        3.3686442111540842        2.0536085565850173        2.0536085565850168     
+ >theta    1.5707963267948966       0.99729467264030280       0.99729467264030280     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280826738905773       -79.174409957834655        25.733352338550340     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    5.4695971909723973E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.8846716304494748E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -4.3689880886609439E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.6662197876491405E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.2972316990453869E-003
+ >new gradient norm:    4.1556081207912345E-003  < best so far
+ >rs    1.4308474812878884        3.3686206842105575        2.0535698706809695        2.0535698706809691     
+ >theta    1.5707963267948966       0.99727545445226717       0.99727545445226751     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280826746665213       -79.174674555511274        25.733476767575727     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    5.4750678312927015E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.8606427309522111E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -4.3761811488969571E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.6651298086738411E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.2889486598353095E-003
+ >new gradient norm:    4.1555843144924567E-003  < best so far
+ >rs    1.3740319495193243        3.3686206842105575        2.0598606884256245        2.0598606884256245     
+ >theta    1.5707963267948966       0.99256467143284044       0.99256467143284066     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280605994820171       -79.338481031035769        25.810372760840703     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.0381360112898594E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.2532447930908610E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.5192394643650055E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -1.2466238464013291E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -2.7261561796882994E-003
+ >new gradient norm:    1.2935565738489323E-002
+ >rs    1.4876630130564530        3.3686206842105575        2.0473249041489257        2.0473249041489252     
+ >theta    1.5707963267948966        1.0020150818434095        1.0020150818434095     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279990056932448       -79.009247403074795        25.655585083199345     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -7.4907820570673245E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.6381067913719960E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.3201612347826153E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.2961620905219693E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.3999144254460703E-004
+ >new gradient norm:    1.4996023844424470E-002
+ >rs    1.4278642113761357        3.3686206842105575        2.0538990520297786        2.0538990520297782     
+ >theta    1.5707963267948966       0.99702738360717391       0.99702738360717402     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280841876436156       -79.183321182864347        25.737541586634798     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    6.2086223449822064E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.0414436272804259E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -3.3658448734272817E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    4.7326091116566271E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.3667642382826362E-003
+ >new gradient norm:    3.9574999356850674E-003  < best so far
+ >rs    1.4212665796953743        3.3686206842105575        2.0546274995850413        2.0546274995850409     
+ >theta    1.5707963267948966       0.99647904648324725       0.99647904648324737     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280864941874533       -79.202427375039491        25.746521237392770     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    7.8499935125670994E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.4402578278164277E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.1242413908417459E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.6622014920416603E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.5379601012412980E-003
+ >new gradient norm:    3.9571154437465098E-003  < best so far
+ >rs    1.4245571458423139        3.3686206842105575        2.0542641094525438        2.0542641094525433     
+ >theta    1.5707963267948966       0.99675248079307599       0.99675248079307610     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280855230434241       -79.192901007581810        25.742044369222604     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    7.0280677640677247E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.2415285716248512E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.2434690952790604E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.6962017032970973E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4527326080848724E-003
+ >new gradient norm:    3.8787544257727932E-003  < best so far
+ >rs    1.4245613588864035        3.3686206842105575        2.0542636442880187        2.0542636442880182     
+ >theta    1.5707963267948966       0.99675283094401657       0.99675283094401657     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280855215711981       -79.192888809662350        25.742038637808118     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    7.0270191295107587E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.2412744001045759E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.2448999316339313E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.6975238325773763E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.4526239010033137E-003
+ >new gradient norm:    3.8787545211412403E-003
+ >rs    1.4198991335359019        3.3759342802085226        2.0560613943392747        2.0560613943392743     
+ >theta    1.5707963267948966       0.99915794232470267       0.99915794232470279     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280885789598557       -79.181489794458088        25.736671650549631     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    6.1468112307885292E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.5834532328977708E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.9116673009287044E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.0964992053692519E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -1.1848319045002498E-003
+ >new gradient norm:    3.6130605093058600E-003  < best so far
+ >rs    1.4152369081854002        3.3832478762064877        2.0578710169823879        2.0578710169823875     
+ >theta    1.5707963267948966        1.0015588376249180        1.0015588376249180     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280904102608922       -79.169937924892196        25.731234302898635     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    5.2661181158044634E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -4.9222957077041940E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.5823510835451943E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.4974391232739368E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -9.1508803977324860E-004
+ >new gradient norm:    3.5082593487448751E-003  < best so far
+ >rs    1.4105746828348984        3.3905614722044528        2.0596924809239820        2.0596924809239816     
+ >theta    1.5707963267948966        1.0039555003149236        1.0039555003149239     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280910168628886       -79.158233651408040        25.725726817872516     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    4.3849648297134003E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -6.2577186037273691E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.2569603784686745E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.9003423088923554E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -6.4338193048785186E-004
+ >new gradient norm:    3.5774893228001058E-003
+ >rs    1.4147604391678297        3.3839953093822959        2.0580566238176057        2.0580566238176052     
+ >theta    1.5707963267948966        1.0018039656533249        1.0018039656533251     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280905284156404       -79.168748758387395        25.730674664087758     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    5.1760862154450749E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.0589301648584772E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.5489163738267309E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.4363270602205667E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.8741068645159515E-004
+ >new gradient norm:    3.5073343760336157E-003  < best so far
+ >rs    1.4147604391678297        3.1839953093822957        2.0580566238176057        2.0580566238176052     
+ >theta    1.5707963267948966        1.0018039656533249        1.0018039656533251     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.277700582228313       -79.654850335796567        25.959216670327375     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    6.0714002077342233E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.1533788292035254E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    2.8004774458516124E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -2.5808748674386539E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -2.1960257841893149E-003
+ >new gradient norm:    3.2149428584220999E-002
+ >rs    1.4147604391678297        3.5839953093822956        2.0580566238176057        2.0580566238176052     
+ >theta    1.5707963267948966        1.0018039656533249        1.0018039656533251     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.279078278847933       -78.698805033574587        25.509221386489891     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -4.0095553234481329E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.0027006730659629E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.2312604831883270E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.2354940278494828E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -4.2335446671870613E-005
+ >new gradient norm:    2.2935901485367071E-002
+ >rs    1.4147604391678297        3.4031619420982384        2.0580566238176057        2.0580566238176052     
+ >theta    1.5707963267948966        1.0018039656533249        1.0018039656533251     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280931973689206       -79.123000016986694        25.709138217430759     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    4.0957895818394263E-004
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.0521919183279529E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -3.8865404886087584E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    4.6735823661945286E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -7.8704187764766509E-004
+ >new gradient norm:    3.5569481897541368E-003
+ >rs    1.4147604391678297        3.3916330568267274        2.0580566238176057        2.0580566238176052     
+ >theta    1.5707963267948966        1.0018039656533249        1.0018039656533251     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280921397882310       -79.150500393930415        25.722084718685817     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.2654027185969881E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.0562040646124906E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.4899792587004532E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.3368859674816065E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.4690670884213226E-004
+ >new gradient norm:    3.2948477992113807E-003  < best so far
+ >rs    1.4147604391678297        3.3930879325021484        2.0580566238176057        2.0580566238176052     
+ >theta    1.5707963267948966        1.0018039656533249        1.0018039656533251     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280923641465954       -79.147027036001816        25.720449640124446     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.9031425220509277E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.0556912126245024E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.6677981389013061E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.5070661584770679E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.3926801963207787E-004
+ >new gradient norm:    3.2896589762279722E-003  < best so far
+ >rs    1.4147604391678297        3.3930435365642651        2.0580566238176057        2.0580566238176052     
+ >theta    1.5707963267948966        1.0018039656533249        1.0018039656533251     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280923576899653       -79.147133015676673        25.720499531312999     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.9141889182295877E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -5.0557074388000167E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.6623796551036860E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.5018802845792063E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -8.3950062952697913E-004
+ >new gradient norm:    3.2896463949877871E-003  < best so far
+ >rs    1.4132717100625203        3.3941736270625271        2.0573350552381116        2.0573350552381111     
+ >theta    1.5707963267948966        1.0016798761018082        1.0016798761018084     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280933876196663       -79.153765733146003        25.723617034576272     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.9721428854738718E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -4.6555663739149544E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.6317738901569382E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    3.1834037831703910E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -5.5162989306323240E-004
+ >new gradient norm:    3.0942695612417768E-003  < best so far
+ >rs    1.4117829809572116        3.3953037175607896        2.0566135183601379        2.0566135183601375     
+ >theta    1.5707963267948966        1.0015556994778745        1.0015556994778745     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280943390177484       -79.160395220901606        25.726733095623207     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.0302613490906793E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -4.2546533787009011E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.6019754658537231E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.8650552417455177E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>   -2.6307977594375309E-004
+ >new gradient norm:    2.9097280989244557E-003  < best so far
+ >rs    1.4102942518519026        3.3964338080590517        2.0558920132170631        2.0558920132170626     
+ >theta    1.5707963267948966        1.0014314356936787        1.0014314356936787     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280952118418767       -79.167021473174344        25.729847713157628     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.0885432083103126E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.8529682789039121E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.5729872233204998E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.5468360862390682E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.6151137008545433E-005
+ >new gradient norm:    2.7383127977404788E-003  < best so far
+ >rs    1.4082100311044699        3.3980159347566192        2.0548819593950336        2.0548819593950332     
+ >theta    1.5707963267948966        1.0012573197990700        1.0012573197990700     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280963017111205       -79.176292770085666        25.734205740445447     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.1704094610418565E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -3.2893084072926904E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.5337717443769114E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    2.1015507167028158E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    4.3222102762996428E-004
+ >new gradient norm:    2.5256435074314239E-003  < best so far
+ >rs    1.4052921220580639        3.4002309121332135        2.0534679888258762        2.0534679888258758     
+ >theta    1.5707963267948966        1.0010132697953154        1.0010132697953154     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280975684411388       -79.189261858857407        25.740302190320904     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.2855462423286852E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.4976293940075500E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.4815674602639906E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.4785951897351435E-003
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.0029722704678612E-003
+ >new gradient norm:    2.2970999486555694E-003  < best so far
+ >rs    1.4012070493930957        3.4033318804604451        2.0514886358419777        2.0514886358419773     
+ >theta    1.5707963267948966        1.0006710346377143        1.0006710346377146     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280988335030493       -79.207397446446507        25.748827781381546     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.4477452866519265E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.3842550995559755E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.4138129638719627E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    6.0735482205398483E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.8064581417540637E-003
+ >new gradient norm:    2.1569317868034405E-003  < best so far
+ >rs    1.3954879476621405        3.4076732361185700        2.0487179462715703        2.0487179462715699     
+ >theta    1.5707963267948966        1.0001907945258430        1.0001907945258430     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280996067044704       -79.232745546673272        25.760744973735896     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.6767492452045580E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    1.8435279991457776E-004
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.3295222559744713E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -6.1055227015693880E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.9400745260828032E-003
+ >new gradient norm:    2.3662610676568985E-003
+ >rs    1.4008776752638812        3.4035819075288161        2.0513290536477995        2.0513290536477990     
+ >theta    1.5707963267948966        1.0006434118873806        1.0006434118873808     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280989096431519       -79.208858613016886        25.749514703292242     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.4608742603681186E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.2942297818301363E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.4086207771533974E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    5.3715337675708241E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.8714674003599274E-003
+ >new gradient norm:    2.1561567384195970E-003  < best so far
+ >rs    1.3440621434953166        3.4035819075288161        2.0575872795174375        2.0575872795174370     
+ >theta    1.5707963267948966       0.99591719088097075       0.99591719088097075     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280513377446965       -79.368730071539204        25.824586495126137     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.8430001592940393E-002
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -4.6932072983048023E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>    1.6894691754564289E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -1.7378057221435261E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    4.8336546683214188E-004
+ >new gradient norm:    1.3779348880904305E-002
+ >rs    1.4576932070324453        3.4035819075288161        2.0451169284858928        2.0451169284858923     
+ >theta    1.5707963267948966        1.0053984518219610        1.0053984518219607     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280417695018400       -79.047006562226343        25.673286616126205     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>   -9.6166890650208892E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>    2.2132657029749758E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.1068954943083612E-002
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    1.7716562969326333E-002
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    3.3523919737028507E-003
+ >new gradient norm:    1.3163550063948535E-002
+ >rs    1.4016506764152927        3.4035819075288161        2.0512442245626619        2.0512442245626614     
+ >theta    1.5707963267948966        1.0007079128757728        1.0007079128757730     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280988253251330       -79.206668461711274        25.748484706918020     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.2704464807609135E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.2472298287682371E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.6671817859801050E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    7.7617015844433368E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.8910116274717392E-003
+ >new gradient norm:    2.1699597322921700E-003
+ >rs    1.3989526549569109        3.4035819075288161        2.0515403423086234        2.0515403423086229     
+ >theta    1.5707963267948966        1.0004828069636851        1.0004828069636851     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280990352994777       -79.214311195622344        25.752078792004824     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.9366263258151513E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.4111880200182725E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.7642024395383982E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -5.8668774017833769E-005
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.8228712134966685E-003
+ >new gradient norm:    2.1875644077675423E-003
+ >rs    1.4005592558589324        3.4035819075288161        2.0513639994497517        2.0513639994497512     
+ >theta    1.5707963267948966        1.0006168437935292        1.0006168437935292     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280989387358140       -79.209760693405045        25.749938929717196     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.5394176664307331E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.3135843144911341E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.3020795437060648E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    4.3865738847381763E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.8634221551834251E-003
+ >new gradient norm:    2.1548695471958462E-003  < best so far
+ >rs    1.4005589556307558        3.4035819075288161        2.0513640323997913        2.0513640323997908     
+ >theta    1.5707963267948966        1.0006168187436917        1.0006168187436919     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280989387616792       -79.209761532204482        25.749939317974675     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.5394906533032788E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -1.3136059340177475E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.3019780693068898E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    4.3856513359696869E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    1.8634129356929208E-003
+ >new gradient norm:    2.1548691288146675E-003  < best so far
+ >rs    1.3958967302802536        3.4108955035267812        2.0531808682382500        2.0531808682382495     
+ >theta    1.5707963267948966        1.0030219143315788        1.0030219143315791     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280986129931634       -79.197772312714122        25.744300850726106     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.6537705626115127E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.6610604006180871E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.9690206152524550E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -1.5343674409940000E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.1224573593001672E-003
+ >new gradient norm:    2.1226940860377191E-003  < best so far
+ >rs    1.3912345049297521        3.4182090995247463        2.0550095596299576        2.0550095596299571     
+ >theta    1.5707963267948966        1.0054227433415923        1.0054227433415923     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280970636996727       -79.185630701417196        25.738592293417017     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    1.7676758154214767E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -4.0051374896710179E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -1.6399405315674423E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>   -7.4350746157714198E-004
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.3834479930961994E-003
+ >new gradient norm:    2.3701829772356030E-003
+ >rs    1.3976914588105915        3.4080801270895402        2.0524800701722059        2.0524800701722059     
+ >theta    1.5707963267948966        1.0020965744552668        1.0020965744552670     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280988833184267       -79.202405644805950        25.746479697768262     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    2.9947741884450707E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.1427498241424203E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.0967327027295452E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    7.4224916508880412E-005
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.0225077861817375E-003
+ >new gradient norm:    2.1001135378227172E-003  < best so far
+ >rs    1.3977199793336350        3.4080353871708304        2.0524689477888751        2.0524689477888747     
+ >theta    1.5707963267948966        1.0020818645272138        1.0020818645272138     
+ >phi    1.5707963267948966       -1.5707963267948968     
+ >energy from densities   -40.280988861502728       -79.202479086032909        25.746514232621635     
+>for operator d/dx 2- 3 with symmetry 1
+ de from genergy>    3.0001984397123316E-003
+>for operator d/dy 4- 5 with symmetry 1
+ de from genergy>   -2.1345148144034098E-003
+>for operator d/dz 1 with symmetry 1
+ de from genergy>   -2.0987637747078430E-003
+>for operator d/dz 2+ 3 with symmetry 1
+ de from genergy>    7.7843389799436835E-005
+>for operator d/dz 4+ 5 with symmetry 1
+ de from genergy>    2.0209203848504664E-003
+ >new gradient norm:    2.1001110612453556E-003  < best so far

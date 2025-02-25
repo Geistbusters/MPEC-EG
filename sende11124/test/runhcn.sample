@@ -1,0 +1,58 @@
+. ~/.prempec                      # set up mpec environment
+echo "HCN sample"
+cat > gfileaa <<@
+r 5 2.4                           # one would have some other means of generating a list of geometry files
+thetad 120                        # for example a single file of geometries separated by the split command.
+@
+basis="cc-pvtz &aug"              # short hand for basis
+                                  # we get current list of top 10 files
+for file in `ls gfile* | head -10`
+do                                # rename file. If another batch job did
+echo "file is " $file
+mv $file b$file
+if [ $? -eq 0 ]                   # rename first then we return an  error, i.e. $? ne 0
+then
+output=hcn.test`date -Idate`.$file
+/bin/rm $output
+cat > input <<@
+&BG
+ends(1) a to bc, ends(2) b to c   # define coordinates, H+NC Jacobis
+grab b$file                       # get geometrical data from file
+C is b
+$basis
+N is c
+$basis
+H is a
+$basis
+&SOHF                             # we are doing HF to generate initial guess orbitals
+@
+/bin/rm forbs borbs               # get rid of left overs
+runmpec < input > $output
+mv forbs orbs                     # plan a: converged orbitals
+if [ $? -ne 0 ] ; then mv borbs orbs ; fi # plan b: best orbitals so far
+cat > input <<@
+&BG
+ends(1) a to bc, ends(2) b to c
+grab b$file
+C is b
+$basis
+N is c
+$basis
+H is a
+$basis
+&CAS
+states                            # default active space, default is read in guess
+1A'                               # so just need states input
+&MRCI                             # and MRCI does the same state as the cas
+@
+/bin/rm summary                   # get rid of left overs
+runmpec < input >> $output
+cat summary >> masterlist         # save to master list
+if [ $? -eq 0 ]
+then                              # if things went ok, rename file from b to d.
+mv b$file d$file
+                                  # save orbitals for next example
+mv forbs forbs$file
+fi                                # if failed, leave b$file hanging around
+fi                                # end copy if block
+done                              # end loop over geometry files

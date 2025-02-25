@@ -1,0 +1,48 @@
+. ~/.prempec                       # set up mpec environment
+for shellrel in off on             # loop over relativity
+do
+output=3ch26`date -Idate`$shellrel.sample
+/bin/rm $output ff$output
+guess=h0                           # cold start for first calculation
+ifield=0                           # code for first field
+for shellfield in 0 0.005 -0.005 0.0025 -0.0025 # loop over fields
+do
+cat > input <<@
+&BG
+ffield z $shellfield               # the ffield command can be anyware in the BG input
+rel $shellrel                      # except between an atom and its basis designation
+ends(1)= a to bc, ends(2)= b to c
+r 1.3,3.3
+thetad 90
+C is a
+cc-pvtz
+H is b,c
+cc-pvtz
+&CAS
+guess $guess
+states
+3B2
+&MRCI
+singx off                          # turn off singles and doubles
+doubx off
+@
+/bin/rm forbs                      # delete left over orbitals
+runmpec < input >> $output
+cp forbs orbs                      # copy orbitals for initial guess for next field
+if [ $? -ne 0 ] ; then exit ; fi   # bail if orbitals didn't converge
+cat summary >> ff$output
+if [ $? -ne 0 ] ; then exit ; fi   # bail if MRCI did not converge
+if [ $ifield -eq 0 ]               # for first field
+then
+cat > input <<@
+&PROP                              # compute dipole as an expectation value
+sotm off
+wavef
+@
+runmpec < input >> $output
+fi
+guess=readin                       # reset guess
+ifield=1                           # reset field counter
+done                               # end field loop
+grep '>' $output > $output.precis
+done                               # end rel loop

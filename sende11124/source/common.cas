@@ -1,0 +1,20 @@
+c
+c     maxst1 is the maximum number of different spin/symmetries that
+c     can be averaged over in the CAS calculations.
+c     maxst2 is the maximum number of roots per spin/symmetryies in
+c     the CAS calculations
+c
+      parameter (maxst1=64,maxst2=100)                                   8d7s14
+      integer*4 iacto,idoub,nedoub,nstate,isinfo,nadet,nbdet,ioffdeta,  10d23s14
+     $ ioffdetb,nocc2,ifcio,icasguess,mxryd,npdiag,nrydb,nsumcas,maxps, 10d28s22
+     $     iwfromfile,ifirsto,molden,nusecsf,idynw                      10d28s22
+      real*8 pspacex,eweight,ewght,casdat,thirdthres,casspad            10d28s22
+c     ,casdat,casspadd                   10d23s14
+      common/dws6cm/iacto(8),idoub(8),nedoub,nstate,                    8d7s14
+c$$$     $     isinfo(maxst2+4,maxst1),nadet(8),nbdet(8),                   8d9s14
+     $     isinfo(11,maxst1),nadet(8),nbdet(8),mxryd(8),                9d10s21
+     $     ioffdeta(8),ioffdetb(8),nocc2(8),ifcio,icasguess,npdiag(2),  8d12s22
+     $     nrydb,nsumcas,maxps,iwfromfile,ifirsto,molden,nusecsf,idynw, 5d3s21
+     $     nlambda(maxst1,2),drangcut,epssym,                           9d19s23
+     $     pspacex(maxst1),eweight(maxst2,maxst1),ewght(maxst2,maxst1), 5d11s21
+     $     casdat(6),thirdthres,sneglect,casspadd(2)                    4d17s23

@@ -1,0 +1,157 @@
+. ~/.prempec
+echo "HF molecule sample"
+fbasis="cc-pvtz &aug +sp"         # create shell variable with F basis information
+hbasis="cc-pvtz &aug"             # create shell variable with H basis information
+shellirel=0
+for shellrel in off ss            # loop over relativity off or on
+do
+/bin/rm summary.ldt$shellrel      # clean slate
+shellpass=0                       # when shellpass=0, we will be carrying out extra calculations for initial guess
+for shellr in 1000. 100. 50. 25. 10.   # loop over geometries
+do
+echo "for bond length" $shellr
+output=hfout`date -Idate`$shellrel$shellr
+/bin/rm $output
+if [ $shellpass -eq 0 ]           # for initial geometry
+then
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)=a to b
+rs $shellr
+H is a
+$hbasis
+F is b
+$fbasis
+&CAS
+doub 2                            # doubly occupy F 2s
+act 1 1 1 0
+guess                             # generate starting orbitals from one-electron Hamiltonian
+states
++ 2Sig+                           # we are going for F, i.e. HF+ to get initial orbitals
++ 2Pi                             # we could have also used 2Po 1S to specify states
+@
+/bin/rm forbs                     # delete any orbitals lying about
+runmpec < input >> $output
+mv forbs orbs                     # rename to orbs to act as initial guess
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)=a to b
+rs $shellr
+H is a
+$hbasis
+F is b
+$fbasis
+&CAS
+doub 2                            # F 2s doubly occupied
+act 2 1 1 0                       # add H 1s to active space
+states                            # note no guess line because default is to read in a guess
+2Po 2S                            # state average over all states correlating to F 2Po + H 2S
+@
+runmpec < input >> $output
+mv forbs orbs                     # rename so guess for next calculation
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+fi                                # ok, we are now done with preliminary guess. This will only happen once.
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)=a to b
+rs $shellr
+H is a
+$hbasis
+F is b
+$fbasis
+&CAS
+dynw 0.4 -99.518                  # use absolute energy dynamic weight: -99.53 is roughly the energy of F-
+doub 2                            # doubly occupy F 2s
+act 3 2 2 0                       # augment active space with p shell to better describe F-
+states                            # again no guess line required
+2Po 2S                            # states correlating to F 2Po + H 2S
+1S 1S 5.                          # states correlating to F- 1S boost weight this
+@
+runmpec < input >> $output
+mv forbs orbs                     # rename so guess for next calculation
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+cp orbs orbsv                     # make copy for initial guess for next geometry
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)=a to b
+rs $shellr
+H is a
+$hbasis +2s +3p                   # now augment H basis to go for Rydberg orbitals
+F is b
+$fbasis
+&CAS
+dynw 0.1 -99.53                   # use absolute energy dynamic weight
+doub 2
+act 3 2 2 0
+ryd 2 1 1 0                       # specify number of rydberg orbitals of each symmetry
+states
++ 2Po 1S                          # core: states correlating to 2Po F
+@
+runmpec < input >> $output
+cp forbs orbs                     # make copy for diabatic orbital calculation
+if [ $? -ne 0 ] ; then exit ; fi  # bail of calculation failed
+if [ $shellpass -eq 1 ]           # this is not first geometry, so make diabatic
+then
+cat > input <<@
+&DIAB
+orbs
+$shellref                         # orbital file for last geometry
+@
+/bin/rm forbs                     # delete from last calculation
+runmpec < input >> $output
+cp forbs /dev/null                # this is a dummy copy so we can examine return code
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+fi                                # end of diabatic block
+mv forbs forbsr$shellrel$shellr   # save final orbs
+mv orbsv orbs                     # copy saved smaller basis orbitals for initial guess at next geometry
+shellref=forbsr$shellrel$shellr   # assign file for diabatic transformation at next geometry
+cp $shellref forbs                # mrci code runs off of forbs
+/bin/rm summary wavef             # delete left overs
+cat > input <<@
+&MRCI
+doubo 1                           # F 1s doubly occupied
+refo 6 3 3 0                      # we now include F 2s as well as H Rydberg orbitals
+0hole 1s1                         # since F 2s was doubly occupied in CAS, we want to make same restriction
+1fill 5s1 6s1 3s2 3s3             # put at most 1 electron in H Rydberg orbitals in reference
+dynw 0.4 -99.584                  # dynamically weight internal contraction: -99.584 is energy of F- with this reference space
+state 1Sig+ 5                     # go after 5 roots
+@
+runmpec < input >> $output
+cat summary >> summary.hf$shellrel # build up summary file
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+if [ $shellpass -eq 1 ]           # if we are not first geometry, form diabatic wavefunctions
+then
+cat > input <<@
+&PROP
+wavef                             # current geometry
+$shellrefwf                       # last geometry
+@
+runmpec < input >> $output
+mv dwavef wavef                   # rename to wavef so we can use same code for first geometry
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+fi                                # end of diabatic wavefunction block
+mv wavef wavef$shellrel$shellr    # save for later
+shellrefwf=wavef$shellrel$shellr  # set file name for next geometry
+shellpass=1                       # reset shellpass
+if [ $shellirel -eq 1 ]           # if relativitic calculation, compute Gaunt shift
+then
+for shellv4 in on off             # loop over including or neglecting 4 virtual integrals
+do
+cat > input <<@
+&PROP
+itype ssg
+so4v $shellv4
+$shellrefwf
+@
+runmpec < input >> $output
+done                              # end loop over 4 virt integrals
+fi
+grep '>' $output > $output.precis
+done                              # end of loop over geometries.
+shellirel=1                       # reset for relativistic calculations
+done                              # end of loop over relativity

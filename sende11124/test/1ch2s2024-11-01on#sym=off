@@ -1,0 +1,791 @@
+ Hi, this is preinit for MPI-4 code
+
+
+Welcome to MPEC
+
+Massively
+Parallel
+Electron
+Correlation
+
+version 2.1 eta
+
+Linked on:  Fri Nov 1 14:28:08 PDT 2024 
+smallest number one can add to 1 and not get 1 is  2.220E-16
+
+ This is going to be a relativistic calculation 
+
+ we have itype in input 
+ 2 electron integral type = ss   
+ we are getting basis set info from file cc-pvdz
+
+  l  Z      x              y              z               exponential parameters
+  0  6     0.00000000     0.00000000     0.00000000      6.66E+03 1.00E+03 2.28E+02 6.47E+01 2.11E+01 7.50E+00 2.80E+00 5.21E-01 1.60E-01
+  contraction no.   1                                k1   0.00071  0.00538  0.02721  0.10193  0.27489  0.44836  0.28470  0.01517  0.00000
+                                                     k2   0.00069  0.00534  0.02713  0.10183  0.27484  0.44842  0.28477  0.01518  0.00000
+  contraction no.   2                                k1  -0.00015 -0.00117 -0.00576 -0.02339 -0.06403 -0.15009 -0.12683  0.54520  0.00000
+                                                     k2  -0.00015 -0.00116 -0.00574 -0.02336 -0.06399 -0.15007 -0.12681  0.54521  0.00000
+  contraction no.   3                                k1   0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  1.00000
+  1  6     0.00000000     0.00000000     0.00000000      9.44E+00 2.00E+00 5.46E-01 1.52E-01
+  contraction no.   1                                k1   0.03815  0.20948  0.50846  0.00000
+                                                     k2   0.03812  0.20945  0.50843  0.00000
+  contraction no.   2                                k1   0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  1.00000
+  2  6     0.00000000     0.00000000     0.00000000      5.50E-01
+  contraction no.   1                                k1   1.00000
+                                                     k2   1.00000
+ we are getting basis set info from file cc-pvdz
+
+  l  Z      x              y              z               exponential parameters
+  0  1     1.64440300     0.00000000     1.32213000      1.30E+01 1.96E+00 4.45E-01 1.22E-01
+  contraction no.   1                                k1   0.01969  0.13799  0.47815  0.00000
+                                                     k2   0.01969  0.13798  0.47815  0.00000
+  contraction no.   2                                k1   0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  1.00000
+
+  l  Z      x              y              z               exponential parameters
+  0  1    -1.64440300     0.00000000     1.32213000      1.30E+01 1.96E+00 4.45E-01 1.22E-01
+  contraction no.   1                                k1   0.01969  0.13799  0.47815  0.00000
+                                                     k2   0.01969  0.13798  0.47815  0.00000
+  contraction no.   2                                k1   0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  1.00000
+  1  1     1.64440300     0.00000000     1.32213000      7.27E-01
+  contraction no.   1                                k1   1.00000
+                                                     k2   1.00000
+  1  1    -1.64440300     0.00000000     1.32213000      7.27E-01
+  contraction no.   1                                k1   1.00000
+                                                     k2   1.00000
+ Nuclei will have finite radii 
+ atoms: 
+   #   Z             x              y              z       nuc weight(amu) nuc rad   nuc gaus (a.u.)
+>  1   6. C         0.00000000     0.00000000     0.00000000     13.0001  4.792E-05  3.266E+08
+>  2   1. H         1.64440300     0.00000000     1.32213000      3.0155  3.360E-05  6.645E+08
+>  3   1. H        -1.64440300     0.00000000     1.32213000      3.0155  3.360E-05  6.645E+08
+  
+ atom-atom distances in a.u. 
+ 1- 2     2.10999738 1- 3     2.10999738
+ 2- 3     3.28880600
+
+  
+ atom-atom distances in Angstroms 
+ 1- 2     1.11656261 1- 3     1.11656261
+ 2- 3     1.74036131
+
+  
+ nuclear repulsion energy =    5.9912725579610644     
+  
+ order of group:            4
+IRR   gen.  multiplication table: 
+A1   1 1 1       1  2  3  4       Z
+B2  -1 1 1       2  1  4  3       X XZ
+B1   1-1 1       3  4  1  2       Y YZ
+A2  -1-1 1       4  3  2  1       XY
+ C2v symmetry 
+
+ total number of gaussians:           19
+ number of words for contraction coefficients =           90
+ gaussians: 
+    #  l      exp.     atom(s) no. in symmetry blocks
+    1  0  6.6650000E+03  1         1  0  0  0
+    2  0  1.0000000E+03  1         1  0  0  0
+    3  0  2.2800000E+02  1         1  0  0  0
+    4  0  6.4710000E+01  1         1  0  0  0
+    5  0  2.1060000E+01  1         1  0  0  0
+    6  0  7.4950000E+00  1         1  0  0  0
+    7  0  2.7970000E+00  1         1  0  0  0
+    8  0  5.2150000E-01  1         1  0  0  0
+    9  0  1.5960000E-01  1         1  0  0  0
+   10  1  9.4390000E+00  1         1  1  1  0
+   11  1  2.0020000E+00  1         1  1  1  0
+   12  1  5.4560000E-01  1         1  1  1  0
+   13  1  1.5170000E-01  1         1  1  1  0
+   14  2  5.5000000E-01  1         2  1  1  1
+   15  0  1.3010000E+01  2 &  3    1  1  0  0
+   16  0  1.9620000E+00  2 &  3    1  1  0  0
+   17  0  4.4460000E-01  2 &  3    1  1  0  0
+   18  0  1.2200000E-01  2 &  3    1  1  0  0
+   19  1  7.2700000E-01  2 &  3    2  2  1  1
+default closed orbs:    1    0    0    0
+default active orbs:    3    2    1    0
+ total number of primitive basis functions =           80
+ by symmetry block:   42  22  12   4
+ total number of contracted basis functions =           24
+ by symmetry block:   11   7   4   2
+ after mygues card:            7           8 h0
+ myguess =            0
+ in grado block 
+ is,ie            6           9
+ what we have for idogrado            3    3    0    0    0
+ end of file 1008
+ going after "/Users/dschwenk/mpec2.1/eta/data//rystabc.ufort"
+ maximum order of rys quadrature           31
+ going after "/Users/dschwenk/mpec2.1/eta/data//ghtab.ufort"
+ maximum order of gauss hermite quadrature:           31
+ number of words of storage:          992
+ number of compute processors =        6
+ scratch memory space: 2147483647 words or  16.0 Gbytes.
+ entering parahf 
+ output of processor no.            0
+ idorel =            2
+ idogrado =            3
+ icasguess, myguess            0 F
+ cut off energy for positron states:   -37557.724836488218     
+ performing single configuration HF calculation
+ number of basis fcns =           40
+ using 2nd order augmented hessian method 
+ program to figure out sym. orb. occupancy based
+ on eigenvalues of h0. total number occ orbs =            4
+range of S eigenvalues:  2.39E-02 2.87E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+range of S eigenvalues:  4.30E-02 1.81E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+range of S eigenvalues:  2.74E-01 1.66E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+range of S eigenvalues:  5.15E-01 1.47E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ sorting h0 eigenvalues across blocks    5.9912725579610644     
+ -1.8910589E+01    1
+ -5.3682598E+00    1
+ -5.2046797E+00    2
+ -4.9971765E+00    3
+ total no. orbital rotation parameters =           27
+energy from starting orbitals:       -34.718996
+iter.         energy      change     micro diag  xlam
+   2    -38              -3.8E+00      1    1    1.00
+   3    -38.7            -2.4E-01      1    1    1.00
+   4    -38.72           -4.3E-03      1    1    1.00
+   5    -38.729765       -3.5E-07      1    1    1.00
+   6    -38.729765755854 -2.8E-14      1    1    1.00
+ calculations converged
+last change in orbitals:  6.59E-09
+ for symmetry            1
+ fock matrix eigenvalues for doubly occupied orbs
+tiny =  1.E-11
+      1    -2@
+  m-n        1             2
+    1  -1.128873E+01 -8.552287E-01
+ $
+ for symmetry            2
+ fock matrix eigenvalues for doubly occupied orbs
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1  -5.435829E-01
+ $
+ for symmetry            3
+ fock matrix eigenvalues for doubly occupied orbs
+tiny =  1.E-11
+      1    -1@
+  m-n        1
+    1  -3.157638E-01
+ $
+ >energy from densities   -38.729765755854345       -63.435465400567679        18.714427086752270     
+ total telapo =    0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+timer    1 1e ints  ave time  7.907E-04 dev  6.725E-06 total  4.744E-03 no. calls         6.
+timer    2 diag s,. ave time  1.950E-04 dev  5.774E-07 total  1.170E-03 no. calls         6.
+timer    3 2e ints  ave time  1.888E-01 dev  1.876E-03 total  7.930E+00 no. calls        42.
+timer    4 ao to mo ave time  9.336E-04 dev  3.925E-04 total  3.921E-02 no. calls        42.
+timer    6 amat     ave time  1.064E-04 dev  1.369E-04 total  3.191E-03 no. calls        30.
+timer    7 gmat     ave time  2.633E-06 dev  1.278E-06 total  7.900E-05 no. calls        30.
+timer    8 aughess  ave time  3.309E-04 dev  2.638E-04 total  9.926E-03 no. calls        30.
+timer    9 hessyc   ave time -3.407E-07 dev  1.265E-06 total -8.830E-04 no. calls      2592.
+timer   10 schmidt  ave time  2.756E-06 dev  4.586E-06 total  2.480E-04 no. calls        90.
+timer   12 total    ave time  1.333E+00 dev  4.922E-06 total  7.998E+00 no. calls         6.
+timer   13 cannon   ave time  5.340E-05 dev  5.327E-06 total  1.602E-03 no. calls        30.
+timer   14 preden   ave time  8.500E-06 dev  1.607E-06 total  5.100E-05 no. calls         6.
+timer   15 preeri   ave time  1.864E-05 dev  2.680E-06 total  7.830E-04 no. calls        42.
+timer   16 bmat     ave time -8.333E-07 dev  1.067E-06 total -2.500E-05 no. calls        30.
+timer   17 diag g   ave time  3.622E-04 dev  2.349E-04 total  1.811E-03 no. calls         5.
+ opening file forbs 
+ final converged orbitals:
+ for symmetry block            1
+ ao basis 
+tiny =  1.E-11
+     21   -22@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   7.104451E-04  6.944570E-04 -1.291715E-04 -1.261739E-04 -6.307146E-05
+    2   5.381510E-03  5.342415E-03 -1.001278E-03 -9.938873E-04 -4.859398E-04
+    3   2.720130E-02  2.712255E-02 -4.951531E-03 -4.934826E-03 -2.416959E-03
+    4   1.018986E-01  1.018029E-01 -1.995941E-02 -1.993669E-02 -9.559878E-03
+    5   2.748016E-01  2.747536E-01 -5.457501E-02 -5.454706E-02 -2.604946E-02
+    6   4.480070E-01  4.480672E-01 -1.245284E-01 -1.245155E-01 -5.521614E-02
+    7   2.843322E-01  2.844056E-01 -1.035941E-01 -1.035825E-01 -4.384951E-02
+    8   1.768268E-02  1.768753E-02  4.238456E-01  4.238535E-01  1.515477E-01
+    9  -6.546029E-03 -6.546029E-03  3.456471E-01  3.456471E-01  5.692774E-01
+   10   8.380086E-05  8.373933E-05 -5.283474E-03 -5.279594E-03  2.136583E-02
+   11   4.601798E-04  4.601270E-04 -2.901340E-02 -2.901007E-02  1.173272E-01
+   12   1.116978E-03  1.116926E-03 -7.042319E-02 -7.041989E-02  2.847842E-01
+   13   5.278063E-04  5.278063E-04 -1.172134E-02 -1.172134E-02  4.366912E-01
+   14  -7.355049E-04 -7.355049E-04 -6.527517E-03 -6.527517E-03  3.903340E-03
+   15  -2.881266E-04 -2.881266E-04  6.111431E-03  6.111431E-03 -9.750242E-03
+   16   1.946911E-05  1.946630E-05  1.109304E-02  1.109144E-02 -7.948641E-03
+   17   1.364444E-04  1.364401E-04  7.774279E-02  7.774031E-02 -5.570607E-02
+   18   4.728095E-04  4.728080E-04  2.693956E-01  2.693948E-01 -1.930336E-01
+   19   2.197986E-03  2.197986E-03  5.292081E-02  5.292081E-02 -2.307129E-01
+   20   9.966177E-06  9.966177E-06  2.249084E-02  2.249084E-02  1.603795E-02
+   21  -3.735752E-04 -3.735752E-04 -3.184825E-02 -3.184825E-02  1.385082E-02
+  m-n      3k2           4k1           4k2           5k1           5k2      
+    1  -6.161957E-05  7.032436E-05  6.872263E-05 -4.535325E-05 -4.424812E-05
+    2  -4.823677E-04  5.375096E-04  5.335801E-04 -3.648186E-04 -3.620595E-04
+    3  -2.409112E-03  2.693792E-03  2.685493E-03 -1.741927E-03 -1.734676E-03
+    4  -9.549471E-03  1.038867E-02  1.037807E-02 -7.840180E-03 -7.829111E-03
+    5  -2.603831E-02  2.817411E-02  2.816530E-02 -2.184089E-02 -2.181992E-02
+    6  -5.521292E-02  5.343059E-02  5.343151E-02 -6.874842E-02 -6.872998E-02
+    7  -4.384707E-02  3.909014E-02  3.909214E-02 -6.652536E-02 -6.650675E-02
+    8   1.515504E-01 -8.831634E-02 -8.831772E-02  3.969387E-01  3.969466E-01
+    9   5.692774E-01 -1.820255E+00 -1.820255E+00  2.388237E-01  2.388237E-01
+   10   2.135014E-02  9.702507E-03  9.695382E-03  4.349213E-02  4.346020E-02
+   11   1.173138E-01  5.327985E-02  5.327374E-02  2.388305E-01  2.388031E-01
+   12   2.847709E-01  1.293243E-01  1.293182E-01  5.797048E-01  5.796776E-01
+   13   4.366912E-01  8.813318E-01  8.813318E-01 -1.197146E+00 -1.197146E+00
+   14   3.903340E-03 -1.476999E-02 -1.476999E-02  1.522701E-02  1.522701E-02
+   15  -9.750242E-03 -2.841854E-02 -2.841854E-02 -8.451171E-02 -8.451171E-02
+   16  -7.947495E-03  2.004374E-04  2.004085E-04 -2.421393E-02 -2.421043E-02
+   17  -5.570429E-02  1.404716E-03  1.404671E-03 -1.696973E-01 -1.696919E-01
+   18  -1.930330E-01  4.867645E-03  4.867629E-03 -5.880378E-01 -5.880359E-01
+   19  -2.307129E-01  1.955464E+00  1.955464E+00 -3.266530E-02 -3.266530E-02
+   20   1.603795E-02  1.454997E-02  1.454997E-02  4.708578E-03  4.708578E-03
+   21   1.385082E-02 -2.785694E-02 -2.785694E-02  7.866502E-03  7.866502E-03
+  m-n      6k1           6k2           7k1           7k2           8k1      
+    1   2.704574E-05  2.648364E-05  1.876466E-05  1.874749E-05  1.398606E-05
+    2   1.931440E-04  1.918007E-04  4.012037E-05  4.035036E-05  8.333493E-05
+    3   1.032512E-03  1.030739E-03  6.922924E-04  7.008732E-04  5.296964E-04
+    4   3.143404E-03  3.142491E-03 -3.711265E-03 -3.690024E-03  5.871859E-04
+    5   8.092896E-03  8.100930E-03 -1.335272E-02 -1.326815E-02  8.424762E-04
+    6  -5.068401E-03 -5.053828E-03 -1.806916E-01 -1.805831E-01 -3.384365E-02
+    7  -1.583191E-02 -1.581627E-02 -2.244588E-01 -2.243451E-01 -4.580658E-02
+    8   2.200238E-01  2.200285E-01  1.909319E+00  1.909358E+00  4.233478E-01
+    9  -2.199118E-01 -2.199118E-01 -3.469410E+00 -3.469410E+00 -8.662828E-01
+   10   3.550488E-02  3.547881E-02 -1.145833E-02 -1.144992E-02  5.034727E-03
+   11   1.949697E-01  1.949473E-01 -6.292168E-02 -6.291447E-02  2.764744E-02
+   12   4.732430E-01  4.732208E-01 -1.527276E-01 -1.527204E-01  6.710765E-02
+   13  -2.268212E-01 -2.268212E-01  9.990290E-01  9.990290E-01  4.205913E-01
+   14   2.208986E-02  2.208986E-02 -7.161300E-02 -7.161300E-02  6.476411E-01
+   15   2.719720E-01  2.719720E-01  1.969128E-02  1.969128E-02 -4.119675E-02
+   16   3.110920E-02  3.110471E-02  3.841958E-03  3.841404E-03  9.636589E-03
+   17   2.180211E-01  2.180141E-01  2.692540E-02  2.692455E-02  6.753563E-02
+   18   7.554903E-01  7.554880E-01  9.330236E-02  9.330207E-02  2.340256E-01
+   19  -5.707210E-01 -5.707210E-01  1.675455E+00  1.675455E+00  3.213466E-01
+   20  -3.639719E-02 -3.639719E-02  2.561717E-01  2.561717E-01 -3.633281E-01
+   21   2.786957E-01  2.786957E-01 -1.549861E-01 -1.549861E-01 -2.981307E-01
+  m-n      8k2           9k1           9k2          10k1          10k2      
+    1   1.376109E-05 -3.711357E-05 -3.642981E-05 -9.835085E-06 -9.661537E-06
+    2   8.284508E-05 -2.429895E-04 -2.414192E-04 -6.246595E-05 -6.207367E-05
+    3   5.305084E-04 -1.411212E-03 -1.411083E-03 -3.734768E-04 -3.736439E-04
+    4   5.905684E-04 -2.929527E-03 -2.933412E-03 -6.554363E-04 -6.569145E-04
+    5   8.605514E-04 -6.650185E-03 -6.679764E-03 -1.373146E-03 -1.382605E-03
+    6  -3.381878E-02  4.857172E-02  4.852862E-02  1.650651E-02  1.649307E-02
+    7  -4.578038E-02  7.186829E-02  7.182269E-02  2.342483E-02  2.341064E-02
+    8   4.233566E-01 -7.145502E-01 -7.145652E-01 -2.253962E-01 -2.254010E-01
+    9  -8.662828E-01  1.432022E+00  1.432022E+00  4.849241E-01  4.849241E-01
+   10   5.031030E-03  2.834091E-03  2.832010E-03 -6.925228E-03 -6.920143E-03
+   11   2.764427E-02  1.556299E-02  1.556120E-02 -3.802884E-02 -3.802449E-02
+   12   6.710451E-02  3.777548E-02  3.777371E-02 -9.230606E-02 -9.230174E-02
+   13   4.205913E-01 -6.902198E-01 -6.902198E-01 -4.897908E-01 -4.897908E-01
+   14   6.476411E-01  2.554431E-01  2.554431E-01  9.850845E-01  9.850845E-01
+   15  -4.119675E-02  9.768913E-01  9.768913E-01 -4.480655E-01 -4.480655E-01
+   16   9.635199E-03 -3.139983E-02 -3.139530E-02 -4.494630E-03 -4.493982E-03
+   17   6.753348E-02 -2.200579E-01 -2.200509E-01 -3.149949E-02 -3.149849E-02
+   18   2.340249E-01 -7.625483E-01 -7.625459E-01 -1.091526E-01 -1.091522E-01
+   19   3.213466E-01 -3.488171E-01 -3.488171E-01 -2.303218E-01 -2.303218E-01
+   20  -3.633281E-01  1.861764E-01  1.861764E-01  9.586759E-01  9.586759E-01
+   21  -2.981307E-01 -1.587360E-01 -1.587360E-01  7.182820E-01  7.182820E-01
+  m-n     11k1          11k2      
+    1  -3.942754E-05 -3.834804E-05
+    2  -3.470605E-04 -3.442918E-04
+    3  -1.522003E-03 -1.512574E-03
+    4  -8.692818E-03 -8.676226E-03
+    5  -2.502954E-02 -2.498615E-02
+    6  -1.162066E-01 -1.161593E-01
+    7  -1.258375E-01 -1.257886E-01
+    8   9.046763E-01  9.046948E-01
+    9   1.576561E+00  1.576561E+00
+   10  -5.532790E-02 -5.528727E-02
+   11  -3.038248E-01 -3.037900E-01
+   12  -7.374631E-01 -7.374286E-01
+   13  -5.982040E-01 -5.982040E-01
+   14   1.691705E-01  1.691705E-01
+   15   7.511711E-01  7.511711E-01
+   16  -4.691692E-02 -4.691015E-02
+   17  -3.288056E-01 -3.287951E-01
+   18  -1.139383E+00 -1.139379E+00
+   19  -7.537081E-01 -7.537081E-01
+   20  -9.575575E-01 -9.575575E-01
+   21   1.268675E+00  1.268675E+00
+ $
+ ob basis 
+tiny =  1.E-11
+     11   -11@
+  m-n        1             2             3             4             5
+    1   9.856184E-01 -5.438101E-02 -1.284406E-02 -1.372583E-02  1.988980E-02
+    2  -1.090217E-01  4.186975E-01  2.043497E-01 -2.443157E-01  2.432239E-01
+    3   9.964347E-02  5.833915E-01  3.376777E-01 -2.223452E-01  9.945082E-03
+    4   9.722792E-03 -1.140906E-01  5.035110E-01  1.767805E-01  5.889632E-01
+    5   1.260363E-03 -1.087819E-01  7.000777E-01  2.048997E-01 -6.083804E-01
+    6  -7.653914E-04  3.197144E-03  2.211640E-03  2.613112E-02 -3.443215E-02
+    7  -3.864146E-03  5.761218E-02 -7.785822E-02  8.913880E-02 -2.465091E-01
+    8   1.571499E-02  4.084847E-01 -2.315621E-01 -7.520026E-02 -3.707360E-01
+    9   4.233155E-02  4.814033E-01 -1.316590E-01  8.075798E-01  1.144026E-01
+   10   4.371048E-02  1.369082E-01  1.478191E-01 -1.726252E-01 -6.966629E-02
+   11  -5.177521E-02 -1.893599E-01  3.931312E-02  3.481099E-01 -7.748729E-02
+  m-n        6             7             8             9            10
+    1   4.601581E-02  1.105978E-01  3.065957E-02 -6.296186E-02 -1.469094E-02
+    2   1.143370E-01  6.454438E-01  1.416660E-01 -2.463234E-01 -6.354209E-02
+    3  -8.294077E-02 -6.027807E-01 -1.282349E-01  1.577876E-01  5.036209E-02
+    4   4.429985E-01 -1.121213E-01  7.195923E-02  5.579300E-02 -8.515188E-02
+    5  -1.401687E-01  1.282677E-01  1.162473E-01 -1.197688E-01 -1.372834E-01
+    6   2.533363E-02 -5.100006E-02  7.766325E-01  1.967407E-01  5.919449E-01
+    7   4.614758E-01  1.778311E-01 -1.399463E-02  7.501144E-01 -2.711349E-01
+    8   5.423746E-01 -9.711900E-02  1.059006E-01 -3.726038E-01 -2.946757E-02
+    9  -2.493301E-01  1.108224E-01 -9.825895E-03  4.037488E-02 -3.803502E-03
+   10  -5.510376E-02  3.361593E-01 -4.703756E-01  2.704862E-01  5.952023E-01
+   11   4.348123E-01 -9.929943E-02 -3.285368E-01 -2.792870E-01  4.336486E-01
+  m-n       11
+    1   7.335383E-02
+    2   3.711430E-01
+    3   2.684432E-01
+    4  -3.617676E-01
+    5  -5.604349E-02
+    6   5.108238E-02
+    7   2.023020E-01
+    8  -4.262075E-01
+    9  -8.754087E-02
+   10  -3.976442E-01
+   11   5.097264E-01
+ $
+ for symmetry block            2
+ ao basis 
+tiny =  1.E-11
+     11   -14@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   2.482647E-02  2.480824E-02 -1.816842E-02 -1.815508E-02  1.605019E-02
+    2   1.363308E-01  1.363152E-01 -9.976915E-02 -9.975772E-02  8.813721E-02
+    3   3.309110E-01  3.308955E-01 -2.421661E-01 -2.421548E-01  2.139323E-01
+    4   2.031024E-01  2.031024E-01 -1.280647E+00 -1.280647E+00 -1.105309E+00
+    5  -1.697091E-02 -1.697091E-02  2.174210E-02  2.174210E-02 -1.354521E-01
+    6   1.535223E-02  1.535001E-02  1.970331E-03  1.970047E-03  3.244057E-02
+    7   1.075923E-01  1.075888E-01  1.380857E-02  1.380813E-02  2.273516E-01
+    8   3.728305E-01  3.728293E-01  4.784970E-02  4.784955E-02  7.878227E-01
+    9   1.860889E-01  1.860889E-01  2.470405E+00  2.470405E+00 -2.509194E-01
+   10  -1.613494E-02 -1.613494E-02 -2.348125E-02 -2.348125E-02  4.221937E-03
+   11   2.522713E-02  2.522713E-02  1.209342E-02  1.209342E-02 -3.628247E-02
+  m-n      3k2           4k1           4k2           5k1           5k2      
+    1   1.603841E-02 -4.939237E-02 -4.935610E-02 -4.742160E-03 -4.738678E-03
+    2   8.812711E-02 -2.712307E-01 -2.711997E-01 -2.604086E-02 -2.603787E-02
+    3   2.139223E-01 -6.583487E-01 -6.583179E-01 -6.320805E-02 -6.320509E-02
+    4  -1.105309E+00  1.621389E+00  1.621389E+00 -3.790350E-01 -3.790350E-01
+    5  -1.354521E-01 -3.404898E-01 -3.404898E-01 -1.661102E-01 -1.661102E-01
+    6   3.243589E-02  1.458644E-02  1.458433E-02  2.576777E-03  2.576405E-03
+    7   2.273444E-01  1.022254E-01  1.022222E-01  1.805870E-02  1.805812E-02
+    8   7.878202E-01  3.542332E-01  3.542321E-01  6.257730E-02  6.257711E-02
+    9  -2.509194E-01 -2.015052E+00 -2.015052E+00  1.635351E-01  1.635351E-01
+   10   4.221937E-03  2.191771E-01  2.191771E-01  7.137076E-01  7.137076E-01
+   11  -3.628247E-02 -2.658611E-01 -2.658611E-01  8.227884E-01  8.227884E-01
+  m-n      6k1           6k2           7k1           7k2      
+    1  -1.064239E-02 -1.063457E-02  7.222454E-02  7.217151E-02
+    2  -5.844107E-02 -5.843438E-02  3.966102E-01  3.965647E-01
+    3  -1.418519E-01 -1.418453E-01  9.626778E-01  9.626327E-01
+    4   4.983846E-01  4.983846E-01  9.570297E-01  9.570297E-01
+    5  -9.239028E-01 -9.239028E-01 -1.429206E+00 -1.429206E+00
+    6  -2.873548E-02 -2.873134E-02 -5.781186E-02 -5.780352E-02
+    7  -2.013855E-01 -2.013791E-01 -4.051600E-01 -4.051471E-01
+    8  -6.978443E-01 -6.978421E-01 -1.403967E+00 -1.403963E+00
+    9   2.312201E-01  2.312201E-01 -8.437360E-01 -8.437360E-01
+   10  -4.248768E-01 -4.248768E-01  1.252773E+00  1.252773E+00
+   11   2.800849E-01  2.800849E-01 -1.073359E+00 -1.073359E+00
+ $
+ ob basis 
+tiny =  1.E-11
+      7    -7@
+  m-n        1             2             3             4             5
+    1   5.378670E-01 -3.331831E-01  2.096445E-01 -5.683361E-01 -7.087764E-02
+    2   5.516865E-01 -2.094774E-01 -6.066462E-01  4.912615E-01 -1.309192E-01
+    3  -1.671337E-01 -2.234179E-01 -4.814534E-01 -2.977743E-01 -1.336221E-01
+    4   4.944804E-01  6.096603E-02  5.075641E-01  3.042004E-01  2.422254E-02
+    5   3.416979E-01  8.013549E-01 -2.768957E-01 -3.748203E-01  2.266975E-03
+    6  -2.874702E-02  2.258799E-01 -6.732854E-02  2.377111E-01  6.474233E-01
+    7   1.277210E-01 -3.135035E-01 -1.319338E-01 -2.396914E-01  7.350053E-01
+  m-n        6             7
+    1  -1.613876E-01  4.490677E-01
+    2   1.152192E-01  1.094914E-01
+    3  -6.643147E-01 -3.775114E-01
+    4  -3.565998E-01 -5.233192E-01
+    5   8.583785E-02 -1.286009E-01
+    6  -5.135333E-01  4.519279E-01
+    7   3.480180E-01 -3.862577E-01
+ $
+ for symmetry block            3
+ ao basis 
+tiny =  1.E-11
+      6    -8@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   3.367109E-02  3.364637E-02 -5.754680E-02 -5.750455E-02  5.295712E-03
+    2   1.848997E-01  1.848785E-01 -3.160096E-01 -3.159734E-01  2.908060E-02
+    3   4.488005E-01  4.487795E-01 -7.670389E-01 -7.670029E-01  7.058632E-02
+    4   5.347273E-01  5.347273E-01  1.067099E+00  1.067099E+00  1.323376E-01
+    5   2.265452E-03  2.265452E-03 -1.553078E-02 -1.553078E-02  7.602429E-01
+    6   3.765280E-02  3.765280E-02 -6.656517E-02 -6.656517E-02 -4.402695E-01
+  m-n      3k2           4k1           4k2      
+    1   5.291824E-03 -1.062107E-02 -1.061327E-02
+    2   2.907727E-02 -5.832398E-02 -5.831730E-02
+    3   7.058301E-02 -1.415677E-01 -1.415611E-01
+    4   1.323376E-01 -3.424426E-01 -3.424426E-01
+    5   7.602429E-01  7.934289E-01  7.934289E-01
+    6  -4.402695E-01  1.105523E+00  1.105523E+00
+ $
+ ob basis 
+tiny =  1.E-11
+      4    -4@
+  m-n        1             2             3             4
+    1   6.701163E-01 -7.261729E-01  7.931353E-02 -1.316299E-01
+    2   7.058726E-01  6.874738E-01  8.259310E-02 -1.493383E-01
+    3   1.358293E-02  4.579128E-03  8.364339E-01  5.478803E-01
+    4   2.291364E-01  5.626035E-03 -5.359721E-01  8.125262E-01
+ $
+ for symmetry block            4
+ ao basis 
+tiny =  1.E-11
+      2    -4@
+  m-n      1k1           1k2           2k1           2k2      
+    1   6.471803E-01  6.471803E-01 -9.385072E-01 -9.385072E-01
+    2   5.175411E-01  5.175411E-01  1.028488E+00  1.028488E+00
+ $
+ ob basis 
+tiny =  1.E-11
+      2    -2@
+  m-n        1             2
+    1   7.548407E-01 -6.559082E-01
+    2   6.559082E-01  7.548407E-01
+ $
+ in grado ...              1838527
+ for perturbations of symmetry            4
+ number of desired operators having this symmetry is           1
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically related to nucleus            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+for operator d/dy 2- 3 with symmetry 4
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:    0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ cg iterations converged after           10  iterations and            0  restarts
+ for perturbations of symmetry            3
+ number of desired operators having this symmetry is           2
+ for nucleus no.            1
+ atno, carts    6.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ symmetrically unique 
+for operator d/dy 1 with symmetry 3
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:    0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ 1.3E-01 3.1E-01 1.5E-02 1.6E-03 1.4E-04 1.2E-05 4.3E-07 3.0E-08 6.9E-10 1.3E-11
+ cg iterations converged after            2  iterations and            1  restarts
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically related to nucleus            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+for operator d/dy 2+ 3 with symmetry 3
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:    0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ 1.3E-01 3.1E-01 1.5E-02 1.6E-03 1.4E-04 1.2E-05 4.3E-07 3.0E-08 6.9E-10 1.3E-11
+ cg iterations converged after            2  iterations and            1  restarts
+ for perturbations of symmetry            2
+ number of desired operators having this symmetry is           3
+ for nucleus no.            1
+ atno, carts    6.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ symmetrically unique 
+for operator d/dx 1 with symmetry 2
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:    0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ 3.9E-02 9.9E-03 1.7E-03 2.6E-04 1.7E-05 1.5E-06 7.6E-08 7.0E-09 1.6E-10 7.2E-12
+ cg iterations converged after            3  iterations and            1  restarts
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically related to nucleus            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+for operator d/dx 2+ 3 with symmetry 2
+ derivative of nuclear-nuclear repulsion   -5.5511151231257827E-017
+ derivative of hf energy:   -5.5511151231257827E-017  -5.5511151231257827E-017   0.0000000000000000        0.0000000000000000     
+ 3.9E-02 9.9E-03 1.7E-03 2.6E-04 1.7E-05 1.5E-06 7.6E-08 7.0E-09 1.6E-10 7.2E-12
+ cg iterations converged after            3  iterations and            1  restarts
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically related to nucleus            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+for operator d/dz 2- 3 with symmetry 2
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:    0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ 4.2E-02 7.0E-03 1.0E-03 1.8E-04 1.9E-05 1.4E-06 5.4E-08 5.0E-09 2.3E-10 6.0E-12
+ cg iterations converged after            2  iterations and            1  restarts
+ for perturbations of symmetry            1
+ number of desired operators having this symmetry is           3
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically related to nucleus            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+for operator d/dx 2- 3 with symmetry 1
+ derivative of nuclear-nuclear repulsion   -2.2855089631457961     
+ derivative of hf energy:   -7.5981139761707617E-002  -2.2855089631457961        3.3464342657778650       -1.1369064423937765     
+ 4.5E-02 1.0E-02 1.4E-03 1.9E-04 6.8E-05 6.9E-06 2.7E-07 2.0E-08 9.3E-10 5.1E-11
+ cg iterations converged after            3  iterations and            1  restarts
+ for nucleus no.            1
+ atno, carts    6.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ symmetrically unique 
+for operator d/dz 1 with symmetry 1
+ derivative of nuclear-nuclear repulsion    1.6889222409575666     
+ derivative of hf energy:  -0.14518050592679088        1.6889222409575666       -2.6294338647932394       0.79533111790888189     
+ 3.4E-02 1.0E-02 2.2E-03 5.6E-04 5.7E-05 4.3E-06 2.0E-07 1.4E-08 1.9E-09 8.7E-11
+ cg iterations converged after            4  iterations and            1  restarts
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically related to nucleus            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+for operator d/dz 2+ 3 with symmetry 1
+ derivative of nuclear-nuclear repulsion   -1.6889222409575666     
+ derivative of hf energy:   0.14518050592664367       -1.6889222409575666        2.6294338647930431      -0.79533111790883282     
+ 3.4E-02 1.0E-02 2.2E-03 5.6E-04 5.7E-05 4.3E-06 2.0E-07 1.4E-08 1.9E-09 8.7E-11
+ cg iterations converged after            4  iterations and            1  restarts
+ now we have all the rhs for the 2nd der matrix elements
+ for ixyz =            1
+ for nucleus no            1
+for operator d/dx 1 with symmetry 2
+ 4.7E-02 7.1E-03 1.7E-03 5.1E-04 3.4E-05 4.4E-06 4.4E-07 2.8E-08 2.0E-09 7.8E-11
+ cg iterations converged after            4  iterations and            1  restarts
+ for nucleus no            2
+ symmetric combination with nucleus            3
+for operator d/dx 2+ 3 with symmetry 2
+ 3.5E-02 1.0E-02 2.0E-03 4.3E-04 4.4E-05 5.5E-06 9.0E-07 3.0E-08 2.4E-09 7.2E-11
+ cg iterations converged after            3  iterations and            1  restarts
+ antisymmetric combination with nucleus            3
+for operator d/dx 2- 3 with symmetry 1
+ 3.8E-02 9.4E-03 1.5E-03 3.9E-04 5.7E-05 5.8E-06 6.7E-07 4.4E-08 3.6E-09 1.3E-10
+ cg iterations converged after            4  iterations and            1  restarts
+ for ixyz =            2
+ for nucleus no            1
+for operator d/dy 1 with symmetry 3
+ 4.2E-02 1.1E-02 2.6E-03 6.8E-04 6.4E-05 6.3E-06 9.0E-07 2.0E-08 1.3E-09 6.9E-11
+ cg iterations converged after            3  iterations and            1  restarts
+ for nucleus no            2
+ symmetric combination with nucleus            3
+for operator d/dy 2+ 3 with symmetry 3
+ 5.1E-02 1.4E-02 3.1E-03 8.1E-04 7.2E-05 5.3E-06 3.8E-07 2.9E-08 3.1E-09 1.7E-10
+ cg iterations converged after            4  iterations and            1  restarts
+ antisymmetric combination with nucleus            3
+for operator d/dy 2- 3 with symmetry 4
+ 7.7E-02 1.1E-02 2.9E-03 3.2E-04 5.1E-05 5.4E-06 4.2E-07 1.9E-08 2.8E-09 1.2E-10
+ cg iterations converged after            4  iterations and            1  restarts
+ for ixyz =            3
+ for nucleus no            1
+for operator d/dz 1 with symmetry 1
+ 4.7E-02 7.3E-03 1.1E-03 2.3E-04 4.0E-05 4.5E-06 5.1E-07 1.9E-08 1.8E-09 3.4E-11
+ cg iterations converged after            3  iterations and            1  restarts
+ for nucleus no            2
+ symmetric combination with nucleus            3
+for operator d/dz 2+ 3 with symmetry 1
+ 4.5E-02 1.1E-02 2.2E-03 5.2E-04 6.8E-05 6.6E-06 3.2E-07 2.4E-08 9.4E-10 3.5E-11
+ cg iterations converged after            3  iterations and            1  restarts
+ antisymmetric combination with nucleus            3
+for operator d/dz 2- 3 with symmetry 2
+ 4.6E-02 1.3E-02 2.4E-03 6.6E-04 8.0E-05 5.1E-06 6.2E-07 3.3E-08 1.4E-09 9.7E-11
+ cg iterations converged after            3  iterations and            1  restarts
+ >bodc for nucleus no.            1   36.471532639534246     
+ >bodc for nucleus no.            2   1.0811817020831482     
+ >bodc for nucleus no.            3   0.0000000000000000     
+total time for 1e der ints:  1.757E-01
+total time for 2e der ints:  5.637E+01
+total time for trans      :  2.232E-01
+total time for manip      :  1.981E-02
+total time for orbder     :  6.150E-03
+total time for 1e der ints:  0.000E+00
+total time for 2e der ints:  0.000E+00
+total time for trans      :  0.000E+00
+total time for manip      :  0.000E+00
+total time for orbder     :  0.000E+00
+total time for 1e der ints:  0.000E+00
+total time for 2e der ints:  0.000E+00
+total time for trans      :  0.000E+00
+total time for manip      :  0.000E+00
+total time for orbder     :  0.000E+00
+ in paracis          -1
+no. of core orbitals        0    0    0    0
+no. of valence orbitals     2    1    1    0
+no. of active orbitals      2    1    1    0
+no. of virtual orbs         9    6    3    2
+fcn   1: xx nucleus  1 hf der   0.0000000E+00
+fcn  4+ 7 xx nucleus  2 hf der  -3.7990570E-02
+fcn  4- 7 xx nucleus  3 hf der   3.7990570E-02
+fcn   2: yy nucleus  1 hf der   0.0000000E+00
+fcn  5+ 8 yy nucleus  2 hf der   0.0000000E+00
+fcn  5- 8 yy nucleus  3 hf der   0.0000000E+00
+fcn   3: zz nucleus  1 hf der  -1.4518051E-01
+fcn  6+ 9 zz nucleus  2 hf der   7.2590253E-02
+fcn  6- 9 zz nucleus  3 hf der   7.2590253E-02
+ functions of symmetry            1
+block  1 with active symmetry 1 and virtual symmetry 1 has size    18
+block  2 with active symmetry 2 and virtual symmetry 2 has size     6
+block  3 with active symmetry 3 and virtual symmetry 3 has size     3
+ total number of fcns =           27
+ we have all of cis matrix 
+ setting up rhs for response 
+ number of right hand sides of this symmetry =            9
+ adding squared contributions 
+ total number of right hand sides for this symmetry =           12
+ 7.8E-02 9.3E-03 9.5E-04 8.2E-05 4.9E-06 3.4E-07 1.9E-08 1.0E-09 4.3E-11 1.9E-12
+ 9.8E-14 3.9E-15
+ cg iterations converged after            2  iterations and            1  restarts
+ >C(2) matrix: 
+> z 1   z 1 -1.3530627E+00
+> z 2   z 1 -9.9160872E-02
+> x 3   z 1  2.2787217E-01
+> z 1   z 2 -9.9160872E-02
+> z 2   z 2 -4.5917537E-01
+> x 3   z 2 -1.6919175E-01
+> z 1   x 3  2.2787217E-01
+> z 2   x 3 -1.6919175E-01
+> x 3   x 3 -5.3562350E-01
+ 1.6E-01 1.9E-02 1.9E-03 1.9E-04 1.5E-05 9.3E-07 5.3E-08 2.0E-09 9.9E-11 3.2E-12
+ 1.4E-13 6.1E-15
+ cg iterations converged after            2  iterations and            1  restarts
+ >C(1)
+>     1   z 1 -5.4987320E-01
+>     1   z 2 -4.1986872E-01
+>     1   x 3 -4.2781254E-01
+>     2   z 1  1.5039501E-01
+>     2   z 2 -1.0302641E-02
+>     2   x 3 -3.6326276E-02
+>     3   z 1  1.5039501E-01
+>     3   z 2 -1.0302641E-02
+>     3   x 3 -3.6326276E-02
+ >C(0)
+>     1       1 -7.4799665E+00
+>     2       1  1.4643102E-01
+>     3       1  1.4643102E-01
+>     1       2  1.4643102E-01
+>     2       2 -1.7948066E-01
+>     3       2 -1.7948066E-01
+>     1       3  1.4643102E-01
+>     2       3 -1.7948066E-01
+>     3       3 -1.7948066E-01
+ functions of symmetry            2
+block  1 with active symmetry 2 and virtual symmetry 1 has size     9
+block  2 with active symmetry 1 and virtual symmetry 2 has size    12
+block  3 with active symmetry 3 and virtual symmetry 4 has size     2
+ total number of fcns =           23
+ we have all of cis matrix 
+ setting up rhs for response 
+ number of right hand sides of this symmetry =            9
+ adding squared contributions 
+ total number of right hand sides for this symmetry =           12
+ 1.4E-01 2.2E-02 2.2E-03 1.3E-04 6.7E-06 3.3E-07 1.9E-08 7.0E-10 2.2E-11 5.3E-13
+ 2.3E-14 7.0E-16
+ cg iterations converged after            2  iterations and            1  restarts
+ >C(2) matrix: 
+> x 1   x 1 -3.0639524E+00
+> x 2   x 1  1.6460175E+00
+> z 3   x 1 -1.0692876E+00
+> x 1   x 2  1.6460175E+00
+> x 2   x 2 -2.5249509E+00
+> z 3   x 2  9.5258133E-01
+> x 1   z 3 -1.0692876E+00
+> x 2   z 3  9.5258133E-01
+> z 3   z 3 -1.2427941E+00
+ functions of symmetry            3
+block  1 with active symmetry 3 and virtual symmetry 1 has size     9
+block  2 with active symmetry 1 and virtual symmetry 3 has size     6
+block  3 with active symmetry 2 and virtual symmetry 4 has size     2
+ total number of fcns =           17
+ we have all of cis matrix 
+ setting up rhs for response 
+ number of right hand sides of this symmetry =            9
+ adding squared contributions 
+ total number of right hand sides for this symmetry =           12
+ 5.5E-01 6.3E-02 6.8E-03 4.1E-04 2.4E-05 1.1E-06 4.7E-08 1.8E-09 3.9E-11 9.0E-13
+ 2.7E-14 5.9E-16
+ cg iterations converged after            2  iterations and            1  restarts
+ >C(2) matrix: 
+> y 1   y 1  1.0291017E+01
+> y 2   y 1 -1.0549405E+01
+> y 1   y 2 -1.0549405E+01
+> y 2   y 2  9.0471496E+00
+ functions of symmetry            4
+block  1 with active symmetry 3 and virtual symmetry 2 has size     6
+block  2 with active symmetry 2 and virtual symmetry 3 has size     3
+block  3 with active symmetry 1 and virtual symmetry 4 has size     4
+ total number of fcns =           13
+ we have all of cis matrix 
+ setting up rhs for response 
+ number of right hand sides of this symmetry =            9
+ adding squared contributions 
+ total number of right hand sides for this symmetry =           12
+ 3.1E-02 3.9E-03 2.8E-04 1.1E-05 2.7E-07 5.2E-09 1.2E-10 2.2E-12 2.4E-14 1.4E-16
+ cg iterations converged after           10  iterations and            0  restarts
+ >C(2) matrix: 
+> y 3   y 3 -3.9644125E-01
+ b4 desymmetrization 
+ symmetrized C(2) 
+ symmetrized C(1) 
+ >desymmetrized C(2) 
+> x 1   x 1 -3.0639524E+00
+> x 2   x 1  8.2300874E-01
+> z 2   x 1 -5.3464379E-01
+> x 3   x 1  8.2300874E-01
+> z 3   x 1  5.3464379E-01
+> y 1   y 1  1.0291017E+01
+> y 2   y 1 -5.2747023E+00
+> y 3   y 1 -5.2747023E+00
+> z 1   z 1 -1.3530627E+00
+> x 2   z 1  1.1393608E-01
+> z 2   z 1 -4.9580436E-02
+> x 3   z 1 -1.1393608E-01
+> z 3   z 1 -4.9580436E-02
+> x 1   x 2  8.2300874E-01
+> z 1   x 2  1.1393608E-01
+> x 2   x 2 -7.6514360E-01
+> z 2   x 2  1.9584740E-01
+> x 3   x 2 -4.9733186E-01
+> z 3   x 2 -2.8044327E-01
+> y 1   y 2 -5.2747023E+00
+> y 2   y 2  2.1626771E+00
+> y 3   y 2  2.3608977E+00
+> x 1   z 2 -5.3464379E-01
+> z 1   z 2 -4.9580436E-02
+> x 2   z 2  1.9584740E-01
+> z 2   z 2 -4.2549236E-01
+> x 3   z 2  2.8044327E-01
+> z 3   z 2  1.9590467E-01
+> x 1   x 3  8.2300874E-01
+> z 1   x 3 -1.1393608E-01
+> x 2   x 3 -4.9733186E-01
+> z 2   x 3  2.8044327E-01
+> x 3   x 3 -7.6514360E-01
+> z 3   x 3 -1.9584740E-01
+> y 1   y 3 -5.2747023E+00
+> y 2   y 3  2.3608977E+00
+> y 3   y 3  2.1626771E+00
+> x 1   z 3  5.3464379E-01
+> z 1   z 3 -4.9580436E-02
+> x 2   z 3 -2.8044327E-01
+> z 2   z 3  1.9590467E-01
+> x 3   z 3 -1.9584740E-01
+> z 3   z 3 -4.2549236E-01
+ >desymmetrized C(1) 
+>     1   z 1 -5.4987320E-01
+>     1   x 2 -2.1390627E-01
+>     1   z 2 -2.0993436E-01
+>     1   x 3  2.1390627E-01
+>     1   z 3 -2.0993436E-01
+>     2   z 1  1.5039501E-01
+>     2   x 2 -1.8163138E-02
+>     2   z 2 -5.1513204E-03
+>     2   x 3  1.8163138E-02
+>     2   z 3 -5.1513204E-03
+>     3   z 1  1.5039501E-01
+>     3   x 2 -1.8163138E-02
+>     3   z 2 -5.1513204E-03
+>     3   x 3  1.8163138E-02
+>     3   z 3 -5.1513204E-03
+ high water mark 2,173,677                                         
+ double precision words on this core

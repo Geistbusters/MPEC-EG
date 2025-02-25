@@ -1,0 +1,973 @@
+ Hi, this is preinit for MPI-4 code
+
+
+Welcome to MPEC
+
+Massively
+Parallel
+Electron
+Correlation
+
+version 2.1 eta
+
+Linked on:  Fri Nov 1 14:28:08 PDT 2024 
+smallest number one can add to 1 and not get 1 is  2.220E-16
+
+ This is going to be a relativistic calculation 
+
+ we have itype in input 
+ 2 electron integral type = ss   
+ we are getting basis set info from file cc-pvdz
+
+  l  Z      x              y              z               exponential parameters
+  0  6     0.00000000     0.00000000     0.00000000      6.66E+03 1.00E+03 2.28E+02 6.47E+01 2.11E+01 7.50E+00 2.80E+00 5.21E-01 1.60E-01
+  contraction no.   1                                k1   0.00071  0.00538  0.02721  0.10193  0.27489  0.44836  0.28470  0.01517  0.00000
+                                                     k2   0.00069  0.00534  0.02713  0.10183  0.27484  0.44842  0.28477  0.01518  0.00000
+  contraction no.   2                                k1  -0.00015 -0.00117 -0.00576 -0.02339 -0.06403 -0.15009 -0.12683  0.54520  0.00000
+                                                     k2  -0.00015 -0.00116 -0.00574 -0.02336 -0.06399 -0.15007 -0.12681  0.54521  0.00000
+  contraction no.   3                                k1   0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  1.00000
+  1  6     0.00000000     0.00000000     0.00000000      9.44E+00 2.00E+00 5.46E-01 1.52E-01
+  contraction no.   1                                k1   0.03815  0.20948  0.50846  0.00000
+                                                     k2   0.03812  0.20945  0.50843  0.00000
+  contraction no.   2                                k1   0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  1.00000
+  2  6     0.00000000     0.00000000     0.00000000      5.50E-01
+  contraction no.   1                                k1   1.00000
+                                                     k2   1.00000
+ we are getting basis set info from file cc-pvdz
+
+  l  Z      x              y              z               exponential parameters
+  0  1     1.64440300     0.00000000     1.32213000      1.30E+01 1.96E+00 4.45E-01 1.22E-01
+  contraction no.   1                                k1   0.01969  0.13799  0.47815  0.00000
+                                                     k2   0.01969  0.13798  0.47815  0.00000
+  contraction no.   2                                k1   0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  1.00000
+
+  l  Z      x              y              z               exponential parameters
+  0  1    -1.64440300     0.00000000     1.32213000      1.30E+01 1.96E+00 4.45E-01 1.22E-01
+  contraction no.   1                                k1   0.01969  0.13799  0.47815  0.00000
+                                                     k2   0.01969  0.13798  0.47815  0.00000
+  contraction no.   2                                k1   0.00000  0.00000  0.00000  1.00000
+                                                     k2   0.00000  0.00000  0.00000  1.00000
+  1  1     1.64440300     0.00000000     1.32213000      7.27E-01
+  contraction no.   1                                k1   1.00000
+                                                     k2   1.00000
+  1  1    -1.64440300     0.00000000     1.32213000      7.27E-01
+  contraction no.   1                                k1   1.00000
+                                                     k2   1.00000
+ symmetry is turned off ...
+ Nuclei will have finite radii 
+ atoms: 
+   #   Z             x              y              z       nuc weight(amu) nuc rad   nuc gaus (a.u.)
+>  1   6. C         0.00000000     0.00000000     0.00000000     13.0001  4.792E-05  3.266E+08
+>  2   1. H         1.64440300     0.00000000     1.32213000      3.0155  3.360E-05  6.645E+08
+>  3   1. H        -1.64440300     0.00000000     1.32213000      3.0155  3.360E-05  6.645E+08
+  
+ atom-atom distances in a.u. 
+ 1- 2     2.10999738 1- 3     2.10999738
+ 2- 3     3.28880600
+
+  
+ atom-atom distances in Angstroms 
+ 1- 2     1.11656261 1- 3     1.11656261
+ 2- 3     1.74036131
+
+  
+ nuclear repulsion energy =    5.9912725579610644     
+  
+ order of group:            1
+IRR   gen.  multiplication table: 
+A    1 1 1       1       X Y Z XY XZ YZ
+ C1 symmetry 
+
+ total number of gaussians:           24
+ number of words for contraction coefficients =           90
+ gaussians: 
+    #  l      exp.     atom(s) no. in symmetry blocks
+    1  0  6.6650000E+03  1         1
+    2  0  1.0000000E+03  1         1
+    3  0  2.2800000E+02  1         1
+    4  0  6.4710000E+01  1         1
+    5  0  2.1060000E+01  1         1
+    6  0  7.4950000E+00  1         1
+    7  0  2.7970000E+00  1         1
+    8  0  5.2150000E-01  1         1
+    9  0  1.5960000E-01  1         1
+   10  1  9.4390000E+00  1         3
+   11  1  2.0020000E+00  1         3
+   12  1  5.4560000E-01  1         3
+   13  1  1.5170000E-01  1         3
+   14  2  5.5000000E-01  1         5
+   15  0  1.3010000E+01  2         1
+   16  0  1.9620000E+00  2         1
+   17  0  4.4460000E-01  2         1
+   18  0  1.2200000E-01  2         1
+   19  0  1.3010000E+01  3         1
+   20  0  1.9620000E+00  3         1
+   21  0  4.4460000E-01  3         1
+   22  0  1.2200000E-01  3         1
+   23  1  7.2700000E-01  2         3
+   24  1  7.2700000E-01  3         3
+default closed orbs:    1
+default active orbs:    6
+ total number of primitive basis functions =           80
+ by symmetry block:   80
+ total number of contracted basis functions =           24
+ by symmetry block:   24
+ after mygues card:            7          12 readin
+ myguess =            2
+ in grado block 
+ is,ie            6           9
+ what we have for idogrado            3    3    0    0    0
+ end of file 1008
+ going after "/Users/dschwenk/mpec2.1/eta/data//rystabc.ufort"
+ maximum order of rys quadrature           31
+ going after "/Users/dschwenk/mpec2.1/eta/data//ghtab.ufort"
+ maximum order of gauss hermite quadrature:           31
+ number of words of storage:          992
+ number of compute processors =        6
+ scratch memory space: 2147483647 words or  16.0 Gbytes.
+ entering parahf 
+ output of processor no.            0
+ idorel =            2
+ idogrado =            3
+ icasguess, myguess            0 T
+ cut off energy for positron states:   -37557.724836488218     
+ performing single configuration HF calculation
+ number of basis fcns =           40
+ using 2nd order augmented hessian method 
+ program to figure out sym. orb. occupancy based
+ on eigenvalues of h0. total number occ orbs =            4
+ try and grab orbs from file orbs
+ orbitals from orthogonal basis are used 
+ nsymbg etc            4           2          19           3
+ point group doesn't match current one:            4
+ number of gaussians does not match           19          24
+ myguessi            2
+ myguessi            2
+ myguessi            2
+ myguessi            2
+ this shift is consistent with symmetry 
+range of S eigenvalues:  2.39E-02 2.87E+00
+ number of positron states =            0
+ we are good - there are no positron states! :)
+ we've got guess from previous orbitals 
+ over write h0 eigenvectors with these 
+ sorting h0 eigenvalues across blocks    5.9912725579610644     
+ -1.8910589E+01    1
+ -5.3682598E+00    1
+ -5.2046797E+00    1
+ -4.9971765E+00    1
+ total no. orbital rotation parameters =           80
+energy from starting orbitals:       -38.729766
+iter.         energy      change     micro diag  xlam
+   2    -38.729765755    -2.9E-09      1    1    1.00
+   3    -38.729765755854 -1.4E-14      1    1    1.00
+ calculations converged
+last change in orbitals:  2.12E-10
+ for symmetry            1
+ fock matrix eigenvalues for doubly occupied orbs
+tiny =  1.E-11
+      1    -4@
+  m-n        1             2             3             4
+    1  -1.128873E+01 -8.552288E-01 -5.435829E-01 -3.157638E-01
+ $
+ >energy from densities   -38.729765755854359       -63.435465385999379        18.714427072183952     
+ total telapo =    0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+timer    1 1e ints  ave time  1.069E-03 dev  7.848E-06 total  6.411E-03 no. calls         6.
+timer    2 diag s,. ave time  1.008E-03 dev  4.163E-06 total  6.048E-03 no. calls         6.
+timer    3 2e ints  ave time  1.812E-01 dev  2.055E-03 total  4.348E+00 no. calls        24.
+timer    4 ao to mo ave time  2.296E-03 dev  4.878E-04 total  5.509E-02 no. calls        24.
+timer    6 amat     ave time  3.125E-05 dev  7.496E-06 total  3.750E-04 no. calls        12.
+timer    7 gmat     ave time  9.167E-06 dev  1.067E-06 total  1.100E-04 no. calls        12.
+timer    8 aughess  ave time  3.228E-04 dev  1.734E-04 total  3.874E-03 no. calls        12.
+timer    9 hessyc   ave time  3.929E-06 dev  2.394E-06 total  3.300E-04 no. calls        84.
+timer   10 schmidt  ave time  4.833E-05 dev  1.650E-06 total  5.800E-04 no. calls        12.
+timer   12 total    ave time  7.374E-01 dev  6.203E-06 total  4.425E+00 no. calls         6.
+timer   13 cannon   ave time  5.683E-05 dev  2.882E-06 total  6.820E-04 no. calls        12.
+timer   14 preden   ave time  5.167E-06 dev  1.675E-06 total  3.100E-05 no. calls         6.
+timer   15 preeri   ave time  1.146E-04 dev  1.325E-05 total  2.750E-03 no. calls        24.
+timer   16 bmat     ave time -8.333E-08 dev  1.256E-06 total -1.000E-06 no. calls        12.
+timer   17 diag g   ave time  2.320E-04 dev  1.952E-04 total  4.640E-04 no. calls         2.
+ opening file forbs 
+ final converged orbitals:
+ for symmetry block            1
+ ao basis 
+tiny =  1.E-11
+     40   -48@
+  m-n      1k1           1k2           2k1           2k2           3k1      
+    1   7.104451E-04  6.944570E-04 -1.291715E-04 -1.261739E-04       tiny   
+    2   5.381510E-03  5.342415E-03 -1.001278E-03 -9.938873E-04       tiny   
+    3   2.720130E-02  2.712255E-02 -4.951531E-03 -4.934826E-03       tiny   
+    4   1.018986E-01  1.018029E-01 -1.995941E-02 -1.993669E-02       tiny   
+    5   2.748016E-01  2.747536E-01 -5.457500E-02 -5.454706E-02       tiny   
+    6   4.480070E-01  4.480672E-01 -1.245284E-01 -1.245155E-01       tiny   
+    7   2.843322E-01  2.844056E-01 -1.035941E-01 -1.035825E-01       tiny   
+    8   1.768268E-02  1.768753E-02  4.238456E-01  4.238535E-01       tiny   
+    9  -6.546029E-03 -6.546029E-03  3.456471E-01  3.456471E-01       tiny   
+   10        tiny          tiny          tiny          tiny     2.482647E-02
+   11        tiny          tiny          tiny          tiny          tiny   
+   12   8.380087E-05  8.373934E-05 -5.283474E-03 -5.279594E-03       tiny   
+   13        tiny          tiny          tiny          tiny     1.363308E-01
+   14        tiny          tiny          tiny          tiny          tiny   
+   15   4.601798E-04  4.601271E-04 -2.901340E-02 -2.901007E-02       tiny   
+   16        tiny          tiny          tiny          tiny     3.309110E-01
+   17        tiny          tiny          tiny          tiny          tiny   
+   18   1.116978E-03  1.116926E-03 -7.042319E-02 -7.041989E-02       tiny   
+   19        tiny          tiny          tiny          tiny     2.031024E-01
+   20        tiny          tiny          tiny          tiny          tiny   
+   21   5.278063E-04  5.278063E-04 -1.172134E-02 -1.172134E-02       tiny   
+   22  -7.355049E-04 -7.355049E-04 -6.527517E-03 -6.527517E-03       tiny   
+   23  -2.881266E-04 -2.881266E-04  6.111431E-03  6.111431E-03       tiny   
+   24        tiny          tiny          tiny          tiny          tiny   
+   25        tiny          tiny          tiny          tiny    -1.697091E-02
+   26        tiny          tiny          tiny          tiny          tiny   
+   27   1.376674E-05  1.376475E-05  7.843962E-03  7.842830E-03 -1.085566E-02
+   28   9.648075E-05  9.647768E-05  5.497245E-02  5.497070E-02 -7.607921E-02
+   29   3.343267E-04  3.343257E-04  1.904915E-01  1.904909E-01 -2.636310E-01
+   30   1.554211E-03  1.554211E-03  3.742066E-02  3.742066E-02 -1.315847E-01
+   31   1.376674E-05  1.376475E-05  7.843962E-03  7.842830E-03  1.085566E-02
+   32   9.648075E-05  9.647768E-05  5.497245E-02  5.497070E-02  7.607921E-02
+   33   3.343267E-04  3.343257E-04  1.904915E-01  1.904909E-01  2.636310E-01
+   34   1.554211E-03  1.554211E-03  3.742066E-02  3.742066E-02  1.315847E-01
+   35   2.641576E-04  2.641576E-04  2.252011E-02  2.252011E-02 -1.140913E-02
+   36        tiny          tiny          tiny          tiny          tiny   
+   37   7.047134E-06  7.047134E-06  1.590343E-02  1.590343E-02 -1.783828E-02
+   38  -2.641576E-04 -2.641576E-04 -2.252011E-02 -2.252011E-02 -1.140913E-02
+   39        tiny          tiny          tiny          tiny          tiny   
+   40   7.047134E-06  7.047134E-06  1.590343E-02  1.590343E-02  1.783828E-02
+  m-n      3k2           4k1           4k2           5k1           5k2      
+    1        tiny          tiny          tiny    -6.307145E-05 -6.161957E-05
+    2        tiny          tiny          tiny    -4.859397E-04 -4.823677E-04
+    3        tiny          tiny          tiny    -2.416959E-03 -2.409112E-03
+    4        tiny          tiny          tiny    -9.559878E-03 -9.549471E-03
+    5        tiny          tiny          tiny    -2.604946E-02 -2.603831E-02
+    6        tiny          tiny          tiny    -5.521614E-02 -5.521292E-02
+    7        tiny          tiny          tiny    -4.384951E-02 -4.384707E-02
+    8        tiny          tiny          tiny     1.515477E-01  1.515504E-01
+    9        tiny          tiny          tiny     5.692773E-01  5.692773E-01
+   10   2.480824E-02       tiny          tiny          tiny          tiny   
+   11        tiny     3.367109E-02  3.364637E-02       tiny          tiny   
+   12        tiny          tiny          tiny     2.136583E-02  2.135014E-02
+   13   1.363152E-01       tiny          tiny          tiny          tiny   
+   14        tiny     1.848997E-01  1.848785E-01       tiny          tiny   
+   15        tiny          tiny          tiny     1.173272E-01  1.173138E-01
+   16   3.308955E-01       tiny          tiny          tiny          tiny   
+   17        tiny     4.488005E-01  4.487795E-01       tiny          tiny   
+   18        tiny          tiny          tiny     2.847842E-01  2.847709E-01
+   19   2.031024E-01       tiny          tiny          tiny          tiny   
+   20        tiny     5.347273E-01  5.347273E-01       tiny          tiny   
+   21        tiny          tiny          tiny     4.366912E-01  4.366912E-01
+   22        tiny          tiny          tiny     3.903352E-03  3.903352E-03
+   23        tiny          tiny          tiny    -9.750242E-03 -9.750242E-03
+   24        tiny          tiny          tiny          tiny          tiny   
+   25  -1.697091E-02       tiny          tiny          tiny          tiny   
+   26        tiny     2.265454E-03  2.265454E-03       tiny          tiny   
+   27  -1.085410E-02       tiny          tiny    -5.620538E-03 -5.619727E-03
+   28  -7.607679E-02       tiny          tiny    -3.939014E-02 -3.938888E-02
+   29  -2.636301E-01       tiny          tiny    -1.364954E-01 -1.364949E-01
+   30  -1.315847E-01       tiny          tiny    -1.631386E-01 -1.631386E-01
+   31   1.085410E-02       tiny          tiny    -5.620538E-03 -5.619727E-03
+   32   7.607679E-02       tiny          tiny    -3.939014E-02 -3.938888E-02
+   33   2.636301E-01       tiny          tiny    -1.364954E-01 -1.364949E-01
+   34   1.315847E-01       tiny          tiny    -1.631386E-01 -1.631386E-01
+   35  -1.140913E-02       tiny          tiny    -9.794009E-03 -9.794009E-03
+   36        tiny     2.662455E-02  2.662455E-02       tiny          tiny   
+   37  -1.783828E-02       tiny          tiny     1.134054E-02  1.134054E-02
+   38  -1.140913E-02       tiny          tiny     9.794009E-03  9.794009E-03
+   39        tiny     2.662455E-02  2.662455E-02       tiny          tiny   
+   40   1.783828E-02       tiny          tiny     1.134054E-02  1.134054E-02
+  m-n      6k1           6k2           7k1           7k2           8k1      
+    1   7.032436E-05  6.872263E-05       tiny          tiny          tiny   
+    2   5.375096E-04  5.335801E-04       tiny          tiny          tiny   
+    3   2.693792E-03  2.685493E-03       tiny          tiny          tiny   
+    4   1.038867E-02  1.037807E-02       tiny          tiny          tiny   
+    5   2.817411E-02  2.816530E-02       tiny          tiny          tiny   
+    6   5.343059E-02  5.343151E-02       tiny          tiny          tiny   
+    7   3.909014E-02  3.909214E-02       tiny          tiny          tiny   
+    8  -8.831637E-02 -8.831775E-02       tiny          tiny          tiny   
+    9  -1.820255E+00 -1.820255E+00       tiny          tiny          tiny   
+   10        tiny          tiny    -1.816842E-02 -1.815508E-02  1.605020E-02
+   11        tiny          tiny          tiny          tiny          tiny   
+   12   9.702506E-03  9.695381E-03       tiny          tiny          tiny   
+   13        tiny          tiny    -9.976915E-02 -9.975772E-02  8.813722E-02
+   14        tiny          tiny          tiny          tiny          tiny   
+   15   5.327984E-02  5.327374E-02       tiny          tiny          tiny   
+   16        tiny          tiny    -2.421661E-01 -2.421548E-01  2.139324E-01
+   17        tiny          tiny          tiny          tiny          tiny   
+   18   1.293243E-01  1.293182E-01       tiny          tiny          tiny   
+   19        tiny          tiny    -1.280647E+00 -1.280647E+00 -1.105309E+00
+   20        tiny          tiny          tiny          tiny          tiny   
+   21   8.813318E-01  8.813318E-01       tiny          tiny          tiny   
+   22  -1.476998E-02 -1.476998E-02       tiny          tiny          tiny   
+   23  -2.841854E-02 -2.841854E-02       tiny          tiny          tiny   
+   24        tiny          tiny          tiny          tiny          tiny   
+   25        tiny          tiny     2.174209E-02  2.174209E-02 -1.354521E-01
+   26        tiny          tiny          tiny          tiny          tiny   
+   27   1.417313E-04  1.417108E-04 -1.393235E-03 -1.393034E-03 -2.293894E-02
+   28   9.932882E-04  9.932565E-04 -9.764140E-03 -9.763829E-03 -1.607619E-01
+   29   3.441959E-03  3.441948E-03 -3.383486E-02 -3.383476E-02 -5.570747E-01
+   30   1.382721E+00  1.382721E+00 -1.746840E+00 -1.746840E+00  1.774268E-01
+   31   1.417313E-04  1.417108E-04  1.393235E-03  1.393034E-03  2.293894E-02
+   32   9.932882E-04  9.932565E-04  9.764140E-03  9.763829E-03  1.607619E-01
+   33   3.441959E-03  3.441948E-03  3.383486E-02  3.383476E-02  5.570747E-01
+   34   1.382721E+00  1.382721E+00  1.746840E+00  1.746840E+00 -1.774268E-01
+   35   1.969783E-02  1.969783E-02 -1.660375E-02 -1.660375E-02  2.985362E-03
+   36        tiny          tiny          tiny          tiny          tiny   
+   37   1.028838E-02  1.028838E-02 -8.551341E-03 -8.551341E-03  2.565558E-02
+   38  -1.969783E-02 -1.969783E-02 -1.660375E-02 -1.660375E-02  2.985362E-03
+   39        tiny          tiny          tiny          tiny          tiny   
+   40   1.028838E-02  1.028838E-02  8.551341E-03  8.551341E-03 -2.565558E-02
+  m-n      8k2           9k1           9k2          10k1          10k2      
+    1        tiny    -4.535325E-05 -4.424811E-05       tiny          tiny   
+    2        tiny    -3.648185E-04 -3.620595E-04       tiny          tiny   
+    3        tiny    -1.741927E-03 -1.734676E-03       tiny          tiny   
+    4        tiny    -7.840180E-03 -7.829110E-03       tiny          tiny   
+    5        tiny    -2.184089E-02 -2.181992E-02       tiny          tiny   
+    6        tiny    -6.874842E-02 -6.872998E-02       tiny          tiny   
+    7        tiny    -6.652537E-02 -6.650676E-02       tiny          tiny   
+    8        tiny     3.969388E-01  3.969467E-01       tiny          tiny   
+    9        tiny     2.388235E-01  2.388235E-01       tiny          tiny   
+   10   1.603841E-02       tiny          tiny          tiny          tiny   
+   11        tiny          tiny          tiny    -5.754680E-02 -5.750455E-02
+   12        tiny     4.349214E-02  4.346021E-02       tiny          tiny   
+   13   8.812713E-02       tiny          tiny          tiny          tiny   
+   14        tiny          tiny          tiny    -3.160096E-01 -3.159734E-01
+   15        tiny     2.388305E-01  2.388032E-01       tiny          tiny   
+   16   2.139223E-01       tiny          tiny          tiny          tiny   
+   17        tiny          tiny          tiny    -7.670389E-01 -7.670029E-01
+   18        tiny     5.797048E-01  5.796777E-01       tiny          tiny   
+   19  -1.105309E+00       tiny          tiny          tiny          tiny   
+   20        tiny          tiny          tiny     1.067099E+00  1.067099E+00
+   21        tiny    -1.197146E+00 -1.197146E+00       tiny          tiny   
+   22        tiny     1.522701E-02  1.522701E-02       tiny          tiny   
+   23        tiny    -8.451167E-02 -8.451167E-02       tiny          tiny   
+   24        tiny          tiny          tiny          tiny          tiny   
+   25  -1.354521E-01       tiny          tiny          tiny          tiny   
+   26        tiny          tiny          tiny    -1.553079E-02 -1.553079E-02
+   27  -2.293564E-02 -1.712183E-02 -1.711936E-02       tiny          tiny   
+   28  -1.607567E-01 -1.199941E-01 -1.199902E-01       tiny          tiny   
+   29  -5.570730E-01 -4.158054E-01 -4.158041E-01       tiny          tiny   
+   30   1.774268E-01 -2.309787E-02 -2.309787E-02       tiny          tiny   
+   31   2.293564E-02 -1.712183E-02 -1.711936E-02       tiny          tiny   
+   32   1.607567E-01 -1.199941E-01 -1.199902E-01       tiny          tiny   
+   33   5.570730E-01 -4.158054E-01 -4.158041E-01       tiny          tiny   
+   34  -1.774268E-01 -2.309787E-02 -2.309787E-02       tiny          tiny   
+   35   2.985362E-03 -5.562487E-03 -5.562487E-03       tiny          tiny   
+   36        tiny          tiny          tiny    -4.706868E-02 -4.706868E-02
+   37   2.565558E-02  3.329467E-03  3.329467E-03       tiny          tiny   
+   38   2.985362E-03  5.562487E-03  5.562487E-03       tiny          tiny   
+   39        tiny          tiny          tiny    -4.706868E-02 -4.706868E-02
+   40  -2.565558E-02  3.329467E-03  3.329467E-03       tiny          tiny   
+  m-n     11k1          11k2          12k1          12k2          13k1      
+    1   2.704575E-05  2.648365E-05       tiny          tiny     1.876466E-05
+    2   1.931440E-04  1.918008E-04       tiny          tiny     4.012038E-05
+    3   1.032513E-03  1.030740E-03       tiny          tiny     6.922925E-04
+    4   3.143406E-03  3.142492E-03       tiny          tiny    -3.711265E-03
+    5   8.092900E-03  8.100934E-03       tiny          tiny    -1.335272E-02
+    6  -5.068390E-03 -5.053816E-03       tiny          tiny    -1.806916E-01
+    7  -1.583189E-02 -1.581626E-02       tiny          tiny    -2.244588E-01
+    8   2.200237E-01  2.200284E-01       tiny          tiny     1.909319E+00
+    9  -2.199118E-01 -2.199118E-01       tiny          tiny    -3.469410E+00
+   10        tiny          tiny    -4.939237E-02 -4.935610E-02       tiny   
+   11        tiny          tiny          tiny          tiny          tiny   
+   12   3.550487E-02  3.547880E-02       tiny          tiny    -1.145833E-02
+   13        tiny          tiny    -2.712307E-01 -2.711997E-01       tiny   
+   14        tiny          tiny          tiny          tiny          tiny   
+   15   1.949696E-01  1.949473E-01       tiny          tiny    -6.292169E-02
+   16        tiny          tiny    -6.583487E-01 -6.583179E-01       tiny   
+   17        tiny          tiny          tiny          tiny          tiny   
+   18   4.732429E-01  4.732207E-01       tiny          tiny    -1.527276E-01
+   19        tiny          tiny     1.621389E+00  1.621389E+00       tiny   
+   20        tiny          tiny          tiny          tiny          tiny   
+   21  -2.268209E-01 -2.268209E-01       tiny          tiny     9.990290E-01
+   22   2.208988E-02  2.208988E-02       tiny          tiny    -7.161300E-02
+   23   2.719720E-01  2.719720E-01       tiny          tiny     1.969128E-02
+   24        tiny          tiny          tiny          tiny          tiny   
+   25        tiny          tiny    -3.404899E-01 -3.404899E-01       tiny   
+   26        tiny          tiny          tiny          tiny          tiny   
+   27   2.199753E-02  2.199436E-02 -1.031417E-02 -1.031268E-02  2.716675E-03
+   28   1.541642E-01  1.541593E-01 -7.228429E-02 -7.228198E-02  1.903914E-02
+   29   5.342124E-01  5.342107E-01 -2.504807E-01 -2.504799E-01  6.597474E-02
+   30  -4.035607E-01 -4.035607E-01  1.424857E+00  1.424857E+00  1.184726E+00
+   31   2.199753E-02  2.199436E-02  1.031417E-02  1.031268E-02  2.716675E-03
+   32   1.541642E-01  1.541593E-01  7.228429E-02  7.228198E-02  1.903914E-02
+   33   5.342124E-01  5.342107E-01  2.504807E-01  2.504799E-01  6.597474E-02
+   34  -4.035607E-01 -4.035607E-01 -1.424857E+00 -1.424857E+00  1.184726E+00
+   35  -1.970676E-01 -1.970676E-01  1.549816E-01  1.549816E-01  1.095917E-01
+   36        tiny          tiny          tiny          tiny          tiny   
+   37  -2.573670E-02 -2.573670E-02  1.879922E-01  1.879922E-01  1.811407E-01
+   38   1.970676E-01  1.970676E-01  1.549816E-01  1.549816E-01 -1.095917E-01
+   39        tiny          tiny          tiny          tiny          tiny   
+   40  -2.573670E-02 -2.573670E-02 -1.879922E-01 -1.879922E-01  1.811407E-01
+  m-n     13k2          14k1          14k2          15k1          15k2      
+    1   1.874749E-05  1.398606E-05  1.376109E-05       tiny          tiny   
+    2   4.035037E-05  8.333493E-05  8.284508E-05       tiny          tiny   
+    3   7.008732E-04  5.296964E-04  5.305084E-04       tiny          tiny   
+    4  -3.690024E-03  5.871860E-04  5.905686E-04       tiny          tiny   
+    5  -1.326815E-02  8.424768E-04  8.605519E-04       tiny          tiny   
+    6  -1.805831E-01 -3.384364E-02 -3.381878E-02       tiny          tiny   
+    7  -2.243451E-01 -4.580658E-02 -4.578038E-02       tiny          tiny   
+    8   1.909358E+00  4.233478E-01  4.233566E-01       tiny          tiny   
+    9  -3.469410E+00 -8.662827E-01 -8.662827E-01       tiny          tiny   
+   10        tiny          tiny          tiny          tiny          tiny   
+   11        tiny          tiny          tiny          tiny          tiny   
+   12  -1.144992E-02  5.034725E-03  5.031028E-03       tiny          tiny   
+   13        tiny          tiny          tiny          tiny          tiny   
+   14        tiny          tiny          tiny          tiny          tiny   
+   15  -6.291448E-02  2.764743E-02  2.764427E-02       tiny          tiny   
+   16        tiny          tiny          tiny          tiny          tiny   
+   17        tiny          tiny          tiny          tiny          tiny   
+   18  -1.527204E-01  6.710763E-02  6.710449E-02       tiny          tiny   
+   19        tiny          tiny          tiny          tiny          tiny   
+   20        tiny          tiny          tiny          tiny          tiny   
+   21   9.990290E-01  4.205913E-01  4.205913E-01       tiny          tiny   
+   22  -7.161300E-02  6.476411E-01  6.476411E-01       tiny          tiny   
+   23   1.969128E-02 -4.119676E-02 -4.119676E-02       tiny          tiny   
+   24        tiny          tiny          tiny     6.471804E-01  6.471804E-01
+   25        tiny          tiny          tiny          tiny          tiny   
+   26        tiny          tiny          tiny          tiny          tiny   
+   27   2.716283E-03  6.814097E-03  6.813114E-03       tiny          tiny   
+   28   1.903853E-02  4.775490E-02  4.775338E-02       tiny          tiny   
+   29   6.597453E-02  1.654811E-01  1.654806E-01       tiny          tiny   
+   30   1.184726E+00  2.272264E-01  2.272264E-01       tiny          tiny   
+   31   2.716283E-03  6.814097E-03  6.813114E-03       tiny          tiny   
+   32   1.903853E-02  4.775490E-02  4.775338E-02       tiny          tiny   
+   33   6.597453E-02  1.654811E-01  1.654806E-01       tiny          tiny   
+   34   1.184726E+00  2.272264E-01  2.272264E-01       tiny          tiny   
+   35   1.095917E-01  2.108103E-01  2.108103E-01       tiny          tiny   
+   36        tiny          tiny          tiny    -3.659568E-01 -3.659568E-01
+   37   1.811407E-01 -2.569118E-01 -2.569118E-01       tiny          tiny   
+   38  -1.095917E-01 -2.108103E-01 -2.108103E-01       tiny          tiny   
+   39        tiny          tiny          tiny     3.659568E-01  3.659568E-01
+   40   1.811407E-01 -2.569118E-01 -2.569118E-01       tiny          tiny   
+  m-n     16k1          16k2          17k1          17k2          18k1      
+    1        tiny          tiny          tiny          tiny    -3.711357E-05
+    2        tiny          tiny          tiny          tiny    -2.429895E-04
+    3        tiny          tiny          tiny          tiny    -1.411212E-03
+    4        tiny          tiny          tiny          tiny    -2.929527E-03
+    5        tiny          tiny          tiny          tiny    -6.650186E-03
+    6        tiny          tiny          tiny          tiny     4.857171E-02
+    7        tiny          tiny          tiny          tiny     7.186829E-02
+    8        tiny          tiny          tiny          tiny    -7.145502E-01
+    9        tiny          tiny          tiny          tiny     1.432022E+00
+   10        tiny          tiny    -4.742161E-03 -4.738678E-03       tiny   
+   11   5.295712E-03  5.291823E-03       tiny          tiny          tiny   
+   12        tiny          tiny          tiny          tiny     2.834091E-03
+   13        tiny          tiny    -2.604086E-02 -2.603787E-02       tiny   
+   14   2.908060E-02  2.907727E-02       tiny          tiny          tiny   
+   15        tiny          tiny          tiny          tiny     1.556298E-02
+   16        tiny          tiny    -6.320805E-02 -6.320509E-02       tiny   
+   17   7.058631E-02  7.058301E-02       tiny          tiny          tiny   
+   18        tiny          tiny          tiny          tiny     3.777547E-02
+   19        tiny          tiny    -3.790349E-01 -3.790349E-01       tiny   
+   20   1.323376E-01  1.323376E-01       tiny          tiny          tiny   
+   21        tiny          tiny          tiny          tiny    -6.902198E-01
+   22        tiny          tiny          tiny          tiny     2.554431E-01
+   23        tiny          tiny          tiny          tiny     9.768913E-01
+   24        tiny          tiny          tiny          tiny          tiny   
+   25        tiny          tiny    -1.661102E-01 -1.661102E-01       tiny   
+   26   7.602430E-01  7.602430E-01       tiny          tiny          tiny   
+   27        tiny          tiny    -1.822055E-03 -1.821792E-03 -2.220303E-02
+   28        tiny          tiny    -1.276942E-02 -1.276901E-02 -1.556044E-01
+   29        tiny          tiny    -4.424880E-02 -4.424866E-02 -5.392031E-01
+   30        tiny          tiny    -1.156368E-01 -1.156368E-01 -2.466509E-01
+   31        tiny          tiny     1.822055E-03  1.821792E-03 -2.220303E-02
+   32        tiny          tiny     1.276942E-02  1.276901E-02 -1.556044E-01
+   33        tiny          tiny     4.424880E-02  4.424866E-02 -5.392031E-01
+   34        tiny          tiny     1.156368E-01  1.156368E-01 -2.466509E-01
+   35        tiny          tiny     5.046675E-01  5.046675E-01  1.122433E-01
+   36  -3.113175E-01 -3.113175E-01       tiny          tiny          tiny   
+   37        tiny          tiny    -5.817992E-01 -5.817992E-01  1.316466E-01
+   38        tiny          tiny     5.046675E-01  5.046675E-01 -1.122433E-01
+   39  -3.113175E-01 -3.113175E-01       tiny          tiny          tiny   
+   40        tiny          tiny     5.817992E-01  5.817992E-01  1.316466E-01
+  m-n     18k2          19k1          19k2          20k1          20k2      
+    1  -3.642981E-05       tiny          tiny          tiny          tiny   
+    2  -2.414192E-04       tiny          tiny          tiny          tiny   
+    3  -1.411083E-03       tiny          tiny          tiny          tiny   
+    4  -2.933412E-03       tiny          tiny          tiny          tiny   
+    5  -6.679765E-03       tiny          tiny          tiny          tiny   
+    6   4.852861E-02       tiny          tiny          tiny          tiny   
+    7   7.182269E-02       tiny          tiny          tiny          tiny   
+    8  -7.145652E-01       tiny          tiny          tiny          tiny   
+    9   1.432022E+00       tiny          tiny          tiny          tiny   
+   10        tiny    -1.064239E-02 -1.063457E-02       tiny          tiny   
+   11        tiny          tiny          tiny          tiny          tiny   
+   12   2.832010E-03       tiny          tiny          tiny          tiny   
+   13        tiny    -5.844106E-02 -5.843436E-02       tiny          tiny   
+   14        tiny          tiny          tiny          tiny          tiny   
+   15   1.556120E-02       tiny          tiny          tiny          tiny   
+   16        tiny    -1.418519E-01 -1.418453E-01       tiny          tiny   
+   17        tiny          tiny          tiny          tiny          tiny   
+   18   3.777370E-02       tiny          tiny          tiny          tiny   
+   19        tiny     4.983847E-01  4.983847E-01       tiny          tiny   
+   20        tiny          tiny          tiny          tiny          tiny   
+   21  -6.902198E-01       tiny          tiny          tiny          tiny   
+   22   2.554431E-01       tiny          tiny          tiny          tiny   
+   23   9.768913E-01       tiny          tiny          tiny          tiny   
+   24        tiny          tiny          tiny    -9.385072E-01 -9.385072E-01
+   25        tiny    -9.239028E-01 -9.239028E-01       tiny          tiny   
+   26        tiny          tiny          tiny          tiny          tiny   
+   27  -2.219983E-02  2.031906E-02  2.031613E-02       tiny          tiny   
+   28  -1.555995E-01  1.424010E-01  1.423965E-01       tiny          tiny   
+   29  -5.392014E-01  4.934505E-01  4.934489E-01       tiny          tiny   
+   30  -2.466509E-01 -1.634973E-01 -1.634973E-01       tiny          tiny   
+   31  -2.219983E-02 -2.031906E-02 -2.031613E-02       tiny          tiny   
+   32  -1.555995E-01 -1.424010E-01 -1.423965E-01       tiny          tiny   
+   33  -5.392014E-01 -4.934505E-01 -4.934489E-01       tiny          tiny   
+   34  -2.466509E-01  1.634973E-01  1.634973E-01       tiny          tiny   
+   35   1.122433E-01 -3.004333E-01 -3.004333E-01       tiny          tiny   
+   36        tiny          tiny          tiny    -7.272507E-01 -7.272507E-01
+   37   1.316466E-01 -1.980499E-01 -1.980499E-01       tiny          tiny   
+   38  -1.122433E-01 -3.004333E-01 -3.004333E-01       tiny          tiny   
+   39        tiny          tiny          tiny     7.272507E-01  7.272507E-01
+   40   1.316466E-01  1.980499E-01  1.980499E-01       tiny          tiny   
+  m-n     21k1          21k2          22k1          22k2          23k1      
+    1        tiny          tiny    -9.835085E-06 -9.661537E-06 -3.942754E-05
+    2        tiny          tiny    -6.246595E-05 -6.207366E-05 -3.470605E-04
+    3        tiny          tiny    -3.734768E-04 -3.736439E-04 -1.522003E-03
+    4        tiny          tiny    -6.554362E-04 -6.569144E-04 -8.692818E-03
+    5        tiny          tiny    -1.373146E-03 -1.382605E-03 -2.502954E-02
+    6        tiny          tiny     1.650651E-02  1.649307E-02 -1.162066E-01
+    7        tiny          tiny     2.342483E-02  2.341064E-02 -1.258375E-01
+    8        tiny          tiny    -2.253963E-01 -2.254010E-01  9.046763E-01
+    9        tiny          tiny     4.849241E-01  4.849241E-01  1.576561E+00
+   10        tiny          tiny          tiny          tiny          tiny   
+   11  -1.062107E-02 -1.061327E-02       tiny          tiny          tiny   
+   12        tiny          tiny    -6.925228E-03 -6.920143E-03 -5.532790E-02
+   13        tiny          tiny          tiny          tiny          tiny   
+   14  -5.832398E-02 -5.831730E-02       tiny          tiny          tiny   
+   15        tiny          tiny    -3.802884E-02 -3.802448E-02 -3.038248E-01
+   16        tiny          tiny          tiny          tiny          tiny   
+   17  -1.415677E-01 -1.415611E-01       tiny          tiny          tiny   
+   18        tiny          tiny    -9.230606E-02 -9.230174E-02 -7.374631E-01
+   19        tiny          tiny          tiny          tiny          tiny   
+   20  -3.424426E-01 -3.424426E-01       tiny          tiny          tiny   
+   21        tiny          tiny    -4.897908E-01 -4.897908E-01 -5.982040E-01
+   22        tiny          tiny     9.850845E-01  9.850845E-01  1.691705E-01
+   23        tiny          tiny    -4.480655E-01 -4.480655E-01  7.511711E-01
+   24        tiny          tiny          tiny          tiny          tiny   
+   25        tiny          tiny          tiny          tiny          tiny   
+   26   7.934288E-01  7.934288E-01       tiny          tiny          tiny   
+   27        tiny          tiny    -3.178183E-03 -3.177725E-03 -3.317527E-02
+   28        tiny          tiny    -2.227350E-02 -2.227279E-02 -2.325006E-01
+   29        tiny          tiny    -7.718252E-02 -7.718228E-02 -8.056651E-01
+   30        tiny          tiny    -1.628621E-01 -1.628621E-01 -5.329521E-01
+   31        tiny          tiny    -3.178183E-03 -3.177725E-03 -3.317527E-02
+   32        tiny          tiny    -2.227350E-02 -2.227279E-02 -2.325006E-01
+   33        tiny          tiny    -7.718252E-02 -7.718228E-02 -8.056651E-01
+   34        tiny          tiny    -1.628621E-01 -1.628621E-01 -5.329521E-01
+   35        tiny          tiny    -5.079020E-01 -5.079020E-01 -8.970887E-01
+   36   7.817226E-01  7.817226E-01       tiny          tiny          tiny   
+   37        tiny          tiny     6.778862E-01  6.778862E-01 -6.770954E-01
+   38        tiny          tiny     5.079020E-01  5.079020E-01  8.970887E-01
+   39   7.817226E-01  7.817226E-01       tiny          tiny          tiny   
+   40        tiny          tiny     6.778862E-01  6.778862E-01 -6.770954E-01
+  m-n     23k2          24k1          24k2      
+    1  -3.834804E-05       tiny          tiny   
+    2  -3.442918E-04       tiny          tiny   
+    3  -1.512574E-03       tiny          tiny   
+    4  -8.676226E-03       tiny          tiny   
+    5  -2.498615E-02       tiny          tiny   
+    6  -1.161593E-01       tiny          tiny   
+    7  -1.257886E-01       tiny          tiny   
+    8   9.046948E-01       tiny          tiny   
+    9   1.576561E+00       tiny          tiny   
+   10        tiny     7.222454E-02  7.217151E-02
+   11        tiny          tiny          tiny   
+   12  -5.528727E-02       tiny          tiny   
+   13        tiny     3.966102E-01  3.965647E-01
+   14        tiny          tiny          tiny   
+   15  -3.037900E-01       tiny          tiny   
+   16        tiny     9.626778E-01  9.626327E-01
+   17        tiny          tiny          tiny   
+   18  -7.374286E-01       tiny          tiny   
+   19        tiny     9.570297E-01  9.570297E-01
+   20        tiny          tiny          tiny   
+   21  -5.982040E-01       tiny          tiny   
+   22   1.691705E-01       tiny          tiny   
+   23   7.511711E-01       tiny          tiny   
+   24        tiny          tiny          tiny   
+   25        tiny    -1.429206E+00 -1.429206E+00
+   26        tiny          tiny          tiny   
+   27  -3.317049E-02  4.087916E-02  4.087326E-02
+   28  -2.324932E-01  2.864914E-01  2.864822E-01
+   29  -8.056626E-01  9.927547E-01  9.927516E-01
+   30  -5.329521E-01  5.966115E-01  5.966115E-01
+   31  -3.317049E-02 -4.087916E-02 -4.087326E-02
+   32  -2.324932E-01 -2.864914E-01 -2.864822E-01
+   33  -8.056626E-01 -9.927547E-01 -9.927516E-01
+   34  -5.329521E-01 -5.966115E-01 -5.966115E-01
+   35  -8.970887E-01  8.858441E-01  8.858441E-01
+   36        tiny          tiny          tiny   
+   37  -6.770954E-01  7.589793E-01  7.589793E-01
+   38   8.970887E-01  8.858441E-01  8.858441E-01
+   39        tiny          tiny          tiny   
+   40  -6.770954E-01 -7.589793E-01 -7.589793E-01
+ $
+ ob basis 
+tiny =  1.E-11
+     24   -24@
+  m-n        1             2             3             4             5
+    1   9.856184E-01 -5.438101E-02       tiny          tiny    -1.284406E-02
+    2  -1.090217E-01  4.186975E-01       tiny          tiny     2.043497E-01
+    3   9.964346E-02  5.833915E-01       tiny          tiny     3.376777E-01
+    4        tiny          tiny     5.378670E-01       tiny          tiny   
+    5        tiny          tiny          tiny     6.701163E-01       tiny   
+    6   9.722792E-03 -1.140906E-01       tiny          tiny     5.035110E-01
+    7        tiny          tiny     5.516865E-01       tiny          tiny   
+    8        tiny          tiny          tiny     7.058726E-01       tiny   
+    9   1.260363E-03 -1.087819E-01       tiny          tiny     7.000777E-01
+   10  -7.653914E-04  3.197145E-03       tiny          tiny     2.211655E-03
+   11  -3.864146E-03  5.761218E-02       tiny          tiny    -7.785822E-02
+   12        tiny          tiny          tiny          tiny          tiny   
+   13        tiny          tiny    -1.671337E-01       tiny          tiny   
+   14        tiny          tiny          tiny     1.358293E-02       tiny   
+   15   1.111218E-02  2.888423E-01 -3.496504E-01       tiny    -1.637391E-01
+   16   2.993293E-02  3.404035E-01 -2.416169E-01       tiny    -9.309697E-02
+   17   1.111218E-02  2.888423E-01  3.496504E-01       tiny    -1.637391E-01
+   18   2.993293E-02  3.404035E-01  2.416169E-01       tiny    -9.309697E-02
+   19   3.661060E-02  1.338977E-01 -2.032721E-02       tiny    -2.779858E-02
+   20        tiny          tiny          tiny     1.620239E-01       tiny   
+   21   3.090798E-02  9.680870E-02 -9.031240E-02       tiny     1.045239E-01
+   22  -3.661060E-02 -1.338977E-01 -2.032721E-02       tiny     2.779858E-02
+   23        tiny          tiny          tiny     1.620239E-01       tiny   
+   24   3.090798E-02  9.680870E-02  9.031240E-02       tiny     1.045239E-01
+  m-n        6             7             8             9            10
+    1  -1.372583E-02       tiny          tiny     1.988981E-02       tiny   
+    2  -2.443158E-01       tiny          tiny     2.432240E-01       tiny   
+    3  -2.223452E-01       tiny          tiny     9.945036E-03       tiny   
+    4        tiny    -3.331831E-01  2.096445E-01       tiny          tiny   
+    5        tiny          tiny          tiny          tiny    -7.261729E-01
+    6   1.767804E-01       tiny          tiny     5.889633E-01       tiny   
+    7        tiny    -2.094774E-01 -6.066462E-01       tiny          tiny   
+    8        tiny          tiny          tiny          tiny     6.874738E-01
+    9   2.048997E-01       tiny          tiny    -6.083805E-01       tiny   
+   10   2.613113E-02       tiny          tiny    -3.443214E-02       tiny   
+   11   8.913881E-02       tiny          tiny    -2.465090E-01       tiny   
+   12        tiny          tiny          tiny          tiny          tiny   
+   13        tiny    -2.234179E-01 -4.814534E-01       tiny          tiny   
+   14        tiny          tiny          tiny          tiny     4.579123E-03
+   15  -5.317460E-02 -4.310950E-02 -3.589020E-01 -2.621499E-01       tiny   
+   16   5.710452E-01 -5.666435E-01  1.957948E-01  8.089482E-02       tiny   
+   17  -5.317460E-02  4.310950E-02  3.589020E-01 -2.621499E-01       tiny   
+   18   5.710452E-01  5.666435E-01 -1.957948E-01  8.089482E-02       tiny   
+   19  -2.461509E-01  1.597212E-01 -4.760847E-02  5.479173E-02       tiny   
+   20        tiny          tiny          tiny          tiny     3.978209E-03
+   21  -1.220645E-01  2.216804E-01  9.329129E-02 -4.926151E-02       tiny   
+   22   2.461509E-01  1.597212E-01 -4.760847E-02 -5.479173E-02       tiny   
+   23        tiny          tiny          tiny          tiny     3.978209E-03
+   24  -1.220645E-01 -2.216804E-01 -9.329129E-02 -4.926151E-02       tiny   
+  m-n       11            12            13            14            15
+    1   4.601581E-02       tiny     1.105978E-01  3.065957E-02       tiny   
+    2   1.143369E-01       tiny     6.454438E-01  1.416660E-01       tiny   
+    3  -8.294078E-02       tiny    -6.027807E-01 -1.282349E-01       tiny   
+    4        tiny    -5.683361E-01       tiny          tiny          tiny   
+    5        tiny          tiny          tiny          tiny          tiny   
+    6   4.429984E-01       tiny    -1.121213E-01  7.195921E-02       tiny   
+    7        tiny     4.912615E-01       tiny          tiny          tiny   
+    8        tiny          tiny          tiny          tiny          tiny   
+    9  -1.401686E-01       tiny     1.282677E-01  1.162473E-01       tiny   
+   10   2.533366E-02       tiny    -5.100006E-02  7.766325E-01       tiny   
+   11   4.614759E-01       tiny     1.778311E-01 -1.399464E-02       tiny   
+   12        tiny          tiny          tiny          tiny     7.548407E-01
+   13        tiny    -2.977744E-01       tiny          tiny          tiny   
+   14        tiny          tiny          tiny          tiny          tiny   
+   15   3.835168E-01 -2.151022E-01 -6.867350E-02  7.488300E-02       tiny   
+   16  -1.763030E-01  2.650380E-01  7.836328E-02 -6.947957E-03       tiny   
+   17   3.835168E-01  2.151022E-01 -6.867350E-02  7.488300E-02       tiny   
+   18  -1.763030E-01 -2.650380E-01  7.836328E-02 -6.947957E-03       tiny   
+   19  -3.074587E-01  1.680871E-01  7.021530E-02  2.323106E-01       tiny   
+   20        tiny          tiny          tiny          tiny    -4.637971E-01
+   21  -3.896423E-02  1.694874E-01  2.377005E-01 -3.326058E-01       tiny   
+   22   3.074587E-01  1.680871E-01 -7.021530E-02 -2.323106E-01       tiny   
+   23        tiny          tiny          tiny          tiny     4.637971E-01
+   24  -3.896423E-02 -1.694874E-01  2.377005E-01 -3.326058E-01       tiny   
+  m-n       16            17            18            19            20
+    1        tiny          tiny    -6.296186E-02       tiny          tiny   
+    2        tiny          tiny    -2.463234E-01       tiny          tiny   
+    3        tiny          tiny     1.577876E-01       tiny          tiny   
+    4        tiny    -7.087764E-02       tiny    -1.613875E-01       tiny   
+    5   7.931352E-02       tiny          tiny          tiny          tiny   
+    6        tiny          tiny     5.579300E-02       tiny          tiny   
+    7        tiny    -1.309192E-01       tiny     1.152192E-01       tiny   
+    8   8.259310E-02       tiny          tiny          tiny          tiny   
+    9        tiny          tiny    -1.197688E-01       tiny          tiny   
+   10        tiny          tiny     1.967407E-01       tiny          tiny   
+   11        tiny          tiny     7.501144E-01       tiny          tiny   
+   12        tiny          tiny          tiny          tiny    -6.559082E-01
+   13        tiny    -1.336222E-01       tiny    -6.643147E-01       tiny   
+   14   8.364339E-01       tiny          tiny          tiny          tiny   
+   15        tiny    -1.712791E-02 -2.634707E-01  2.521542E-01       tiny   
+   16        tiny    -1.602998E-03  2.854935E-02 -6.069653E-02       tiny   
+   17        tiny     1.712791E-02 -2.634707E-01 -2.521542E-01       tiny   
+   18        tiny     1.602998E-03  2.854935E-02  6.069653E-02       tiny   
+   19        tiny     4.577974E-01  1.974857E-01 -3.631229E-01       tiny   
+   20  -3.789895E-01       tiny          tiny          tiny    -5.337530E-01
+   21        tiny    -5.197273E-01  1.912626E-01 -2.460858E-01       tiny   
+   22        tiny     4.577974E-01 -1.974857E-01 -3.631229E-01       tiny   
+   23  -3.789895E-01       tiny          tiny          tiny     5.337530E-01
+   24        tiny     5.197273E-01  1.912626E-01  2.460858E-01       tiny   
+  m-n       21            22            23            24
+    1        tiny    -1.469094E-02  7.335383E-02       tiny   
+    2        tiny    -6.354210E-02  3.711430E-01       tiny   
+    3        tiny     5.036209E-02  2.684432E-01       tiny   
+    4        tiny          tiny          tiny     4.490677E-01
+    5  -1.316299E-01       tiny          tiny          tiny   
+    6        tiny    -8.515188E-02 -3.617676E-01       tiny   
+    7        tiny          tiny          tiny     1.094914E-01
+    8  -1.493383E-01       tiny          tiny          tiny   
+    9        tiny    -1.372834E-01 -5.604349E-02       tiny   
+   10        tiny     5.919449E-01  5.108238E-02       tiny   
+   11        tiny    -2.711349E-01  2.023020E-01       tiny   
+   12        tiny          tiny          tiny          tiny   
+   13        tiny          tiny          tiny    -3.775114E-01
+   14   5.478803E-01       tiny          tiny          tiny   
+   15        tiny    -2.083672E-02 -3.013742E-01  3.700425E-01
+   16        tiny    -2.689481E-03 -6.190074E-02  9.093453E-02
+   17        tiny    -2.083672E-02 -3.013742E-01 -3.700425E-01
+   18        tiny    -2.689481E-03 -6.190074E-02 -9.093453E-02
+   19        tiny    -3.066358E-01 -3.604310E-01  3.195613E-01
+   20   5.745428E-01       tiny          tiny          tiny   
+   21        tiny     4.208716E-01 -2.811769E-01  2.731255E-01
+   22        tiny     3.066358E-01  3.604310E-01  3.195613E-01
+   23   5.745428E-01       tiny          tiny          tiny   
+   24        tiny     4.208716E-01 -2.811769E-01 -2.731255E-01
+ $
+ in grado ...              2050482
+ for perturbations of symmetry            1
+ number of desired operators having this symmetry is           9
+ for nucleus no.            1
+ atno, carts    6.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ symmetrically unique 
+for operator d/dx 1 with symmetry 1
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:   -1.0415484497807706E-013   0.0000000000000000       -1.0939676162607918E-013   5.2419166480021218E-015
+ 3.9E-02 9.9E-03 1.7E-03 2.6E-04 1.7E-05 1.5E-06 7.6E-08 7.0E-09 1.6E-10 7.2E-12
+ cg iterations converged after            3  iterations and            1  restarts
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically unique 
+for operator d/dx 2 with symmetry 1
+ derivative of nuclear-nuclear repulsion   -1.1427544815728981     
+ derivative of hf energy:   -3.7990570879755658E-002  -1.1427544815728981        1.6732171313829851      -0.56845322068984272     
+ 4.1E-02 1.1E-02 1.6E-03 2.6E-04 5.5E-05 1.1E-05 2.0E-06 3.2E-07 4.0E-08 9.2E-09
+ cg iterations converged after            8  iterations and            1  restarts
+ for nucleus no.            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically unique 
+for operator d/dx 3 with symmetry 1
+ derivative of nuclear-nuclear repulsion    1.1427544815728981     
+ derivative of hf energy:    3.7990570879757546E-002   1.1427544815728981       -1.6732171313829602       0.56845322068981974     
+ 4.1E-02 1.1E-02 1.6E-03 2.6E-04 5.5E-05 1.1E-05 2.0E-06 3.2E-07 4.0E-08 9.2E-09
+ cg iterations converged after            8  iterations and            1  restarts
+ for nucleus no.            1
+ atno, carts    6.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ symmetrically unique 
+for operator d/dy 1 with symmetry 1
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:   -1.0997441921346534E-013   0.0000000000000000       -1.4241530106813201E-013   3.2440881854666664E-014
+ 1.3E-01 3.1E-01 1.5E-02 1.6E-03 1.4E-04 1.2E-05 4.3E-07 3.0E-08 6.9E-10 1.3E-11
+ cg iterations converged after            2  iterations and            1  restarts
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically unique 
+for operator d/dy 2 with symmetry 1
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:   -4.3026899333968088E-016   0.0000000000000000        1.2001420235732037E-015  -1.6304110169128846E-015
+ 9.5E-02 1.2E-01 1.5E-02 1.9E-03 2.3E-04 2.3E-05 3.1E-06 1.5E-07 1.4E-08 1.3E-09
+ cg iterations converged after            5  iterations and            1  restarts
+ for nucleus no.            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically unique 
+for operator d/dy 3 with symmetry 1
+ derivative of nuclear-nuclear repulsion    0.0000000000000000     
+ derivative of hf energy:   -4.3004715625046570E-016   0.0000000000000000        1.2003761077455463E-015  -1.6304232639960120E-015
+ 9.5E-02 1.2E-01 1.5E-02 1.9E-03 2.3E-04 2.3E-05 3.1E-06 1.5E-07 1.4E-08 1.3E-09
+ cg iterations converged after            5  iterations and            1  restarts
+ for nucleus no.            1
+ atno, carts    6.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ symmetrically unique 
+for operator d/dz 1 with symmetry 1
+ derivative of nuclear-nuclear repulsion    1.6889222409575666     
+ derivative of hf energy:  -0.14518050417923656        1.6889222409575666       -2.6294338619373741       0.79533111680057089     
+ 3.4E-02 1.0E-02 2.2E-03 5.6E-04 5.7E-05 4.3E-06 2.0E-07 1.4E-08 1.9E-09 8.7E-11
+ cg iterations converged after            4  iterations and            1  restarts
+ for nucleus no.            2
+ atno, carts    1.0000000000000000        1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically unique 
+for operator d/dz 2 with symmetry 1
+ derivative of nuclear-nuclear repulsion  -0.84446112047878330     
+ derivative of hf energy:    7.2590252089561824E-002 -0.84446112047878330        1.3147169309686249      -0.39766555840027973     
+ 3.8E-02 8.6E-03 2.0E-03 5.4E-04 5.8E-05 8.5E-06 1.1E-06 1.9E-07 4.2E-08 4.9E-09
+ cg iterations converged after            8  iterations and            1  restarts
+ for nucleus no.            3
+ atno, carts    1.0000000000000000       -1.6444030000000001        0.0000000000000000        1.3221300000000000     
+ symmetrically unique 
+for operator d/dz 3 with symmetry 1
+ derivative of nuclear-nuclear repulsion  -0.84446112047878330     
+ derivative of hf energy:    7.2590252089561047E-002 -0.84446112047878330        1.3147169309686062      -0.39766555840026185     
+ 3.8E-02 8.6E-03 2.0E-03 5.4E-04 5.8E-05 8.5E-06 1.1E-06 1.9E-07 4.2E-08 4.9E-09
+ cg iterations converged after            8  iterations and            1  restarts
+ now we have all the rhs for the 2nd der matrix elements
+ for ixyz =            1
+ for nucleus no            1
+for operator d/dx 1 with symmetry 1
+ 4.7E-02 7.1E-03 1.7E-03 5.1E-04 3.4E-05 4.4E-06 4.4E-07 2.8E-08 2.0E-09 7.8E-11
+ cg iterations converged after            4  iterations and            1  restarts
+ for nucleus no            2
+for operator d/dx 2 with symmetry 1
+ 3.6E-02 9.6E-03 2.0E-03 5.2E-04 9.5E-05 1.3E-05 1.5E-06 2.6E-07 3.0E-08 2.1E-09
+ cg iterations converged after            7  iterations and            1  restarts
+ for nucleus no            3
+for operator d/dx 3 with symmetry 1
+ 3.6E-02 9.6E-03 2.0E-03 5.2E-04 9.5E-05 1.3E-05 1.5E-06 2.6E-07 3.0E-08 2.1E-09
+ cg iterations converged after            7  iterations and            1  restarts
+ for ixyz =            2
+ for nucleus no            1
+for operator d/dy 1 with symmetry 1
+ 4.2E-02 1.1E-02 2.6E-03 6.8E-04 6.4E-05 6.3E-06 9.0E-07 2.0E-08 1.3E-09 6.9E-11
+ cg iterations converged after            5  iterations and            1  restarts
+ for nucleus no            2
+for operator d/dy 2 with symmetry 1
+ 4.7E-02 8.7E-03 1.4E-03 4.5E-04 7.0E-05 1.0E-05 1.3E-06 1.4E-07 3.3E-08 3.6E-09
+ cg iterations converged after            8  iterations and            1  restarts
+ for nucleus no            3
+for operator d/dy 3 with symmetry 1
+ 4.7E-02 8.7E-03 1.4E-03 4.5E-04 7.0E-05 1.0E-05 1.3E-06 1.4E-07 3.3E-08 3.6E-09
+ cg iterations converged after            8  iterations and            1  restarts
+ for ixyz =            3
+ for nucleus no            1
+for operator d/dz 1 with symmetry 1
+ 4.7E-02 7.3E-03 1.1E-03 2.3E-04 4.0E-05 4.5E-06 5.1E-07 1.9E-08 1.8E-09 3.4E-11
+ cg iterations converged after            3  iterations and            1  restarts
+ for nucleus no            2
+for operator d/dz 2 with symmetry 1
+ 3.8E-02 1.1E-02 1.6E-03 1.6E-04 2.4E-05 4.7E-06 7.6E-07 1.4E-07 2.8E-08 1.9E-09
+ cg iterations converged after            7  iterations and            1  restarts
+ for nucleus no            3
+for operator d/dz 3 with symmetry 1
+ 3.8E-02 1.1E-02 1.6E-03 1.6E-04 2.4E-05 4.7E-06 7.6E-07 1.4E-07 2.8E-08 1.9E-09
+ cg iterations converged after            7  iterations and            1  restarts
+ >bodc for nucleus no.            1   36.471532633324635     
+ >bodc for nucleus no.            2  0.54059078963240115     
+ >bodc for nucleus no.            3  0.54059078963237628     
+total time for 1e der ints:  1.380E-01
+total time for 2e der ints:  4.087E+01
+total time for trans      :  6.593E-01
+total time for manip      :  7.455E-02
+total time for orbder     :  2.737E-02
+total time for 1e der ints:  0.000E+00
+total time for 2e der ints:  0.000E+00
+total time for trans      :  0.000E+00
+total time for manip      :  0.000E+00
+total time for orbder     :  0.000E+00
+total time for 1e der ints:  0.000E+00
+total time for 2e der ints:  0.000E+00
+total time for trans      :  0.000E+00
+total time for manip      :  0.000E+00
+total time for orbder     :  0.000E+00
+ in paracis          -1
+no. of core orbitals        0
+no. of valence orbitals     4
+no. of active orbitals      4
+no. of virtual orbs        20
+fcn   1: xx nucleus  1 hf der  -1.0415484E-13
+fcn   4: xx nucleus  2 hf der  -3.7990571E-02
+fcn   7: xx nucleus  3 hf der   3.7990571E-02
+fcn   2: yy nucleus  1 hf der  -1.0997442E-13
+fcn   5: yy nucleus  2 hf der  -4.3026899E-16
+fcn   8: yy nucleus  3 hf der  -4.3004716E-16
+fcn   3: zz nucleus  1 hf der  -1.4518050E-01
+fcn   6: zz nucleus  2 hf der   7.2590252E-02
+fcn   9: zz nucleus  3 hf der   7.2590252E-02
+ functions of symmetry            1
+block  1 with active symmetry 1 and virtual symmetry 1 has size    80
+ total number of fcns =           80
+ we have all of cis matrix 
+ setting up rhs for response 
+ number of right hand sides of this symmetry =            9
+ adding squared contributions 
+ total number of right hand sides for this symmetry =           12
+ 6.6E-01 8.5E-02 1.0E-02 1.1E-03 8.2E-05 9.7E-06 8.4E-07 5.3E-08 3.8E-09 2.6E-10
+ 2.4E-11 1.9E-12 1.6E-13 1.6E-14 1.8E-15
+ cg iterations converged after            5  iterations and            1  restarts
+ >C(2) matrix: 
+> x 1   x 1 -3.0639529E+00
+> x 2   x 1  8.2300895E-01
+> z 2   x 1 -5.3464392E-01
+> x 3   x 1  8.2300895E-01
+> z 3   x 1  5.3464392E-01
+> y 1   y 1  1.0291016E+01
+> y 2   y 1 -5.2747019E+00
+> y 3   y 1 -5.2747019E+00
+> z 1   z 1 -1.3530627E+00
+> x 2   z 1  1.1393608E-01
+> z 2   z 1 -4.9580436E-02
+> x 3   z 1 -1.1393608E-01
+> z 3   z 1 -4.9580436E-02
+> x 1   x 2  8.2300895E-01
+> z 1   x 2  1.1393608E-01
+> x 2   x 2 -7.6514371E-01
+> z 2   x 2  1.9584746E-01
+> x 3   x 2 -4.9733196E-01
+> z 3   x 2 -2.8044333E-01
+> y 1   y 2 -5.2747019E+00
+> y 2   y 2  2.1626769E+00
+> y 3   y 2  2.3608975E+00
+> x 1   z 2 -5.3464392E-01
+> z 1   z 2 -4.9580436E-02
+> x 2   z 2  1.9584746E-01
+> z 2   z 2 -4.2549240E-01
+> x 3   z 2  2.8044333E-01
+> z 3   z 2  1.9590471E-01
+> x 1   x 3  8.2300895E-01
+> z 1   x 3 -1.1393608E-01
+> x 2   x 3 -4.9733196E-01
+> z 2   x 3  2.8044333E-01
+> x 3   x 3 -7.6514371E-01
+> z 3   x 3 -1.9584746E-01
+> y 1   y 3 -5.2747019E+00
+> y 2   y 3  2.3608975E+00
+> y 3   y 3  2.1626769E+00
+> x 1   z 3  5.3464392E-01
+> z 1   z 3 -4.9580436E-02
+> x 2   z 3 -2.8044333E-01
+> z 2   z 3  1.9590471E-01
+> x 3   z 3 -1.9584746E-01
+> z 3   z 3 -4.2549240E-01
+ 5.3E-01 5.0E-02 4.0E-03 2.6E-04 2.3E-05 3.4E-06 3.9E-07 3.5E-08 3.8E-09 2.7E-10
+ 2.3E-11 2.3E-12 2.3E-13 2.4E-14 3.7E-15
+ cg iterations converged after            5  iterations and            1  restarts
+ >C(1)
+>     1   z 1 -5.4987320E-01
+>     1   x 2 -2.1390627E-01
+>     1   z 2 -2.0993436E-01
+>     1   x 3  2.1390627E-01
+>     1   z 3 -2.0993436E-01
+>     2   x 1 -3.1354321E-02
+>     2   z 1  1.5039502E-01
+>     2   x 2  3.7959377E-02
+>     2   z 2 -8.9467271E-02
+>     2   x 3  7.4285652E-02
+>     2   z 3  7.9164637E-02
+>     3   x 1  3.1354321E-02
+>     3   z 1  1.5039502E-01
+>     3   x 2 -7.4285652E-02
+>     3   z 2  7.9164637E-02
+>     3   x 3 -3.7959377E-02
+>     3   z 3 -8.9467271E-02
+ >C(0)
+>     1       1 -7.4799666E+00
+>     2       1  1.4643114E-01
+>     3       1  1.4643114E-01
+>     1       2  1.4643114E-01
+>     2       2 -3.3302860E-01
+>     3       2 -2.5932424E-02
+>     1       3  1.4643114E-01
+>     2       3 -2.5932424E-02
+>     3       3 -3.3302860E-01
+ high water mark 4,074,236                                         
+ double precision words on this core
