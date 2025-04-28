@@ -10,8 +10,8 @@ c
      $     iwfromfile,ifirsto,molden,nusecsf,idynw                      10d28s22
       real*8 pspacex,eweight,ewght,casdat,thirdthres,casspad            10d28s22
 c     ,casdat,casspadd                   10d23s14
-      common/dws6cm/iacto(8),idoub(8),nedoub,nstate,                    8d7s14
-c$$$     $     isinfo(maxst2+4,maxst1),nadet(8),nbdet(8),                   8d9s14
+      common/dws6cm/iacto(8),idoub(8),ifreeze(2,8),nedoub,nstate,       8d7s14-23e04c25g
+c$$$     $     isinfo(maxst2+4,maxst1),nadet(8),nbdet(8),               8d9s14
      $     isinfo(11,maxst1),nadet(8),nbdet(8),mxryd(8),                9d10s21
      $     ioffdeta(8),ioffdetb(8),nocc2(8),ifcio,icasguess,npdiag(2),  8d12s22
      $     nrydb,nsumcas,maxps,iwfromfile,ifirsto,molden,nusecsf,idynw, 5d3s21

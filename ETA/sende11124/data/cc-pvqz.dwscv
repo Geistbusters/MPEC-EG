@@ -1,9 +1,9 @@
 6,7c6,7
-< #   Basis set: aug-cc-pVTZ
-< # Description: aug-cc-pVTZ
+< #   Basis set: aug-cc-pVQZ
+< # Description: aug-cc-pVQZ
 ---
-> #   Basis set: cc-pVTZ
-> # Description: cc-pVTZ
+> #   Basis set: cc-pVQZ
+> # Description: cc-pVQZ
 < #BASIS SET: (10s,6p,3d,2f) -> [5s,4p,3d,2f]
 ---
 > #BASIS SET: (10s,5p,2d,1f) -> [4s,3p,2d,1f]

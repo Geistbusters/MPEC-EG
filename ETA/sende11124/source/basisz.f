@@ -3372,6 +3372,7 @@ c
        do isb=1,nsymb                                                   2d24s21
         idoub(isb)=ncoreg(isb)                                          2d24s21
         iacto(isb)=nvalg(isb)                                           2d24s21
+        ifreeze(:,isb)=0                                                23e04c25g
        end do                                                           2d24s21
        close(unit=1)                                                     11d20s19
        first(1)=potdws                                                  11d21s19
@@ -3932,6 +3933,49 @@ c
         nc=max(nc,ncact)                                                4d24s07
         go to 1363                                                      8d8s14
        end if
+c ECG's addition #######################################################        
+        if(line200(is:is+5).eq.'freeze')then                            
+         write(6,*)('reading in orbs to be frozen in all reference ')
+     $       ,('dets')           
+c
+c     orbs are specified as iDj or iAj  where i is Double/Active orbital no. and j is         
+c     symmetry block, where i points to irefo orbital, ie i=1 is first  
+c     orbital in reference space of symmetry j.                         
+c
+ 4255    continue                                                       
+         is=ie+1                                                        
+         call delim(line200,is,ie)
+         if(ie.lt.is)go to 3251                                         
+         write(6,*)('try and freeze orb from '),line200(is:ie)
+         if(line200(ie-1:ie-1).ne.'D' and line200(ie-1:ie-1).ne.'A')then
+          write(6,*)('error in freeze input: '),line200(is:ie)          
+          irtrn=1                                                       
+          return                                                        
+         end if                                                         
+         read(line200(ie:ie),*)isb
+         read(line200(is:ie-2),*)io                                     
+         if(io.gt.irefo(isb).or.isb.gt.nsymb)then                       
+          write(6,*)
+     $      ('sorry, but the orbital you listed in the freeze input "'),
+     $       line200(is:ie),('" does not exist!')                      
+          write(6,*)('double check your input ')                        
+          irtrn=1                                                       
+          return                                                        
+         end if                                                         
+         if(norb.eq.0)then                                              
+          write(6,*)('sorry, need to have ref card before freeze card') 
+          irtrn=1                                                       
+          return                                                        
+         end if                                                         
+         do i=1,norb                                                    
+          if(ism(i).eq.isb.and.irel(i).eq.io)then                       
+           nfreeze(1)=nfreeze(1)+1                                          
+           ifreeze(nfreeze(1),1)=i                                          
+           go to 4255                                                   
+          end if                                                        
+         end do                                                         
+        end if                                                          
+c ECG's ADDITION #######################################################
        if(line(is:is+4).eq.'state')then                                 11d18s19
         nstate=1
         nstasub=1                                                       8d9s22

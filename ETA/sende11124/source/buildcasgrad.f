@@ -2236,7 +2236,8 @@ c
         rmssz(isb)=sqrt(rmssz(isb)/dfloat(nda+nov))                     4d2s18
        end if                                                           4d2s18
       end do                                                            4d2s18
-      if(idwsdeb.ge.10)then
+CCC      if(idwsdeb.ge.10)then                                             ECG: Davids Debug 
+      if(.TRUE.):   
       write(6,*)('rms amat size in buildcasgrad: '),(rmssz(isb),isb=1,  4d2s18
      $     nsymb),nsdlk1p                                                       4d2s18
        write(6,*)('amat from buildcasgrad: '),nsdlk1p

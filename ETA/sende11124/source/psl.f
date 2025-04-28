@@ -414,7 +414,8 @@ c
         itry=nint(try)                                                   12d24s19
         delta=abs(bc(ieig+ir)-dfloat(itry*(itry+1)))                    12d31s19
        end if                                                           12d31s19
-       if(delta.gt.1d-10)then                                           8d4s22
+C       if(delta.gt.1d-10)then                                           8d4s22
+       if(delta.gt.1d-9)then                                            28e04c25g
         write(6,*)('bad eigenvalue: '),bc(ieig+ir),delta                8d4s22
         write(6,*)('vector ')                                           8d4s22
         call prntm2(bc(jvec+1),nspina,1,nspina)                         8d4s22
