@@ -3933,7 +3933,7 @@ c
         nc=max(nc,ncact)                                                4d24s07
         go to 1363                                                      8d8s14
        end if
-c ECG's addition #######################################################        
+!begin ECG's addition #######################################################        
         if(line200(is:is+5).eq.'freeze')then                            
          write(6,*)('reading in orbs to be frozen in all reference ')
      $       ,('dets')           
@@ -3947,7 +3947,7 @@ c
          call delim(line200,is,ie)
          if(ie.lt.is)go to 3251                                         
          write(6,*)('try and freeze orb from '),line200(is:ie)
-         if(line200(ie-1:ie-1).ne.'D' and line200(ie-1:ie-1).ne.'A')then
+         if(line200(ie-1:ie-1).ne.'D'.and.line200(ie-1:ie-1).ne.'A')then
           write(6,*)('error in freeze input: '),line200(is:ie)          
           irtrn=1                                                       
           return                                                        
@@ -3975,7 +3975,7 @@ c
           end if                                                        
          end do                                                         
         end if                                                          
-c ECG's ADDITION #######################################################
+! end ECG's ADDITION #######################################################
        if(line(is:is+4).eq.'state')then                                 11d18s19
         nstate=1
         nstasub=1                                                       8d9s22

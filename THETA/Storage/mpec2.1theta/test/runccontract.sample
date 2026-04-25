@@ -1,0 +1,28 @@
+. ~/.prempec
+echo "C atom contraction example"
+output=ccontr.sample`date -Idate`
+/bin/rm $output
+for shellrel in off ss           # loop over non-relativistic then relativistic
+do
+shellguess=h0                    # this creats a character string shell variable and sets its value to h0
+for shellbasis in dz tz qz 5z 6z # loop over basis sets
+do
+cat > input <<@
+&BG
+rel $shellrel                    # $shellrel means substitute the contents of the shell variable shellrel
+C
+cc-pv$shellbasis u -dfghi        # uncontract basis, delete all except sp functions
+&CAS
+doub 2
+act 0 1 1 0 1
+guess $shellguess                # $shellguess means substitute the contents of the shell variable shellguess
+states
+3P
+@
+/bin/rm forbs                    # delete forbs file if left over from another calculation
+runmpec < input >> $output
+mv forbs orbs                    # rename final orbitals to orbs to be initial guess for next larger basis
+if [ $? -ne 0 ] ; then exit ; fi # if rename fails, bail
+shellguess=readin                # reset shellguess varible to read from orbs file next time around
+done                             # end of basis set loop
+done                             # end of relativistic loop

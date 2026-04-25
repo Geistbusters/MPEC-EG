@@ -1,0 +1,4 @@
+      parameter (idprt=100)
+      character*12 prtrname(idprt)
+      common/prtcm/iprtr(idprt)
+      

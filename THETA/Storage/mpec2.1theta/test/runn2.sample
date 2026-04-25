@@ -1,0 +1,88 @@
+. ~/.prempec
+echo "N2 molecule sample"
+for shellrel in off ss           # loop over relativity off or on
+do
+output=n2out`date -Idate`$shellrel
+cat <<@ > input                  # for N atom on the right.
+&BG
+rel $shellrel
+N
+0. 0. 50.
+cc-pvdz
+&CAS
+doub 2 0
+act 1 1 1
+guess h0
+states
+4S4
+@
+/bin/rm forbs
+runmpec < input > $output
+mv forbs orbs4Nr
+if [ $? -ne 0 ] ; then exit ; fi # bail if no orbitals
+cat <<@ > input                  # for N atom on the left.
+&BG
+rel $shellrel
+N
+0. 0. -50.
+cc-pvdz
+&CAS
+doub 2 0
+act 1 1 1
+guess h0
+states
+4S4
+@
+/bin/rm forbs
+runmpec < input >> $output
+mv forbs orbs4Nl
+if [ $? -ne 0 ] ; then exit ; fi # bail if no orbitals
+cat <<@ > input                  # concatenate orbital file
+&CAT
+orbs4Nr
+orbs4Nl
+@
+/bin/rm forbs
+runmpec < input >> $output
+mv forbs orbsN2rl
+if [ $? -ne 0 ] ; then exit ; fi # bail if no orbitals
+cp orbsN2rl orbs
+cat <<@ > input                  # supermolecule calculation in C2v
+&BG
+ends(1)=a to b
+rel $shellrel
+r 100.
+14N is a
+cc-pvdz
+15N is b                         #using different isotopologues forces asymmetry
+cc-pvdz
+&CAS
+doub 4
+act 2 2 2                        #guess not required, for default is to read in guess
+states
+1A1
+3A1
+5A1
+7A1
+@
+/bin/rm forbs
+runmpec < input >> $output
+cat <<@ > input                  # supermolecule calculation in D2h
+&BG
+ends(1)=a to b
+rel $shellrel
+r 100.
+N is a,b
+cc-pvdz
+&CAS
+doub 2 0 0 0 2
+act 1 1 1 0 1 1 1 0
+states
+1Sig+g
+3Sig+u
+5Sig+g
+7Sig+u
+@
+/bin/rm forbs
+runmpec < input >> $output
+done                             # end loop over relativity

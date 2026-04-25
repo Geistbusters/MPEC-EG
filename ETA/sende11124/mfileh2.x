@@ -8,24 +8,25 @@ cd ..;chmod og+rx $root;cd $root
 #opt=-Og
 #optno=-Og
 #uselib=1
-#cat <<@ > ~/.prempec
+#cat <<@ > ~/.prempec_eta
 #alias runmpec='mpirun -n 6 $root/mpec'
 #@
 ### for NAS facility Pleaides
-f1="ifort -axAVX -mcmodel=medium -xSSE4.1"
+#f1="ifort -axAVX -mcmodel=medium -xSSE4.1"
+f1="ifort -march=core-avx2 -mcmodel=medium "
 f2=$f1
 f3="-lmpi -mkl -shared-intel"
 #opt="-O0 -g -traceback -check all -ftrapuv"
 opt=-O2
 optno=-O0
 uselib=0
-cat <<@ > ~/.prempec
-eval \`/usr/bin/modulecmd bash load comp-intel/2020.4.304 mpi-hpe/mpt\`
+cat <<@ > ~/.prempec_eta_rome
+eval \`/usr/bin/modulecmd bash load comp-intel/2023.2.1 mpi-hpe/mpt.2.30\`
 PATH=\$PATH:/u/scicon/tools/bin
-alias runmpec='mpiexec mbind.x $root/mpec'
+alias runmpec='mpiexec mbind.x $root/exe/mpec'
 @
-chmod og+rx ~/.prempec
-. ~/.prempec
+chmod og+rx ~/.prempec_eta_rome
+. ~/.prempec_eta_rome
 ### ddi1
 ddi=1
 ### ddi4
@@ -761,5 +762,5 @@ echo "     $'" `pwd` "'" >> $s/mpec.date
 sleep 5
 make -f makefile mpec
 chmod og+rx mpec
-mv mpec ..
+mv mpec ../exe
 

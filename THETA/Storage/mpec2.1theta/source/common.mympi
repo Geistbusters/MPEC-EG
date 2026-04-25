@@ -1,0 +1,5 @@
+      parameter (id=2000)
+      parameter (mxcproc=1000)
+      common/mpicom/my_comm_group,mymast,mymemp,iranks(mxcproc),mnmc,
+     $ mdata(4,id),ndata,iwinbase
+cddi4      common/mpi3cm/mdata(5,id),ndata

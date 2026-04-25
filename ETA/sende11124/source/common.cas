@@ -7,7 +7,8 @@ c
       parameter (maxst1=64,maxst2=100)                                   8d7s14
       integer*4 iacto,idoub,nedoub,nstate,isinfo,nadet,nbdet,ioffdeta,  10d23s14
      $ ioffdetb,nocc2,ifcio,icasguess,mxryd,npdiag,nrydb,nsumcas,maxps, 10d28s22
-     $     iwfromfile,ifirsto,molden,nusecsf,idynw                      10d28s22
+     $     iwfromfile,ifirsto,molden,nusecsf,idynw,                      10d28s22
+     $      nfreeze(8)                                                  ECG071525
       real*8 pspacex,eweight,ewght,casdat,thirdthres,casspad            10d28s22
 c     ,casdat,casspadd                   10d23s14
       common/dws6cm/iacto(8),idoub(8),ifreeze(2,8),nedoub,nstate,       8d7s14-23e04c25g

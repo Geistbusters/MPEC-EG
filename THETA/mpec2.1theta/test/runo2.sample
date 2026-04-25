@@ -1,0 +1,34 @@
+. ~/.prempec                      # set up mpec environment
+state=3Sig-g
+for shellnuc in 16O 18O           # loop over iso is loop over d2h/c2v
+do
+for shellrel in off on            # loop over relativity
+do
+output=ow$shellnuc$shellrel`date -Idate`
+/bin/rm $output
+cat > input <<@
+&BG
+rel $shellrel
+ends(1)= a to b
+rs 2.
+O is a
+cc-pvdz
+$shellnuc is b
+cc-pvdz
+&CAS
+maxitmac 20                        # h0 guess is not very good, so allow extra iterations
+guess h0
+states
+$state
+grad                               # turn on gradient calculation
+&MRCI
+wconv 1d-8                         # invoke wavefunction convergence option
+@
+/bin/rm forbs borbs summary        # delete left overs
+runmpec < input >> $output
+mv forbs orbs                      # rename orbs for next guess:
+if [ $? -ne 0 ] ; then exit ; fi   # bail if no final orbitals
+grep '>' $output > $output.precis  # short summary
+done                               # end loop over relativity
+state=3Sig-
+done

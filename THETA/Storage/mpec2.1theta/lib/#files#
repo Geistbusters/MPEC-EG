@@ -1,0 +1,68 @@
+cat > makefilelib<<!
+lib: dasum.o daxpy.o dcopy.o ddot.o dgemm.o dgemv.o dger.o dlacpy.o dlae2.o dlaebz.o dlaev2.o dlagtf.o dlagts.o dlamch.o dlansy.o dlapy2.o dlarf.o dlarfb.o dlarfg.o \
+dlarft.o dlarnv.o dlartg.o dlaruv.o dlasr.o dlassq.o dlatrd.o dlazro.o dnrm2.o dorg2l.o dorg2r.o dorgql.o dorgqr.o dorgtr.o dorm2l.o dorm2r.o dormql.o dormqr.o \
+dormtr.o drot.o drotg.o dscal.o dstebz.o dstein.o dsteqr.o dsterf.o dswap.o dsyevx.o dsymv.o dsyr2.o dsyr2k.o dsytd2.o dsytrd.o dtrmm.o dtrmv.o idamax.o ilaenv.o \
+lsame.o xerbla.o
+ar -q lib dasum.o daxpy.o dcopy.o ddot.o dgemm.o dgemv.o dger.o dlacpy.o dlae2.o dlaebz.o dlaev2.o dlagtf.o dlagts.o dlamch.o dlansy.o dlapy2.o dlarf.o dlarfb.o dlarfg.o \
+dlarft.o dlarnv.o dlartg.o dlaruv.o dlasr.o dlassq.o dlatrd.o dlazro.o dnrm2.o dorg2l.o dorg2r.o dorgql.o dorgqr.o dorgtr.o dorm2l.o dorm2r.o dormql.o dormqr.o \
+dormtr.o drot.o drotg.o dscal.o dstebz.o dstein.o dsteqr.o dsterf.o dswap.o dsyevx.o dsymv.o dsyr2.o dsyr2k.o dsytd2.o dsytrd.o dtrmm.o dtrmv.o idamax.o ilaenv.o \
+lsame.o xerbla.o
+dasum.o : dasum.f ; $f2 -c $opt dasum.f
+daxpy.o : daxpy.f ; $f2 -c $opt daxpy.f
+dcopy.o : dcopy.f ; $f2 -c $opt dcopy.f
+ddot.o : ddot.f ; $f2 -c $opt ddot.f
+dgemm.o : dgemm.f ; $f2 -c $opt dgemm.f
+dgemv.o : dgemv.f ; $f2 -c $opt dgemv.f
+dger.o : dger.f ; $f2 -c $opt dger.f
+dlacpy.o : dlacpy.f ; $f2 -c $opt dlacpy.f
+dlae2.o : dlae2.f ; $f2 -c $opt dlae2.f
+dlaebz.o : dlaebz.f ; $f2 -c $opt dlaebz.f
+dlaev2.o : dlaev2.f ; $f2 -c $opt dlaev2.f
+dlagtf.o : dlagtf.f ; $f2 -c $opt dlagtf.f
+dlagts.o : dlagts.f ; $f2 -c $opt dlagts.f
+dlamch.o : dlamch.f ; $f2 -c $opt dlamch.f
+dlansy.o : dlansy.f ; $f2 -c $opt dlansy.f
+dlapy2.o : dlapy2.f ; $f2 -c $opt dlapy2.f
+dlarf.o : dlarf.f ; $f2 -c $opt dlarf.f
+dlarfb.o : dlarfb.f ; $f2 -c $opt dlarfb.f
+dlarfg.o : dlarfg.f ; $f2 -c $opt dlarfg.f
+dlarft.o : dlarft.f ; $f2 -c $opt dlarft.f
+dlarnv.o : dlarnv.f ; $f2 -c $opt dlarnv.f
+dlartg.o : dlartg.f ; $f2 -c $opt dlartg.f
+dlaruv.o : dlaruv.f ; $f2 -c $opt dlaruv.f
+dlasr.o : dlasr.f ; $f2 -c $opt dlasr.f
+dlassq.o : dlassq.f ; $f2 -c $opt dlassq.f
+dlatrd.o : dlatrd.f ; $f2 -c $opt dlatrd.f
+dlazro.o : dlazro.f ; $f2 -c $opt dlazro.f
+dnrm2.o : dnrm2.f ; $f2 -c $opt dnrm2.f
+dorg2l.o : dorg2l.f ; $f2 -c $opt dorg2l.f
+dorg2r.o : dorg2r.f ; $f2 -c $opt dorg2r.f
+dorgql.o : dorgql.f ; $f2 -c $opt dorgql.f
+dorgqr.o : dorgqr.f ; $f2 -c $opt dorgqr.f
+dorgtr.o : dorgtr.f ; $f2 -c $opt dorgtr.f
+dorm2l.o : dorm2l.f ; $f2 -c $opt dorm2l.f
+dorm2r.o : dorm2r.f ; $f2 -c $opt dorm2r.f
+dormql.o : dormql.f ; $f2 -c $opt dormql.f
+dormqr.o : dormqr.f ; $f2 -c $opt dormqr.f
+dormtr.o : dormtr.f ; $f2 -c $opt dormtr.f
+drot.o : drot.f ; $f2 -c $opt drot.f
+drotg.o : drotg.f ; $f2 -c $opt drotg.f
+dscal.o : dscal.f ; $f2 -c $opt dscal.f
+dstebz.o : dstebz.f ; $f2 -c $opt dstebz.f
+dstein.o : dstein.f ; $f2 -c $opt dstein.f
+dsteqr.o : dsteqr.f ; $f2 -c $opt dsteqr.f
+dsterf.o : dsterf.f ; $f2 -c $opt dsterf.f
+dswap.o : dswap.f ; $f2 -c $opt dswap.f
+dsyevx.o : dsyevx.f ; $f2 -c $opt dsyevx.f
+dsymv.o : dsymv.f ; $f2 -c $opt dsymv.f
+dsyr2.o : dsyr2.f ; $f2 -c $opt dsyr2.f
+dsyr2k.o : dsyr2k.f ; $f2 -c $opt dsyr2k.f
+dsytd2.o : dsytd2.f ; $f2 -c $opt dsytd2.f
+dsytrd.o : dsytrd.f ; $f2 -c $opt dsytrd.f
+dtrmm.o : dtrmm.f ; $f2 -c $opt dtrmm.f
+dtrmv.o : dtrmv.f ; $f2 -c $opt dtrmv.f
+idamax.o : idamax.f ; $f2 -c $opt idamax.f
+ilaenv.o : ilaenv.f ; $f2 -c $opt ilaenv.f
+lsame.o : lsame.f ; $f2 -c $opt lsame.f
+xerbla.o : xerbla.f ; $f2 -c $opt xerbla.f
+!

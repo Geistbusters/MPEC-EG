@@ -1,0 +1,12 @@
+      parameter (idfld=10)                                              12d6s23
+      common/inpcm/first(2),ascale,convcc,dynw(3),smallest,             12d6s23
+     $      fstgth(idfld),iftype(idfld),ndfld,modecc,                   12d6s23
+     $      idotrip,natom,nfname,nfneed,iprop(8),                       12d5s22
+     $      ngaus,nwcont,nbasis,idogrado,inocan,                               4d6s18
+     $     iextradatad,nextradatx,                                      1d10s19
+     $     ipropsym(6),                                                 1d5s16
+     $     lmax,icore(8),itmax,itmxcc,idomp2,idohf,idocas,idorel,       2d20s20
+     $     idorel4c,nlzz,                                               2d20s20
+     $     nocc(8),myguess,nsymbb,nbasb(8),nbasc(8),isym(3,8),          2d21s20
+     $     iapair(3,ida),multh(8,8),iwerner,idavopt,irtrn,numeminus,    2d21s20
+     $     iusecartr,iddi,last                                          9d28s22

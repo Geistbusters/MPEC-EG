@@ -1,0 +1,26 @@
+. ~/.prempec                      # set up mpec environment
+basis=cc-pvdz
+for shelltype in min stationary
+do
+output=ch4`date -Idate`$shelltype.out
+/bin/rm $output
+cat > input <<@
+&BG
+ends(1)=cde to ab, ends(2)=a to b, ends(3)=c to cde, ends(4)=d to cde
+rs 1.5 3.24 2. 2.
+thetad 90,54,54
+phid 90,270
+C is e
+$basis
+H is a,b,c,d
+$basis
+&CAS
+guess
+gconv 1d-7
+states
+1S1
+grad $shelltype
+@
+runmpec < input >> $output
+grep '>' $output > $output.precis
+done

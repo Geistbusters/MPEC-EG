@@ -1,0 +1,60 @@
+. ~/.prempec                      # set up mpec environment
+echo "C2 sample"
+shellguess=h0
+/bin/rm summary.c2                # start with clean slate
+for shellr in 100.                # loop over geometries
+do
+echo "for bond length" $shellr
+output=c2out`date -Idate`$shellr
+/bin/rm $output
+cat > input <<@
+&BG
+ends(1)=a to b
+r $shellr
+C is a,b
+cc-pvtz
+&CAS
+guess $shellguess                 # generate starting orbitals from one-electron Hamiltonian
+states
+3P 3P
+@
+/bin/rm forbs                     # delete any orbitals lying about
+runmpec < input >> $output
+/bin/rm prop.in
+gg=g
+gu=g
+ug=u
+for shellspin in 1 3 5
+do
+for shellstate in Sig+$gu,2 Sig-$ug Pig Piu Del$gu
+do
+cat > input <<@
+&MRCI
+state $shellspin$shellstate
+dynw 0.1 -75.4                    # dynamic weights to soft pedal repulsive states when they split
+xref Sig+$gu 2 Sig-$ug Pig Piu Del$gu
+@
+/bin/rm summary
+runmpec < input >> $output
+cat summary >> summary.c2
+if [ $? -ne 0 ] ; then exit ; fi  # bail if calculation failed
+mv wavef wave$shellspin$shellstate$shellr
+echo wave$shellspin$shellstate$shellr >> prop.in # build up prop input
+done                              # end loop over symmetries
+if [ $gu = $gg ]
+then
+gu=u
+ug=g
+else
+gu=g
+ug=u
+fi
+done
+cat > input <<@
+&PROP
+@
+cat prop.in >> input
+runmpec < input >> $output
+grep '>' $output > $output.precis
+shellguess=readin
+done                              # end of loop over geometries.

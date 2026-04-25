@@ -1,0 +1,3 @@
+      parameter (idl=12)
+      common/sphercm/ipt(8,idl),ipp(idl),ippn(idl),mlzb(2*idl+1,idl),   4d19s21
+     $  iusecart                                                         4d19s21

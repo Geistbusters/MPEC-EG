@@ -4,7 +4,9 @@ mpec
 
 ### Compiled Objects
 *.o
-
+.vscode
+*.txt
+*.out
 
 ### Tarballs
 *.tgz

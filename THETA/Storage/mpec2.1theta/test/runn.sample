@@ -1,0 +1,76 @@
+. ~/.prempec                     # set up mpec environment
+echo "N atom sample"
+shellnbasis="cc-pvtz &aug +2s"   # create shell variable with basis description in it
+output=n.sample`date -Idate`
+/bin/rm $output
+cat > input <<@                  # optimize valence orbitals
+&BG
+rel
+N
+$shellnbasis                     # substitute contents of shell variable shellnbasis
+&CAS
+guess
+states                           # valence states
+4So
+2Do
+2Po
+4P
+@
+/bin/rm forbs                    # delete left over orbitals
+runmpec < input >> $output
+mv forbs orbs                    # copy orbs to be initial guess for next calculation
+if [ $? -ne 0 ] ; then exit ; fi # bail if calculation failed
+cat > input <<@                  # optimize Rydberg orbitals
+&BG
+rel
+N
+$shellnbasis
+&CAS
+ryd
+states
++ 3P                             # N+ core
+@
+runmpec < input >> $output       # don't do $? test on this run, for mrci calculations with fail without forbs
+/bin/rm prop.in summary.N        # delete left overs
+for shellstate in 4So 2Do 2Po 4P,2 2P # loop over low lying electronic states
+do
+wf=wavef$shellstate
+/bin/rm $wf
+echo $wf >> prop.in              # build up PROP input
+cat > input <<@
+&MRCI
+doubo 1
+refo 2 1 1 0 1                   # include s Rydberg orbital in reference space
+1fill 2s1                        # but only allow a maximum of 1 electron in it
+state $shellstate                # grab state name from shell variable shellstate
+@
+/bin/rm summary wavef            # delete left overs
+runmpec < input >> $output
+cat summary >> summary.N
+if [ $? -ne 0 ] ; then exit ; fi # bail if calculation failed. We must test on summary rather than wavef, for wavef contains restart information
+mv wavef $wf                     # while summary is only written when calculation completes
+done                             # end loop over electronic states
+for shellso in on off            # check on the importance of spin-orbit transition moments
+do
+cat > input <<@                  # first part of PROP input
+&PROP
+itype ss
+sotm $shellso
+@
+cat prop.in >> input             # rest of PROP input
+runmpec < input >> $output
+done                             # end spin-orbital transition moment loop
+for shellv4 in on off            # loop over including or excluding 4 virt integrals
+do
+for shelltype in ssg ssb         # loop over Gaunt or full Breit
+do
+cat > input <<@                  # first part of PROP input
+&PROP
+itype $shelltype
+so4v $shellv4
+@
+cat prop.in >> input             # rest of PROP input
+runmpec < input >> $output
+done                             # end Gaunt/Breit loop
+done                             # end of 4 virt loop
+grep '>' $output > $output.precis
