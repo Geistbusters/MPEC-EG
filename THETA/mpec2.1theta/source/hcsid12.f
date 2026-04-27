@@ -13,6 +13,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nvirt(*),iden1x(8,8),nden1x(8,8),nh0av(*)                    7d29s22
       include "common.store"                                            11d25s20
       include "common.mrci"                                             11d25s20
+      integer*8 ibcoffo,iden1x,idenh,ighere,ikeep,iprod,itmp,itmpg,itmpi
       common/kmfind/invk1(2,8,8,8,2)
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18

@@ -18,6 +18,7 @@ c
       include "common.print"                                            1d3s20
       save
       include "common.store"
+      integer*8 ibase,ibc,ibctop,itmp,itmpj,ivecpp,ivecpt,jdet,jptrn
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      2d1s21
      $     mynnode                                                      2d1s21
       if(iprtr(1).eq.0)then                                             1d3s20

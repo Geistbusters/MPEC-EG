@@ -17,6 +17,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       data loopx/2692410/
       data icall/0/
       save icall
+      integer*8 itmp
       icall=icall+1
       i18=1                                                             8d16s21
       do ir=1,nroot

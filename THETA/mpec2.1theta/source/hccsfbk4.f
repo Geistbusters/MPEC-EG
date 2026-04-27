@@ -34,6 +34,7 @@ c
       include "common.print"                                            1d3s20
       common/n0virtcm/n0virt                                            10d25s21
       save
+      integer*8 ibcoffo,itmp,itype
       if(nsymb.eq.1)then
        igoalr=3
        igoal=1

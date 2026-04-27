@@ -27,6 +27,7 @@ c
      $     nbasdwx(8),ixyz(3,3),xcartb(3),xcartk(3),iorbk(8)            2d3s25
       data ixyz/1,0,0,0,1,0,0,0,1/                                      1d11s20
       save
+      integer*8 i12,ibcoffo,ipair,itmp,itmp1,itmp3,ltmp1,ltmp3
       ibcoffo=ibcoff                                                    2d19s10
       ncomp=1                                                           1d11s20
       if(idorel.ne.0)then                                               1d8s19

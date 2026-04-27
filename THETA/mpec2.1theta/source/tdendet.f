@@ -10,6 +10,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     iaoff(8),iboff(8),ism(*),irel(*),ivoff(8,2),ioffdeta(*),     3d20s23
      $     ioffdetb(*)                                                  3d20s23
       include "common.store"
+      integer*8 iaa0,ibb0
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       i0=0                                                              3d17s23

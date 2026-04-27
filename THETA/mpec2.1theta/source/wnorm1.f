@@ -2,7 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine wnorm1(ihsdiag,nff1,ncsf,mdon,mdoop,isymmrci,nvirt,    8d18s21
      $     nsymb,multh,ovr,nroot,xnorm,bc,ibc)                          11d10s22
       implicit real*8 (a-h,o-z)
-      integer*8 ihsdiag(mdoop,nsymb),i18,i28,i38,i48
+      integer*8 ihsdiag(mdoop,nsymb),i18,i28,i38,i48,itmp,jtmp
       dimension nff1(mdoop,nsymb),ncsf(*),nvirt(*),multh(8,8),
      $     ovr(nroot,*)
       include "common.store"                                            8d19s21

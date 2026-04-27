@@ -17,6 +17,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     ivec(5,8),ivecp(5,8),nvecp(8),ircv(5,8),nrcv(5,8),           2d12s21
      $     itransv(5,8),ioxx(2)                                         5d12s23
       include "common.store"                                            12d12s20
+      integer*8 iacc,idenh,idenj,idenk,igcpy,igg,ikeep,itmp,itmp1,itmpp,ivec,ivecbc,ivtrans,ivv,ltmp1
       common/fnd2cm/inv(2,8,8,8)                                        4d9s18
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18

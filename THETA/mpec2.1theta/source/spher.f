@@ -17,6 +17,7 @@ c
       include "common.store"                                            2d19s10
       data isym/0,0,0, 1,0,0, 0,1,0, 1,1,0, 0,0,1, 1,0,1, 0,1,1, 1,1,1/
       data stype/'Ag ','B3u','B2u','B1g','B1u','B2g','B3g','Au '/
+      integer*8 idat1,ipp,ipt
       pi=acos(-1d0)
       fact(1,1)=1d0
       fact(1,2)=1d0

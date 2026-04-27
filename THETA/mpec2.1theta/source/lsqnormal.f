@@ -13,6 +13,7 @@ c
      $     mynnode
       data loop,loopx/0,10/
       save
+      integer*8 ianorm,ibcoffo,itrans
       iret=0                                                            1d27s25
       ibcoffo=ibcoff                                                    1d27s25
       call ilimts(npts,1,mynprocg,mynowprog,il,ih,i1s,i1e,i2s,i2e)      1d27s25

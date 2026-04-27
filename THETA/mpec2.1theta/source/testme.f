@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nbasdws(*),multh(8,8),ism(*),irel(*),ncsf(*),ixmt(8,*),      8d25s21
      $     iosym(*),ixmtf(8),i2eop(2,3),iden(8),nh0av(8)                3d18s22
       include "common.store"
+      integer*8 ibcoffo,ignew,irsum,itest,itestb,ivnew,ivx,ivx2
       write(6,*)('hi, my name is testme'),phase1,loc(phase1)
       ibcoffo=ibcoff
       nrootb=iwbra(3)                                                   8d25s21

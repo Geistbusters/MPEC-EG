@@ -18,6 +18,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data loopx/2600000/
+      integer*8 iacc,ibcoffo,ibcsrt,iden,idenh,itmp,itmpi,itmpx,jtmpx
       if(ldebug)write(6,*)('hi, I am the new and improved hcdiuc!')       1d25s21
       nrootm=nroot-1                                                    6d8s21
       last8(1)=-1                                                       6d17s21

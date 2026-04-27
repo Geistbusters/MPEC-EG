@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     multh(8,8),iorb(8),noc(8),ixmtr(8,6),iorbq(8),iorbqz(8),     12d8s22
      $     iqnw1(*),iqnw2(*),ihit(*),islz(3)                            2d3s23
       include "common.store"                                            12d7s22
+      integer*8 ib4c,ibcoffo,icpy,iorb,iorbq,iorbqz,itmpqn
       ibcoffo=ibcoff                                                    12d7s22
       ncomp=1                                                           12d4s22
       if(idorel.ne.0)ncomp=2                                            12d4s22

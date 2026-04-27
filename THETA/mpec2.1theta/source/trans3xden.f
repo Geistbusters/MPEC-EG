@@ -16,6 +16,7 @@ c
      $     mynnode
       common/kmfind/invk1(2,8,8,8,2)                                    11d28s23
       data loopx/100000000/
+      integer*8 i12,ibufs,ipair,itmp1,itsc
       loop=0
       write(6,*)('Hi, my name is trans3xden ')
       write(6,*)('ibcoff '),ibcoff,ibdat,ngaus,idorel

@@ -20,6 +20,7 @@ c
      $     m1c(36,2),iveck(*),ivectk(*),ivecak(*)                       5d27s22
       include "common.cas"
       include "common.store"
+      integer*8 ism
       ism=ibcoff                                                        8d29s06
       irelo=ism+norb                                                    8d29s06
       ibcoff=irelo+norb                                                 8d29s06

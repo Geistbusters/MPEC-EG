@@ -25,6 +25,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.input"                                            8d2s19
       include "common.store"                                            6d10s19
       include "common.print"                                            1d23s19
+      integer*8 ibcoffo,ibctop,iegn,ieigold,ieigp,ihcpy,ihdcopy,ihdig,ihdigps,ihps,ilzps,ilzzdig,ilzzpsdig,ipointf,ipointp,ipsbase,isbasis,ivecx,ivecxsave,ivsave,jsto
       icall=icall+1                                                     12d28s19
       pthresp=pthresin                                                  7d15s19
       ibcoffo=ibcoff                                                    7d12s19

@@ -8,6 +8,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data loopx/1000/
+      integer*8 ibcoffo,igg,ivtmp
       loop=0
       dot=0d0                                                           11d25s23
 c

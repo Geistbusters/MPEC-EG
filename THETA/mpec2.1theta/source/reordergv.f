@@ -8,6 +8,7 @@ c                                                                       1d20s21
       implicit real*8 (a-h,o-z)                                         1d20s21
       dimension hx(*),nfdat(5,4,*),nvirt(*),multh(8,8)                  1d20s21
       include "common.store"                                            1d20s21
+      integer*8 itmpv
       itmpv=ibcoff
       ibcoff=itmpv+ndoub*nrootu
       call enough('reordergv.  1',bc,ibc)

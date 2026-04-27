@@ -30,6 +30,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     mynnode                                                      5d24s18
       common/paddcm/npadddi                                             6d7s22
       save icall
+      integer*8 iacc,ibcb4,idenh,idenj,idenk,igg,ikeep,itmp,itmpd,itmpp,itmptt,itype,iunit,ivec,ivecbc,ivtrans,ltmp1
       icall=icall+1
       irori=irorip-1                                                    11d5s21
       if(isopt(3).ne.0)then                                             10d28s21

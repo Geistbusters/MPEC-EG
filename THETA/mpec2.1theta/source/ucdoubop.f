@@ -15,6 +15,7 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       include "common.store"                                            8d24s22
+      integer*8 itmp
       do isb=1,nsymb                                                    8d18s22
        isbv12=multh(isb,isymmrci)                                       8d18s22
        nvisv=0                                                             6d9s21

@@ -42,6 +42,7 @@ c
       dimension gsym(78),igsym(18)
       data gsym/78*1d0/
       data igsym/6,10,13,16,19,23,26,30,32,35,37,40,43,44,48,56,57,60/
+      integer*8 i2x,ibcoffo,itest,itmp1,itmp3,itmp4,itran1,itrans,jtran2
       do i=1,18
        gsym(igsym(i))=-1d0
       end do

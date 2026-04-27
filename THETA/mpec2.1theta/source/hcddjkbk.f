@@ -32,6 +32,7 @@ c                                                                       1d8s21
      $     mynnode                                                      5d24s18
       data icall/0/
       save icall
+      integer*8 ibc0,ibclast,ibcoffo,ibcst,ibctop,iden1en,idenjn,idenkn,intden,iprod,itmp,itmp1,itmp2,itmpi,itmpj,itmpl,itmpm,itmpn,itmpt,itmpvisv,ndenjf,ndenkf
       loop=0
       if(izero.ne.0)then                                                8d10s21
        ioffg=0                                                          8d10s21

@@ -11,6 +11,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"                                            8d5s21
       data icall/0/
       save icall
+      integer*8 ibc0,ivcx
       icall=icall+1
        thrx=0.99d0
       do isb=1,nsymb                                                    8d5s21

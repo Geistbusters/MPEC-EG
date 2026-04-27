@@ -11,6 +11,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nl(4),ff22(*),ioffl(4),gc(*)                                       8d9s21
       equivalence (ipack8,ipack4)                                       8d3s21
       include "common.store"                                            8d3s21
+      integer*8 itmpg
       igoal=127
       do iz=0,mdoub*nroot                                               8d9s21
        gc(iz)=0d0                                                       8d9s21

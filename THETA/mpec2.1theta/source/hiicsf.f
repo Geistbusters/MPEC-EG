@@ -12,6 +12,7 @@ c
       save icall                                                        1d21s21
       include "common.store"
       include "common.mrci"                                             6d10s19
+      integer*8 ihc
       icall=icall+1                                                     1d21s21
       ldebug=.false.                                                     7d15s19
       if(ldebug)write(6,*)('hi, i''m hiicsf'),nfcn                           7d1s19

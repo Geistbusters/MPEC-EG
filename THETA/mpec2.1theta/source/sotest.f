@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine sotest(ihsdiag,nff1,ncsf,isymmrci,nvirt,test,nroot,    7d9s21
      $     mdon,mdoop,nsymb,multh,nsing,vx,bc,ibc)                      11d10s22
       implicit real*8 (a-h,o-z)                                         7d9s21
+      integer*8 itest,itmp,jtmp,jtest
       integer*8 ihsdiag(mdoop,*),i18,i28,i38,i48                        7d9s21
       dimension nff1(mdoop,*),ncsf(*),nvirt(*),test(nroot,*),multh(8,8),7d30s21
      $     vx(*)                                                        7d30s21

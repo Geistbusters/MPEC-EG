@@ -19,6 +19,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.mrci"
       include "common.store"
       include "common.print"                                            1d5s20
+      integer*8 ibcoffo,idervcv,ivc,ivcc,ivintr,nfdat,noffset
       if(iprtr(9).eq.0)then                                             1d5s20
        ldebug=.false.                                                    12d12s19
       else                                                              1d5s20

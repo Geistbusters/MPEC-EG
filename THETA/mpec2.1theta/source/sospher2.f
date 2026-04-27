@@ -21,6 +21,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.print"                                            3d29s24
       common/singcm/iuse,nff
       data icall/0/
+      integer*8 iaout,ibcoffo,icleb,icoef,ieigjj,ihso,ijjb,ijjk,ilind,itmp1,itrial
       ldebug=iprtr(30).ne.0                                             3d29s24
       do i=1,6                                                          4d1s24
        if(iwfbra(13+i,1).ne.0)then                                         10d27s20

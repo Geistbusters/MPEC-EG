@@ -14,6 +14,7 @@ c
       dimension hdig(*),i2e(1),ilc(8),ihc(8),nsbeta(8),ih0e(8)          6d12s23
       data icall/0/
       save icall
+      integer*8 isma,ismb,itmpa,itmpb
       icall=icall+1
       loop=0
       loopx=100000

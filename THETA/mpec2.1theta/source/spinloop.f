@@ -12,6 +12,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"
       data icall/0/
       save
+      integer*8 itype,jbcoff
       icall=icall+1
       ldebug=.false.                                                    3d19s24
       mslow=max(i2smb-2,i2smk-2)                                        10d19s21

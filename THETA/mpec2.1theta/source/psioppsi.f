@@ -20,6 +20,7 @@ c     if ioverwrite is nonzero, overwrite ivb with igb.               8d18s21
       data icall/0/                                                     8d23s21
       common/cpucom/tovr,top(10),tso(11)                                5d4s22
       save icall                                                        8d23s21
+      integer*8 ibcoffo,igdb,igddiag,igsdiag,ihddiagb,ilout
       icall=icall+1                                                     8d23s21
       lpr=icall.eq.-1
       lpr2=icall.eq.-1

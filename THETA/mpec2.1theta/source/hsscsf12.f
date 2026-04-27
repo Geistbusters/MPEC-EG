@@ -12,6 +12,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     mynnode                                                      5d24s18
       include "common.mrci"                                             7d15s19
       include "common.store"                                            7d15s19
+      integer*8 igg
       call ilimts(nvirt,nvirt,mynprocg,mynowprog,il,ih,i1s,i1e,i2s,i2e) 7d15s19
       nhere=ih+1-il                                                     7d15s19
       loop=0

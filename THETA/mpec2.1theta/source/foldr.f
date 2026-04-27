@@ -4,6 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)                                         8d21s23
       include "common.store"                                            8d21s23
       dimension i4od(*),noc(*),irefo(*),idoubo(*),nbasdws(*),           8d21s23
+      integer*8 itmp
      $     isblk(4,*),ihdu(*)                                           8d21s23
       if(idwsdeb.gt.10)                                                 8d29s23
      $  write(6,*)('fold ints and h0 down to what we need for intcsf')  8d29s23

@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"                                            11d17s23
       common/kmfind/invk1(2,8,8,8,2)
       data loopx/1000/
+      integer*8 ibc0,ibcoffo,itmp,ivtmp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       ibcoffo=ibcoff                                                    11d17s23

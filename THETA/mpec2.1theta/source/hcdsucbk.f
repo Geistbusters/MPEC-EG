@@ -34,6 +34,7 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data loopx/1800000/
+      integer*8 ibcbmat,ibcvmat,igd,igdst,ii3,iintxds,iintxsd,iprod,ircv,itmpb,itmpr,ivd,ivmat,ivs,ivtmp
       nrootm=nrootu-1                                                   7d29s21
       idoit=0                                                           3d1s21
       i18=1                                                             1d11s23

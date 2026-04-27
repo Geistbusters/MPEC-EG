@@ -4,6 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)
       integer iarg1,iarg2,iarg3,nproc,idum,mtmp,iarg4                   3d12s12
       include "common.store"
+      integer*8 iaohv,iaohvt
       jbig=ibig+nv4*(idav-1)
       bc(jbig)=0d0
       iaohv=ibcoff

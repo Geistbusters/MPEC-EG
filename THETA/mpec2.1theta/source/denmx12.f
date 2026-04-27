@@ -51,6 +51,7 @@ c
       common/drsigncm/drsign                                            8d20s24
       common/timerocm/tovrx,telapo(15)                                   4d26s18
       data loopx/200/
+      integer*8 i,i3xd,i4xd,iamatu,ibc000,ibcb4,ibcoffo,ibcxp,ibufs,icol,id1x,id3x,id4o,idaprt,iden,ie4v,ifder,iffp,ifmat,igd,ih0d,ihdd,ihds,imsg,iorbf,iovrdd,iovrdk,ipredorth,isnd,itmp,itmph,itmpt,itmpx,itnew,itt,itt4v,itthalf,iuu,ivtmp,j4o,jmatd,jmden,jonex,kmatd,kmden,nfdatd
       ldebug=iprtr(32).ne.0
       if(lwrite)write(6,*)('Hi, my name is denmx12'),nroot,ibcoff
       loop=0

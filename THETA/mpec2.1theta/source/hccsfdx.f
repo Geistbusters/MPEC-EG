@@ -22,6 +22,7 @@ c
       include "common.store"                                            7d11s19
       include "common.print"                                            1d3s20
       save
+      integer*8 ibcoffo,ibcsav,idvtmp,imat,itmp,itmpgb
       write(6,*)('hi, my name is hccsfdx ...'),icall
       write(6,*)('irel,ism: ')
       do i=1,norb

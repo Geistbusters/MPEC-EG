@@ -34,6 +34,7 @@ c
       common/timerocm/tovr,telapo(15)                                   4d26s18
       common/drsigncm/drsign                                            8d20s24
       data olab/'d/dx','d/dy','d/dz'/                                   4d15s22
+      integer*8 ibc,ibcgmat,ibcoffo,ibcsav,ibodc,ibsv,icol,ih0d,ih0d2,imsg,iovrdk,ipropmat
       do it=1,5                                                         3d2s17
        telapo(it)=0d0                                                   3d2s17
       end do                                                            3d2s17

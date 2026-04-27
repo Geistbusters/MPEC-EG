@@ -11,6 +11,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nl(4),ff22(*),ioffl(4),gc(*)                                 8d16s21
       equivalence (ipack8,ipack4)                                       8d3s21
       include "common.store"                                            8d3s21
+      integer*8 itmpg
       write(6,*)('isymmrci in deconvert12torc: '),isymmrci,ndoub,
      $     loc(ndoub)
       igoal=177+1

@@ -15,6 +15,7 @@ c
       include "common.store"
       include "common.mrci"                                             9d10s19
       include "common.print"                                            1d5s20
+      integer*8 iffn,iffnc,iffnc0,ipto2,isort
        ldebug=.false.                                                    12d12s19
       ismultm=max(0,ismult-3)                                           11d12s20
       if(ldebug)then                                                    12d12s19

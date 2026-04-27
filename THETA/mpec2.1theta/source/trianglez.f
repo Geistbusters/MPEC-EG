@@ -5,6 +5,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension i4o(*),ionex(*),noc(*),nvirt(*),isblk(4,*),isblkx(4,*)  5d9s22
       include "common.store"
       logical dob                                                       7d18s22
+      integer*8 itmp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
 c

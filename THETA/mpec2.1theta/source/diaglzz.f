@@ -10,6 +10,7 @@ c
       integer*1 iaorb(nalpha,numa),iborb(nbeta,numb)
       integer*8 iarg1,iarg2                                             5d7s18
       dimension hdig(nconf),ixlzze(8,*),nsbeta(8),ilc(8),ihc(8),islz(*) 12d31s19
+      integer*8 isma,ismb,itmpa,itmpb
       npass=nlzz/2                                                      12d31s19
       norb=iacto(1)                                                     8d8s06
       do i=2,nsymb                                                      8d8s06

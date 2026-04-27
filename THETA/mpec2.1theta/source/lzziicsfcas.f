@@ -10,6 +10,7 @@ c
       dimension hdiag(nfcn),ixlzz(8,*),ibasis(*),multh(8,8),            8d2s22
      $     ism(*),irel(*),irefo(*),idoubo(*),islz(*),iptrbit(2,mdoo+1,*)8d2s22
       include "common.store"
+      integer*8 ihc
       ldebug=.false.                                                    7d15s19
       ione=npass+1                                                      12d31s19
       if(ldebug)write(6,*)('hi, i''m lzziicsf'),nfcn,(islz(i),i=1,npass)12d31s19

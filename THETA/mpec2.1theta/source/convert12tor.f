@@ -16,6 +16,7 @@ c
       include "common.store"
       data loop/0/
       data loopx/100000/
+      integer*8 itmp
       write(6,*)('vxr in convert12tor: '),loop
       call prntm2(vxr,1,nroot,1)
       do i=1,norb

@@ -29,6 +29,7 @@ c
      $           3,4,1,2, 3,4,2,1, 4,3,1,2, 4,3,2,1/
       data icall,ifail/0,0/                                                     7d22s14
       save                                                              7d22s14
+      integer*8 icarti,icartt,irnode,itmp,iu2i,ixr4
       if(icall.eq.0)then                                                10d4s16
        pi=acos(-1d0)                                                    10d4s16
       end if                                                            10d4s16

@@ -20,6 +20,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       data ifirst/0/
       data loopx/10000/
       save                                                              3d4s24
+      integer*8 i3xdd,ipt22,ipta,iptra,isbuff,itmp1,itop,iuum
       loop=0
       if(ifirst.eq.0)then                                               3d19s24
        do isb=1,nsymb                                                   4d4s24

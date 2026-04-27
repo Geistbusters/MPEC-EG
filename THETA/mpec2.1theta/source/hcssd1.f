@@ -16,6 +16,7 @@ c
      $     nab4(2,3),irefo(*),iff1(*),ivec(5,8),ivecp(5,8),nvecp(8),    3d4s21
      $     ircv(5,8),nrcv(5,8),itransv(5,8),idend(8)                    3d4s21
       include "common.store"                                            12d12s20
+      integer*8 iacc,idend,idenh,igg,itmp,ivec,ivecbc,ivtrans,ltmp1
       common/fnd2cm/inv(2,8,8,8)                                        4d9s18
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18

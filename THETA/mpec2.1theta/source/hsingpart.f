@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine hsingpart(hxy,oxy,nvdim,nrootu,ihsdiag,nff1,ncsf,nvirt,1d21s21
      $     mdon,mdoo,nsymb,multh,isymmrci,vsold,gsold,ngot,bc,ibc)      11d10s22
       implicit real*8 (a-h,o-z)
+      integer*8 ivec,ig,jvec,jg
 c
 c     compute my processors part of singles contribution to h matrix.
 c

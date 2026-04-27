@@ -12,6 +12,7 @@ c
      $     islz(*)                                                      1d2s20
       include "common.store"
       include "common.mrci"                                             6d10s19
+      integer*8 ihc
       ione=npass+1                                                      12d31s19
       ionep=ione+1                                                      5d14s21
       ldebug=.false.                                                    7d15s19

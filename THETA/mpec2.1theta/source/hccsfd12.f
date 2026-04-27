@@ -20,6 +20,7 @@ c
      $     mynnode                                                      5d15s19
       include "common.store"                                            7d11s19
       include "common.mrci"                                             6d19s19
+      integer*8 ibcsav,iprod,isum,jprod
       ltest=.false.
       if(ltest)write(6,*)('hi, my name is hccsfd12'),loc(bc),loc(ibc)
       ngcode=0

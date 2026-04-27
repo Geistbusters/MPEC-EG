@@ -12,6 +12,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"                                            12d19s19
       include "common.mrci"                                             12d19s19
       include "common.hf"                                               12d19s19
+      integer*8 ibcoffo,idig,idigz,ixmt,ixmtr
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       call oplist(id,opname,ipt,npt,opdata,iopdata,iosym,ioprt,i2eop,   12d17s19

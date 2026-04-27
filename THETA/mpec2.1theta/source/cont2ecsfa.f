@@ -16,6 +16,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"
       include "common.mrci"                                             9d10s19
       include "common.print"                                            1d5s20
+      integer*8 iaorb,ias,itmpt,ivdet,ivnorm,ivsp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       if(iprtr(9).eq.0)then                                             1d5s20

@@ -2,7 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine unmakegd(igddiag,ihddiag,nff2,mdon,mdoop,nsymb,nvirt,  8d21s21
      $     isymmrci,multh,ncsf,ncsf2,nroot,ioverwrite,bc,ibc)           11d10s22
       implicit real*8 (a-h,o-z)                                         8d21s21
-      integer*8 igddiag(mdoop,*),ihddiag(mdoop,*),i18,i28,i38,i48       8d21s21
+      integer*8 igddiag(mdoop,*),ihddiag(mdoop,*),i18,i28,i38,i48,itmp  8d21s21
       dimension nff2(mdoop,*),nvirt(*),multh(8,8),ncsf(*),ncsf2(*)      8d21s21
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode

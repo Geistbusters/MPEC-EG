@@ -8,6 +8,7 @@ c
       include "common.store"
       include "common.hf"
       include "common.cas"
+      integer*8 ixlzze
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       shift=0d0                                                         12d22s19

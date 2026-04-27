@@ -22,6 +22,7 @@ c
      $     mynnode                                                      5d24s18
       data icall/0/
       save
+      integer*8 ibcoffo,igtmp,ivdtry,ivec,ivecd,ivecs,ivstest
       i1=1                                                              11d10s20
       icall=icall+1
       ibcoffo=ibcoff

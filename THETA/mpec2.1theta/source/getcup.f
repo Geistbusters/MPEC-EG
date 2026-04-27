@@ -11,6 +11,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension mcsf(2)                                                 10d14s21
       data icall/0/                                                     3d23s22
       save icall                                                        3d23s22
+      integer*8 iout
       icall=icall+1
       ldebug=.false.                                                    3d23s22
       sigc=1d0                                                          10d15s21

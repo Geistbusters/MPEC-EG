@@ -8,6 +8,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       equivalence (ipack8,ipack4)                                       2d3s25
       include "common.store"                                            2d3s25
       dimension nameci(6),idumx18(18),multhx(8,8),isymx(3,8),ibdatf(*)  2d3s25
+      integer*8 iawgt,ibcoff0,icart,icartl,idatal,itmp1
       write(6,*)('Hi, my name is prebodcfd ')                           2d3s25
       write(6,*)('no. of atoms = '),natom
       write(6,*)('no. of files = '),nfname

@@ -13,6 +13,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     mynnode                                                      5d15s19
       include "common.store"
       include "common.print"                                            1d3s20
+      integer*8 ias,ibc,ibctop,ibctop0,icasen,icmp1,icmp1a,incsf,inused,iout,ioutbc,ioutt,ipt1,iptv,ivecq,ixused,ixw1,ixw2
       if(lprintx)write(6,*)('hello, my name is gencsf3'),norb,ibcoff           12d12s19
       icsfxv=-1                                                         7d19s24
 c

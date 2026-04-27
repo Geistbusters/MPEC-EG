@@ -21,6 +21,7 @@ c
       include "common.store"
       data icall/0/                                                     8d9s22
       save                                                              8d9s22
+      integer*8 ibase,ibc,icount,icoup,idpoint,ihit,ism,isort,iuniq,muniq,ncount
       lprt=.true.
       icall=icall+1                                                     8d9s22
       ism=ibcoff                                                        8d3s22

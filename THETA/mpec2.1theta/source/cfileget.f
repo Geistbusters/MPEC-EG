@@ -4,6 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nbasisp,nbasdws,nvirt,nsymb,nct,norb,shift,lprint,idorel,bc, 11d14s22
      $     ibc,cfile)                                                   12d19s22
       implicit real*8 (a-h,o-z)                                         8d10s22
+      integer*8 ieiginth,ivintinth,ibcoffo,iout
       parameter (nspc=22)
       character*(*) cfile                                               12d19s22
       integer*8 ipack8                                                  8d10s22

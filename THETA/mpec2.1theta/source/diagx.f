@@ -12,6 +12,7 @@ c
       dimension x(nbas,nbas),eig(nbas),vec(nbas,nbas),isym(nbas)        9d10s07
       data icall/0/
       save
+      integer*8 ibck,ieig,ieigsav,igroup,igroup2,ihit,ihit2,isort,istuff,isymg,itmp
       idwsdeb=0
       thrs=1d-12
       thrsdd=thrs*0.01d0                                                9d1s23

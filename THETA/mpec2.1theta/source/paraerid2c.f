@@ -21,6 +21,7 @@ c
      $     multh(8,8),iptoh(8,8,8),nocc(8),neraw(8,8),nueraw(8,8),      9d26s16
      $     nztype(8),nsumts(8,8),nbasisp(*)                             4d7s22
       dimension igsym(18,2),gsym(78,2)
+      integer*8 i12,ibcexit,ibcoffo,ieraw,ieri,ihalf,ihmat,ipairab,iszz,itmp,itmpab
       common/timerocm/tovr,telapo(15)                                       5d7s12
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode

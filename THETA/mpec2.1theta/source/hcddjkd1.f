@@ -25,6 +25,7 @@ c                                                                       1d8s21
      $     idenkn(4,4,8),iden1en(4,8),idenhvvn(4),                      3d9s21
      $     idenhvvd(4),iff22(*),ff22(*)                                 3d21s22
       include "common.store"                                            1d8s21
+      integer*8 ibc0,ibclast,ibcoffo,ibcst,iden1en,idenhvvd,idenhvvn,itmp,itmp1,itmpn,itmpt
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       todate=0d0

@@ -1,6 +1,7 @@
 c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine rordr(i4od,noc,nsblkder,isblkder,i4oduu,bc,ibc)        11d10s22
       implicit real*8 (a-h,o-z)
+      integer*8 i4oduu
       dimension i4od(*),noc(*),isblkder(4,*),i4oduu(*)                   5d16s22
       include "common.hf"
       include "common.store"

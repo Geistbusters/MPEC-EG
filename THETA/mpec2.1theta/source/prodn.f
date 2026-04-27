@@ -1,6 +1,7 @@
 c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine prodn(iwpb,iwpk,ncsfb,ncsfk,ncsfmid,prod,bc,ibc,fi,fo) 2d13s23
       implicit real*8 (a-h,o-z)                                         12d4s20
+      integer*8 ibctop,iprod,itmp
       dimension prod(*)                                                 2d9s23
       include "common.store"                                            12d4s20
       ibctop=ibcoff                                                     12d5s20

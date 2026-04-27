@@ -65,6 +65,7 @@ c
      $     idatta(7,3),data(3),iden1i(8,2),isinfo(11,*),iosym(3),       3d31s23
      $     ivel(8,3),ivelp(3),npt(3),nveccnt(*),icanon(*)               5d5s23
       data olab/'d/dx','d/dy','d/dz'/                                   4d15s22
+      integer*8 iamatu,ibc0,ibcb4,ibctop,ibodc,ibodc3,icdc,icdir,icoefsvd,idarot,iden1d,iden1i,iden1o,ides,idiis1,idvec,iffmt,ifmat,ih0d,ih0da,imsg,ioder,iovrdd,iovrdk,itmp,ivel,ivelvsm,j2denbl,jdend
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       common/singcm/iuse,nff

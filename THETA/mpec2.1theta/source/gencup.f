@@ -11,6 +11,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"                                            9d17s21
       data icall/0/                                                     9d17s21
       save icall                                                        9d17s21
+      integer*8 ibctoper,iout,itmpcmp,itmpv
       icall=icall+1                                                     9d17s21
       ldebug=icall.eq.-5453
       if(ldebug)then

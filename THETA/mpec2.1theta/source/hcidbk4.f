@@ -24,6 +24,7 @@ c
      $     iwpk1(4),iwpb2(4),iwpk2(4),ipack2a(4),isy(4),igya(4),imy(4)  11d17s21
       equivalence (ipack8,ipack4),(ipack,ipack2)                        11d17s21
       include "common.store"
+      integer*8 ibcoffo,ibctpp,igg,ipvint,itmp,itmp2,itmpv,iunit,ltmp2
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       irori=irorip-1                                                    11d17s21

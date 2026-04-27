@@ -95,6 +95,7 @@ c
       data iseed/1598526581/                                            4d20s18
       data ikall/0/
       save                                                              3d17s17
+      integer*8 ibcoffo,ibcprecsf,ibcps,ibcsav,ibctop,icasvec,icdir,iconv,idhdig,idot,idva,idvec,ieall,ieconfig,ieigo,ieigp,ieigs,ieuse,ig,igfull,igo,igotps,igt,ihdig,ihdigo,ihryd,iihdig,ikeep,ill,ilzzdig,iovlpr,ipcopy,ipham,iphamdr,iphamr,iphamr2,iphamz,ips,ips2,ipsh,iptmp,ipxham,irhs,irhso,iroodat,isdig,isendto,ishortv,ismd,isndps,isndpsh,isovec,isrt,isumq,isymz,itmp,itmp1,itmp2,itmpa,itmpc,itmpdhd,itmpg,itmphd,itmplzd,itmptri,itmptric,itmpv,itmpvec,itri,ivec,iveca,ivecb,ivecf,ivecfn,iveco,ivecp,ivecps,ivecpsx,ivecpxt,ivecsc,ivecst,ivecx,ivecxx,ivtmp,iwgt
       tolbest=tolv                                                      4d27s23
       if(nsymb.eq.4)then
        igoal=1835414

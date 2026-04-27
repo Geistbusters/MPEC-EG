@@ -14,6 +14,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     ioxx(2)                                                      11d1s22
       include "common.store"                                            11d25s20
       include "common.mrci"                                             11d25s20
+      integer*8 ibcoffo,ig,iint,iivprod,iprod,itmpp,ivdprod,ivst
       common/kmfind/invk1(2,8,8,8,2)
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18

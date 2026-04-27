@@ -19,6 +19,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       data idum/2*1/                                                    12d21s22
       data dum/1d0/                                                     12d21s22
       include "common.store"                                            5d12s21
+      integer*8 ibcoffo,idot,itmp
       npack4=iwavedat(6,1)                                              5d12s21
       ibcoffo=ibcoff                                                    5d26s22
       do i=1,6                                                          5d13s21

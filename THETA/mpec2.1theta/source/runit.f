@@ -40,6 +40,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       real*16 fl                                                        5d27s19
       COMMON/FACT16/FL(922),NCALL                                         9d23s99
       save
+      integer*8 ibcgh,ibcprior,ibcrys,ibdat,ibstor,idenergy,iextradatad,isend1,iwavedat
       drsign=1d0                                                        8d20s24
       iagrp(1)=0                                                        5d26s21
       ioffsx=1                                                          11d9s22

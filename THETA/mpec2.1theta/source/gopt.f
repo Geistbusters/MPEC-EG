@@ -15,6 +15,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/singcm/iuse,nff
       data olab/'d/dx','d/dy','d/dz'/                                   4d15s22
       save                                                              7d28s22
+      integer*8 idata,ider,iderfact,ifmat,ipos,itrans
       idogrado4=idogrado                                                4d11s23
       if(idata.eq.0)then                                                7d28s22
        lprint=mynowprog.eq.0                                            3d14s23

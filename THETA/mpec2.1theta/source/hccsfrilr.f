@@ -15,6 +15,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"                                            7d11s19
       include "common.mrci"                                             6d19s19
       include "common.print"                                            1d13s20
+      integer*8 ibcoffo,iekv,igkv
       nstat=0                                                           4d17s20
       ibcoffo=ibcoff                                                    4d8s20
       ipass=0

@@ -12,6 +12,7 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension ovr(1),iso(1),ivecs(1),ieigs(1),multh(8,8),isob(*),     5d4s22
+      integer*8 ibcoffo,ids,ise,itmp1,itmp3,itmp4,itmp5,ixor,ixor0
      $     iorb(1),propmat(1),iptb(8),ivecso(*),nbasisp(*)              6d7s22
       if(idwsdeb.ne.0)write(6,*)('Hi, my name is derofxor1! ')
       ibcoffo=ibcoff

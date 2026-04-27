@@ -4,6 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)
       dimension hx(*),nfdat(5,4,*),nvirt(*),multh(8,8)
       include "common.store"
+      integer*8 itmpv
       write(6,*)('hx in orthogonal basis ')
       xnan=-1d0
       itmpv=ibcoff

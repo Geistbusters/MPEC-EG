@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine sortdet(ialpha,iaorb,norb,nconf,itmp,itmp2,nalpha,
      $     ndet,itab,icall,lprint,bc,ibc)                               11d9s22
       implicit real*8 (a-h,o-z)                                         11d1s22
+      integer*8 isort1,iso,jso,jsort1
       integer*1 ialpha(norb,nconf),itmp(norb,nconf),
      $     iaorb(nalpha,nconf),itmp2(nalpha,nconf)
 c

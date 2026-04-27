@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension buff(1)                                                 1d26s10
       data icall/0/
       save
+      integer*8 icarti,icarti2,icartx,ifcnb,inode,irnode
       lbp=lb+1
       lkp=lk+1
       zz=-atnum                                                         1d19s10

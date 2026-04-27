@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine prtocc(coef,isb,jsb,ia,ib,nadet,nbdet,iaorb,iborb,     4d20s18
      $     nalpha,nbeta,norb,iacto,nsymb,bc,ibc)                        11d9s22
       implicit real*8 (a-h,o-z)                                         4d20s18
+      integer*8 iorb,jorb
       character*80 line
       integer*1 iaorb(nalpha,*),iborb(nbeta,*)                          4d20s18
       dimension nadet(*),nbdet(*),iacto(*)                              4d20s18

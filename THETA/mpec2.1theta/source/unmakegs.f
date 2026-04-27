@@ -2,7 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine unmakegs(igsdiag,ihsdiag,nff1,mdon,mdoop,nsymb,nvirt,  8d21s21
      $     isymmrci,multh,ncsf,nroot,ioverwrite,bc,ibc)                 11d10s22
       implicit real*8 (a-h,o-z)                                         8d21s21
-      integer*8 igsdiag(mdoop,*),ihsdiag(mdoop,*),i18,i28,i38,i48       8d21s21
+      integer*8 igsdiag(mdoop,*),ihsdiag(mdoop,*),i18,i28,i38,i48,itmp  8d21s21
       dimension nff1(mdoop,*),nvirt(*),multh(8,8),ncsf(*)               8d21s21
       include "common.store"                                            8d21s21
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,

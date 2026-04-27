@@ -7,6 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       equivalence (ipack8,ipack4)                                       8d18s21
       dimension iwave(*),nvirt(*),multh(8,8),vecon(*),vecno(*)          2d13s22
       include "common.store"                                            8d18s21
+      integer*8 iovr,irsum,itmp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       isymmrci=iwave(2)

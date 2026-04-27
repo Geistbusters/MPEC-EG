@@ -7,6 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension gb(*),vk(*),nvirt(*),multh(8,8),nfdat(5,4,*),isymop(*), 8d12s21
      $     i2eop(2,3),ixmt(8,*),idoubo(*),irefo(*),nbasdws(*),ga(*)     8d13s21
       include "common.store"                                            8d12s21
+      integer*8 itmpi
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
 c     4x contributions: Gvv'ir+/-=[(vu|v'u')+/-(vu'|v'u)]Vuu'ir+/-

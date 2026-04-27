@@ -7,6 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       integer*4 ipack48(2)
       integer*8 ipackc,ipack8                                           9d16s21
       equivalence (ipackc,ipackc1),(ipack8,ipack48),(ipack8,ipack28)    9d16s21
+      integer*8 ibc,ibc0,ibctop,icmp1,iooa,irw0
 c
 c     addressing ixw1. We will be given io and icase and we need to
 c     point to index specifying full or compacted, then address if full

@@ -6,6 +6,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension ibasis(3,*),iptrbit(2,*),ibasisn(3,*),iptr(4,*),        3d24s21
      $     ipointp(*),ipointq(*),ipointq2(*)                            3d25s21
       include "common.store"                                            3d24s21
+      integer*8 iorig
       do i=1,myfcn                                                      3d24s21
        ipointq(i)=1                                                     3d24s21
       end do                                                            3d24s21

@@ -16,6 +16,7 @@ c
      $     mynnode                                                      5d24s18
       data ncall/0/                                                     9d5s19
       save ncall                                                        9d5s19
+      integer*8 igt,ihcpy,itmp
       ncall=ncall+1                                                     9d5s19
       lprint=iprint.ne.0                                                3d25s21
       if(lprint)then                                                    7d12s19

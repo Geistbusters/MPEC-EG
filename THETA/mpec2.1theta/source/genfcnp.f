@@ -12,6 +12,7 @@ c
       include "common.store"
       include "common.mrci"                                             9d10s19
       include "common.print"                                            1d5s20
+      integer*8 iffc,iffp,isort
       ismultm=ismult-1                                                  11d12s20
       iffp=ibcoff
       mffp=0                                                            11d12s20

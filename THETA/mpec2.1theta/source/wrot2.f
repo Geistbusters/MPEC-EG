@@ -7,6 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     ovr(nroot,*),ncsf2(*),vecno(*)                               2d13s22
       data loopx/5120/
       include "common.store"                                            8d19s21
+      integer*8 itmp,itmpm
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       i18=1                                                             8d19s21

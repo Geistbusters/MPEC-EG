@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine precder(idorth,idcont,nsymb,nfdat,nroot,mdon,mdoo,     9d6s23
      $     ncsf2,nff2,nfdatd,bc,ibc,nxs)                                10d16s23
       implicit real*8 (a-h,o-z)
+      integer*8 ibcoffo,idorth,idcont,iz
       include "common.store"                                            9d6s23
       dimension idorth(4,*),idcont(*),nfdat(5,4,*),ncsf2(4,*),          9d11s23
      $     nff2(mdoo+1,nsymb,*),nfdatd(8,*),nxs(*)                      10d16s23

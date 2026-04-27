@@ -13,6 +13,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension iwavedat(nspc,*),eige(*),tmee(ndime,ndime,2),           6d4s21
      $     eigo(*),tmoo(ndimo,ndimo,2),tmeo(ndime,*),tmoe(ndimo,*)      6d4s21
       include "common.store"                                            6d4s21
+      integer*8 ll
       if(lprint)then                                                    3d2s22
        write(6,*)('Hi, my name is atomll')
       end if                                                            3d2s22

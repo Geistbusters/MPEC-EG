@@ -3,6 +3,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $      norb,nbasdws,idoubo,nvirt,maxbx,maxbxd,srh,sr2,multh,nsymb, 7d27s21
      $      ncsf,npadddi,bc,ibc)                                        11d10s22
       implicit real*8 (a-h,o-z)                                         2d11s22
+      integer*8 ibcoffo,ixmt
       dimension iwfb(*),iwfk(*),ovr(*),ism(*),irel(*),irefo(*),         2d11s22
      $     nbasdws(*),idoubo(*),nvirt(*),multh(8,8),ncsf(*),ixmt(8)     2d11s22
       include "common.store"                                            2d11s22

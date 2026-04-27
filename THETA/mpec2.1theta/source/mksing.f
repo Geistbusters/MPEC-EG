@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     trans2(nvdim,nroot),nff1(mdoo+1,nsymb,*),ncsf(*),nvirt(*),   1d23s21
      $     multh(8,8),gss(*),gsso(*),dotsing(2,*)                       2d18s21
       include "common.store"
+      integer*8 istmp1,itmp,ivec,ivold
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
 c

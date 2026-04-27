@@ -11,6 +11,7 @@ c
       include "common.hf"
       include "common.cas"
       parameter (id=1000,ido=16)
+      integer*8 iaa1,ialpha,iaorb,ibb1,ibeta,iborb,ix
 c
 c     norb is the number of orbitals
 c     nspin is spin multiplicity. (2S+1)

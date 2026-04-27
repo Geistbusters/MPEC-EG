@@ -23,6 +23,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/unitcm/iunit                                               11d9s17
       data icall/0/
       save
+      integer*8 ibufs,ifoo,ifov,ih02,ih02h,ijnn,iok3x,iokx,ionex2,ionex3,ioonn,ioooo2,iovnn,isend,itmp,itmp1,itmp2,itmp3,itmpt
       lprint=.false.                                                     4d10s18
       if(idwsdeb.gt.1)lprint=.true.                                     5d2s18
       if(iprtr(14).ne.0)lprint=.true.                                   2d13s20

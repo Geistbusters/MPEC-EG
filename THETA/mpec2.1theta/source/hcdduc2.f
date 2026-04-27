@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine hcdduc2(xmat,ncsf,ncsf2,iargb,iargk,vd,gd,isbv12,nsymb,6d22s21
      $     multh,nvirt,nrootu,sr2,watch,iflg,name,idncsf2,bc,ibc)       11d10s22
       implicit real*8 (a-h,o-z)                                         6d21s21
+      integer*8 ixt
       character*(*) name                                                6d24s21
       dimension xmat(*),ncsf(*),ncsf2(idncsf2,*),vd(*),gd(*),multh(8,8),7d26s21
      $     nvirt(*)                                                     6d21s21

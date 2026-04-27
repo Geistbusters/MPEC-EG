@@ -39,6 +39,7 @@ c
       data phss/1d0,-1d0/                                               12d9s21
       data icall/0/
       save
+      integer*8 ibcgg,ibcvmat,id1vnotv,id3vnotv3,idhvisv,idhvnotvf,idkeep,intden,ircv,itmp,itmpdv,itmpk,itmpsv,itrans,iunit,ivmat
       icall=icall+1
       irori=irorip-1                                                    11d17s21
       if(isopt(3).ne.0)then

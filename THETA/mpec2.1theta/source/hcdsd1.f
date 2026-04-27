@@ -27,6 +27,7 @@ c
      $     mdhvnotv(4),md3vnotv3(4,2),nok4f(4),nok4(4),nok3vf(4),       12d22s20
      $     iden(*),nh0av(*),nok33f(4,2),nok33(4,2),tdends(6),ff22(*)    3d21s22
       include "common.store"
+      integer*8 ibcgg,idhvisv,idhvnotvf,ircv,itmp
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18

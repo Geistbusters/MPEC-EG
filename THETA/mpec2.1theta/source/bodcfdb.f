@@ -1,6 +1,7 @@
 c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine bodcfdb(ibdatf,nbdat,nfname,bc,ibc)                    2d3s25
       implicit real*8 (a-h,o-z)                                         2d3s25
+      integer*8 iadd
       include "common.store"                                            2d3s25
       dimension ibdatf(*)                                               2d3s25
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,

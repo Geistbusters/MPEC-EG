@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine int1tobit(iptr,iptrbit,idorb,isorb,idbit,isbit,
      $     mdoop,nsymb,nec,bc,ibc)                                      11d10s22
       implicit real*8 (a-h,o-z)                                         11d1s22
+      integer*8 idbit,isbit,jdbit,jsbit
       integer*1 idorb(*),isorb(*)
       dimension iptr(4,mdoop,*),iptrbit(2,mdoop,*)                      5d7s20
       include "common.store"

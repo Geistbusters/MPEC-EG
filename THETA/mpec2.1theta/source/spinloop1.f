@@ -8,6 +8,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       integer*8 ipackc,ipack,ipackm                                     10d20s21
       equivalence (ipackc,ipackc1),(ipack,ipack2),(ipackm,ipack2m)      10d20s21
       dimension mcsf(2),veck(ndim,*)                                    10d20s21
+      integer*8 itmpb,itype
       mslow=max(i2smb-2,i2smk-2)                                        10d20s21
       mshi=min(i2smb+2,i2smk+2)                                         10d20s21
       ishi=min(nopen,i2sb+2,i2sk+2)                                     10d20s21

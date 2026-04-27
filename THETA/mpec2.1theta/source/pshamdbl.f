@@ -22,6 +22,7 @@ c
       dimension bugf(6)
       data icall/0/
       save icall
+      integer*8 ism,ivv
       do i=1,6
        bugf(i)=1d0
       end do

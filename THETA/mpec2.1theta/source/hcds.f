@@ -28,6 +28,7 @@ c
      $     ih0av(*),nh0av(*),nok33f(4,2),nok33(4,2),veco(*),tdends(6),  3d23s21
      $     ionext(*),ioxx(2),ichvnotv(4),ic1vnotv(4,8,8)                11d9s22
       include "common.store"
+      integer*8 ibcbmat,ibcgg,ibcvmat,ibmat,id1vnotv,id3vnotv3,idhvisv,idhvnotvf,idkeep,igg,igs,igtmp,intden,iprod,ipsr,ircv,itmp,itmpb,itmpdv,itmpnon,itmpsv,itmpv,itrans,ivmat
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18

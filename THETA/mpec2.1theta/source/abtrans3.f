@@ -4,6 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)                                         4d8s24
       include "common.store"                                            4d8s24
       dimension dd3x(*),dd3xin(*),noc(*),nbasisp(*),nvirt(*),iorb(*)    4d8s24
+      integer*8 itmp2
       nbp2=nbasisp(is2)*ncomp
       nbp1=nbasisp(is1)*ncomp
       itmp2=ibcoff                                                      4d8s24

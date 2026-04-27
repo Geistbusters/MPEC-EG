@@ -10,6 +10,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension ivecs(8),ieigs(8),iorb(8),morb(8),ixinv(8),nbasisp(8),  2d15s19
+      integer*8 ibcoffo,ihalf,itmp,itmp1,itmp2,ixi,morb
      $     nbasisc(8),ismile(8),nposs(*)                                5d2s23
       ncomp=1
       if(iprtr(22).ne.0)then                                            4d28s21

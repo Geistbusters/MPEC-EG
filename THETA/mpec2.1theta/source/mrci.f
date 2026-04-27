@@ -64,6 +64,7 @@ c
       data idoit/6*1/                                                   10d18s18
       data nfill0/2*0/                                                  10d8s20
       data nhole0/3*0/                                                  10d8s20
+      integer*8 iafgencsf3,iamconverged,ib4,ibasisc,ibasisf,ibc1000,ibcb4,ibcb4i,ibcoffo,ibufr,ibufvcvds,icol,icsf,icsf2,icsfpd,idavide,idddig,iddoub,idenput,idest,idorb,idorbfi,idvi,idvmt,ieigd,ieigintxyz,ieigvspace,ieold,iepart,iewgt,iff,ifhis,igss,ih0a,ih0ae,ih0copy,ihddiag,ihdi,ihsdiag,ihxy,ilastde,imsg,intvec,iorg,ipairs,ipassr,iptrbit,iptrcb,iptrfbit,iptrfibit,issdig,isymo,itimer,ivdinout,ividotvi,ivint,ivintlast,ivints,ivintt,ivstry,ivtmp,ivvn,jdenpt,jptrf,nfcnpx,nfcnpxfi,nff0,nff1,nff2,nff2x,nffr,nlastde
       common/ilimcm/ilimcode                                            5d7s19
       common/hcdscm/timds(12)
       common/hcsicm/timsi(10)

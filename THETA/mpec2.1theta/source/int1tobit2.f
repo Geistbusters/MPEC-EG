@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine int1tobit2(ibasis,ibasisn,iptr,iptrbit,idorb,isorb,
      $     myfcn,nec,mdoop,bc,ibc)                                      11d10s22
       implicit real*8 (a-h,o-z)                                         11d1s22
+      integer*8 iorig,itmp,itmpc,isto
       integer*1 idorb(*),isorb(*)                                       3d24s21
       dimension ibasis(3,*),iptrbit(2,*),ibasisn(3,*),iptr(4,*)         3d24s21
       include "common.store"                                            3d24s21

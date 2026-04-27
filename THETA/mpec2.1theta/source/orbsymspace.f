@@ -4,6 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)                                         4d5s21
       dimension iorbsym(*),idoub(*),iact(*),noc(*),nvirt(*)             4d5s21
       include "common.store"                                            4d5s21
+      integer*8 ibc,inbr
       mlx=0                                                             4d5s21
       do isb=1,nsymb                                                    4d5s21
        if(min(idoub(isb),iact(isb)).gt.0)then                           4d5s21

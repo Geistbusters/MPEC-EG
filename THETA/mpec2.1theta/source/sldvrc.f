@@ -12,6 +12,7 @@ c
       data phs/1d0,-1d0/                                                3d4s20
       data nspin/1,2,2,1/
       include "common.store"                                            3d4s20
+      integer*8 ibcoffo,iout,iprim
       ibcoffo=ibcoff                                                    3d4s20
       nlb=2*lb+1                                                        3d4s20
       nlb2=nlb*2                                                        3d4s20

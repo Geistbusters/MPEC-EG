@@ -18,6 +18,7 @@ c
      $     mynnode
       data icall/0/
       save
+      integer*8 ibck,ibcopy,ieig,ieigsav,igroup,igroup2,ipt,isort,isymg,itmp,iunq
       idwsdeb=0
       if(idwsdeb.gt.10)then
        write(6,*)('in diagy '),nbas

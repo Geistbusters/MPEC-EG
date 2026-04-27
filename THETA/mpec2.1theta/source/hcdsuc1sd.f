@@ -6,6 +6,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension prod(ncsfs,*),ncsf2(*),xint(*),gs(*),vd(*),             8d2s21
      $     nvirt(*),multh(8,8),nfdat(2),intden(2),itrans3(2),itrans(2)  6d11s21
       include "common.store"                                            6d10s21
+      integer*8 intden,itmpdv,itmpsg,itrans,itrans2,ivdt
       nfdat(1)=ncsf2(1)                                                 6d10s21
       nfdat(2)=ncsfd-ncsf2(1)                                           6d10s21
       iaddd=1                                                           6d11s21

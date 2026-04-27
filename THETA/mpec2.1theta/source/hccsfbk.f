@@ -23,6 +23,7 @@ c
       include "common.store"                                            7d11s19
       include "common.print"                                            1d3s20
       save
+      integer*8 ibcsav,ibctop,idvtmp,imat,itmpgb,ixmtf
       ldebug=.false.                                                    5d12s21
        icall=icall+1
       lpr=icall.eq.-3

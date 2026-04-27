@@ -3,7 +3,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     icsfxv,bc,ibc)                                               11d9s22
       implicit real*8 (a-h,o-z)
       include "common.store"
-      integer*8 i18,i28,i38,i48,icsfxv                                  5d11s21
+      integer*8 i18,i28,i38,i48,icsfxv,iaorb                            5d11s21
       real*16 fl                                                        7d11s19
       COMMON/FACT16/FL(922),NCALL                                       5d27s19
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d15s19

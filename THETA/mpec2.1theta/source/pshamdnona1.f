@@ -22,6 +22,7 @@ c
      $          wgt(nroot),ipxder(4,8,8,8),igoalx(4)                    6d28s22
       data icall/0/
       save icall
+      integer*8 ism
       lprint=.false.                                                     8d19s14
       icall=icall+1
       ism=ibcoff                                                        8d15s06

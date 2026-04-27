@@ -10,6 +10,7 @@ c
      $     soln(*),morb(*),idarot(*)                                    11d28s22
       include "common.store"
       include "common.hf"
+      integer*8 ibcoffo,ierror,ipp,ix,ix1
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       if(idwsdeb.gt.10)write(6,*)('Hi, my name is orbdercas! '),tol

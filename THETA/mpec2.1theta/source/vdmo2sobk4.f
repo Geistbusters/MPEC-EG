@@ -9,6 +9,7 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       dimension idv4(2,4,8),iorb(8),multh(8,8),nfdat(5,4,*),            12s17s21
+      integer*8 iaddr,iaddstart,ibcoffo,itmp
      $     nfcn(36,2),iaddr(36,16),nbasisp(*),nbasispc(*),noff(8),      1d25s22
      $     jdv4(4,8),idv4l(4)                                           2d17s22
 c

@@ -27,6 +27,7 @@ c
      $     mynnode
       common/unitcm/iunit                                               11d9s17
       data idoit/7*1/                                                   9d25s17
+      integer*8 iaa,iaaf,iav,ibtop,idd,idd2,iddf,iha,ihb,ihessa,ihessb,ihessbt,ihessc,ihessd,iht,ioop,ivd
       idoit(4)=1
       iunit=6                                                           11d9s17
       itest=0                                                           6d19s17

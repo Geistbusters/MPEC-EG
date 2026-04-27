@@ -29,6 +29,7 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       save
+      integer*8 ibcoffo,itmx,iwork
       iret=0                                                            1d27s25
       ibcoffo=ibcoff                                                    1d27s25
       nff=nf

@@ -8,6 +8,7 @@ c
       dimension hdec(*)
       include "common.store"
       include "common.print"                                            4d28s21
+      integer*8 ieig,itcopy,itmp,ivtmp,kwork
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       ieig=ibcoff                                                       3d19s21

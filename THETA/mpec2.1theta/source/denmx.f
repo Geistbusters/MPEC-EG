@@ -15,6 +15,7 @@ c
      $     nff1(mdoo+1,*),iff1(*),nff0(*),iff0(*),vdnono(*),ncsf2(4,*), 3d11s21
      $     nbasdws(*),nbasisp(*),iorbno(8),iorb(*),idoubo(*)            11d2s22
       include "common.store"
+      integer*8 i,ibcoffo,idcopy,iden,ikin,iorbno,itmpo,itrace
       if(lwrite)write(6,*)('Hi, my name is denmx'),nroot,ibcoff         2d24s21
       ibcoffo=ibcoff                                                    3d3s21
       if(norbci.ne.0)then                                               1d24s22

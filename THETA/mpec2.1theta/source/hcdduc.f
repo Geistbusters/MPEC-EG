@@ -25,6 +25,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data loopx/660000/
+      integer*8 iacc,ibcsrt,ibctop,idenh,idenj,idenjc,idenk,idenkc,idenstrt,igdmaster,igg,imat4o,iprod,itmp,itmpi,itmpj,itmpp,ivdtmp,ivec,ivecbc,jdenjc,jdenkc,mdenh,mdenhc,ndenj,ndenk
       do isb=1,nsymb                                                    11d15s21
        do i=1,7                                                         11d15s21
         nrcv(i,isb)=0                                                   11d15s21

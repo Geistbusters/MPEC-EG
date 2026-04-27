@@ -382,6 +382,7 @@ c
      $          7,8,5,6,3,4,1,2, 8,7,6,5,4,3,2,1/                       1d13s10
       data ifirst/0/
       save
+      integer*8 icartab,icartabcd,icarti,icartt,icot,ifcna,inode1,inode2,irnode
       if(ifirst.eq.0)then
        do l=1,6                                                         3d13s20
         do i=1,idfcn                                                     3d12s20

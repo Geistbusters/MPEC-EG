@@ -28,6 +28,7 @@ c
      $     mynnode                                                      5d15s19
       save
       data icall/0/
+      integer*8 ibcoffo,ibtmpa,iout,itype
       icall=icall+1                                                     7d10s19
       ntype1=0                                                          9d2s21
       n1den=0                                                           9d2s21

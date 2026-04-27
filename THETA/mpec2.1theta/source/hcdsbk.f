@@ -34,6 +34,7 @@ c
       data loopx/11810000/
       data icall/0/
       save icall
+      integer*8 ibcbmat,ibcgg,ibcvmat,id1vnotv,id3vnotv3,idhvisv,idhvnotvf,idkeep,intden,iprod,ipsr,ircv,itmp,itmpdv,itmpk,itmpsv,itrans,ivmat
       icall=icall+1
       loop=0
       nrootm=nrootu-1                                                   1d4s21

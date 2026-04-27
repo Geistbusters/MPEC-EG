@@ -3,7 +3,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     isymmrci,ncsf,ncsf2,nroot,mynowprog,maxbxd,inorm,bc,ibc,     12d13s22
      $     mddilow,mddihig)                                             12d13s22
       implicit real*8 (a-h,o-z)                                         7d8s21
-      integer*8 ihddiag(mdoo+1,nsymb),i18,i28,i38                       8d21s21
+      integer*8 ihddiag(mdoo+1,nsymb),i18,i28,i38,itmp                  8d21s21
       dimension nff2(mdoo+1,nsymb),nvirt(*),multh(8,8),ncsf(*),         2d14s22
      $     ncsf2(*)                                                     2d14s22
       include "common.store"                                            7d8s21

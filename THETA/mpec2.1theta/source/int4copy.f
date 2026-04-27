@@ -1,6 +1,7 @@
 c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine int4copy(i4od,i4odx,n4o,noc,nsblkder,isblkder,bc,ibc)  11d10s22
       implicit real*8 (a-h,o-z)                                         5d16s22
+      integer*8 i4odx
       dimension i4od(*),i4odx(*),noc(*),isblkder(4,*)                   5d16s22
       include "common.store"                                            5d16s22
       n4o=0                                                             5d16s22

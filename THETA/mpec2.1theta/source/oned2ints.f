@@ -23,6 +23,7 @@ c
       save
       data icall/0/
       data design/2*1d0/                                                3d2s23
+      integer*8 jb
       icall=icall+1
       ldeb=.false.                                                      4d27s16
       iadd1=0

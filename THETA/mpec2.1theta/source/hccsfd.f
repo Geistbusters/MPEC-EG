@@ -30,6 +30,7 @@ c
       common/fnd2cm/inv(2,8,8,8)                                        4d9s18
       include "common.store"                                            7d11s19
       include "common.print"                                            1d3s20
+      integer*8 ibcsav,imat,iprod
       if(iprtr(6).eq.0)then                                             1d3s20
        ldebug=.false.                                                   1d3s20
       else                                                              1d3s20

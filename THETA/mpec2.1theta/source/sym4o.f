@@ -4,6 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)                                         5d16s22
       dimension i4od(*),nocc(*),isblkder(4,*),isblkxder(4,*)             5d16s22
       include "common.store"                                            5d16s22
+      integer*8 im0,imt
       im0=ibcoff
       do is=1,nsblkxder
        nrow=nocc(isblkxder(1,is))*nocc(isblkxder(2,is))

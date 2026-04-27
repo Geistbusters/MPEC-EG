@@ -15,6 +15,7 @@ c
       data icall/0/
       save icall
       include "common.store"
+      integer*8 itmp
       icall=icall+1
       write(6,*)('icall in convert1tor: '),icall
       write(6,*)('vxr in convert1tor: ')

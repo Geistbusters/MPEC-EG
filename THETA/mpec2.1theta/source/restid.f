@@ -77,6 +77,7 @@ c
       data (ibt(j,11,4),j=1,13)/0,0,1, 0,0,0, 0,0,0, 0,1,0, 7/
       data (ibt(j,12,4),j=1,13)/0,0,1, 0,0,0, 0,0,0, 0,0,1, 4/
       save                                                              7d22s14
+      integer*8 ibcoffo,itemp
       ibcoffo=ibcoff                                                    8d26s15
       nsza=2*la+1
       nszac=nsza*2

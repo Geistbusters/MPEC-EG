@@ -13,6 +13,7 @@ c
       dimension x(nbas,*),eig(nbas),vec(nbas,*),isym(nbas)              8d31s23
       data icall/0/
       save
+      integer*8 ibck,ibcpy,ieig,ieigsav,igroup,igroup2,ihit,ihit2,ipvt,isort,istuff,isymg,itmp,itmph
       xskip=0d0                                                         9d1s23
       idwsdeb=-1000
       nderp=nder+1                                                      8d31s23

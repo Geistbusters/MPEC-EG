@@ -17,6 +17,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.mrci"                                             6d10s19
       data icall/0/
       save
+      integer*8 icoup,ihit,ipt1
       icall=icall+1
       if(nlzzu.eq.6)then                                                2d27s23
        npass=3                                                          2d27s23

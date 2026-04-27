@@ -1,6 +1,7 @@
 c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine sandtd(xin,nprim,ncont,ncol,trans,bc,ibc)              11d10s22
       implicit real*8 (a-h,o-z)
+      integer*8 itmp1,itmp2,jtmp2,itmp,jtmp
 c
 c     square and transform to diagonals
 c     overwrite xin with result

@@ -10,6 +10,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension iwavedat(nspc,*),esave(*),tm(ndim,ndim,2),              6d4s21
      $     tm2(ndim,*),tm3(ndim3,*)                                     6d4s21
       include "common.store"
+      integer*8 ieig,ieiga,isort,itmp,ivect
       if(ndim.eq.0)then                                                 3d2s22
        return                                                           3d2s22
       end if                                                            3d2s22

@@ -18,6 +18,7 @@ c                                                                       11d2s22
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension inv(2,8,8,8)                                            4d9s18
+      integer*8 i2e,i2s,ibcoffo,ibd,iden,ieig,irefocpy,irsum,itest,ivnew,ivx,ivx2
       common/fnd2cm/inv                                                 4d9s18
       ibcoffo=ibcoff                                                    8d3s21
       lpr=.true.                                                        11d2s22

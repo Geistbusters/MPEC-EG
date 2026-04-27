@@ -14,6 +14,7 @@ c
       include "common.cas"
       include "common.print"                                            2d14s20
       dimension noc4(8),ih0e(8),ioooo(1),iooooa(1)                      8d8s14
+      integer*8 icpy,ih0e
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
 c

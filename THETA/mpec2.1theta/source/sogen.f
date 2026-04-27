@@ -18,6 +18,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/singcm/iuse,nff
       data crori/' ','i'/                                               3d30s22
       data icall/0/
+      integer*8 iaout,ibcoffo,idat
       npack4=iwfbra(6)                                                  3d28s22
       iordb=ipack1(3)                                                   3d28s22
       npack4=iwfket(6)                                                  3d28s22

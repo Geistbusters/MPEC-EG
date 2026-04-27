@@ -1,6 +1,7 @@
 c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine loadr2(ibcode,iorb,nsymb,nbasdws,iorbao,ibcodex,bc,ibc)11d9s22
       implicit real*8 (a-h,o-z)
+      integer*8 ibcode,iorb,iorbao
       dimension ibcode(*),iorb(*),nbasdws(*),iorbao(*)                  2d8s20
       logical ldebug
       include "common.basis"

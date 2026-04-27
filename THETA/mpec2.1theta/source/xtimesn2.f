@@ -7,6 +7,7 @@ c                                                                       2d22s21
       implicit real*8 (a-h,o-z)                                         7d17s20
       dimension xin(ndim,*),xout(ndim2,*)                               12d4s20
       include "common.store"                                            7d17s20
+      integer*8 ibcoffo,itmp1,itrial
       if(mcol.le.0)return                                               11d3s22
       if(abs(f1).lt.1d-14)then                                          11d3s22
        if(f2.eq.0d0)then                                                11d3s22

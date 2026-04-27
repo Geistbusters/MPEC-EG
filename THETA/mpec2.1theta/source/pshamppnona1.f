@@ -20,6 +20,7 @@ c
      $          itmpe(1),itmpf(1),ncsym(8),nsbeta(8),dbg(11),hdigo(*)   6d23s22
       data icall/0/
       save icall
+      integer*8 ism
       loop=0
       loopx=797
       lprint=.false.                                                    8d19s14

@@ -9,6 +9,7 @@ c
       include "common.store"
       include "common.hf"
       dimension noc(8),nvirtc(8),multh(8,8),ionex(1),h0mo(1),
+      integer*8 ider3
      $     nbasdwsc(8)
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode

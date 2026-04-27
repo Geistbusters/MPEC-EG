@@ -14,6 +14,7 @@ c
      $     irefo(*),iptb(200,8),kff20(*),vxr(*),veci(ncsfti,*),ncsf2(*),7d22s21
      $     nff0(mdoop,3),iff0(*)                                        7d19s21
       include "common.store"
+      integer*8 itmp
       write(6,*)('vxr in convert2tor: '),ibcoff,iff20
       call prntm2(vxr,1,nroot,1)
       do i=1,norb

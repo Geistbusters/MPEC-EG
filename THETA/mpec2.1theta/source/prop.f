@@ -49,6 +49,7 @@ c
       include "common.mrci"
       include "common.hf"
       include "common.basis"                                            5d27s21
+      integer*8 ibc,ibcb4,ibcmaxbx,ibcoff0,ibcoffo,ibctop,ibctopi,ibodcp,ibss,icsf2,icsfpd,idatal,iden,ident,idovr,ieig,ifnp,ihdd,iifmx,ijjobe,ijjobo,ijjte,ijjto,imasspa,ioder1,iok,iorb,iorbf,iorbo,iorg,iout,iptfe,iqne,isnd,itmp,iuniq,ivecno,ivecon,ixmt,ixw1,jdenpt
       common/fnd2cm/inv(2,8,8,8)                                        4d9s18
       if(n4vso.eq.0)then                                                2d8s23
        onoff='off'                                                      2d8s23

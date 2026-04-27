@@ -14,6 +14,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"                                            8d15s23
       include "common.basis"                                            8d28s23
       dimension ioooo(*),isblk(4,*),ionex(*),isblk1(4,*),irefo(*),      8d17s23
+      integer*8 ibcb4,ibcoffo,icol,ih0da,ih0dc,ih0pp,ihd,ikeep,itmp
      $     nvirt(*),j4o(512),nbasdws(*),idas(8),npt(3),idatta(7,3),     8d17s23
      $     data(3),ihd(8),idoubo(*),noc(*),nbasisp(*),i4o(512),         8d21s23
      $     i1x(512),iptoh(8,8,8),idumi(512),i4odu(512),isou(8),iorb(*), 8d21s23

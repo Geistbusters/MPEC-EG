@@ -8,6 +8,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension ieigs(8),iorb(8),h0(*),h0d(*),                          5d4s22
+      integer*8 iatmp1,ibcoffo,ider,itimes2,itmp,itmp1,itmpx
      $    multh(8,8),ipt2(8),iptk(8),itrans(*),                         5d4s22
      $     nbasisp(*),isou(*)                                           4d19s22
       if(idwsdeb.gt.10)write(6,*)('Hi, my name is derh01!')

@@ -12,5 +12,11 @@ mpec
 *.tgz
 *.tar
 
+###Python scaffolding
+*.py
+
+###Bash scaffolding
+*find_ibcoff_vars.sh
+
 ### Documentation
 *.pdf

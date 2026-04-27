@@ -13,6 +13,7 @@ c
      $     mynnode
       data icall/0/
       save icall
+      integer*8 icoefsvd,idiis1,ierror,ifmat,ix
       icall=icall+1
       tolv=tolvx                                                        4d9s23
       lnew=.true.

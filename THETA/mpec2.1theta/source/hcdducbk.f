@@ -27,6 +27,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       data loopx/13160000/
       data icall/0/
       save icall
+      integer*8 iacc,ibctop,idenh,idenj,idenjc,idenk,idenkc,idenstrt,igg,imat4o,iprod,itmp,itmpi,itmpj,itmpp,ivdtmp,ivec,ivecbc,jdenjc,jdenkc,jint,kint,mdenh,mdenhc,ndenj,ndenk
       icall=icall+1
       if(icall.eq.7)icall=icall+1
       if(izero.ne.0)then                                                1d24s21

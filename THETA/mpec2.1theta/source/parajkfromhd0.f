@@ -28,6 +28,7 @@ c
      $     isblkder1(4,idbk)                                            9d12s16
       data icall/0/                                                     5d9s22
       save icall                                                        5d9s22
+      integer*8 i4od,i4od2b,ionexd,itmp,jmatd,jmatda,kmatda
       icall=icall+1                                                     5d9s22
       call second(time1)                                                11d27s12
       kgoal=2176320

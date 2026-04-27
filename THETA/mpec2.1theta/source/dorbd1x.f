@@ -7,6 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     isblk(4,*),isblk1(4,*),id1x(*),ioooo(*),ionex(*),            6d14s24
      $     isblkk(4,*),jmats(*),kmats(*),itt(*),nbasdws(*)              10d30s23
       include "common.store"                                            7d21s23
+      integer*8 imap,imapk,itmp2,itmpd,itmpi
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       igoul=itt(1)+1+nbasdws(1)*3

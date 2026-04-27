@@ -10,6 +10,7 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension propmat(*),ionex(*),i3x(*),da(*),noc(8),nvirtc(8),
+      integer*8 ibcoffo,itmp
      $     ipt(8),multh(8,8),ipt2(8)
       sixteenthree=16d0/3d0
       ibcoffo=ibcoff

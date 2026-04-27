@@ -6,6 +6,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $               icartt,idoit,fmulq,idorel,ascale,nmat,iax,iay,iaz, 5d31s22
      $     ibx,iby,ibz, icx,icy,icz, idx,idy,idz,bc,ibc)                11d10s22
       implicit real*8 (a-h,o-z)
+      integer*8 ibcoffo
       logical ldeb,lab,lcd                                              10d8s15
 c
 c     take electron repulsion integrals and store them properly

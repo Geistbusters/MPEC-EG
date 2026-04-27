@@ -15,6 +15,7 @@ c
      $     iden(*),nvirt(*),iden1x(8,8),nden1x(8,8),nh0av(*)            3d3s21
       include "common.store"                                            11d25s20
       include "common.mrci"                                             11d25s20
+      integer*8 ibcoffo,idenh,ighere,itmph
       common/kmfind/invk1(2,8,8,8,2)
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18

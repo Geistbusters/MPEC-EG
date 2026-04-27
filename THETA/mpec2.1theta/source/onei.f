@@ -7,6 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.spher"
       include "common.rys"                                              1d27s23
       dimension store1(1),store2(1)                                     2d22s10
+      integer*8 icarti,icarti2,icartte,icartx,ifcnb,inode
 c
 c     compute overlap and kinetic energy
 c

@@ -7,6 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"                                            6d3s22
       logical lprt,lprint                                               7d25s22
       dimension ovrdk(*),ovrdd(*),morb(*),idarot(*),nbasisp(*),
+      integer*8 ibc0,ibcoffo,idndm,idnm,iorbpart,iovrpart,isuma,itmp1,itmp2,itmp3,itmp5,itriangle1
      $     nbasdws(*),iden1d(8,*),idoub(*),iact(*),noc(*),iorb(*),      6d3s22
      $     itrans(*),ivecs(*),iden1(8,*),multh(8,8),isoa1(*),isblk(4,*),3d17s23
      $     idnm(8),j2den(*),isou(*),bodc(*),isinfo(11,*),cdir(*),       4d10s23

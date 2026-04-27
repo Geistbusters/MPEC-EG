@@ -15,6 +15,7 @@ c
       include "common.basis"                                            11d20s19
       include "common.input"                                            11d20s19
       include "common.store"                                            11d20s19
+      integer*8 ibdat,ibstor,iextradata
       read(1)nsymb,idorel,ngaus,natom,nwcont,numeminus,lmax,nbasallp,   11d20s19
      $     multh,ascale,potdws,ipropsym,istinfo,nextradata              5d25s21
       nsymbb=nsymb                                                      11d20s19

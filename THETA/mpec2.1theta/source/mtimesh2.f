@@ -8,6 +8,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nherect(*),iva(8),iv(8),ivt(8),xin(*),xout(*),               4d7s23
      $     ivin(*),eig(*),iga(8),ilc(*),ihc(*),ilct(*),ihct(*)          4d7s23
       include "common.store"
+      integer*8 ibcoffo,idot,ig
       ibcoffo=ibcoff                                                    4d7s23
       igoal=8
       ncona=0d0                                                         4d7s23

@@ -10,6 +10,7 @@ c
      $     iapair(3,*),iovr(8),cartk(3),cartb(3)                        12d5s24
       data loop,loopx/0,33080000/
       include 'common.store'                                            12d5s24
+      integer*8 ibcoffo,iovr,itmp,itmp1
       ibcoffo=ibcoff
       srh=sqrt(0.5d0)                                                   5d3s10
       ascale2=ascale*2d0                                                8d20s15

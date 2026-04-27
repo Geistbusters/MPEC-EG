@@ -6,7 +6,8 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)                                         5d12s21
       integer*1 ipack1(4)                                               5d12s21
       integer*4 ipack4(2)                                               5d12s21
-      integer*8 ipack8,itmom                                            5d25s21
+      integer*8 ipack8,itmom,ibcoffo,itmp,ifullt,ibig,itmpjj,itrans
+      integer*8 ifull                                                   5d25s21
       character*10 opname(*)                                            5d12s21
       character*2 c2                                                    3d8s22
       character*4 ctype                                                 3d30s22

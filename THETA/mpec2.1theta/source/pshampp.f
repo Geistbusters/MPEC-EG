@@ -19,6 +19,7 @@ c
      $          itmpe(1),itmpf(1),ncsym(8),nsbeta(8),dbg(11)            8d19s14
       data icall/0/
       save icall
+      integer*8 ism
       lprint=ldebug
       icall=icall+1
       if(ldebug)then

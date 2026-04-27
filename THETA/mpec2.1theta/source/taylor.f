@@ -3,6 +3,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)
       dimension amat(no,ni),umat(*)                                     1d3s18
       include "common.store"                                            1d3s18
+      integer*8 it1
       iret=0                                                            1d3s18
       nb=no+ni                                                          1d3s18
       thres=1d-10

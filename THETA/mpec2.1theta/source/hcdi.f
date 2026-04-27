@@ -18,6 +18,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     vec(ncsfv,*),nab4(2,3),ioxx(2)                               11d1s22
       equivalence (ipack8,ipack4)                                       11d20s20
       include "common.store"
+      integer*8 i,ibclast,ibcoffo,ibctmpt,idenvnotvk,igbtest,itmp,itmp2,itmpi,itmpt
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18

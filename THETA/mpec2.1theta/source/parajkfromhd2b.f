@@ -26,6 +26,7 @@ c
      $     i4od2b(idbk),                                                9d28s16
      $     ionexd2(idbk),isblkxder1(4,idbk),isblkder1(4,idbk)           9d16s16
       data icall/0/
+      integer*8 ibcoffo,ibufs,itmp
       call second(time1)                                                11d27s12
       if(iter.eq.1.and.mynowprog.eq.0)write(6,*)('in parajkfromhd2b ')   3d3s17
       icall=icall+1

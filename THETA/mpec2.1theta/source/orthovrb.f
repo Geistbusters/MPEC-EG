@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data scode/'1ss','3ls','3ms','3hs'/                               6d7s23
+      integer*8 ibcoffo,idec,ieig,ivec
       if(iprtr(9).eq.0)then                                             1d6s20
        ldebug=.false.                                                    12d12s19
       else                                                              1d6s20

@@ -12,6 +12,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/n0virtcm/n0virt                                            10d25s21
       data icall/0/                                                     2d28s22
       save icall                                                        2d28s22
+      integer*8 ibcoffo,idorbb,igc,ignew,irsum,itest,itestb,ivnew,ivx,ivx2
       icall=icall+1                                                     2d28s22
       write(6,*)('testsome for call '),icall
        ihddiagk=1                                                        7d22s21

@@ -11,6 +11,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension irel(*),ism(*),ibasis(8),multh(8,8)                     12d28s19
      $     ,nfcn(8),nct(8),nfill(4),nhole(3)                            4d19s23
       include "common.store"                                            12d28s19
+      integer*8 ibcb4,icsf,icsf2,icsfp,icsfpd,idorb,iptrbit,iuniq,nfcnpx
       ii=0                                                              12d28s19
       do isb=1,nsymb                                                    12d28s19
        do i=1,iacto(isb)                                                12d28s19

@@ -15,6 +15,7 @@ c     integrals are nan,nbn,nbasisp(lsc),nbasdws(lsd)
       data loop,loopx/0,36/
       data icall/0/
       save
+      integer*8 itmp
       icall=icall+1
       look=.false.
       igoal=1987803

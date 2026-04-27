@@ -20,6 +20,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     ipack2a(4),ndenvnotvk(8,8),noks(8,8),ioxx(2)                 2d7s23
       equivalence (ipack8,ipack4),(ipack,ipack2)                        11d15s21
       include "common.store"
+      integer*8 i,ibclast,ibcoffo,ibctmpt,idenvnotvk,itmp,itmp2,itmpi,itmpt,ndenvnotvk
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       if(lprt)write(6,*)('Hi, my name is hcdibk4'),ibcoff

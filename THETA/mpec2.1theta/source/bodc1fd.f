@@ -3,6 +3,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     natom,ngaus,jbdatb,jbdatk,ibdat,nbasdws,nbasp,multh,isym,    2d14s25
      $     iapair,ibstor,isstor,idorel,ascale,nsymb,bc,ibc)             2d14s25
       implicit real*8 (a-h,o-z)                                         2d3s25
+      integer*8 ibcoffo,ixmt,koder1,itransp
       include "common.store"                                            2d3s25
       character*9 name                                                  2d3s25
       dimension iwavb(*),iwavk(*),iorbb(*),iorbk(*),idata(7),nbasdws(*),2d3s25

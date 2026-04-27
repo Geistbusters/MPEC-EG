@@ -2193,6 +2193,7 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       include "common.mympi"                                             3d5s21
+      integer*8 itmp
       call mpi_init(ierror)
       if(ierror.ne.mpi_success)then
        write(6,*)('in ddi_int,')

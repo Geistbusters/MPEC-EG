@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine consolidate1(ibasisfi,iptrfi,mdoop,nfcnfi,idorbfi,     3d24s21
      $     isorbfi,nsymb,ibasisc,iptrcb,nfcnc,nec,bc,ibc)               11d14s22
       implicit real*8 (a-h,o-z)                                         3d24s21
+      integer*8 iorig,itmp,itmpc,isto
       integer*1 idorbfi(*),isorbfi(*)                                   3d24s21
       dimension ibasisfi(*),iptrfi(4,mdoop,*),nfcnfi(*),ibasisc(3,*),   3d24s21
      $     iptrcb(2,*)                                                  3d24s21

@@ -111,6 +111,7 @@ c                                                                       1d10s19
      $     'Ac ','Th ','Pa ','U  ','Np ','Pu ','Am ','Cm ','Bk ','Cf ', 4d6s18
      $     'Es ','Fm ','dmy'/                                           1d3s24
       data isymu/8*1/                                                   12d7s23
+      integer*8 ianuc,ibcgh,ibctop,ibdat,ibdatpt,ibstor,ibuf,idtmp,iextradata,iextradatad,ifdstep,ifname,ilsq,insymb,inzeta,iorbt,iorbxx,iouse,ippack,irefdata,isorte,itmpm,ixok,ixtr,jspin,jzeta
       do i=1,maxst1                                                     7d3s23
        nlambda(i,1)=-1                                                  8d31s23
        nlambda(i,2)=-1                                                  8d31s23

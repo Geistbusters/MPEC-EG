@@ -28,6 +28,7 @@ c
       data loop,loopx/0,13/
       data icall/0/                                                     8d23s21
       save icall                                                        8d23s21
+      integer*8 ib4,ibcoffo,idorbb,iff1b,igdb,igddiag,igsdiag,ihsdiagb,ilout,ixout,nff1b
       icall=icall+1                                                     8d23s21
       lpr=icall.eq.-2
       if(l2e.ne.0)then                                                  2d17s22

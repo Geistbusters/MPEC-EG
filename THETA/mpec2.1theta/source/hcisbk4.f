@@ -18,6 +18,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     ih0n(*),nh0(*),ionexr(8,8,8),iifmx(*),iwpb1(4),iwpk1(4),     10d26s21
      $     iwpb2(4),iwpk2(4),mcsf(2),isy(4),imy(4),igya(4),isopt(*)     10d26s21
       include "common.store"                                            11d25s20
+      integer*8 ibcoffo,ig,iint,iivprod,iprod,itmpp,iunit,ivdprod,ivst,ivtmp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       irori=irorip-1                                                    10d25s21

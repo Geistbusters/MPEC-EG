@@ -8,6 +8,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.rys"                                              1d27s23
       logical lbug                                                      3d10s16
       data icall/0/
+      integer*8 icarti,icarti2,icartte,icartx,ifcnb,inode
       icall=icall+1
 c
 c     compute overlap and kinetic energy

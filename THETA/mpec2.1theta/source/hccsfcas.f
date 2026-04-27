@@ -16,6 +16,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d15s19
      $     mynnode                                                      5d15s19
       include "common.store"                                            7d11s19
+      integer*8 ibcsav,ihtmpgg,iprod,jhtmpgg,jprod
       do i=1,nrootz                                                     7d11s19
        do j=1,ncsft                                                     7d11s19
         gx(j,i)=0d0                                                     7d11s19

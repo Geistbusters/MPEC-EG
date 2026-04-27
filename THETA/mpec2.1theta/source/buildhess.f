@@ -9,6 +9,7 @@ c
      $     ihess(8,8),nvirtc(1),multh(8,8),ipt(8)
       include "common.hf"
       include "common.store"
+      integer*8 ibtop,ihess,ioop,itmb
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       common/unitcm/iunit                                               11d9s17

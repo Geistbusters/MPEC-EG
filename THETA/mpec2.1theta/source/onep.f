@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.rys"                                              1d27s23
       logical ldebug                                                    12d19s19
       dimension store1(1),store2(1)                                     2d22s10
+      integer*8 icarti,icarti2,icartx,ifcnb,inode
 c
 c     compute matrix element of
 c     (d/dx**idxt)*(d/dy**idyt)*(d/dz**idzt) on bra and

@@ -15,6 +15,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     aout(*),itypex(4),nbasp(*),nbaspc(*)                         12d20s20
       include "common.store"                                            5d14s21
       data icall/0/
+      integer*8 ibcoff0,ihfullr,ihsor,iptmp
       icall=icall+1
       npack4=iwaveb(6,1)                                                5d18s21
       if(ipack1(2).eq.6)then                                            5d27s21

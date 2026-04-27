@@ -25,6 +25,7 @@ c
      $     nbasisp(*),igoalx(6),igoaly(2,6)                                                   4d4s22
       data igoalx/1913950,1913954,4*0/
       data igoaly/1913950,1913951,1913954,1913955,8*0/
+      integer*8 i12,ibcoffo,ipair,itmp,itmp1
       ibcoffo=ibcoff                                                    2d19s10
       call second(time1)
       iseek=32*63+1

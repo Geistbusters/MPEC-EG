@@ -16,6 +16,7 @@ c
      $     mynnode                                                      5d24s18
       data icall/0/
       save
+      integer*8 ibcoffo
       icall=icall+1
       ibcoffo=ibcoff
       lprint=.false.                                                    6d26s18

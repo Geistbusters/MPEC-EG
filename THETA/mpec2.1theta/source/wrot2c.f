@@ -7,6 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       include "common.store"                                            2d13s22
+      integer*8 itmp
       ioff=0                                                            8d21s21
       ioffn=0                                                           2d13s22
       do isb=1,nsymb                                                    8d21s21

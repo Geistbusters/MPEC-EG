@@ -12,6 +12,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"
       include "common.hf"                                               7d15s19
       include "common.mrci"                                             7d15s19
+      integer*8 issdig,jssdig
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
 c

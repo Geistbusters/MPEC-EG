@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     trans2(nvdim,nroot),nff2(mdoo+1,nsymb,*),ncsf(*),nvirt(*),   1d23s21
      $     multh(8,8),ncsf2(4,*)                                        7d7s21
       include "common.store"
+      integer*8 istmp1,itmp,ivec
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       if(ldavid)then                                                    1d5s22

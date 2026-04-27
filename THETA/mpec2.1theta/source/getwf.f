@@ -24,6 +24,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       data isd2h/4,3,2,1,8,7,6,5/                                       6d18s22
       data kcall/0/
       save kcall
+      integer*8 ibcoffo,ieig,iout,itmp1,jout
       kcall=kcall+1
       if(idorel.eq.0)then                                               1d11s20
        ncomp=1                                                          1d11s20

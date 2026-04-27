@@ -18,6 +18,7 @@ c
       data icall/0/
       data loop,loopx/0,1000/
       save icall
+      integer*8 icoefsvd,idiis1,ierror,ifmat,ig,iqqq,ix
       common/singcm/iuse,nff
       icall=icall+1
       tol=tul                                                           4d9s23

@@ -7,7 +7,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       external second                                                   10d14s22
       integer*1 ipack1(4)                                               5d12s21
       integer*4 ipack4(2)                                               5d12s21
-      integer*8 ipack8,imassp                                           5d25s21
+      integer*8 ipack8,imassp,ibcoffo,isump,ixsum                       5d25s21
       character*(*) lfn                                                 5d26s21
       character*10 opname(*)                                            5d12s21
       character*6 wname                                                 5d13s21

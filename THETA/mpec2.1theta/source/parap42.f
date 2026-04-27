@@ -22,6 +22,7 @@ c
      $     nbasdwx(8),ixyz(3,3),xcartb(3),xcartk(3),isopt(4,4),         2d15s22
      $     iopso(5,*),ider(3,2),idoubo(*)                               2d18s22
       data ixyz/1,0,0,0,1,0,0,0,1/                                      1d11s20
+      integer*8 i12,ibcoffo,ipair,itmp,itmp1,itmp3,ixmt,ltmp1
       lprint=mynowprog.eq.0                                             3d2s22
       ncomp=2                                                           1d11s20
       if(lprint)then                                                    3d2s22

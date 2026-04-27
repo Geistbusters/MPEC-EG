@@ -13,6 +13,7 @@ c
       include "common.store"                                            4d25s23
       include "common.basis"                                            4d25s23
       include "common.input"                                            4d25s23
+      integer*8 ibcode,ibcoffo,ibdat,ibstor,iext,iorbo,morbo
       ibcoffo=ibcoff                                                    4d25s23
       write(6,*)('hi, my name is ntrans for wavef file '),wavef         4d25s23
       open(unit=1,file=wavef,form='unformatted')                        4d25s23

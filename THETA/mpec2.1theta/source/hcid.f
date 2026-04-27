@@ -22,6 +22,7 @@ c
      $     nab4(2,3),ipvint(4,8),tpart(*),ioxx(2)                       11d1s22
       equivalence (ipack8,ipack4)                                       11d20s20
       include "common.store"
+      integer*8 ibcoffo,ibctpp,igg,iprod,ipvint,itmp,itmp2,itmpv,ltmp2
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18

@@ -10,6 +10,7 @@ c
       integer*1 iorb(64,2),idorbf(*),isorbf(*)                          1d21s21
       dimension nff0(*),iff0(*),ibasis(3,*),iptr(4,*)                   1d21s21
       include "common.store"
+      integer*8 idorb,isortd
       ioff=1                                                            1d21s21
       noff=1
       do nclo=mdon,mdoo

@@ -9,6 +9,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       include "common.store"                                            1d22s21
+      integer*8 itmp,ivold,ivtmp
 c
 c     trans2 takes orthonormalized external only vectors and h*vectors
 c     and forms best full eigenvectors and best full h*eigenvectors

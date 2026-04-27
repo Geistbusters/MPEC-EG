@@ -22,6 +22,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     mynnode                                                      5d15s19
       data icall4/0/
       save icall4
+      integer*8 ibcsav,ihtmp,ihtmpgg,iprod,itmp,jhtmp
       if(itestmrci.eq.1)then                                            5d15s19
        write(fname,100)mynowprog                                         7d2s18
        open(unit=12,file=fname,form='unformatted')                      7d17s19

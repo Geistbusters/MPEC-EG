@@ -16,6 +16,7 @@ c
      $     isblkder(4,idbk)                                             12d5s16
       logical log(8)                                                    4d24s18
       include "common.store"
+      integer*8 ibtop,igotn,ihess,ihessa,ioop,itmp,ivv
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       if(mynprocg.eq.1)then

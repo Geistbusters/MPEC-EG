@@ -19,6 +19,7 @@ c
      $     mynnode                                                      5d15s19
       include "common.store"                                            7d11s19
       include "common.mrci"                                             6d19s19
+      integer*8 ibcsav,isum,jprod
       ltest=.false.                                                     11d16s20
       lnew=.true.                                                       11d16s20
       if(ltest)write(6,*)('hi, my name is hccsfd1')

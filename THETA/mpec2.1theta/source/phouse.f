@@ -24,6 +24,7 @@ c
       data iseed/935315885/                                             5d3s12
       save                                                              5d3s12
       data icall/0/
+      integer*8 ibcoffo,idig,idig2,idothr,ieig,ind,iodig2,irv1,isomap,isomap2,istoreu,istoreu2,itmp,itmp2,itri,iuvec,ivall,ivect
       ibcoffo=ibcoff
       icall=icall+1
       nthres=20

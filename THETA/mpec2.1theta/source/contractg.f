@@ -24,6 +24,7 @@ c
       include "common.store"
       include "common.hf"
       include "common.print"                                            1d22s20
+      integer*8 icpy,itmp,itmpi,itmpll,itmplz,itmpo
       common/singcm/iuse,nff
       if(iprtr(13).eq.0)then                                            1d22s20
        ldeb=.false.                                                       4d30s18

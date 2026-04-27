@@ -2,7 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine dumpdoubuc(iddi,nff2,iff2,ncsf,ncsf2,mdon,mdoo,nsymb,
      $     multh,nvirt,isymmrci,nroot,iflag,idcsf2,bc,ibc)              11d14s22
       implicit real*8 (a-h,o-z)                                         7d8s21
-      integer*8 iddi(mdoo+1,nsymb),i18,i28,i38                          7d8s21
+      integer*8 iddi(mdoo+1,nsymb),i18,i28,i38,itmp                     7d8s21
       dimension nff2(mdoo+1,nsymb,2),iff2(*),ncsf(*),multh(8,8),        7d8s21
      $     nvirt(*),ncsf2(idcsf2,*)                                     2d14s22
       include "common.store"                                            7d8s21

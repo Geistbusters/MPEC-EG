@@ -22,6 +22,7 @@ c
       include "common.store"
       save
       data icall/0/
+      integer*8 jb,jb4,jb5
       icall=icall+1
       ldeb=.false.                                                       4d27s16
       ldec=.false.

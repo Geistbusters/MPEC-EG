@@ -5,6 +5,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       logical lnew
       dimension xin(ndim,*),xout(ndim2,*)                               12d4s20
       include "common.store"                                            7d17s20
+      integer*8 ibcoffo,ifirst,ixin,ixout
       if(mcol.le.0)return                                               11d26s20
       ibcoffo=ibcoff                                                    2d10s23
 c

@@ -28,6 +28,7 @@ c
       data timetot/0d0/                                                 4d23s18
       data iahu,ihess,irelc/0,0,0/                                                      2d20s14
       data icall/0/
+      integer*8 ibcoffo,idwst1,idwst2,idwst3,ieig,ieprot,itmp,itmp1,itmp2,itmpv,iunew,iycb,jpbr
       if(iprtr(17).eq.0)then                                            3d3s20
        idwsdeb=0                                                        3d3s20
        lprintx=.false.                                                   3d3s20

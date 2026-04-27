@@ -20,6 +20,7 @@ c
      $          itmpe(1),itmpf(1),ncsym(8),nsbeta(8),dbg(11),wgt(nroot) 12d30s15
       data icall/0/
       save icall
+      integer*8 ism,ivv
       lprint=.false.                                                    8d19s14
       icall=icall+1
       ism=ibcoff                                                        8d15s06

@@ -24,6 +24,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       data icall/0/
       data loop,loopx/0,1000000/
       save icall
+      integer*8 ibcoffo,itmp
       icall=icall+1
       if(lpr)write(6,*)('in hcbk for call no. '),icall
       call dws_synca                                                    8d11s22

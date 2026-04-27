@@ -21,6 +21,7 @@ c
       parameter (id=1000,ido=16)
       data jcall/0/                                                     5d2s18
       save                                                              5d2s18
+      integer*8 idata1,idatb1,ix
       jcall=jcall+1                                                     5d2s18
 c
 c     norb is the number of orbitals

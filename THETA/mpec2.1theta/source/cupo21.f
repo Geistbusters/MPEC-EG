@@ -28,6 +28,7 @@ c
      $     mynnode                                                      5d15s19
       save
       data icall/0/
+      integer*8 ibcoffo,imat,iout,isorta
       icall=icall+1                                                     7d10s19
       if(icall.eq.1)then
        mxnmidm=0                                                        12d1s19

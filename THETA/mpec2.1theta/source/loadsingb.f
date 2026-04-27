@@ -3,6 +3,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     isymmrci,ncsf,nroot,mynowprog,maxbx,inorm,bc,ibc,mddilow,    12d13s22
      $     mddihig)                                                     12d13s22
       implicit real*8 (a-h,o-z)                                         7d8s21
+      integer*8 itmp
 c
 c     inorm =
 c     0 read from unit 1, but skip over stuff. This for contraction

@@ -22,6 +22,7 @@ c
       include "common.store"                                            7d11s19
       include "common.print"                                            1d3s20
       save
+      integer*8 ibcsav,ibctop,idvtmp,irsum
       igoal=iden(1)+8-1+28*(3-1)
       write(6,*)('hi, my name is hccsfbkden '),loc(bc),loc(ibc)
       ldebug=.false.                                                    5d12s21

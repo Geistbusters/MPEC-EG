@@ -15,6 +15,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     ipsbase(3,*),multh(8,8),test(10),ixlzz(8,*),ism(*),irel(*),  12d31s19
      $     irefo(*),idoubo(*),islz(*),nab4(2,3),iptrbit(2,mdoo+1,*)     4d12s21
       include "common.store"                                            6d11s19
+      integer*8 ibcsav,ieig,ihtmp,iprod,itmp,jhtmp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d15s19
      $     mynnode                                                      5d15s19
       ione=npass+1                                                      12d31s19

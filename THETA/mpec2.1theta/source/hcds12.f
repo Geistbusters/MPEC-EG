@@ -37,6 +37,7 @@ c
      $     mynnode                                                      5d24s18
       common/cpucom/tovrx,top(10),tso(11)                                10d25s22
       data loopx/10000000/
+      integer*8 ibcbmat,ibcgg,ibcvmat,ibmat,ibmatdc,id1vnotv,id1xvisv,id1xvnotv,id3vnotv3,idchvisv,idchvnotv,iddc1x,iddc3x,iddch,idhvisv,idhvnotvf,idkeep,intden,iprod,ipsr,ircv,itmp,itmp1,itmp2,itmpb,itmpdc1,itmpdv,itmpp,itmpsv,itmpsvd,itrans,ivdprod,ivmat,ivvtmp,ivvtmp2
       igoul=22713902
       xnan=0d0
       fctr=1d0                                                          4d29s24

@@ -11,6 +11,7 @@ c
      $     ihessd(8,8),ipt3(8)                                          12d12s16
       include "common.store"
       include "common.hf"
+      integer*8 ibcoffo,icpyx,ierror,ipcopy,isoln,itmp,itmp1,itrans
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       ibcoffo=ibcoff

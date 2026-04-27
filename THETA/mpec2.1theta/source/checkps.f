@@ -1,6 +1,7 @@
 c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine checkps(vec,ncsft,nrootz,nps,ipointf,iok,bc,ibc)       11d14s22
       implicit real*8 (a-h,o-z)                                         2d25s21
+      integer*8 ivcpy,jvcpy
       dimension vec(ncsft,*),ipointf(*)                                 3d25s21
       include "common.store"
       ivcpy=ibcoff                                                      2d25s21

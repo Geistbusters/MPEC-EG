@@ -18,6 +18,7 @@ c
      $     mynnode
       data icall/0/                                                     5d9s22
       save icall                                                        5d9s22
+      integer*8 iamat,iamatb,itimes2
       loopx=100000
       loop=0
       icall=icall+1                                                     5d9s22

@@ -25,6 +25,7 @@ c
       common/drsigncm/drsign                                            8d20s24
       data icall/0/
       save icall
+      integer*8 i12,ibcexit,ibcoffo,ieraw,ihalf,ihmat,ipairab,iszz,itmp,itmpab
       icall=icall+1
       if(idwsdeb.gt.10)then
        write(6,*)('in paraerid !!!!! '),natom,ngaus,iter,idwsdeb,

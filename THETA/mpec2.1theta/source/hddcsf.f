@@ -11,6 +11,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"
       include "common.hf"                                               7d15s19
       include "common.mrci"                                             7d15s19
+      integer*8 idddig,jdddig
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       call hddcsf12b(nhand(1,1,2),ih0av,nh0av,iff2,nff2,mdon,mdoo,ioooo,6d13s21

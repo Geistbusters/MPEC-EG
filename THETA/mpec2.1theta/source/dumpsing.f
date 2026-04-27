@@ -2,7 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine dumpsing(iddi,nff1,iff1,ncsf,mdon,mdoo,nsymb,multh,    7d8s21
      $     nvirt,isymmrci,nroot,vstry,iflag,bc,ibc)                     11d14s22
       implicit real*8 (a-h,o-z)                                         7d8s21
-      integer*8 iddi(mdoo+1,nsymb),i18,i28,i38                          7d8s21
+      integer*8 iddi(mdoo+1,nsymb),i18,i28,i38,itmp                     7d8s21
       dimension nff1(mdoo+1,nsymb,2),iff1(*),ncsf(*),multh(8,8),        7d8s21
      $     nvirt(*),vstry(*)                                            7d9s21
       include "common.store"                                            7d8s21

@@ -26,6 +26,7 @@ c
      $     iopdata(7,*),iosym(*),multh(8,8),nbasisp(8),iorb(8),         5d27s21
      $     nbasdwx(8),ixyz(3,3),xcartb(3),xcartk(3)                     5d27s21
       data ixyz/1,0,0,0,1,0,0,0,1/                                      1d11s20
+      integer*8 i12,ibcoffo,ipair,itmp,itmp1,itmp3,ltmp1,ltmp3
       ibcoffo=ibcoff                                                    2d19s10
       ncomp=1                                                           1d11s20
       if(idorel.ne.0)then                                               1d8s19

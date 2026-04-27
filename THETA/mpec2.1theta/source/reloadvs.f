@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine reloadvs(vsold,vstry,ihsdiag,nroot,nff1,ncsf,nvirt,    4d14s21
      $     mdon,mdoo,nsymb,multh,isymmrci,sdig,bc,ibc)                  11d9s22
       implicit real*8 (a-h,o-z)                                         4d14s21
+      integer*8 igtmp,jgtmp,joff
       integer*8 ihsdiag(mdoo+1,nsymb,2),i18,i28,i38,i48                 4d14s21
       dimension vsold(*),nff1(mdoo+1,nsymb),ncsf(*),nvirt(*),           4d15s21
      $     multh(8,8),vstry(*),sdig(*)                                  4d14s21

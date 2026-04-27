@@ -15,6 +15,7 @@ c
       include "common.store"
       include "common.basis"
       include "common.input"
+      integer*8 ibcoffo,ihcpy,isort,itmp,ivcpy
       ibcoffo=ibcoff
       lprint=.false.
       n2=n*n

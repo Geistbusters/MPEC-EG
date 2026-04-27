@@ -14,6 +14,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     mynnode                                                      5d24s18
       include "common.mrci"                                             7d15s19
       include "common.store"                                            7d15s19
+      integer*8 igg
       i1=1                                                              11d19s20
       iffoff=1                                                          6d13s21
       do isb=1,nsymb                                                    6d13s21

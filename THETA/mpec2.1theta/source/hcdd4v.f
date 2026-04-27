@@ -3,6 +3,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     ngaus,ibdat,ipair,isym,iapair,ibstor,isstor,idorel,          4d24s20
      $     ascale,ndoub,nrootu,nbasisp,ntot,sr2,srh,bc,ibc)             11d9s22
       implicit real*8 (a-h,o-z)
+      integer*8 ibcoffo
 c
 c     superentend calculation of 4 virtual integral contribution to
 c     hdd*cd

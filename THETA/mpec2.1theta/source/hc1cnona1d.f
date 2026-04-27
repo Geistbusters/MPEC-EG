@@ -24,6 +24,7 @@ c
       include "common.store"
       data icall/0/
       save
+      integer*8 ism
       ism=ibcoff                                                        8d29s06
       irelo=ism+norb                                                    8d29s06
       ibcoff=irelo+norb                                                 8d29s06

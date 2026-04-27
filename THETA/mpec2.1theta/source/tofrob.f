@@ -11,6 +11,7 @@ c
      $     ff22(*)                                                      8d3s21
       include "common.store"
       equivalence (i58,x58)
+      integer*8 itrans
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       if(iflag.eq.10)then

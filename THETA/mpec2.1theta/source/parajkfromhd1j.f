@@ -22,6 +22,7 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension multh(8,8),iorbn(8),itrans(1),iorbx(8),nbasisp(*),      4d7s22
+      integer*8 ibcoffo,ibufs,itmp,jmatda
      $     ioooo(1),isblkder(4,idbk),isblkxder(4,idbk),                 8d24s16
      $     ionex(idbk),noc(8),myh(idbk),nvirtc(8),isblkkder(4,idbk),    9d16s16
      $     i4od(idbk),ionexd(idbk),kmatd(idbk),jmatd(idbk),i4od2b(idbk), 7d21s16

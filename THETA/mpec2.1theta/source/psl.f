@@ -21,6 +21,7 @@ c
       data icall/0/
       data loopit/0/
       save icall,loopit                                                 12d22s19
+      integer*8 ieig,ism,itmp
       npass=nlzz/2                                                      12d31s19
       ione=npass+1                                                      12d31s19
       lprint=.false.

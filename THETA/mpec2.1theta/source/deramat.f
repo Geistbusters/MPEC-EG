@@ -10,6 +10,7 @@ c
       dimension i4od(1),ionexd(1),iamat(1),noc(1),nvirtc(1),multh(8,8),
      $     isblkder(4,idbk),isblkxder(4,idbk)                           8d3s16
       include "common.store"
+      integer*8 iamat
       if(ipuse.eq.1)then
        jh0der=ih0der
        do isb=1,nsymb

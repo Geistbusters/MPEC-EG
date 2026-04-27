@@ -10,6 +10,7 @@ c
       include "common.cas"
       integer*1 iaorb(nalpha,numa),iborb(nbeta,numb)
       dimension ivec(*),jdenpt(*),ilc(*),ihc(*),nsbeta(*),iden1(*)      3d15s23
+      integer*8 isma,ismb
       norb=iacto(1)                                                     8d8s06
       do i=2,nsymb                                                      8d8s06
        norb=norb+iacto(i)                                               8d8s06

@@ -4,6 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       implicit real*8 (a-h,o-z)                                         5d16s22
       dimension h0(*),h0d(*),h0da(*),idarot(*),nbasdws(*),multh(8,8)    6d16s22
       include "common.store"                                            5d16s22
+      integer*8 itmp
       ioffd=0                                                           6d16s22
       do isb=1,nsymb                                                    6d16s22
        jsb=multh(isb,ipuse)                                             6d16s22

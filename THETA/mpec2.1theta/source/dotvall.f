@@ -19,6 +19,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       save icall
+      integer*8 ibctoper,igtmp,ipert,iprt,itmpg,itmpv,itmpxxx
       icall=icall+1
       loop=0
       do ik=1,nrootk                                                    7d12s21

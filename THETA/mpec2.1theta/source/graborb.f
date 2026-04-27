@@ -6,6 +6,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     multhx(8,8),isymx(3,8)                                       7d27s22
       include "common.store"                                            7d26s22
       include "common.basis"                                            7d27s22
+      integer*8 iorb,itmp1
       write(6,*)('in graborb for '),fname                               7d26s22
        open(unit=1,file=fname,form='unformatted')
        nwavrec=1                                                         5d4s21

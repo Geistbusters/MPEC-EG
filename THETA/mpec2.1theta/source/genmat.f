@@ -8,6 +8,7 @@ c     multiply iwpb1*iwpk1*iwpb2*iwpk2 and return in iprod              11d13s20
 c                                                                       11d13s20
       include "common.store"                                            11d13s20
       data icall/0/
+      integer*8 ibcoffo,iprod,itmpab,itmpabc,itmpbc,itmpbd,itmpcd
       icall=icall+1
       iprod=ibcoff                                                      10d27s22
       ibcoff=iprod+ncsfb*ncsfk                                          10d27s22

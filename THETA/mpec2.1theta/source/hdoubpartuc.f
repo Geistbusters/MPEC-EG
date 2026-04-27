@@ -11,6 +11,7 @@ c
      $     multh(8,8),nvirt(*),vdold(*),gdold(*),ncsf2(4,*),            7d12s21
      $     epart(idep,4,nsymb)                                          1d17s22
       include "common.store"
+      integer*8 ivec
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       do isb=1,nsymb                                                    1d17s22

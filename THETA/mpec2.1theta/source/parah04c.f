@@ -14,6 +14,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension h0(*),ovr(1),iblstor(1),ibsstor(1)                      2d24s20
+      integer*8 i12,ibcoffo,ipair
       ibcoffo=ibcoff                                                    2d19s10
       pi=acos(-1d0)                                                     2d21s20
       oneover4pi=0.25d0/pi                                              2d21s20

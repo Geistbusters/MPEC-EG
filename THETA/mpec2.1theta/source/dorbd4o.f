@@ -6,6 +6,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     isblk(4,*),isblk1(4,*),id4o(*),ioooo(*),ionex(*),            6d14s24
      $     itt(*),nbasdws(*)                                            10d19s23
       include "common.store"                                            7d21s23
+      integer*8 ihit,imap,itmpd,itmpi
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       ihit=ibcoff                                                       7d28s23

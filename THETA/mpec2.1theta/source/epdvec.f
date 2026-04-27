@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine epdvec(nroot,ndm,vec,vecx,ncsft,ipointf,basisv,nx,nps, 9d4s19
      $     nvv,nlzzu,npsk,veclz,bc,ibc)                                 11d14s22
       implicit real*8 (a-h,o-z)                                         7d11s19
+      integer*8 itmp,jtmp
       dimension vec(ndm,nroot),vecx(ncsft,nroot),ipointf(*),            7d11s19
      $     basisv(ncsft,*),veclz(*)                                     12d27s19
       include "common.store"

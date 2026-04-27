@@ -21,6 +21,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     iwpb1(4),iwpk1(4),iwpb2(4),iwpk2(4),ioxx(2)                  2d7s23
       include "common.store"                                            11d25s20
       data loopx/1000/
+      integer*8 ibcoffo,iden1x,idenh,ighere,igs,ikeep,itmp,itmpg,itmpi
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       common/paddcm/npadddi                                             6d7s22

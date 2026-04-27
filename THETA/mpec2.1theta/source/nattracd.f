@@ -22,6 +22,7 @@ c
       include "common.store"
       include "common.spher"
       include "common.rys"                                              6d22s12
+      integer*8 icarti,icarti2,icartx,idfcnb,idfcnk,ifcnb,inode,irnode
       ldeb=ldeb3                                                        4d25s16
       ibder=ibx+iby+ibz
       ikder=ikx+iky+ikz

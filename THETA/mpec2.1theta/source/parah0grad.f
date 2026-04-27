@@ -20,6 +20,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nbasisp(*),ovrdd(*),isoa1(*)                                 6d20s22
       data icall/0/                                                     6d6s22
       save icall                                                        6d6s22
+      integer*8 i12,ibcoffo,ipair,itmp,itmp1
       icall=icall+1                                                     6d6s22
       ibcoffo=ibcoff                                                    2d19s10
       call second(time1)

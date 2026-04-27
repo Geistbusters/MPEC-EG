@@ -19,6 +19,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       data ecation/1d10/                                                5d12s23
+      integer*8 ibctop,ieig,ih0f,ih0fgs,iham,ihsqr,ism,itmp,itmpa
       lwrite=lprint.and.istate.eq.nstatex                               1d18s20
       if(mynowprog.eq.0)then
       end if

@@ -6,6 +6,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension nff2(mdoop,*),ncsf(*),nvirt(*),test(nroot,*),multh(8,8),7d21s21
      $     ncsf2(*),vx(*)                                               7d22s21
       include "common.store"                                            7d9s21
+      integer*8 itest,itmp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       write(6,*)('in sotest2'),isymmrci

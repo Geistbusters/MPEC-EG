@@ -2,6 +2,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine dumpbas(nfcn,iptr,ibasis,idorb,isorb,nod,nos,mdoop,nec,11d23s19
      $     icode,nfcnx,ncsf,mdon,nwavrec,nrestart,bc,ibc)               11d14s22
       implicit real*8 (a-h,o-z)                                         11d1s22
+      integer*8 itmp1,itmp2,itmp3
       integer*1 idorb(nod),isorb(nos)                                   11d23s19
       dimension ibasis(3,nfcn),iptr(4,mdoop),ncsf(*)                    4d28s21
       include "common.store"                                            4d28s21

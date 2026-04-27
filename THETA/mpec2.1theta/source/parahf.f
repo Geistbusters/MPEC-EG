@@ -71,6 +71,7 @@ c
       dimension jmats(idbk),jdenpt(idbk),ipk(idbk),iumat(8),itmat(8),   9d13s04
      $          itpmat(8),itqmat(8),j2den(idbk),itotm(8),itotmb(8)      4d5s18
       dimension kmats(idbk),iqk(idbk),ioooo(idbk),ionex(idbk),          4d19s13
+      integer*8 iamat1,iamat10,iaseward,ibc,ibc404,ibcb4,ibcode,ibcreset,ibctop,ibcup,iblstor,ibmat1,ibmat10,ibsstor,ibstorc,icang,icol,icsf,icsfpd,iden1,idert,idorb,idwsa,idwss,idwst1,idwst3,ieigh,ieighs,ieigr,ieigs,ifcn0,ifcnp,ifcnpp,ifockeig,igdig,igmat,ih0,ih0h,ih0mo,iherei,iherei0,ihtmp,ilsz,iltmp,imsg,imxmx,inbasg,inuq,inuqg,iorb,iorbn,iorbsym,iorbsymz,ios,ipao,ipertb,ipertk,ipk,ipkla,iptno,iptr,irelx,isav,isavu,iscopy,isend,isnorm,isorb,isort,ispaaaa,ispt1,isstorg,istmpx,isymdws,itag,itmp1,itmp2,itmpdws,itmpdwsi,itmpe,itmpt,itmpvo,itmpx,itmx,itopbc,itprod,itprodt,itrnsx,itxcopy,iucpy,iumat,iumatb,ivdum,ivecso,ivect,ivguess,ivtmp,ixh,ixinv,ixnoc,ixr,ixrt,ixsb,iyc,iztmp,j2den,noocc,nveccnt
      $     ioooo2(idbk),jmatd(idbk),kmatd(idbk),iooood(idbk),           2d23s16
      $     ionexd(idbk),noocc(8),irtyp(5),iorbsym(8),ibasym(8),         4d19s21
      $     iorbsymz(8),npc(8),iorbsymao(8),multhg(8,8),dynw(3),iobsym(8)5d4s23

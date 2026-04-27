@@ -12,6 +12,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nff2(mdoo+1,nsymb),hdd(*),ncsf2(4,*)                         8d19s22
       include "common.print"                                            6d23s23
       include "common.store"                                            8d16s22
+      integer*8 icsfr2,iff22r,itmp,ivtmp,nff1r,nff2r
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       lpr=iprtr(29).ne.0                                                6d23s23
