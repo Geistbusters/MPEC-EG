@@ -294,7 +294,7 @@ c
       do ml=2,ll                                                        5d14s21
 c
 c     now we have complex functions to deal with:                       5d14s21
-c     psim+=l+psim=(lux*i-luy)*[Re(psim)+i*Im(psim)]                   5d14s21
+c     psim+=l+psim=(lux*i-luy)*[Re(psim)+i*Im(psim)]                    5d14s21
 c          =-luy*Re(psim)-lux*Im(psim)+i*[-luy*Im(psim)+lux*Re(psim)]
 c
        nzq=max(nzr,nzi)+1                                               5d14s21

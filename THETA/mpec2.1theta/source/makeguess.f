@@ -26,7 +26,9 @@ c
      $     ivoffg(8),ivoffw(8),morbc(*),morb(*),scopy(*),icanog(*)      5d3s23
       equivalence (arg8,iarg8)                                          10d23s17
       data ider/1,0,0, 0,1,0, 0,0,1/                                    3d27s20
-      integer*8 ib,ibc,ibcoffo,ibct,ibcx,icpy,igeow,imapwg,ioltmp,iortmp,iostmp,iotmp,iovr,iovs,iptmp,iqwg,isi,isitmp,issscpy,itmp,itmp2,itmp3,itmpot,itmpovr,itmpr,itmps,itmpv,ixi
+      integer*8 ib,ibc,ibcoffo,ibct,ibcx,icpy,igeow,imapwg,ioltmp,iortmp
+     $iostmp,iotmp,iovr,iovs,iptmp,iqwg,isi,isitmp,issscpy,itmp
+     $itmp2,itmp3,itmpot,itmpovr,itmpr,itmps,itmpv,ixi
       if(iprtr(23).eq.0)then                                            5d3s21
        ldebug=.false.                                                   5d3s21
       else                                                              5d3s21
@@ -558,7 +560,7 @@ c
           jqgg=iqgg+3*(i-1)-1                                           4d28s21
           do ixyz=1,3                                                    4d28s21
            rms=rms+(bdatg(igg,4+ixyz)                                   4d28s21
-     $         *dfloat(isymg(ixyz,iapairg(2,japairg)))-bc(jqgg+ixyz))**24d28s21
+     $         *dfloat(isymg(ixyz,iapairg(2,japairg)))-bc(jqgg+ixyz))** 24d28s21
           end do                                                         4d28s21
           rms=sqrt(rms/3d0)                                              4d28s21
           if(rms.lt.1d-10)go to 86                                       4d28s21

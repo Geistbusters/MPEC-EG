@@ -16,7 +16,8 @@ c     vec: ndim,mcol
 c                                                                       11d13s20
       dimension vec(ndim,*),xout(ncsfb,*)                               11d4s22
       include "common.store"                                            11d13s20
-      integer*8 ibcoffo,icpy,itmp1,itmpab,itmpabc,itmpad,itmpbc,itmpbcd,itmpbe,itmpccde,itmpcd,itmpcde,itmpde,itmpx,itrial
+      integer*8 ibcoffo,icpy,itmp1,itmpab,itmpabc,itmpad,itmpbc,itmpbcd
+     $itmpbe,itmpccde,itmpcd,itmpcde,itmpde,itmpx,itrial
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       nn=min(ncsfb,ncsfm,ncsfk,ncsf1,ncsf2,mcol)                        9d30s22

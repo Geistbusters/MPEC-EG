@@ -2,7 +2,9 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine mover2qs(vecin,nin,veco,no,ipoint,nps,nroot)
       implicit real*8 (a-h,o-z)
       dimension vecin(*),veco(no,*),ipoint(*)                           10d30s24
-      integer*8 ibcoffo,ibcsav,idvtmp,ihtmpgg,imat,iout,iprod,itmpgb,jhtmpgg,jprod
+      integer*8 ibcoffo,ibcsav,idvtmp,ihtmpgg,imat,iout,iprod,itmpgb
+     $jhtmpgg
+     $jprod
       j=1
       do l=1,nroot
        do i=1,no

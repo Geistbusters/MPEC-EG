@@ -18,7 +18,8 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/singcm/iuse,nff
       data icall/0/
       save
-      integer*8 iaout,ibcoffo,icleb,icoef,ifkeep,ihso,ilind,itrial,itrial2
+      integer*8 iaout,ibcoffo,icleb,icoef,ifkeep,ihso,ilind,itrial
+     $itrial2
       ldebug=iprtr(30).ne.0                                             3d29s24
 c
 c     if d2h, check on g/u symmetry                                     3d11s22

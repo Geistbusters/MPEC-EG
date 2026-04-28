@@ -21,7 +21,9 @@ c
      $     multh(8,8),iptoh(8,8,8),nocc(8),neraw(8,8),nueraw(8,8),      9d26s16
      $     nztype(8),nsumts(8,8),nbasisp(*)                             4d7s22
       dimension igsym(18,2),gsym(78,2)
-      integer*8 i12,ibcexit,ibcoffo,ieraw,ieri,ihalf,ihmat,ipairab,iszz,itmp,itmpab
+      integer*8 i12,ibcexit,ibcoffo,ieraw,ieri,ihalf,ihmat,ipairab,iszz
+     $itmp
+     $itmpab
       common/timerocm/tovr,telapo(15)                                       5d7s12
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
@@ -654,7 +656,7 @@ c
 c     at this point, we have all of cd ints, and furthermore they have  1d10s11
 c     been symmetrized (turned into so's) and stored at eraw            1d10s11
 c     so transform cd from so's to mo's                                 1d10s11
-c     1d10s11
+c                                                                       1d10s11
          do isd=1,nsymb                                                  5d12s10
           if(nocc(isd).gt.0)then                                        6d2s10
            do isc=1,nsymb                                                 5d12s10

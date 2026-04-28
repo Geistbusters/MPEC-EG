@@ -14,7 +14,8 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nvirt(*),iden1x(8,8,3),nden1x(8,8,3),i2eop(2,3),isymop(*),   7d19s21
      $     ism(*),irel(*),irefo(*),nbasdws(*),idoubo(*),ixmtf(*),ioxx(2)2d6s23
       include "common.store"                                            11d25s20
-      integer*8 ibcoffo,iden1x,idenh,ighere,igs,ikeep,iprod,itmp,itmpg,itmpi
+      integer*8 ibcoffo,iden1x,idenh,ighere,igs,ikeep,iprod,itmp,itmpg
+     $itmpi
       common/paddcm/npadddi                                             6d7s22
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18

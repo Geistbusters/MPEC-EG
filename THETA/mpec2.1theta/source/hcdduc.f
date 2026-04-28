@@ -6,7 +6,8 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nwiacc,bc,ibc)                                               11d10s22
       implicit real*8 (a-h,o-z)
       external second                                                   2d18s21
-      integer*8 ihddiag(mdoo+1,nsymb,2),i18,i28,i38,i48,i2c,i2o,j2c,j2o,12d14s20
+      integer*8 ihddiag(mdoo+1,nsymb,2),i18,i28,i38,i48,i2c,i2o,j2c,j2o
+     $                                                                  12d14s20
      $     itestc,itesto,last8(2),k2o,l2o                               6d28s21
       integer*1 nab1(2),nab2(2),nab1b(2),nab2b(2)                       2d19s21
       logical lkeep,lprt,lchoice                                        3d17s21
@@ -25,7 +26,10 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data loopx/660000/
-      integer*8 iacc,ibcsrt,ibctop,idenh,idenj,idenjc,idenk,idenkc,idenstrt,igdmaster,igg,imat4o,iprod,itmp,itmpi,itmpj,itmpp,ivdtmp,ivec,ivecbc,jdenjc,jdenkc,mdenh,mdenhc,ndenj,ndenk
+      integer*8 iacc,ibcsrt,ibctop,idenh,idenj,idenjc,idenk,idenkc
+     $idenstrt
+     $igdmaster,igg,imat4o,iprod,itmp,itmpi,itmpj,itmpp,ivdtmp
+     $ivec,ivecbc,jdenjc,jdenkc,mdenh,mdenhc,ndenj,ndenk
       do isb=1,nsymb                                                    11d15s21
        do i=1,7                                                         11d15s21
         nrcv(i,isb)=0                                                   11d15s21
@@ -2019,7 +2023,7 @@ c     !jsb
          i48=nff2(ncloip,isb,1)                                         6d24s21
          if(itransgg.ne.0)then                                          2d12s21
 c
-c     igg is nvv,nroot,ncsf,iff2                                6d21s21
+c     igg is nvv,nroot,ncsf,iff2                                        6d21s21
 c     reorder it to is root, ncsf,nvv,jff2.
 c
           itmp=ibcoff                                                    1d27s21

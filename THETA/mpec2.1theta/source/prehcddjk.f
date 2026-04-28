@@ -24,7 +24,9 @@ c                                                                       1d8s21
      $     nokj(4,8),nokk(4,4,8),isorb(32),idorb(32),idenjn(4,8),       2d23s21
      $     idenkn(4,4,8),iden1en(4),idenhvvn(4)                         11d7s22
       include "common.store"                                            1d8s21
-      integer*8 ibc0,ibclast,ibcoffo,ibcst,ibctopr,ibcvects,icmp1,iden1e,idenhvv,idenjn,idenkn,idenorg,igoal,iprod,itmp,itmp1,itmpi,itmpj,itmpm,itmpn,itmpt,itrans,ivects,iwprod,ndenjf,ndenkf
+      integer*8 ibc0,ibclast,ibcoffo,ibcst,ibctopr,ibcvects,icmp1,iden1e
+     $idenhvv,idenjn,idenkn,idenorg,igoal,iprod,itmp,itmp1,itmpi
+     $itmpj,itmpm,itmpn,itmpt,itrans,ivects,iwprod,ndenjf,ndenkf
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18
       common/fnd2cm/inv(2,8,8,8)                                        9d2s20
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18

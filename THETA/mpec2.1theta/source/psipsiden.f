@@ -4,7 +4,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     irefo,norb,nbasdws,idoubo,nvirt,maxbx,maxbxd,srh,sr2,multh,  7d27s21
      $     nsymb,ncsf,bc,ibc)                                           3d10s25
 c
-c     if ioverwrite is nonzero, overwrite ivb with igb.               8d18s21
+c     if ioverwrite is nonzero, overwrite ivb with igb.                 8d18s21
       implicit real*8 (a-h,o-z)                                         7d27s21
       external second                                                   5d4s22
       integer*4 ipack4(2)                                               7d27s21

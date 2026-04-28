@@ -49,7 +49,11 @@ c
       include "common.mrci"
       include "common.hf"
       include "common.basis"                                            5d27s21
-      integer*8 ibc,ibcb4,ibcmaxbx,ibcoff0,ibcoffo,ibctop,ibctopi,ibodcp,ibss,icsf2,icsfpd,idatal,iden,ident,idovr,ieig,ifnp,ihdd,iifmx,ijjobe,ijjobo,ijjte,ijjto,imasspa,ioder1,iok,iorb,iorbf,iorbo,iorg,iout,iptfe,iqne,isnd,itmp,iuniq,ivecno,ivecon,ixmt,ixw1,jdenpt
+      integer*8 ibc,ibcb4,ibcmaxbx,ibcoff0,ibcoffo,ibctop,ibctopi,ibodcp
+     $ibss,icsf2,icsfpd,idatal,iden,ident,idovr,ieig,ifnp,ihdd
+     $iifmx,ijjobe,ijjobo,ijjte,ijjto,imasspa,ioder1,iok,iorb
+     $iorbf,iorbo,iorg,iout,iptfe,iqne,isnd,itmp,iuniq,ivecno
+     $ivecon,ixmt,ixw1,jdenpt
       common/fnd2cm/inv(2,8,8,8)                                        4d9s18
       if(n4vso.eq.0)then                                                2d8s23
        onoff='off'                                                      2d8s23
@@ -1341,7 +1345,7 @@ c
          nroot=iwavedat(3,i)                                             2d11s22
         else                                                             2d11s22
          if(lam.ne.ipack1(3).or.ismult.ne.iwavedat(1,i).or.              2d11s22
-     $     isymmrci.ne.iwavedat(2,i).or.nroot.ne.iwavedat(3,i))nno=nno+12d11s22
+     $     isymmrci.ne.iwavedat(2,i).or.nroot.ne.iwavedat(3,i))nno=nno+ 12d11s22
         end if                                                           2d11s22
         idiab=idiab+ipack1(1)                                            2d11s22
        end if                                                           2d11s22

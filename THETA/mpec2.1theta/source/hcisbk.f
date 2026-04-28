@@ -18,7 +18,8 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     mynnode                                                      5d24s18
       data icall/0/                                                     12d5s22
       save icall                                                        12d5s22
-      integer*8 ibcoffo,ig,iint,iivprod,iprod,itmpp,ivdprod,ivst,ivtmp,kint
+      integer*8 ibcoffo,ig,iint,iivprod,iprod,itmpp,ivdprod,ivst,ivtmp
+     $kint
       icall=icall+1                                                     12d5s22
       if(lprt)write(6,*)('hi, I am the new and improved hcisbk!')
       mdoo=mdoop-1                                                      7d9s21

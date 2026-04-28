@@ -23,7 +23,8 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/unitcm/iunit                                               11d9s17
       data icall/0/
       save
-      integer*8 ibufs,ifoo,ifov,ih02,ih02h,ijnn,iok3x,iokx,ionex2,ionex3,ioonn,ioooo2,iovnn,isend,itmp,itmp1,itmp2,itmp3,itmpt
+      integer*8 ibufs,ifoo,ifov,ih02,ih02h,ijnn,iok3x,iokx,ionex2,ionex3
+     $ioonn,ioooo2,iovnn,isend,itmp,itmp1,itmp2,itmp3,itmpt
       lprint=.false.                                                     4d10s18
       if(idwsdeb.gt.1)lprint=.true.                                     5d2s18
       if(iprtr(14).ne.0)lprint=.true.                                   2d13s20
@@ -5592,7 +5593,7 @@ c
          end do                                                          3d29s18
          nr=nhere*nvirtc(isblkk(3,isk))                                  3d29s18
          if(nr.gt.0.and.noc(isblkk(4,isk)).gt.0)then                    2d25s19
-         call dgemm('n','n',nr,noc(isblkk(4,isk)),noc(isblkk(4,isk)),1d03d29s18
+         call dgemm('n','n',nr,noc(isblkk(4,isk)),noc(isblkk(4,isk)),1d 03d29s18
      $        ,bc(iokx(isk)),nr,                                        3d29s18
      $        bc(itmat(isblkk(4,isk))),noc(isblkk(4,isk)),0d0,           3d29s18
      $        bc(itmp),nr,                                               3d29s18

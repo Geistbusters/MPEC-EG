@@ -30,7 +30,13 @@ c                                                                       1d8s21
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data loopx/1300000/
-      integer*8 ibc0,ibclast,ibcoffo,ibcst,ibcvects,idchvv,idcj,idcj0,idcjb4,idck,iden14o,iden1en,iden1enh,idenjn,idenkn,intden,ipdc1,iprod,itmp,itmp1,itmp2,itmp3,itmp4,itmp4o,itmp6,itmp7,itmpc0,itmpc1,itmpd0,itmpdc1,itmph0d,itmpi,itmpid,itmpj,itmpjd,itmpm,itmpn,itmpt,itmptt,itmpva,itrans,ivects,iwprod,ixtmp,ndenjf,ndenkf
+      integer*8 ibc0,ibclast,ibcoffo,ibcst,ibcvects,idchvv,idcj,idcj0
+     $idcjb4
+     $idck,iden14o,iden1en,iden1enh,idenjn,idenkn,intden,ipdc1
+     $iprod,itmp,itmp1,itmp2,itmp3,itmp4,itmp4o,itmp6,itmp7,itmpc0
+     $itmpc1,itmpd0,itmpdc1,itmph0d,itmpi,itmpid,itmpj,itmpjd
+     $itmpm,itmpn,itmpt,itmptt,itmpva,itrans,ivects,iwprod,ixtmp
+     $ndenjf,ndenkf
       write(6,*)('Hi, my name is hcddjko'),ibcoff
       igoal=2133967
       loop=0

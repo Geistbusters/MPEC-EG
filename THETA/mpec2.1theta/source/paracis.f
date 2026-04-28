@@ -18,7 +18,9 @@ c
      $     ipropmat(1),iapair(3,*),got(2),igot(2),ipt2(8,8)             4d29s22
       equivalence (itrans8,trans8)
       data cart/'x','y','z'/                                            4d28s22
-      integer*8 i2nd,iawgt,ibcoffo,ic2mat,icals,ierror,ihcis,ihdiag,ipt,ipvt,irhs,itmp,ix
+      integer*8 i2nd,iawgt,ibcoffo,ic2mat,icals,ierror,ihcis,ihdiag,ipt
+     $ipvt
+     $irhs,itmp,ix
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       common/drsigncm/drsign                                            8d20s24

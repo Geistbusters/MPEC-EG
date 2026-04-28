@@ -8,7 +8,9 @@ c     multiply iwpb1*iwpk1*iwpb2*iwpk2*vec and add to xout              11d26s20
 c                                                                       11d13s20
       dimension vec(ndim,*),xout(ncsfb,*)
       include "common.store"                                            11d13s20
-      integer*8 ibcoffo,itmp1,itmpab,itmpabc,itmpad,itmpbc,itmpbcd,itmpbe,itmpccde,itmpcd,itmpcde,itmpde,itmpx,itrial
+      integer*8 ibcoffo,itmp1,itmpab,itmpabc,itmpad,itmpbc,itmpbcd
+     $itmpbe
+     $itmpccde,itmpcd,itmpcde,itmpde,itmpx,itrial
       nn=min(ncsfb,ncsfm,ncsfk,ncsf1,ncsf2,mcol)                        9d30s22
       nx=max(ncsfb,ncsfm,ncsfk,ncsf1,ncsf2,mcol)                        9d30s22
       ibcoffo=ibcoff                                                    10s3s22

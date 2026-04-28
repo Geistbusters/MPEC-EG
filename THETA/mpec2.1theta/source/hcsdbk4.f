@@ -36,7 +36,9 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data loopx/11810000/
-      integer*8 ibcbmat,ibcgg,ibmat,id1vnotv,id3vnotv3,idhvisv,idhvnotvf,idkeep,intden,ircv,itmp,itmpb,itmpdv,itmpsv,itrans,iunit,ixint
+      integer*8 ibcbmat,ibcgg,ibmat,id1vnotv,id3vnotv3,idhvisv,idhvnotvf
+     $idkeep,intden,ircv,itmp,itmpb,itmpdv,itmpsv,itrans,iunit
+     $ixint
       common/paddcm/npadddi                                             6d7s22
       loop=0
       nrootm=nrootu-1                                                   1d4s21
@@ -213,8 +215,8 @@ c     $                  +nvirt(isa)*icoldc)                             10d6s21
                ivv=itri+isw*(irec-itri)                                  2d3s21
                do it=0,ntype-1
                 jb=ibmat(isb)+nn*(i1m+irefo(isn)*it)                      12d9s21
-c     ito=i3x(isb,isc,isd,it)+ibv+nvirt(isb)*(iav          10d6s21
-c                  +nvirt(isa)*icoldc)                             10d6s21
+c     ito=i3x(isb,isc,isd,it)+ibv+nvirt(isb)*(iav                       10d6s21
+c                  +nvirt(isa)*icoldc)                                  10d6s21
 c i.e.
 c     (v"v|v'n)Vv'v"
                 ixint=i3x(jsbv,isbv1,isn)+nvirt(jsbv)*(iv2+nvirt(isbv2)   12d9s21

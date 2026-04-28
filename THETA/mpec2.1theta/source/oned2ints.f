@@ -181,7 +181,7 @@ c     there are at least 2 and perhaps 4 contributions. The 2 always
 c     present are the 1/r**3 and 1/r**5 parts of the 2nd derivative of  6d27s16
 c     the potential energy. The perhaps contriubtions are first ders    6d27s16
 c     of the potential and first der of bra and/or ket fcn.             6d27s16
-c     4d25s16
+c                                                                       4d25s16
           factna=xcart(ixyz,iau)                                        4d25s16
           idxh=idxyz(1)/2                                               6d27s16
           idyh=idxyz(2)/2                                               6d27s16

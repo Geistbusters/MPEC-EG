@@ -33,7 +33,8 @@ c
       common/singcm/iuse,nff
       data crori/' ','i'/                                               3d30s22
       data icall/0/
-      integer*8 iaout,ibcoffo,icoef,icoef2,idat,idata,ikeep,itmpi,itmpr,iwgt
+      integer*8 iaout,ibcoffo,icoef,icoef2,idat,idata,ikeep,itmpi,itmpr
+     $iwgt
       do i=1,6                                                          10d27s20
        if(iwfbra(13+i,1).ne.0)then                                         10d27s20
         labb(i:i)=char(iwfbra(13+i,1))                                     10d27s20

@@ -55,7 +55,8 @@ c                                                                       1d10s19
       include "common.print"                                            1d3s20
       include "common.rys"                                              6d22s12
       logical lcart,leof                                                8d3s21
-      integer*8 imultpr                                                 2e20g26
+      integer*8 
+     $imultpr                                                           2e20g26
       integer*1 idogrado1(4)                                            6d18s22
       integer*2 nlzzq2(2)                                               12d5s22
       integer*8 ipack8                                                  12d13s22
@@ -111,7 +112,10 @@ c                                                                       1d10s19
      $     'Ac ','Th ','Pa ','U  ','Np ','Pu ','Am ','Cm ','Bk ','Cf ', 4d6s18
      $     'Es ','Fm ','dmy'/                                           1d3s24
       data isymu/8*1/                                                   12d7s23
-      integer*8 ianuc,ibcgh,ibctop,ibdat,ibdatpt,ibstor,ibuf,idtmp,iextradata,iextradatad,ifdstep,ifname,ilsq,insymb,inzeta,iorbt,iorbxx,iouse,ippack,irefdata,isorte,itmpm,ixok,ixtr,jspin,jzeta
+      integer*8 ianuc,ibcgh,ibctop,ibdat,ibdatpt,ibstor,ibuf,idtmp
+     $iextradata,iextradatad,ifdstep,ifname,ilsq,insymb,inzeta
+     $iorbt,iorbxx,iouse,ippack,irefdata,isorte,itmpm,ixok,ixtr
+     $jspin,jzeta
       do i=1,maxst1                                                     7d3s23
        nlambda(i,1)=-1                                                  8d31s23
        nlambda(i,2)=-1                                                  8d31s23
@@ -1884,8 +1888,8 @@ c
             end if                                                      5d15s19
             ngroup=min(ndot-1,nhere3)                                   5d15s19
 c
-c     if relativistic contraction, then ndot=3*ibc(incread+l)+1,       55d15s19
-c     otherwise ndot=ibc(incread+l)+1.                                 55d15s19
+c     if relativistic contraction, then ndot=3*ibc(incread+l)+1,        55d15s19
+c     otherwise ndot=ibc(incread+l)+1.                                  55d15s19
 c
            if(irelcc.gt.0.and.idorel.ne.0)then                          1d15s19
             do i=1,nnonr*2                                              1d15s19

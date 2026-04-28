@@ -43,7 +43,10 @@ c                                                                       1d8s21
      $     mynnode                                                      5d24s18
       data icall/0/
       save icall
-      integer*8 ib4,ibc0,ibcb4,ibclast,ibcoffo,ibcst,iden1en,iden4,idenhvvn,idenjn,idenkn,idv4,idv4x,idv4y,intden,iprod,itmp,itmp1,itmp2,itmpi,itmpt,itmpx,itmpz,iunit,ndenj,ndenkf
+      integer*8 ib4,ibc0,ibcb4,ibclast,ibcoffo,ibcst,iden1en,iden4
+     $idenhvvn
+     $idenjn,idenkn,idv4,idv4x,idv4y,intden,iprod,itmp,itmp1,itmp2
+     $itmpi,itmpt,itmpx,itmpz,iunit,ndenj,ndenkf
       icall=icall+1
       lprt=.false.
       loop=0
@@ -2460,10 +2463,10 @@ c     dv4 nvv,nroot,ntype
              nnvv=nvv*nrootu                                             1d12s21
 c
 c     my stab at 4v ...                                                 11d30s21
-c     Gv"v'''rj=djit [(v"v|v'''v')(t)-(v"v'|v'''v)(t)]Vvv'ri          11d30s21
+c     Gv"v'''rj=djit [(v"v|v'''v')(t)-(v"v'|v'''v)(t)]Vvv'ri            11d30s21
 c                      j i j   i       j i  j   i
 c                      1 1 2   2       1 2  2   1
-c                  = [(v"v|v'''v')(t)-(v"v'|v'''v)(t)]Dvv'rjt          11d30s21
+c                  = [(v"v|v'''v')(t)-(v"v'|v'''v)(t)]Dvv'rjt           11d30s21
 c                      j i j   i       j i  j   i
 c                      1 1 2   2       1 2  2   1
 c     with Dvv'rjt=Vvv'ri*djit

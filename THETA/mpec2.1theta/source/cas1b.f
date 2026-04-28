@@ -29,7 +29,9 @@ c
       parameter (id=1000,ido=16)
       data jcall/0/                                                     5d2s18
       save                                                              5d2s18
-      integer*8 ialpha,iaorb,ibeta,iborb,idata1,idata2,idatac,idatas,idatb1,idatb2,idatbc,ism,itmp,itmpsrt,ix
+      integer*8 ialpha,iaorb,ibeta,iborb,idata1,idata2,idatac,idatas
+     $idatb1
+     $idatb2,idatbc,ism,itmp,itmpsrt,ix
       jcall=jcall+1                                                     5d2s18
 c
 c     norb is the number of orbitals

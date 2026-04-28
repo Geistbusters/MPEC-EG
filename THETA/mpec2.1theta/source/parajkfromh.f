@@ -29,7 +29,9 @@ c                                                                       5d29s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension multh(8,8),iorbn(8),ihj(idbk),ilj(idbk),ihk(idbk),      12d13s11
-      integer*8 i3xi,i4xb,i4xsnd,i4ysnd,ibcoffo,ibuf2,ibufs,ionex,ioooo,is3,isave,isavs,iso,itmp,itmpl,jmats,jtmpl,kmats,ktmpl
+      integer*8 i3xi,i4xb,i4xsnd,i4ysnd,ibcoffo,ibuf2,ibufs,ionex,ioooo
+     $is3
+     $isave,isavs,iso,itmp,itmpl,jmats,jtmpl,kmats,ktmpl
      $     ilk(idbk),ijhalf(idbk),ikhalf(idbk),i3xi(*),                 7d26s16
      $     j1s(idbk),iph0(8),nbasisp(8),nduse2(8),                      8d18s23
      $     j1e(idbk),j2s(idbk),j2e(idbk),k1s(idbk),k1e(idbk),k2s(idbk), 6d23s10

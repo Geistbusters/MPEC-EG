@@ -31,7 +31,10 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.print"                                            1d13s20
       data icall/0/                                                     4d8s20
       save icall                                                        4d8s20
-      integer*8 ibcoffo,ibctop,iegn,ieigold,ieigp,igq,igx3,ihcpy,ihdig,ihdigps,ihist,ihivq,ihivs,ihps,ikeep,ilzps,ilzzdig,ilzzpsdig,imxt,ipointf,ipointp,ipointq,ipsbase,ipsbasen,isavqv,isbasis,iveclast,ivecps,ivecx,ivsave,ivtmp,jsto
+      integer*8 ibcoffo,ibctop,iegn,ieigold,ieigp,igq,igx3,ihcpy,ihdig
+     $ihdigps,ihist,ihivq,ihivs,ihps,ikeep,ilzps,ilzzdig,ilzzpsdig
+     $imxt,ipointf,ipointp,ipointq,ipsbase,ipsbasen,isavqv,isbasis
+     $iveclast,ivecps,ivecx,ivsave,ivtmp,jsto
       icall=icall+1                                                     4d8s20
       pthresp=pthresin                                                  7d15s19
       ibcoffo=ibcoff                                                    7d12s19

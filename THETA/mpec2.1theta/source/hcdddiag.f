@@ -16,7 +16,10 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     switch(5),ntrill(4,8)                                        1d22s21
       equivalence (ipack8,ipack4)                                       11d20s20
       include "common.store"
-      integer*8 i,ibcb4,ibclast,ibcoffo,idenvisv,idenvnotvj,iham1,iham1to4,imat1,imatl,iquerry,itmp,itmp1,itmp2,itmpj,itmpjk,itmpl,itmpp,itrans,jgoal,kout
+      integer*8 i,ibcb4,ibclast,ibcoffo,idenvisv,idenvnotvj,iham1
+     $iham1to4
+     $imat1,imatl,iquerry,itmp,itmp1,itmp2,itmpj,itmpjk,itmpl
+     $itmpp,itrans,jgoal,kout
       common/fnd2cm/inv(2,8,8,8)                                        4d9s18
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18

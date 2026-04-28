@@ -201,7 +201,10 @@ c     17*8 = 80+56=136 +3 = 139
      $      6,14,12, 4,11, 3, 5,13, 6,14,12, 4,11, 3, 5,13, 6,14,12, 4/
       data icall/0/
       save
-      integer*8 i12,i4o,iall,ibc0,ibchalf,ibcoffo,ibcs,ibcsto,iberaw,ibtmp,ibuffs,ieraw,ih0t,ipair,isto1,itmp,itmpm,ittmp,jhalf,kmats,ltmp,ltmpc
+      integer*8 i12,i4o,iall,ibc0,ibchalf,ibcoffo,ibcs,ibcsto,iberaw
+     $ibtmp
+     $ibuffs,ieraw,ih0t,ipair,isto1,itmp,itmpm,ittmp,jhalf,kmats
+     $ltmp,ltmpc
       clight=0.5d0/sqrt(ascale)                                         2d21s20
       icall=icall+1
       lprint=mynowprog.eq.0                                             3d2s22

@@ -7,14 +7,14 @@ c
 c     like nattrac except compute derivative of bra (ibx,iby,ibz),
 c     and/or ket(ikx,iky,ikz), and/or 1/r
 c     ifcn=0 means no der of 1/r
-c     with ifcn=1 means der wrt xi, 2 means der wrt yi, and 3 means    6d30s16
-c     der wrt zi.                                                      6d30s16
+c     with ifcn=1 means der wrt xi, 2 means der wrt yi, and 3 means     6d30s16
+c     der wrt zi.                                                       6d30s16
 c     ipx=0 means no der of bigx part, ipx=1 means first der of bigx     6d30s16
 c     part, and ipx=2 means 2nd der of bigx part.                       6d30s16
-c     ipb=0 means no der of bra s part, ipb=1 means first der of bra   6d30s16
-c     s part, and ipb=2 means second der of bra s part                 6d30s16
-c     ipk=0 means no der of bra s part, ipk=1 means first der of ket   6d30s16
-c     s part, and ipk=2 means second der of ket s part                 6d30s16
+c     ipb=0 means no der of bra s part, ipb=1 means first der of bra    6d30s16
+c     s part, and ipb=2 means second der of bra s part                  6d30s16
+c     ipk=0 means no der of bra s part, ipk=1 means first der of ket    6d30s16
+c     s part, and ipk=2 means second der of ket s part                  6d30s16
 c
 c
       implicit real*8 (a-h,o-z)

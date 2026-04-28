@@ -25,7 +25,8 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       data loop,loopx/0,8121/
-      integer*8 ibcoffo,ibctpp,igg,iprod,ipvint,itmp,itmp2,itmpi2,itmpra,itmpv,ltmp2
+      integer*8 ibcoffo,ibctpp,igg,iprod,ipvint,itmp,itmp2,itmpi2,itmpra
+     $itmpv,ltmp2
       mdoo=mdoop-1                                                      8d3s21
       nrootm=nrootu-1                                                   1d6s21
       norbx=norb+1                                                      11d19s20

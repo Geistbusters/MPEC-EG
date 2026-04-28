@@ -14,7 +14,8 @@ c
      $     iorb(8),noc(8),ixmtr(8,2),islz(3),iorbq(8),iorbqz(8)         12d4s22
       include "common.store"                                            4d22s21
       include "common.print"                                            4d25s21
-      integer*8 ibc,igrpnn,iherei,iherei0,ihit,ihit2,imap,ipt,iptr,iqnc,itestr,itmp,iuhere,ivr
+      integer*8 ibc,igrpnn,iherei,iherei0,ihit,ihit2,imap,ipt,iptr,iqnc
+     $itestr,itmp,iuhere,ivr
       if(iprtr(21).ne.0)then                                            4d25s21
        ldebug=.true.
       else                                                              4d25s21

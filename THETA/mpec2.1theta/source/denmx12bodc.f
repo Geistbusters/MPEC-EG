@@ -42,7 +42,8 @@ c
       common/drsigncm/drsign                                            8d20s24
       common/timerocm/tovrx,telapo(15)                                   4d26s18
       data loopx/200/
-      integer*8 i,ibcoffo,id1x,id3x,id4o,iden,iorbf,iptrfbit,jmden,jptrf,kmden
+      integer*8 i,ibcoffo,id1x,id3x,id4o,iden,iorbf,iptrfbit,jmden,jptrf
+     $kmden
       ldebug=iprtr(32).ne.0
       write(6,*)('Hi, my name is denmx12bodc'),ibcoff
       write(6,*)('mdoo '),mdoo,('mdon '),mdon

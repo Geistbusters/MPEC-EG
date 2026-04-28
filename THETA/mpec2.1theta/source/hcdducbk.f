@@ -27,7 +27,9 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       data loopx/13160000/
       data icall/0/
       save icall
-      integer*8 iacc,ibctop,idenh,idenj,idenjc,idenk,idenkc,idenstrt,igg,imat4o,iprod,itmp,itmpi,itmpj,itmpp,ivdtmp,ivec,ivecbc,jdenjc,jdenkc,jint,kint,mdenh,mdenhc,ndenj,ndenk
+      integer*8 iacc,ibctop,idenh,idenj,idenjc,idenk,idenkc,idenstrt,igg
+     $imat4o,iprod,itmp,itmpi,itmpj,itmpp,ivdtmp,ivec,ivecbc
+     $jdenjc,jdenkc,jint,kint,mdenh,mdenhc,ndenj,ndenk
       icall=icall+1
       if(icall.eq.7)icall=icall+1
       if(izero.ne.0)then                                                1d24s21
@@ -2231,7 +2233,7 @@ c                        x
      $                      +nbasdws(isbv1)*(idoubo(jsbv1)+irefo(jsbv1))8d20s21
                          do ivpp=0,jtop                                 8d20s21
                           bc(kgg+iv)=bc(kgg+iv)                         8d20s21
-     $                 +bc(ih0+ivpp*nbasdws(isbv1))*bc(kad1+ivpp)*phase18d21s21
+     $                 +bc(ih0+ivpp*nbasdws(isbv1))*bc(kad1+ivpp)*phase 18d21s21
                          end do                                            6d28s21
                          if(isbv1.eq.jsbv1)then                         8d20s21
                           bc(kgg+iv)=bc(kgg+iv)                         8d21s21
@@ -2318,7 +2320,7 @@ c     !jsb
          i48=nff2b(ncloip,isb,1)                                         6d24s21
          if(itransgg.ne.0.and.min(mrow,nff2b(ncloip,isb,1)).gt.0)then    8d24s21
 c
-c     igg is nvv,nroot,ncsf,iff2                                6d21s21
+c     igg is nvv,nroot,ncsf,iff2                                        6d21s21
 c     reorder it to is root, ncsf,nvv,jff2.
 c
           itmp=ibcoff                                                    1d27s21

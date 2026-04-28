@@ -10,7 +10,9 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       integer*2 ipack2(2)                                               12d5s22
       equivalence (ipack4,ipack2)                                       12d5s22
       dimension nbasdwsc(8),iso(8),isym(3,8),iapair(3,*),ibstor(*),     5d25s18
-      integer*8 ibcode,icang,idarot,idum1,iextrad,ih0,inbasg,iptno,iread1,ireadr,isstorg,itmp,ivdum,ivecr,ivguess,newbasdws
+      integer*8 ibcode,icang,idarot,idum1,iextrad,ih0,inbasg,iptno
+     $iread1
+     $ireadr,isstorg,itmp,ivdum,ivecr,ivguess,newbasdws
      $     isstor(*),morb(8),isymg(3,8),iapairg(3,*),ibcode(8),iorb(8), 2d15s19
      $     morbc(8),morbp(8),nbasisp(*),idum4(64),idumsym(6),istinfo(11)1d2s20
      $     ,ipassr(*),iread(8),makegbas(8),icanog(8),iftype(*),fstgth(*)12d6s23

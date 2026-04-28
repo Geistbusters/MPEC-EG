@@ -18,7 +18,9 @@ c
       integer*8 ibstor,isstor                                           5d10s10
       logical ldeb                                                      4d21s16
       dimension iorb(1),isym(3,1),iapair(3,1),ibstor(1),isstor(1),      5d12s10
-      integer*8 i12,ibcexit,ibcoffo,ibcsav,ieraw,ihalf,ihmat,ipairab,iszz,itmp,itmpab
+      integer*8 i12,ibcexit,ibcoffo,ibcsav,ieraw,ihalf,ihmat,ipairab
+     $iszz
+     $itmp,itmpab
      $     carta(3),cartb(3),cartc(3),cartd(3),ieraw(8,8),itmpab(8,8),  5d12s10
      $     multh(8,8),iptoh(8,8,8),nocc(8),neraw(8,8),nueraw(8,8),      9d26s16
      $     nztype(8),nsumts(8,8),nbasisp(*)                             4d7s22
@@ -613,7 +615,7 @@ c
 c     at this point, we have all of cd ints, and furthermore they have  1d10s11
 c     been symmetrized (turned into so's) and stored at eraw            1d10s11
 c     so transform cd from so's to mo's                                 1d10s11
-c     1d10s11
+c                                                                       1d10s11
          do isd=1,nsymb                                                  5d12s10
           if(nocc(isd).gt.0)then                                        6d2s10
            do isc=1,nsymb                                                 5d12s10

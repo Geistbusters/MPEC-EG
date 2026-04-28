@@ -19,7 +19,8 @@ c
      $     nbasisp(8),iaddr(36,2,4),nfcn(36,3),ncd(3,8,2),iorb(8),      11d10s20
      $     hcdoub(*)                                                    12d13s18
       dimension nvprt(8),nsz(2)                                         12d13s18
-      integer*8 i12,ibcoffo,ibptoh,ieraw,ipair,iptoh,itmp,itmpa,itmpab,itransp
+      integer*8 i12,ibcoffo,ibptoh,ieraw,ipair,iptoh,itmp,itmpa,itmpab
+     $itransp
       common/timerocm/tovr,telapo(15)                                   4d26s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode

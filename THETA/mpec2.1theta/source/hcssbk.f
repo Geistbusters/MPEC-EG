@@ -27,7 +27,8 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     mynnode                                                      5d24s18
       common/paddcm/npadddi                                             6d7s22
       save icall
-      integer*8 iacc,idenh,idenj,idenk,idtmp,igg,ikeep,itmp,itmp1,itmpd,itmpp,ivec,ivecbc,ivtrans,ltmp1
+      integer*8 iacc,idenh,idenj,idenk,idtmp,igg,ikeep,itmp,itmp1,itmpd
+     $itmpp,ivec,ivecbc,ivtrans,ltmp1
       icall=icall+1
       if(lprt)                                                          1d25s21
      $    write(6,*)('hello! my name is hcssbk'),isymbra,isymket,
