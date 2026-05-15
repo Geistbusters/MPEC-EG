@@ -1,5 +1,13 @@
+### Makefiles
+*makefile*
+
+
+
 ### Executable
 mpec
+
+###object folders
+*obj/*
 
 
 ### Compiled Objects
@@ -20,3 +28,6 @@ mpec
 
 ### Documentation
 *.pdf
+
+### Mac native things
+.DS_Store

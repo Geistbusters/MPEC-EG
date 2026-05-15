@@ -2,25 +2,25 @@ root=`pwd`
 cd ..;chmod og+rx $root;cd $root
 chmod og+r *pdf
 ### for my mac m1 laptop
-#f1="mpif90"
-#f2="mpif90 -fallow-argument-mismatch"
-#f3=$root"/lib/lib"
-##opt=-O2
+f1="mpif90"
+f2="mpif90 -fallow-argument-mismatch"
+f3=$root"/lib/lib"
+opt=-O2
 #opt=-Og
 #optno=-Og
-#uselib=1
+uselib=1
 #cat <<@ > ~/.prempec
 #alias runmpec='mpirun -n 6 $root/mpec'
 #@
 ### for NAS facility Pleaides
 #f1="ifort -axAVX -mcmodel=medium -xSSE4.1"
-f1="ifort -march=core-avx2 -mcmodel=medium -check bounds"
-f2=$f1
-f3="-lmpi -mkl -shared-intel"
+#f1="ifort -march=core-avx2 -mcmodel=medium -check bounds"
+#f2=$f1
+#f3="-lmpi -mkl -shared-intel"
 #opt="-O0 -g -traceback -check all -ftrapuv"
-opt=-O1
-optno=-O0
-uselib=1
+#opt=-O1
+#optno=-O0
+#uselib=1
 ##BUILDTYPE="test"
 ##if $BUILDTYPE=="test"
 #then
