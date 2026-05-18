@@ -7,8 +7,7 @@ c
 c     1-e density
 c
       external second                                                   2d18s21
-      integer*8 ihsdiag(mdoo+1,nsymb,2),i18,i28,i38,i48,i1c,i1o,j1c,j1o
-     $                                                                  12d14s20
+      integer*8 ihsdiag(mdoo+1,nsymb,2),i18,i28,i38,i48,i1c,i1o,j1c,j1o,12d14s20
      $     itestc,itesto,last8(2),gandcc,gandco,gandcb                  2d6s23
       integer*1 nab1(2),nab2(2),nab1b(2),nab2b(2)                       2d19s21
       logical lkeep,lprt                                                1d25s21

@@ -2,11 +2,10 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       subroutine hcssd12(ihsdiag,nff1,iff1,ncsf,nec,mdon,mdoo,nsymb,    5d8s23
      $     multh,ixw1,ixw2,ih0av,nh0av,ioooo,jmats,kmats,nvirt,nrootu,  5d8s23
      $     ism,irel,irefo,isymmrci,norb,lprt,maxbx,tdenss,tovr,         5d12s23
-     $     bc,ibc,igoal)                                                      11d10s22
+     $     bc,ibc,igoal)                                                11d10s22
       implicit real*8 (a-h,o-z)
       external second                                                   2d18s21
-      integer*8 ihsdiag(mdoo+1,nsymb,2),i18,i28,i38,i48,i1c,i1o,j1c,j1o
-     $                                                                  12d14s20
+      integer*8 ihsdiag(mdoo+1,nsymb,2),i18,i28,i38,i48,i1c,i1o,j1c,j1o,12d14s20
      $     itestc,itesto,last8(2),gandcc,gandco,gandcb                  11d1s22
       integer*1 nab1(2),nab2(2),nab1b(2),nab2b(2)                       2d19s21
       logical lkeep,lprt,lchoice                                        3d17s21

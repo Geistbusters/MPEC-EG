@@ -13,10 +13,10 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     nabi(2),nabj(2),nab1(2),nab2(2),itest(64,2)                  11d13s20
       equivalence (ipack,ipack2)                                        11d4s19
       dimension hdps(*),hamps(*),ncsf(*),nother(2),                     8d1s22
-      integer*8 ibcsav,ihtmp,iprod,itmp,jhtmp
      $    i2e(*),ipsbase(3,*),ih0a(*),multh(8,8),test(10),hiv(*),hvv(*),12d24s19
      $     veclzz(*),ism(*),irel(*),irefo(*),iptrbit(2,mdoo+1,*),       4d12s21
      $     nab4(2,3)                                                    4d12s21
+      integer*8 ibcsav,ihtmp,iprod,itmp,jhtmp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d15s19
      $     mynnode                                                      5d15s19
       ihtmp=ibcoff                                                      7d11s19

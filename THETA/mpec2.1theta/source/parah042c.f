@@ -19,9 +19,9 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension ih0(8,8),iovr(8,8),ibstor(1),isstor(1),iorb(*),         3d4s20
-      integer*8 i12,ibcoffo,ibcs,idata,ih0n,ipair,isave,itmp,itmpm,jh0
      $     nbasisp(*),iapair(3,*),jh0(8,8),jovr(8,8),ih0i(8,8),         3d22s20
      $     multh(8,8),ih0n(8,4),isopt(4,4),cartb(3),cartk(3),isym(3,*)  3d11s22
+      integer*8 i12,ibcoffo,ibcs,idata,ipair,isave,itmp,itmpm
       lprint=mynowprog.eq.0                                             3d2s22
       if(lprint)write(6,*)('hi, my name in parah042c '),ibcoff          3d2s22
       do i=1,4                                                          9d22s21

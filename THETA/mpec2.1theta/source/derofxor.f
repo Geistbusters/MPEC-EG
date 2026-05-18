@@ -12,10 +12,10 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension ovr(1),iso(1),ivecs(1),ieigs(1),multh(8,8),
-      integer*8 ibcoffo,id2e,iders2,ids,ids2,ise,itmp1,itmp3,itmp4,itmp5
-     $itrantmp,ixor,ixor0,ixort
      $     icanon(8),iorb(1),propmat(1),ovrdk(1),ovrd2(1),              4d8s22
      $     ovrdkd2(1),iptb(8),ivecso(*),nbasisp(*),isob(*)              4d8s22
+      integer*8 ibcoffo,id2e,iders2,ids,ids2,ise,itmp1,itmp3,itmp4,itmp5
+     $itrantmp,ixor,ixor0,ixort
       ibcoffo=ibcoff
       ncomp=1
       if(idorel.ne.0)ncomp=2

@@ -22,12 +22,12 @@ c
       logical lsame                                                     5d31s24
       integer*8 ibstor,isstor                                           5d10s10
       dimension iorb(*),isym(3,*),iapair(3,*),ibstor(*),isstor(*),      5d12s10
-      integer*8 i12,iabstrt,ibcoffo,ieraw,ieraw2,ihmat,ipair,ipta,iptap
-     $iptra,isnd,itmp,itmp1,itmpab,itmpab2
      $     carta(3),cartb(3),cartc(3),cartd(3),ieraw(8,8),itmpab(8,8),  5d12s10
      $     multh(8,8),iptoh(8,8,8),nocc(8),neraw(8,8),nueraw(8,8),      5d29s18
      $     nbasisp(8),fmulx(4),nduse(8),nduse2(8),nan(8),nbn(8),        4d9s24
      $     ieraw2(8,8,8),itmpab2(8,8,8),iptap(8),iptbp(8)               4d11s24
+      integer*8 i12,iabstrt,ibcoffo,ihmat,ipair,ipta
+     $iptra,isnd,itmp,itmp1
       common/timerocm/tovr,telapo(15)                                   4d26s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode

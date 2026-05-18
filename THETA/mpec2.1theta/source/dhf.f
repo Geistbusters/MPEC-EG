@@ -10,11 +10,11 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.store"
       logical myguess,lprint                                            10d5s22
       dimension idbly(*),idoub(*),iacto(*),isinfo(3,*),ivecs(*),
-      integer*8 ibcoffo,ideno,ieigz,ifmat,ifock,ih0ao,ih0ms,iocc,ioooo
-     $iresidiis,iveco,iwgt
      $     irtyp(5),ioooo(2),scopy(*)                                   3d16s20
       COMMON/FACT16/FL(922),NCALL                                       2d26s20
       common/singcm/iuse,nff
+      integer*8 ibcoffo,ideno,ieigz,ifmat,ifock,ih0ao,ih0ms,iocc
+     $iresidiis,iveco,iwgt
       if(lprint)then                                                    10d5s22
        write(6,*)('Hi, my name is dhf')
        write(6,*)('nbaslarge = '),nbaslarge                              3d17s20

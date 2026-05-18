@@ -5592,13 +5592,13 @@ c
           end do                                                         3d29s18
          end do                                                          3d29s18
          nr=nhere*nvirtc(isblkk(3,isk))                                  3d29s18
-         if(nr.gt.0.and.noc(isblkk(4,isk)).gt.0)then                    2d25s19
-         call dgemm('n','n',nr,noc(isblkk(4,isk)),noc(isblkk(4,isk)),1d 03d29s18
-     $        ,bc(iokx(isk)),nr,                                        3d29s18
+         if(nr.gt.0.and.noc(isblkk(4,isk)).gt.0)then                     2d25s19
+         call dgemm('n','n',nr,noc(isblkk(4,isk)),noc(isblkk(4,isk)),1d0 3d29s18
+     $        ,bc(iokx(isk)),nr,                                         3d29s18
      $        bc(itmat(isblkk(4,isk))),noc(isblkk(4,isk)),0d0,           3d29s18
      $        bc(itmp),nr,                                               3d29s18
      d' updateg. 45')
-         end if                                                         2d25s19
+         end if                                                          2d25s19
 c
 c     currently under itmp we K_{nm}^{Ab}=(nb|mA)
 c     and we want to add this into (nb|mA) and (bn|mA),

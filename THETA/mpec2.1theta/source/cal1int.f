@@ -10,15 +10,15 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       integer*2 ipack2(2)                                               12d5s22
       equivalence (ipack4,ipack2)                                       12d5s22
       dimension nbasdwsc(8),iso(8),isym(3,8),iapair(3,*),ibstor(*),     5d25s18
-      integer*8 ibcode,icang,idarot,idum1,iextrad,ih0,inbasg,iptno
-     $iread1
-     $ireadr,isstorg,itmp,ivdum,ivecr,ivguess,newbasdws
      $     isstor(*),morb(8),isymg(3,8),iapairg(3,*),ibcode(8),iorb(8), 2d15s19
      $     morbc(8),morbp(8),nbasisp(*),idum4(64),idumsym(6),istinfo(11)1d2s20
      $     ,ipassr(*),iread(8),makegbas(8),icanog(8),iftype(*),fstgth(*)12d6s23
       common/lowersymcm/nsymbgx,iptno(8),ipts(8),nhsz(8),ipao(8)        4d25s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
+      integer*8 ibcode,icang,idarot,idum1,iextrad,ih0,inbasg,iptno
+     $iread1
+     $ireadr,isstorg,itmp,ivdum,ivecr,ivguess,newbasdws
       myguessi=1                                                        4d22s21
       ierr=0                                                            1d11s23
       if(nsymb.eq.0)then                                                11d6s19

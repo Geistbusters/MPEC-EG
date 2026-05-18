@@ -8,9 +8,9 @@ c
       include "common.store"
       include "common.hf"
       dimension jmats(*),kmats(*),ionex(*),irefo(*),i3x(*),i3xb(*),     1d25s20
-      integer*8 i3x3,i3xb,ib0,ionexb,ionexc,itmp,jmatt,kmatd,kmatt
      $     ionexb(*),jmatt(*),kmatt(*),ionexc(*),kmatd(8,8),i3x3(8),    3d23s21
      $     ionexbt(*)                                                   3d23s21
+      integer*8 ib0,itmp
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       common/kmfind/invk1(2,8,8,8,2)                                    6d30s18

@@ -10,12 +10,12 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include "common.print"                                            6d20s24
       integer*1 dorb(*),sorb(*),dorbf(*),sorbf(*)                       8d23s23
       dimension ibasis(3,*),iptr(*),icsf(*),ioooo(*),i4d(*),multh(8,8), 8d23s23
-      integer*8 icoefsvd,idiis1,idv,ieig,ifmat,ihdig,iprod
      $     vec(nct,*),irefo(*),ikeep(*),iptrcb(2,*),ibasisc(3,*),       8d23s23
      $     iptrbit(2,mdoo+1,*),deig(*),dvec(nct,*),ih0d(*)              8d17s24
       common/singcm/iuse,nff
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
+      integer*8 icoefsvd,idiis1,idv,ieig,ifmat,ihdig,iprod
       ldeb=iprtr(12).ne.0                                               6d20s24
       if(ldeb)write(6,*)('Hi, my name is intcsfder'),isymb,nfcn,nct,tolv9d1s23
       if(nct.eq.1)then                                                  6d26s24

@@ -11,9 +11,9 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     mynnode                                                      5d24s18
       data ms/1,5,1,5,1,2,3,6,7,5,5,1,2,3,6,7,1,5,2,3,1,4,5,8,1,6,7,5/  8d1s23
       data multh/1,2,3,4,5,6,7,8,2,1,4,3,6,5,8,7,3,4,1,2,7,8,5,6,
-      integer*8 ibcoffo,ihit,imap,itmpd,kms
      $     4,3,2,1,8,7,6,5,5,6,7,8,1,2,3,4,6,5,8,7,2,1,4,3,
      $     7,8,5,6,3,4,1,2,8,7,6,5,4,3,2,1/
+      integer*8 ibcoffo,ihit,imap,itmpd,kms
       ibcoffo=ibcoff                                                    7d31s23
       do is=1,nsdlkk                                                     7d31s23
        nrow=irefo(isblkk(1,is))*irefo(isblkk(2,is))                      7d31s23

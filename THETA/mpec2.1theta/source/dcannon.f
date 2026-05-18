@@ -11,9 +11,9 @@ c
       include "common.store"                                            3d16s12
       include "common.print"
       dimension kmats(1),jmats(1),ioooo(1),noc(1),morb(8),idarot(8),    5d19s22
-      integer*8 idvec,ifock,ix2
      $     idoub(*),iacto(*),iden1(*),nsyo(8),id4o(*),iden1d(*),        5d20s22
      $     isblkkder(4,*),nvirtx(*),kmatd(*),jmatd(*)                   5d20s22
+      integer*8 idvec,ifock,ix2
       lpr=idwsdeb.ne.0                                                  6d24s24
       noff=0                                                            5d14s19
       do isb=1,nsymb

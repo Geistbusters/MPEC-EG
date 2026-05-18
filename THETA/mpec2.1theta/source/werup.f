@@ -9,9 +9,9 @@ c
 c     werner update ...
 c
       dimension iumat(1),itmat(1),jmats(1),kmats(1),noc(8),igmat(8,8),
-      integer*8 ibcoffo,itmp,itmp1
      $     ipk(1),iqk(1),iden1(1),ionex(1),ioooo(1),nbasdwsc(8),        8d31s15
      $     nvirtc(8)                                                    8d31s15
+      integer*8 ibcoffo,itmp,itmp1
       ibcoffo=ibcoff                                                    8d4s14
 c
       iamat=iamat10

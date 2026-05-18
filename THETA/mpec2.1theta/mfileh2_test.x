@@ -9,9 +9,9 @@ opt=-O2
 #opt=-Og
 #optno=-Og
 uselib=1
-#cat <<@ > ~/.prempec
-#alias runmpec='mpirun -n 6 $root/mpec'
-#@
+cat <<@ > ~/.prempec_test_mac_m2
+alias runmpec='mpirun -n 6 $root/test/mpec_test_mac_m2'
+@
 ### for NAS facility Pleaides
 #f1="ifort -axAVX -mcmodel=medium -xSSE4.1"
 #f1="ifort -march=core-avx2 -mcmodel=medium -check bounds"
@@ -24,13 +24,13 @@ uselib=1
 ##BUILDTYPE="test"
 ##if $BUILDTYPE=="test"
 #then
-cat <<@ > ~/.prempec_test_theta_rome
-eval \`/usr/bin/modulecmd bash load  comp-intel/2023.2.1 mpi-hpe/mpt.2.30\` 
-PATH=\$PATH:/u/scicon/tools/bin
-alias runmpec='mpiexec mbind.x $root/exe/test/mpec_test_theta_rome'
+#cat <<@ > ~/.prempec_test_mac_m2
+#eval \`/usr/bin/modulecmd bash load  comp-intel/2023.2.1 mpi-hpe/mpt.2.30\` 
+#PATH=\$PATH:/u/scicon/tools/bin
+#alias runmpec='mpiexec mbind.x $root/exe/test/mpec_test_mac_m2'
 @
-chmod og+rx ~/.prempec_test_theta_rome
-. ~/.prempec_test_theta_rome
+chmod og+rx ~/.prempec_test_mac_m2
+. ~/.prempec_test_mac_m2
 ### ddi1
 #ddi=1
 ### ddi4
@@ -776,11 +776,14 @@ pdump.o : $s/pdump.f ; $f2 -c $opt $s/pdump.f
  addcomma8.o : $s/addcomma8.f ; $f2 -c $opt $s/addcomma8.f
  addqtop.o : $s/addqtop.f $s/common.store ; $f2 -c $opt $s/addqtop.f
 !
+fullpath=`pwd`"/obj"
+part1="${fullpath:0:55}"
+part2="${fullpath:55}"
 echo "   59 format(/'Linked on: " `date` "')" > $s/mpec.date
-echo "      pwd=" >> $s/mpec.date
-echo "     $'" `pwd` "'" >> $s/mpec.date
+echo "      pwd='$part1'//" >> $s/mpec.date
+echo "     \$'$part2'" >> $s/mpec.date
 sleep 5
 make -f makefile mpec
 chmod og+rx mpec
-mv mpec $root/exe/test/mpec_test_theta_rome
+mv mpec $root/exe/test/mpec_test_mac_m2
 

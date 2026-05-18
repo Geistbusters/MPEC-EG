@@ -15,10 +15,10 @@ c
       include "common.cas"
       include "common.print"                                            2d14s20
       dimension noc4(*),ih0e(*),ioooo(*),iooooa(*),isblkder(4,*),       6d10s22
-      integer*8 icpy,ih0e
      $     multh(8,8)
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
+      integer*8 icpy,ih0e
 c
 c     there is no diagonal shift                                        6d10s22
 c

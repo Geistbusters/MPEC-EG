@@ -28,11 +28,11 @@ c
       dimension breit(10)                                               1d19s23
       common/xcom/iadd1,iadd2,iadd3
       data mult/1,2,3,4,5,6,7,8, 2,1,4,3,6,5,8,7,                       1d13s10
-      integer*8 icartab,icartabcd,icarti,icartt,ifcna,inode1,inode2
-     $irnode
      $          3,4,1,2,7,8,5,6, 4,3,2,1,8,7,6,5,                       1d13s10
      $          5,6,7,8,1,2,3,4, 6,5,8,7,2,1,4,3,                       1d13s10
      $          7,8,5,6,3,4,1,2, 8,7,6,5,4,3,2,1/                       1d13s10
+      integer*8 icartab,icartabcd,icarti,icartt,ifcna,inode1,inode2
+     $irnode
       ldeb=.false.                                                      2d14s23
       icall=icall+1
  1066 continue                                                          2d26s20

@@ -21,11 +21,11 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension multh(8,8),iorbn(8),itrans(1),iorbx(8),                 9d16s16
-      integer*8 ibcoffo,ibufs,itmp
      $     ioooo(1),isblkder(4,idbk),isblkxder(4,idbk),                 8d24s16
      $     ionex(idbk),myh(idbk),nvirtc(8),isblkkder(4,idbk),           9d28s16
      $     i4od2b(idbk),nbasisp(*),                                     4d7s22
      $     ionexd2(idbk),isblkxder1(4,idbk),isblkder1(4,idbk)           9d16s16
+      integer*8 ibcoffo,ibufs,itmp
       call second(time1)                                                11d27s12
       if(iter.eq.1.and.mynowprog.eq.0)write(6,*)('in parajkfromhd2c ')   3d3s17
 c

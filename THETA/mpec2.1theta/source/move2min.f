@@ -18,7 +18,6 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       parameter(ide=100)                                                3d23s23
       character*3 element(ide)                                          3d23s23
       data element/'H  ','He ','Li ','Be ','B  ','C  ','N  ','O  ',     3d23s23
-      integer*8 icpy,idirs,igdir,iprod,irs,itmp1,ixtmp
      $     'F  ','Ne ','Na ','Mg ','Al ','Si ','P  ','S  ','Cl ','Ar ', 3d23s23
      $     'K  ','Ca ','Sc ','Ti ','V  ','Cr ','Mn ','Fe ','Co ','Ni ', 3d23s23
      $     'Cu ','Zn ','Ga ','Ge ','As ','Se ','Br ','Kr ','Rb ','Sr ', 3d23s23
@@ -29,6 +28,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
      $     'Au ','Hg ','Tl ','Pb ','Bi ','Po ','At ','Rn ','Fr ','Ra ', 3d23s23
      $     'Ac ','Th ','Pa ','U  ','Np ','Pu ','Am ','Cm ','Bk ','Cf ', 3d23s23
      $     'Es ','Fm '/                                                 3d23s23
+      integer*8 icpy,idirs,igdir,iprod,irs,itmp1,ixtmp
       common/drsigncm/drsign                                            8d20s24
       idogrado4=idogrado                                                3d14s23
       lprint=mynowprog.eq.0                                             3d14s23

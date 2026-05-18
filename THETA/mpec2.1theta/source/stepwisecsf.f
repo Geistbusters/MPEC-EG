@@ -9,8 +9,7 @@ c     iflag=0: replicate across procs                                   5d17s21
 c     iflag=1: for largest no. of open shells, distribute across procs  5d17s21
 c
       parameter (idos=60)                                                 5d28s19
-      integer*8 ipower2(idos),itry8,iaorb(*)
-     $itmp8                                                             7s29s19
+      integer*8 ipower2(idos),itry8,iaorb(*),itmp8                      7s29s19
       integer*2 itmp2(4)                                                7s29s19
       integer*1 iaorb1(*)                                               6d13s19
       logical ldebug                                                    12d12s19
@@ -19,7 +18,7 @@ c
       include "common.print"                                            1d3s20
       save
       include "common.store"
-      integer*8 ibase,ibc,ibctop,itmp,itmpj,ivecpp,ivecpt,jdet,jptrn
+      integer*8 ibase,ibctop,itmp,itmpj,ivecpp,ivecpt,jdet,jptrn
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      2d1s21
      $     mynnode                                                      2d1s21
       if(iprtr(1).eq.0)then                                             1d3s20

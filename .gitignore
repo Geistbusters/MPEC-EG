@@ -1,9 +1,11 @@
 ### Makefiles
 *makefile*
 
+###Test
+*/EG_test/*
 
-
-### Executable
+### Executables
+*/exe/*
 mpec
 
 ###object folders

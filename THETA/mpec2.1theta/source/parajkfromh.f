@@ -29,9 +29,6 @@ c                                                                       5d29s18
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension multh(8,8),iorbn(8),ihj(idbk),ilj(idbk),ihk(idbk),      12d13s11
-      integer*8 i3xi,i4xb,i4xsnd,i4ysnd,ibcoffo,ibuf2,ibufs,ionex,ioooo
-     $is3
-     $isave,isavs,iso,itmp,itmpl,jmats,jtmpl,kmats,ktmpl
      $     ilk(idbk),ijhalf(idbk),ikhalf(idbk),i3xi(*),                 7d26s16
      $     j1s(idbk),iph0(8),nbasisp(8),nduse2(8),                      8d18s23
      $     j1e(idbk),j2s(idbk),j2e(idbk),k1s(idbk),k1e(idbk),k2s(idbk), 6d23s10
@@ -41,6 +38,9 @@ c                                                                       5d29s18
      $     ix2e(idbk),ilx(idbk),ihx(idbk),myh(idbk),nvirtc(8)           5d31s18
       common/ilimcm/ilimcode                                            5d7s19
       common/fnd4xcm/inv4x(2,8,8,8)                                     7d4s21
+      integer*8 i4xb,i4xsnd,i4ysnd,ibcoffo,ibuf2,ibufs
+     $is3
+     $isave,isavs,iso,itmp,itmpl,jmats,jtmpl,kmats,ktmpl
       if(ifull4x.eq.1)then                                              6d11s21
        do isb=1,nsymb                                                   6d11s21
         nduse(isb)=nocc(isb)                                            6d11s21

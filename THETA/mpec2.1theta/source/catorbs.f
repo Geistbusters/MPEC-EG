@@ -8,15 +8,15 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       include 'common.basis'                                            1d22s25
       include 'common.print'                                            1d23s25
       dimension nsymb(*),ngaus(*),natom(*),nwcont(*),                   1d21s25
-      integer*8 ibcode,ibdat,ibdatt,ibstor,ibstort,iextradata,iorbao
-     $iorbov
-     $ivecn
      $          ipropsym(6),isinfo(11),multh(8,8),ipropsymw(6),         1d21s25
      $          multhw(8,8),nbasdws(8,*),nlorcont(8,*),nbasisc(8,*),    1d21s25
      $          nbasisp(8,*),isym(3,8,*),idoub(8,*),iacto(8,*),         1d22s25
      $          iapair(3,*),ibdat(*),ibstor(*),isstor(*),ibcode(8,*),   1d22s25
      $          iorbov(8,*),iorbao(8,*),nbasallp(*),nadd(8),ivecn(8),   1d22s25
      $          ibcoden(8)                                              1d22s25
+      integer*8 ibcode,ibdat,ibdatt,ibstor,ibstort,iextradata,iorbao
+     $iorbov
+     $ivecn
       ldebug=iprtr(35).ne.0                                             1d23s25
       lmaxx=0                                                           1d21s25
       numeminust=0                                                      1d21s25

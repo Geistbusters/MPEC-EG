@@ -17,8 +17,8 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension h0(*),ovr(1),isym(3,1),iapair(3,1),ibstor(1),isstor(1), 5d3s10
      $     iso(8),cartb(3),cartk(3),ifdata(3,idf),iftype(*),fstgth(*)   12d6s23
       data ifdata/1,0,0, 0,1,0, 0,0,1, 1,1,0, 1,0,1, 0,1,1, 2,0,0,      8d29s22
-      integer*8 i12,ib2,ibcoffo,ipair,itmp1
      $     0,2,0, 0,0,2/                                                8d29s22
+      integer*8 i12,ib2,ibcoffo,ipair,itmp1
       ibcoffo=ibcoff                                                    2d19s10
       ib2=ibcoff                                                        1d11s23
       do ifi=1,ndfld                                                    12d6s23

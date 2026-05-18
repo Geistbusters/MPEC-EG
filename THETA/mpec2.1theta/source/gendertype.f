@@ -111,7 +111,7 @@ c     are only differentiating the 4th index.
          do i=1,nsblkxder
           if(isc.eq.isblkxder(3,i).and.isd.eq.isblkxder(4,i))then
            if((isad.eq.isblkxder(1,i).and.isb.eq.isblkxder(2,i)).or.    4d18s16
-     $        (isb.eq.isblkxder(1,i).and.isad.eq.isblkxder(2,i)))go to  34d18s16
+     $       (isb.eq.isblkxder(1,i).and.isad.eq.isblkxder(2,i)))go to 3 4d18s16
           end if
          end do
          nsblkxder=nsblkxder+1
@@ -146,7 +146,7 @@ c     are only differentiating the 4th index.
          do i=1,nsblkkder
           if(isc.eq.isblkkder(3,i).and.isd.eq.isblkkder(4,i))then
            if((isad.eq.isblkkder(1,i).and.isb.eq.isblkkder(2,i)).or.    4d18s16
-     $        (isb.eq.isblkkder(1,i).and.isad.eq.isblkkder(2,i)))go to  44d18s16
+     $       (isb.eq.isblkkder(1,i).and.isad.eq.isblkkder(2,i)))go to 4 4d18s16
           end if
          end do
          nsblkkder=nsblkkder+1

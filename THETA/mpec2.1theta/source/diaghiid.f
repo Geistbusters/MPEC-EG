@@ -14,8 +14,8 @@ c
       integer*2 ihdig(4,nconf)                                          8d22s06
       logical l2e                                                       6d2s22
       dimension vec1(nconf,nroot),jdenpt(1),ilc(8),ihc(8),nsbeta(8),    5d16s22
-      integer*8 isma,ismb,ivv
      $     iden1(8),wgt(nroot),vec2(nconf,nroot)                        5d16s22
+      integer*8 isma,ismb,ivv
       norb=iacto(1)                                                     8d8s06
       do i=2,nsymb                                                      8d8s06
        norb=norb+iacto(i)                                               8d8s06

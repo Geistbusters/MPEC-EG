@@ -12,10 +12,10 @@ c
       include "common.store"                                            3d16s12
       include "common.print"
       dimension kmats(1),jmats(1),ioooo(1),noc(1),iorbn(8),ieigv(8),
-      integer*8 idencp,ieig,ifock,itmp,itmpo1,ivec
      $     ionex(1),nbasdwsc(8),nvirtc(8),idoub(*),iacto(*),iden1(*),   4d5s18
      $     noocc(*),nbasisp(8),iovr(8),nsyo(8),nxf(8),ifockeig(*),      4d15s21
      $     iorbsym(*),iorbsymz(*),iorbsymc(*)                           7d21s21
+      integer*8 idencp,ieig,ifock,itmp,itmpo1,ivec
       motion=.false.
       if(motion)write(6,*)                                              5d26s22
      $     ('we are in cannon, but just going through the motions')     5d26s22

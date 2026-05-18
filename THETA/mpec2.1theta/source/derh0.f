@@ -9,9 +9,9 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension ivecs(8),ieigs(8),iorb(8),morb(8),h0(*),h0d(*),
-      integer*8 iatmp1,ibcoffo,ider,itmpx,itmpz
      $    multh(8,8),noc(*),h0d2(*),ipt2(8),iptk(8),itrans(*),itran2(*),4d7s22
      $     nbasisp(*),isou(*)                                           4d19s22
+      integer*8 iatmp1,ibcoffo,ider,itmpx,itmpz
       if(idwsdeb.gt.10)write(6,*)('in derh0 ')
       igoal=2811778
       ncomp=1

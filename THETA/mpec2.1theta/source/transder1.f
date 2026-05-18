@@ -12,8 +12,8 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension morb(*),ixinv(*),itrans(8),ipt2(8),iptx(8),             5d4s22
-      integer*8 ibcoffo,itmp1,itmp3,itmp4,itran1,itrans
      $     nbasdwsc(*),iorb(*),multh(8,8)                               6d8s22
+      integer*8 ibcoffo,itmp1,itmp3,itmp4,itran1,itrans
       if(idwsdeb.gt.10)write(6,*)('Hi, my name is transder1!')
       ibcoffo=ibcoff
       if(idwsdeb.gt.10)write(6,*)('generating transformation ...')

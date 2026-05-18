@@ -12,8 +12,8 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,
      $     mynnode
       dimension iptoh(8,8,8),nocc(8),multh(8,8),iumat(8),ipart(6),
-      integer*8 i2ebuf,ibc,ih0new,ih0u,ioooo2,ipty,itmp,itmp2
      $     ioooo(1),itmat(8),ioooo2(1),nbasdwsc(8)
+      integer*8 i2ebuf,ih0new,ih0u,ipty,itmp,itmp2
       ipty=ibcoff
       ibcoff=ipty+nsdlk
       i2ebuf=ibcoff

@@ -13,8 +13,8 @@ c
       common/mycom/mynowprog,mynprocg,mynowprol,mynprol,mynownode,      5d24s18
      $     mynnode                                                      5d24s18
       dimension vecin(*),iorb(8),multh(8,8),ncd(3,8,2),nbasispc(8),     11d19s18
-      integer*8 iaddr,iaddstart,ibcoffo,iout,itmp
      $     nfcn(36,3),iaddr(36,2,4),nbasisp(*)                          11d10s20
+      integer*8 iaddr,iaddstart,ibcoffo,iout,itmp
 c
       if(idorel.eq.0.or.idorel.eq.1)then                                10d28s20
        nerimat=1                                                        10d28s20

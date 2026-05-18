@@ -23,7 +23,7 @@ c mpec2.1 version theta. For copyright and Disclaimers, see start.f
       dimension jmats(idbk),kmats(idbk),ioooo(idbk),ionex(idbk)         3d23s12
      $     ,i3x(idbk)                                                   11d9s22
       character*3 symlab(8,8)                                           4d28s10
-      character*70 pwd,cfile                                            12d13s22
+      character*256 pwd,cfile                                           12d13s22
       integer*1 idogrado1(4)                                            6d18s22
       equivalence (idogrado,idogrado1)                                  6d18s22
       data symlab(1,1)/'A  '/
