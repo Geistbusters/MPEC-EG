@@ -1,5 +1,15 @@
-### Executable
+### Makefiles
+*makefile*
+
+###Test
+EG_test/
+
+### Executables
+**/exe/test/
 mpec
+
+###object folders
+*obj/*
 
 
 ### Compiled Objects
@@ -12,5 +22,14 @@ mpec
 *.tgz
 *.tar
 
+###Python scaffolding
+*.py
+
+###Bash scaffolding
+*find_ibcoff_vars.sh
+
 ### Documentation
 *.pdf
+
+### Mac native things
+.DS_Store
