@@ -4,11 +4,14 @@
 
 
 ### Executable
+**/exe/test/
 mpec
 
 ###object folders
 *obj/*
 
+###Tests
+EG_test/
 
 ### Compiled Objects
 *.o
