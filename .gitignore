@@ -2,10 +2,10 @@
 *makefile*
 
 ###Test
-*/EG_test/*
+EG_test/
 
 ### Executables
-*/exe/*
+**/exe/test/
 mpec
 
 ###object folders
