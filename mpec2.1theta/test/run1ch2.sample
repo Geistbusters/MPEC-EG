@@ -1,0 +1,32 @@
+. ~/.prempec                      # set up mpec environment
+basis=cc-pvdz
+for shellrel in off on            # loop over relativity
+do
+shellguess=h0                     # initial guess eigenvectors of h0
+for shellsym in \#sym=off sym=off # loop over symmetry on or off. For symmetry on, comment out
+do                                # sym=off line with #, but need \ to prevent shell from reading
+output=1ch2s`date -Idate`$shellrel$shellsym  # # as the start of a comment.
+/bin/rm $output
+cat > input <<@
+&BG
+rel $shellrel
+C
+0. 0. 0.
+$basis
+H
+1.644403 0. 1.32213
+-1.644403 0. 1.32213
+$basis
+$shellsym
+&SOHF
+guess $shellguess
+grad noad
+@
+/bin/rm forbs                     # delete left over orbitals
+runmpec < input >> $output
+mv forbs orbs                     # rename orbs for guess for next calculation
+if [ $? -ne 0 ] ; then exit ; fi  # bail if no orbitals
+shellguess=readin                 # reset shellguess
+grep '>' $output > $output.precis # create short summary
+done                              # end loop over symmetry
+done                              # end loop over relativity

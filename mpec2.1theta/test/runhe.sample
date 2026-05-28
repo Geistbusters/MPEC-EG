@@ -1,0 +1,72 @@
+. ~/.prempec                       # execute script to define environment
+echo "He atom sample"
+output=he.sample`date -Idate`
+/bin/rm $output
+shellhebasis="cc-pvtz &aug +2sp"   # create a shell variable as a shorthand for basis set
+cat > input <<@
+&BG                                # optimize valence orbitals
+rel
+He
+$shellhebasis                      # $shellhebasis means substitute the contents of the shell variable shellhebeasis
+&CAS
+guess
+states
+1S
+@
+/bin/rm forbs                      # delete any left over orbitals
+runmpec < input >> $output
+mv forbs orbs                      # rename to orbs to be initial guess for Rydberg run
+if [ $? -ne 0 ] ; then exit ; fi   # bail if no orbitals
+cat > input <<@
+&BG
+rel
+He
+$shellhebasis
+&CAS
+ryd                                # optimize virtual orbitals
+states
++ 2S                               # need to specify cation state here
+@
+runmpec < input >> $output
+cp forbs /dev/null                 # dummy copy to check status
+if [ $? -ne 0 ] ; then exit ; fi   # bail if no orbitals
+/bin/rm prop.in summary.he         # clean slate
+for shellstate in 1S,2 3S 3Po 1Po  # loop over electronic states: note we are getting 2 1S states
+do
+wf=wavef$shellstate                # this will be the name of the wavefunction file
+echo $wf >> prop.in                # build up list of wavefunction file names
+cat > input <<@
+&MRCI
+refo 2 1 1 0 1                     # rydberg orbitals are in reference space
+state $shellstate
+@
+/bin/rm summary wavef              # delete left overs
+runmpec < input >> $output
+cat summary >> summary.he          # make list of results
+if [ $? -ne 0 ] ; then exit ; fi   # summary is only written if calculation runs properly
+mv wavef $wf                       # rename wavef file
+done                               # end of loop over electronic states
+for shellso in off on              # loop over spin-orbit transition moments on or off
+do
+cat > input <<@
+&PROP                              # start of property input
+itype ss
+sotm $shellso
+@
+cat prop.in >> input               # add list of wavefunction files
+runmpec < input >> $output
+done                               # end loop over spin-orbit transition moments
+for shellv4 in on off              # loop over including or neglecting 4 virtual integrals
+do
+for shelltype in ssg ssb           # loop over Gaunt and Breit interaction
+do
+cat > input <<@
+&PROP                              # start of property input
+itype $shelltype
+so4v $shellv4
+@
+cat prop.in >> input               # add list of wavefunction files
+runmpec < input >> $output
+done                               # end of Gaunt/Breit loop
+done                               # end of 4 virt loop
+grep '>' $output > $output.precis  # tabulate results to compare
